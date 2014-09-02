@@ -1,4 +1,4 @@
-bitcontrol® multi media suite
+bitcontrol® multimedia suite
 =============================
 
 
