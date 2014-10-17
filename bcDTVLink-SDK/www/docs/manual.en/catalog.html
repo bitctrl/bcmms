@@ -1,0 +1,286 @@
+<html>
+<head>
+<style>
+li a {display: block; padding: 0 0.5em;}
+li span {float: right;}
+a:hover, a:active {background-color: gainsboro;}
+:target a {background-color: cornsilk; margin: 1em 0; padding: 1em 0.5em;}
+:target a:hover, :target a:active {background-color: wheat;}
+:target a:after {margin: 1em 0 0 0; padding: 1em; border: 5px double firebrick; display: block;}
+:target a:after {content: "If you are not redirected automatically please follow this link.";}
+:lang(de) :target a:after {content: "Wenn Sie nicht automatisch weitergeleitet werden, folgen Sie bitte diesem Verweis.";}
+</style>
+<script>
+window.onload = function window_onload () {
+	try {
+		(function (link) {
+			if (true || (link = prompt('go to:', link))) {
+				location.href = link;
+			}
+		})(document.getElementById((document.location.hash || '').slice(1)).getElementsByTagName('a')[0].href);
+	}
+	catch (e) {}
+}
+</script>
+</head>
+<body lang="en">
+<ol>
+<li id="einleitung"><a href="ch01.html#einleitung">Chapter 1. Introduction<span>(ch01.html#einleitung)</span></a></li>
+<li id="N1019A"><a href="ch01.html#N1019A">Set Top Boxes (STB) of the type<span>(ch01.html#N1019A)</span></a></li>
+<li id="N101A6"><a href="ch01.html#N101A6">DVB PCI cards and USB DVB-T sticks<span>(ch01.html#N101A6)</span></a></li>
+<li id="N101AF"><a href="ch01.html#N101AF">Sources like<span>(ch01.html#N101AF)</span></a></li>
+<li id="voraussetzungen"><a href="ch02.html#voraussetzungen">Chapter 2. Requirements<span>(ch02.html#voraussetzungen)</span></a></li>
+<li id="N10203"><a href="ch02.html#N10203">2.1. Hardware<span>(ch02.html#N10203)</span></a></li>
+<li id="N10207"><a href="ch02.html#N10207">2.1.1. CPU und Ethernet<span>(ch02.html#N10207)</span></a></li>
+<li id="N10219"><a href="ch02.html#N10219">2.1.2. Hardware requirement for USB TV sticks and/or PCI cards<span>(ch02.html#N10219)</span></a></li>
+<li id="N10222"><a href="ch02.html#N10222">2.1.3. Hardware requirement for other video sources<span>(ch02.html#N10222)</span></a></li>
+<li id="N1022F"><a href="ch02.html#N1022F">2.2. Software<span>(ch02.html#N1022F)</span></a></li>
+<li id="N10233"><a href="ch02.html#N10233">2.2.1. DirectX®<span>(ch02.html#N10233)</span></a></li>
+<li id="N10242"><a href="ch02.html#N10242">2.2.2. Software requirements for USB TV stick, PCI cards or other devices<span>(ch02.html#N10242)</span></a></li>
+<li id="N1024B"><a href="ch02.html#N1024B">2.2.3. Third-party software<span>(ch02.html#N1024B)</span></a></li>
+<li id="c_lizenzierung"><a href="ch03.html#c_lizenzierung">Chapter 3. Licensing<span>(ch03.html#c_lizenzierung)</span></a></li>
+<li id="N1026E"><a href="ch03.html#N1026E">License installation<span>(ch03.html#N1026E)</span></a></li>
+<li id="bclicensemanager_start"><a href="ch03.html#bclicensemanager_start">Figure 3.1. Start window of bitcontrol®License Manager<span>(ch03.html#bclicensemanager_start)</span></a></li>
+<li id="licensefile_path"><a href="ch03.html#licensefile_path">Figure 3.2. Path to the license file<span>(ch03.html#licensefile_path)</span></a></li>
+<li id="installation_result"><a href="ch03.html#installation_result">Figure 3.3. Result of bitcontrol® Digital TV Link license installation<span>(ch03.html#installation_result)</span></a></li>
+<li id="N102C8"><a href="ch03.html#N102C8">3.1. Licensing under Windows Vista and Windows 7<span>(ch03.html#N102C8)</span></a></li>
+<li id="produktbeschreibung"><a href="ch04.html#produktbeschreibung">Chapter 4. Product description<span>(ch04.html#produktbeschreibung)</span></a></li>
+<li id="N102EA"><a href="ch04.html#N102EA">Figure 4.1. Scheme of bcDTVLink<span>(ch04.html#N102EA)</span></a></li>
+<li id="filtergraph"><a href="ch04.html#filtergraph">Figure 4.2. bitcontrol® Digital TV Link filter graph<span>(ch04.html#filtergraph)</span></a></li>
+<li id="einstellungen"><a href="ch05.html#einstellungen">Chapter 5. Configuration<span>(ch05.html#einstellungen)</span></a></li>
+<li id="options"><a href="ch05.html#options">5.1. Window Options<span>(ch05.html#options)</span></a></li>
+<li id="window_options"><a href="ch05.html#window_options">Figure 5.1. Window Options<span>(ch05.html#window_options)</span></a></li>
+<li id="N10341"><a href="ch05.html#N10341">5.1.1. Editing plug-in entries<span>(ch05.html#N10341)</span></a></li>
+<li id="s_aendern_plugin_status"><a href="ch05.html#s_aendern_plugin_status">5.1.1.1. State change<span>(ch05.html#s_aendern_plugin_status)</span></a></li>
+<li id="edit_plugin_entries"><a href="ch05.html#edit_plugin_entries">Figure 5.2. Plug-in context menu<span>(ch05.html#edit_plugin_entries)</span></a></li>
+<li id="s_create_plugin_instance"><a href="ch05.html#s_create_plugin_instance">5.1.1.2. Add plug-in<span>(ch05.html#s_create_plugin_instance)</span></a></li>
+<li id="Plugin_hinzufuegen"><a href="ch05.html#Plugin_hinzufuegen">Figure 5.3. Add plug-in<span>(ch05.html#Plugin_hinzufuegen)</span></a></li>
+<li id="hinzugefuegtes_plugin"><a href="ch05.html#hinzugefuegtes_plugin">Figure 5.4. New plug-in in the plug-in overview<span>(ch05.html#hinzugefuegtes_plugin)</span></a></li>
+<li id="N103D1"><a href="ch05.html#N103D1">5.1.1.3. Remove/Delete plug-in<span>(ch05.html#N103D1)</span></a></li>
+<li id="plugin_loeschen"><a href="ch05.html#plugin_loeschen">Figure 5.5. Remove/Delete plug-in<span>(ch05.html#plugin_loeschen)</span></a></li>
+<li id="N103F8"><a href="ch05.html#N103F8">5.1.2. Start window Options in controlled operation<span>(ch05.html#N103F8)</span></a></li>
+<li id="optionen_menu"><a href="ch05.html#optionen_menu">Figure 5.6. Start window Options via DTVLink icon<span>(ch05.html#optionen_menu)</span></a></li>
+<li id="N10413"><a href="ch05.html#N10413">5.2. Window Info<span>(ch05.html#N10413)</span></a></li>
+<li id="N1041D"><a href="ch05.html#N1041D">Figure 5.7. Window Info<span>(ch05.html#N1041D)</span></a></li>
+<li id="fenster_einstellungen"><a href="ch05.html#fenster_einstellungen">5.3. Window Preferences<span>(ch05.html#fenster_einstellungen)</span></a></li>
+<li id="N10436"><a href="ch05.html#N10436">Figure 5.8. Window Preferences<span>(ch05.html#N10436)</span></a></li>
+<li id="a_enable_videooutput_pin"><a href="ch05.html#a_enable_videooutput_pin">Video Output Pin:<span>(ch05.html#a_enable_videooutput_pin)</span></a></li>
+<li id="a_video_decoder"><a href="ch05.html#a_video_decoder">Video Decoder:<span>(ch05.html#a_video_decoder)</span></a></li>
+<li id="video_decoder"><a href="ch05.html#video_decoder">Figure 5.9. Available video decoder (example)<span>(ch05.html#video_decoder)</span></a></li>
+<li id="a_videoformat_anzeigen"><a href="ch05.html#a_videoformat_anzeigen">Video Format:<span>(ch05.html#a_videoformat_anzeigen)</span></a></li>
+<li id="video_format"><a href="ch05.html#video_format">Figure 5.10. Selectable video formats<span>(ch05.html#video_format)</span></a></li>
+<li id="a_enable_audiooutput_pin"><a href="ch05.html#a_enable_audiooutput_pin">Audio Output Pin:<span>(ch05.html#a_enable_audiooutput_pin)</span></a></li>
+<li id="a_audioformat_anzeigen"><a href="ch05.html#a_audioformat_anzeigen">Audio Format:<span>(ch05.html#a_audioformat_anzeigen)</span></a></li>
+<li id="audio_format"><a href="ch05.html#audio_format">Figure 5.11. Selectable audio formats<span>(ch05.html#audio_format)</span></a></li>
+<li id="a_buffering_time"><a href="ch05.html#a_buffering_time">Buffering Time (msec):<span>(ch05.html#a_buffering_time)</span></a></li>
+<li id="a_preffered_media_language"><a href="ch05.html#a_preffered_media_language">Preffered media language:<span>(ch05.html#a_preffered_media_language)</span></a></li>
+<li id="media_language"><a href="ch05.html#media_language">Figure 5.12. Language selection for plug-ins<span>(ch05.html#media_language)</span></a></li>
+<li id="a_adjust_time_jitter"><a href="ch05.html#a_adjust_time_jitter">Adjust Time Jitter:<span>(ch05.html#a_adjust_time_jitter)</span></a></li>
+<li id="a_console_anzeigen"><a href="ch05.html#a_console_anzeigen">Show Console:<span>(ch05.html#a_console_anzeigen)</span></a></li>
+<li id="a_set_onair_default"><a href="ch05.html#a_set_onair_default">Set OnAir by default:<span>(ch05.html#a_set_onair_default)</span></a></li>
+<li id="a_restore_last_channel"><a href="ch05.html#a_restore_last_channel">Restore last channel:<span>(ch05.html#a_restore_last_channel)</span></a></li>
+<li id="a_prefer_ac3"><a href="ch05.html#a_prefer_ac3">Prefer AC-3 Audio:<span>(ch05.html#a_prefer_ac3)</span></a></li>
+<li id="b_DTVLink_Logfile"><a href="ch05.html#b_DTVLink_Logfile">Figure 5.13. DTVLink logfile (example)<span>(ch05.html#b_DTVLink_Logfile)</span></a></li>
+<li id="a_fourcc_map"><a href="ch05.html#a_fourcc_map">FourCC Map Table:<span>(ch05.html#a_fourcc_map)</span></a></li>
+<li id="b_FourCCMapTable"><a href="ch05.html#b_FourCCMapTable">Figure 5.14. FourCC Map Table<span>(ch05.html#b_FourCCMapTable)</span></a></li>
+<li id="settings_export"><a href="ch05.html#settings_export">5.3.1. Export of bcDTVLink settings (bcDTVLink scenario)<span>(ch05.html#settings_export)</span></a></li>
+<li id="export_speicherort"><a href="ch05.html#export_speicherort">Figure 5.15.  Storage location of the export/scenario file<span>(ch05.html#export_speicherort)</span></a></li>
+<li id="export_erfolgreich"><a href="ch05.html#export_erfolgreich">Figure 5.16. Export successful<span>(ch05.html#export_erfolgreich)</span></a></li>
+<li id="N1058B"><a href="ch05.html#N1058B">5.4. Channels<span>(ch05.html#N1058B)</span></a></li>
+<li id="N10594"><a href="ch05.html#N10594">5.5. Video / Audio Codec Mapping<span>(ch05.html#N10594)</span></a></li>
+<li id="N1059E"><a href="ch05.html#N1059E">5.6. Decoder / Encoder / Transcoder<span>(ch05.html#N1059E)</span></a></li>
+<li id="s_statistik"><a href="ch05.html#s_statistik">5.7. Statistics<span>(ch05.html#s_statistik)</span></a></li>
+<li id="statistik_overall"><a href="ch05.html#statistik_overall">Figure 5.17. Window Overall - Statistics<span>(ch05.html#statistik_overall)</span></a></li>
+<li id="statistik_transcoder"><a href="ch05.html#statistik_transcoder">Figure 5.18. Window Transcoder - Statistics<span>(ch05.html#statistik_transcoder)</span></a></li>
+<li id="statistik_plugin"><a href="ch05.html#statistik_plugin">Figure 5.19. Example for a plug-in window (Dreambox) - Statistics<span>(ch05.html#statistik_plugin)</span></a></li>
+<li id="N105FE"><a href="ch05.html#N105FE">5.8. Systray<span>(ch05.html#N105FE)</span></a></li>
+<li id="N10608"><a href="ch05.html#N10608">5.9. Audio- and video decoder<span>(ch05.html#N10608)</span></a></li>
+<li id="audiovideodecoder"><a href="ch05.html#audiovideodecoder">Figure 5.20. Example for a  parametrization window of a video decoder (bitcontrol® Video Decoder)<span>(ch05.html#audiovideodecoder)</span></a></li>
+<li id="N10627"><a href="ch05.html#N10627">5.10. Window Plugins<span>(ch05.html#N10627)</span></a></li>
+<li id="c_channels"><a href="ch06.html#c_channels">Chapter 6. Channels<span>(ch06.html#c_channels)</span></a></li>
+<li id="s_channels_active"><a href="ch06.html#s_channels_active">6.1. Active window<span>(ch06.html#s_channels_active)</span></a></li>
+<li id="bild_channels"><a href="ch06.html#bild_channels">Figure 6.1. Active window of the Channels dialogues<span>(ch06.html#bild_channels)</span></a></li>
+<li id="a_channel_onair_flag"><a href="ch06.html#a_channel_onair_flag">OnAir:<span>(ch06.html#a_channel_onair_flag)</span></a></li>
+<li id="a_channel_record_flag"><a href="ch06.html#a_channel_record_flag">Record:<span>(ch06.html#a_channel_record_flag)</span></a></li>
+<li id="a_channel_publish_flag"><a href="ch06.html#a_channel_publish_flag">Publish:<span>(ch06.html#a_channel_publish_flag)</span></a></li>
+<li id="s_channels_menus"><a href="ch06.html#s_channels_menus">6.1.1. Channels context menus<span>(ch06.html#s_channels_menus)</span></a></li>
+<li id="bild_channels_menu1"><a href="ch06.html#bild_channels_menu1">Figure 6.2. Context menu of plug-in Channels<span>(ch06.html#bild_channels_menu1)</span></a></li>
+<li id="bild_channels_menu2"><a href="ch06.html#bild_channels_menu2">Figure 6.3. Data stream context menu<span>(ch06.html#bild_channels_menu2)</span></a></li>
+<li id="bild_channels_transcodermenu"><a href="ch06.html#bild_channels_transcodermenu">Figure 6.4. Submenu to change Transcoder settings<span>(ch06.html#bild_channels_transcodermenu)</span></a></li>
+<li id="bild_channels_decodermenu"><a href="ch06.html#bild_channels_decodermenu">Figure 6.5. Submenu to change Decoder settings<span>(ch06.html#bild_channels_decodermenu)</span></a></li>
+<li id="bild_channels_encodermenu"><a href="ch06.html#bild_channels_encodermenu">Figure 6.6. Submenu to change Encoder settings<span>(ch06.html#bild_channels_encodermenu)</span></a></li>
+<li id="s_channels_autostart"><a href="ch06.html#s_channels_autostart">6.2. Actions window<span>(ch06.html#s_channels_autostart)</span></a></li>
+<li id="bild_channels_autostart"><a href="ch06.html#bild_channels_autostart">Figure 6.7. Actions window<span>(ch06.html#bild_channels_autostart)</span></a></li>
+<li id="bild_channels_autostart_menu"><a href="ch06.html#bild_channels_autostart_menu">Figure 6.8. Actions context menu<span>(ch06.html#bild_channels_autostart_menu)</span></a></li>
+<li id="s_channels_plugins"><a href="ch06.html#s_channels_plugins">6.3. Plug-ins (in Channels window)<span>(ch06.html#s_channels_plugins)</span></a></li>
+<li id="bild_channel_dreambox"><a href="ch06.html#bild_channel_dreambox">Figure 6.9. Example Channel window of Dreambox plug-in<span>(ch06.html#bild_channel_dreambox)</span></a></li>
+<li id="bild_channel_axis"><a href="ch06.html#bild_channel_axis">Figure 6.10. Example Channel window of AXIS plug-in<span>(ch06.html#bild_channel_axis)</span></a></li>
+<li id="bild_channel_pluginmenu"><a href="ch06.html#bild_channel_pluginmenu">Figure 6.11. Channel plug-in context menu<span>(ch06.html#bild_channel_pluginmenu)</span></a></li>
+<li id="c_codec_mapping"><a href="ch07.html#c_codec_mapping">Chapter 7. Video / Audio Codec Mapping<span>(ch07.html#c_codec_mapping)</span></a></li>
+<li id="mapping"><a href="ch07.html#mapping">Figure 7.1. Video Codec Mapping table<span>(ch07.html#mapping)</span></a></li>
+<li id="N10952"><a href="ch07.html#N10952">7.1. Add mapping entry<span>(ch07.html#N10952)</span></a></li>
+<li id="mapping_menu"><a href="ch07.html#mapping_menu">Figure 7.2. Mapping context menu<span>(ch07.html#mapping_menu)</span></a></li>
+<li id="mapping_add"><a href="ch07.html#mapping_add">Figure 7.3. Add mapping entry<span>(ch07.html#mapping_add)</span></a></li>
+<li id="N10975"><a href="ch07.html#N10975">7.2. Remove mapping entry<span>(ch07.html#N10975)</span></a></li>
+<li id="N10981"><a href="ch07.html#N10981">7.3. Change priority of a mapping entry<span>(ch07.html#N10981)</span></a></li>
+<li id="c_transcoder"><a href="ch08.html#c_transcoder">Chapter 8. Decoder / Encoder / Transcoder<span>(ch08.html#c_transcoder)</span></a></li>
+<li id="s_decoder"><a href="ch08.html#s_decoder">8.1. Decoder<span>(ch08.html#s_decoder)</span></a></li>
+<li id="bild_decoder"><a href="ch08.html#bild_decoder">Figure 8.1. Overview over all installed and created audio and video decoder<span>(ch08.html#bild_decoder)</span></a></li>
+<li id="a_decoder_id"><a href="ch08.html#a_decoder_id">DeviceID:<span>(ch08.html#a_decoder_id)</span></a></li>
+<li id="bild_attribute_menu"><a href="ch08.html#bild_attribute_menu">Figure 8.2. Decoder Attribute selection field<span>(ch08.html#bild_attribute_menu)</span></a></li>
+<li id="s_add_decoder"><a href="ch08.html#s_add_decoder">8.1.1. Add decoder<span>(ch08.html#s_add_decoder)</span></a></li>
+<li id="bild_decoder_menu"><a href="ch08.html#bild_decoder_menu">Figure 8.3. Decoder context menu<span>(ch08.html#bild_decoder_menu)</span></a></li>
+<li id="s_parametrieren_decoder"><a href="ch08.html#s_parametrieren_decoder">8.1.2. Decoder parametrization / configuration<span>(ch08.html#s_parametrieren_decoder)</span></a></li>
+<li id="bild_decoder_configure_example"><a href="ch08.html#bild_decoder_configure_example">Figure 8.4. Decoder configuration window of a third-party producer<span>(ch08.html#bild_decoder_configure_example)</span></a></li>
+<li id="bild_decoder_configure_editor"><a href="ch08.html#bild_decoder_configure_editor">Figure 8.5. Decoder configuration editor<span>(ch08.html#bild_decoder_configure_editor)</span></a></li>
+<li id="s_encoder"><a href="ch08.html#s_encoder">8.2. Encoder<span>(ch08.html#s_encoder)</span></a></li>
+<li id="s_transcoder"><a href="ch08.html#s_transcoder">8.3. Transcoder<span>(ch08.html#s_transcoder)</span></a></li>
+<li id="bild_transcoder"><a href="ch08.html#bild_transcoder">Figure 8.6. Transcoders table<span>(ch08.html#bild_transcoder)</span></a></li>
+<li id="s_topology"><a href="ch08.html#s_topology">8.3.1. Topology<span>(ch08.html#s_topology)</span></a></li>
+<li id="bild_topology"><a href="ch08.html#bild_topology">Figure 8.7. Topology editor<span>(ch08.html#bild_topology)</span></a></li>
+<li id="c_systray"><a href="ch09.html#c_systray">Chapter 9. Systray<span>(ch09.html#c_systray)</span></a></li>
+<li id="abb_systray_icon"><a href="ch09.html#abb_systray_icon">Figure 9.1. Window Options- Systray<span>(ch09.html#abb_systray_icon)</span></a></li>
+<li id="c_steuerung"><a href="ch10.html#c_steuerung">Chapter 10. bitcontrol® Digital TV Link control<span>(ch10.html#c_steuerung)</span></a></li>
+<li id="abb_bcDTVLink_kontextmenu_steuerung"><a href="ch10.html#abb_bcDTVLink_kontextmenu_steuerung">Figure 10.1. bitcontrol® Digital TV Link control via context menu (example: own channel bouquet for BDA)<span>(ch10.html#abb_bcDTVLink_kontextmenu_steuerung)</span></a></li>
+<li id="abb_control_filter"><a href="ch10.html#abb_control_filter">Figure 10.2. bitcontrol® Digital TV Link control via context menu - Filter context menu<span>(ch10.html#abb_control_filter)</span></a></li>
+<li id="console"><a href="ch11.html#console">Chapter 11. Console<span>(ch11.html#console)</span></a></li>
+<li id="N10C61"><a href="ch11.html#N10C61">Figure 11.1. Console window<span>(ch11.html#N10C61)</span></a></li>
+<li id="axis"><a href="ch12.html#axis">Chapter 12. Plug-in AXIS<span>(ch12.html#axis)</span></a></li>
+<li id="axis_hauptfenster"><a href="ch12.html#axis_hauptfenster">Figure 12.1. Plug-in AXIS - Main window<span>(ch12.html#axis_hauptfenster)</span></a></li>
+<li id="N10CC0"><a href="ch12.html#N10CC0">12.1. About<span>(ch12.html#N10CC0)</span></a></li>
+<li id="axis_about"><a href="ch12.html#axis_about">Figure 12.2. Plug-in AXIS - About<span>(ch12.html#axis_about)</span></a></li>
+<li id="N10CDA"><a href="ch12.html#N10CDA">12.2. Camera<span>(ch12.html#N10CDA)</span></a></li>
+<li id="axis_camera"><a href="ch12.html#axis_camera">Figure 12.3. Plug-in AXIS - AXIS camera with different codecs<span>(ch12.html#axis_camera)</span></a></li>
+<li id="axis_camera_ausgabe"><a href="ch12.html#axis_camera_ausgabe">Figure 12.4. Example: AXIS camera video with time and logo<span>(ch12.html#axis_camera_ausgabe)</span></a></li>
+<li id="s_add_axiskamera"><a href="ch12.html#s_add_axiskamera">12.2.1. Add camera  manually<span>(ch12.html#s_add_axiskamera)</span></a></li>
+<li id="axis_add1"><a href="ch12.html#axis_add1">Figure 12.5. Submenu in AXIS camera overview<span>(ch12.html#axis_add1)</span></a></li>
+<li id="axis_add2"><a href="ch12.html#axis_add2">Figure 12.6. New AXIS camera entry<span>(ch12.html#axis_add2)</span></a></li>
+<li id="axis_add3"><a href="ch12.html#axis_add3">Figure 12.7. Assumed AXIS camera<span>(ch12.html#axis_add3)</span></a></li>
+<li id="N10E17"><a href="ch12.html#N10E17">12.2.2. Delete/Remove camera<span>(ch12.html#N10E17)</span></a></li>
+<li id="N10E28"><a href="ch12.html#N10E28">12.3. Statistics<span>(ch12.html#N10E28)</span></a></li>
+<li id="axis_statistik"><a href="ch12.html#axis_statistik">Figure 12.8. Plug-in AXIS - Statistics<span>(ch12.html#axis_statistik)</span></a></li>
+<li id="c_BDA"><a href="ch13.html#c_BDA">Chapter 13. Plug-in BDA Tuner (USB TV stick and/or PCI TV card)<span>(ch13.html#c_BDA)</span></a></li>
+<li id="N10E4E"><a href="ch13.html#N10E4E">Figure 13.1. Plug-in BDA Tuner - Main window<span>(ch13.html#N10E4E)</span></a></li>
+<li id="N10E74"><a href="ch13.html#N10E74">13.1. Preferences<span>(ch13.html#N10E74)</span></a></li>
+<li id="abb_einstellungen"><a href="ch13.html#abb_einstellungen">Figure 13.2. Plugin BDA Tuner - Preferences<span>(ch13.html#abb_einstellungen)</span></a></li>
+<li id="N10ED4"><a href="ch13.html#N10ED4">13.2. Statistics<span>(ch13.html#N10ED4)</span></a></li>
+<li id="abb_statistik"><a href="ch13.html#abb_statistik">Figure 13.3. Plugin BDA Tuner - Statistic<span>(ch13.html#abb_statistik)</span></a></li>
+<li id="s_channels"><a href="ch13.html#s_channels">13.3. Channels<span>(ch13.html#s_channels)</span></a></li>
+<li id="abb_scan"><a href="ch13.html#abb_scan">Figure 13.4. Plug-in BDA Tuner - Search channels<span>(ch13.html#abb_scan)</span></a></li>
+<li id="abb_scan_fertig"><a href="ch13.html#abb_scan_fertig">Figure 13.5. Plug-in BDA Tuner - Assumed channels<span>(ch13.html#abb_scan_fertig)</span></a></li>
+<li id="N10F78"><a href="ch13.html#N10F78">13.3.1. Add / remove channel<span>(ch13.html#N10F78)</span></a></li>
+<li id="abb_scan_untermenu"><a href="ch13.html#abb_scan_untermenu">Figure 13.6. Add/remove channel - Submenu<span>(ch13.html#abb_scan_untermenu)</span></a></li>
+<li id="N10F8A"><a href="ch13.html#N10F8A">Add channel<span>(ch13.html#N10F8A)</span></a></li>
+<li id="abb_eintrag_bearbeiten"><a href="ch13.html#abb_eintrag_bearbeiten">Figure 13.7. Edit created channel<span>(ch13.html#abb_eintrag_bearbeiten)</span></a></li>
+<li id="N10FA1"><a href="ch13.html#N10FA1">Remove channel<span>(ch13.html#N10FA1)</span></a></li>
+<li id="Bouquets_zusammenstellen"><a href="ch13.html#Bouquets_zusammenstellen">13.3.2. Bouquet creation<span>(ch13.html#Bouquets_zusammenstellen)</span></a></li>
+<li id="N10FC2"><a href="ch13.html#N10FC2">Create personal channel bouquet<span>(ch13.html#N10FC2)</span></a></li>
+<li id="abb_bouquets_add"><a href="ch13.html#abb_bouquets_add">Figure 13.8. Create personal channel bouquet<span>(ch13.html#abb_bouquets_add)</span></a></li>
+<li id="N10FE3"><a href="ch13.html#N10FE3">Add channel to a created bouquet<span>(ch13.html#N10FE3)</span></a></li>
+<li id="abb_add_channeltobouquet"><a href="ch13.html#abb_add_channeltobouquet">Figure 13.9. Channels added to a channel bouquet will be marked red<span>(ch13.html#abb_add_channeltobouquet)</span></a></li>
+<li id="N10FF4"><a href="ch13.html#N10FF4">Remove channel out of a created bouquet<span>(ch13.html#N10FF4)</span></a></li>
+<li id="N11002"><a href="ch13.html#N11002">13.3.3. Statistic<span>(ch13.html#N11002)</span></a></li>
+<li id="s_terrestrials"><a href="ch13.html#s_terrestrials">13.4. Terrestrial<span>(ch13.html#s_terrestrials)</span></a></li>
+<li id="abb_BDA_terrestrisch"><a href="ch13.html#abb_BDA_terrestrisch">Figure 13.10. Plugin BDA Tuner - Terrestrial<span>(ch13.html#abb_BDA_terrestrisch)</span></a></li>
+<li id="N1103C"><a href="ch13.html#N1103C">13.4.1. Add / remove region<span>(ch13.html#N1103C)</span></a></li>
+<li id="abb_region_untermenu"><a href="ch13.html#abb_region_untermenu">Figure 13.11. Add / remove region - Submenu<span>(ch13.html#abb_region_untermenu)</span></a></li>
+<li id="N11051"><a href="ch13.html#N11051">Add region<span>(ch13.html#N11051)</span></a></li>
+<li id="N1105E"><a href="ch13.html#N1105E">Remove region<span>(ch13.html#N1105E)</span></a></li>
+<li id="N11077"><a href="ch13.html#N11077">13.4.2. Add / remove transponder<span>(ch13.html#N11077)</span></a></li>
+<li id="abb_transponder_untermenu"><a href="ch13.html#abb_transponder_untermenu">Figure 13.12. Add / remove transponder - Submenu<span>(ch13.html#abb_transponder_untermenu)</span></a></li>
+<li id="N1108C"><a href="ch13.html#N1108C">Add trandponder<span>(ch13.html#N1108C)</span></a></li>
+<li id="N11099"><a href="ch13.html#N11099">Remove transponder<span>(ch13.html#N11099)</span></a></li>
+<li id="s_EPG"><a href="ch13.html#s_EPG">13.5. EPG<span>(ch13.html#s_EPG)</span></a></li>
+<li id="abb_EPG_Daten"><a href="ch13.html#abb_EPG_Daten">Figure 13.13. Plugin BDA Tuner - EPG<span>(ch13.html#abb_EPG_Daten)</span></a></li>
+<li id="s_Aufnahme_mit_EPG"><a href="ch13.html#s_Aufnahme_mit_EPG">13.5.1. Recording via EPG<span>(ch13.html#s_Aufnahme_mit_EPG)</span></a></li>
+<li id="c_Bosch"><a href="ch14.html#c_Bosch">Chapter 14. Plug-in BoschVIPX<span>(ch14.html#c_Bosch)</span></a></li>
+<li id="bosch_hauptfenster"><a href="ch14.html#bosch_hauptfenster">Figure 14.1. Plug-in BoschVIPX - Main window<span>(ch14.html#bosch_hauptfenster)</span></a></li>
+<li id="N11149"><a href="ch14.html#N11149">14.1. Options<span>(ch14.html#N11149)</span></a></li>
+<li id="bosch"><a href="ch14.html#bosch">Figure 14.2. Plug-in BoschVIPX - Option window<span>(ch14.html#bosch)</span></a></li>
+<li id="capture"><a href="ch15.html#capture">Chapter 15. Plug-in Capture<span>(ch15.html#capture)</span></a></li>
+<li id="capture_hauptfenster"><a href="ch15.html#capture_hauptfenster">Figure 15.1. Plug-in Capture - Main window<span>(ch15.html#capture_hauptfenster)</span></a></li>
+<li id="s_ffdshow"><a href="ch15.html#s_ffdshow">15.1. Other video Capture source requirements<span>(ch15.html#s_ffdshow)</span></a></li>
+<li id="N111DA"><a href="ch15.html#N111DA">Configuration example for ffdshow<span>(ch15.html#N111DA)</span></a></li>
+<li id="ffdshow_Konfiguration"><a href="ch15.html#ffdshow_Konfiguration">Figure 15.2. EXAMPLE - ffdshow configuration<span>(ch15.html#ffdshow_Konfiguration)</span></a></li>
+<li id="s_capture_options"><a href="ch15.html#s_capture_options">15.2. Options<span>(ch15.html#s_capture_options)</span></a></li>
+<li id="beispiel_capture"><a href="ch15.html#beispiel_capture">Figure 15.3. EXAMPLE Capture device with ffdshow as codec<span>(ch15.html#beispiel_capture)</span></a></li>
+<li id="beispiel_capture_compressor"><a href="ch15.html#beispiel_capture_compressor">Figure 15.4. Codec selection field for a Capture device<span>(ch15.html#beispiel_capture_compressor)</span></a></li>
+<li id="b_capture_quelle"><a href="ch15.html#b_capture_quelle">Figure 15.5. Capture source information in the lower part of the Capture plug-in window<span>(ch15.html#b_capture_quelle)</span></a></li>
+<li id="b_capture_quellinfos_in_channels"><a href="ch15.html#b_capture_quellinfos_in_channels">Figure 15.6. Capture source information in Channels list<span>(ch15.html#b_capture_quellinfos_in_channels)</span></a></li>
+<li id="N112C2"><a href="ch15.html#N112C2">Capture plug-in context menu<span>(ch15.html#N112C2)</span></a></li>
+<li id="b_capture_menu"><a href="ch15.html#b_capture_menu">Figure 15.7. Capture plug-in context menu<span>(ch15.html#b_capture_menu)</span></a></li>
+<li id="N112E2"><a href="ch15.html#N112E2">15.3. Add Capture source<span>(ch15.html#N112E2)</span></a></li>
+<li id="b_capture_add"><a href="ch15.html#b_capture_add">Figure 15.8. Add a Capture device<span>(ch15.html#b_capture_add)</span></a></li>
+<li id="N11321"><a href="ch15.html#N11321">15.4. Remove Capture source<span>(ch15.html#N11321)</span></a></li>
+<li id="s_capture_konfigurieren"><a href="ch15.html#s_capture_konfigurieren">15.5. Configure Capture source<span>(ch15.html#s_capture_konfigurieren)</span></a></li>
+<li id="N11352"><a href="ch15.html#N11352">15.5.1. Camera as Capture source<span>(ch15.html#N11352)</span></a></li>
+<li id="N11359"><a href="ch15.html#N11359">15.5.1.1. Stream Config<span>(ch15.html#N11359)</span></a></li>
+<li id="N11361"><a href="ch15.html#N11361">Figure 15.9. Plugin Capture - Stream Config<span>(ch15.html#N11361)</span></a></li>
+<li id="profile_videostrom"><a href="ch15.html#profile_videostrom">Figure 15.10. Video stream profile<span>(ch15.html#profile_videostrom)</span></a></li>
+<li id="N11385"><a href="ch15.html#N11385">15.5.1.2. ProcAmp<span>(ch15.html#N11385)</span></a></li>
+<li id="N1138D"><a href="ch15.html#N1138D">Figure 15.11. Plugin Capture - ProcAmp<span>(ch15.html#N1138D)</span></a></li>
+<li id="N113D7"><a href="ch15.html#N113D7">15.5.1.3. Camera Control<span>(ch15.html#N113D7)</span></a></li>
+<li id="N113E1"><a href="ch15.html#N113E1">Figure 15.12. Plugin Capture - Camera Control<span>(ch15.html#N113E1)</span></a></li>
+<li id="N1141C"><a href="ch15.html#N1141C">15.5.1.4. Further settings<span>(ch15.html#N1141C)</span></a></li>
+<li id="N11424"><a href="ch15.html#N11424">15.5.2. Screencast - Screen as Capture source<span>(ch15.html#N11424)</span></a></li>
+<li id="N1142B"><a href="ch15.html#N1142B">15.5.2.1. Screen window<span>(ch15.html#N1142B)</span></a></li>
+<li id="bild_screencast_options"><a href="ch15.html#bild_screencast_options">Figure 15.13. Configuration area of the Screen Capture source<span>(ch15.html#bild_screencast_options)</span></a></li>
+<li id="N1144F"><a href="ch15.html#N1144F">Input<span>(ch15.html#N1144F)</span></a></li>
+<li id="N11480"><a href="ch15.html#N11480">Output<span>(ch15.html#N11480)</span></a></li>
+<li id="N114A1"><a href="ch15.html#N114A1">YUV Format<span>(ch15.html#N114A1)</span></a></li>
+<li id="N114C1"><a href="ch15.html#N114C1">15.5.2.2. Preview window<span>(ch15.html#N114C1)</span></a></li>
+<li id="bild_screencast_preview"><a href="ch15.html#bild_screencast_preview">Figure 15.14. Screencast Preview<span>(ch15.html#bild_screencast_preview)</span></a></li>
+<li id="stb"><a href="ch16.html#stb">Chapter 16. Set Top Box plug-ins (DBox2, DreamBox, ReelBox)<span>(ch16.html#stb)</span></a></li>
+<li id="N114FC"><a href="ch16.html#N114FC">16.1. Preferences<span>(ch16.html#N114FC)</span></a></li>
+<li id="N11504"><a href="ch16.html#N11504">Figure 16.1. Window Preferences<span>(ch16.html#N11504)</span></a></li>
+<li id="s_stb_channels"><a href="ch16.html#s_stb_channels">16.2. Channels<span>(ch16.html#s_stb_channels)</span></a></li>
+<li id="N11534"><a href="ch16.html#N11534">Figure 16.2. Available channels of the STB<span>(ch16.html#N11534)</span></a></li>
+<li id="N11540"><a href="ch16.html#N11540">16.2.1. Add and delete channels<span>(ch16.html#N11540)</span></a></li>
+<li id="N11545"><a href="ch16.html#N11545">Figure 16.3. Add or delete channels menu<span>(ch16.html#N11545)</span></a></li>
+<li id="N11560"><a href="ch16.html#N11560">16.2.2. Bouquets<span>(ch16.html#N11560)</span></a></li>
+<li id="file"><a href="ch17.html#file">Chapter 17. Plug-in File<span>(ch17.html#file)</span></a></li>
+<li id="bild_file_tabelle"><a href="ch17.html#bild_file_tabelle">Figure 17.1. Table in plug-in File (example)<span>(ch17.html#bild_file_tabelle)</span></a></li>
+<li id="bild_file_menu"><a href="ch17.html#bild_file_menu">Figure 17.2. Plug-in File context menu<span>(ch17.html#bild_file_menu)</span></a></li>
+<li id="s_file_add"><a href="ch17.html#s_file_add">17.1. Adding video files to a playlist<span>(ch17.html#s_file_add)</span></a></li>
+<li id="N115FE"><a href="ch17.html#N115FE">Figure 17.3. Video file assumed in playlist<span>(ch17.html#N115FE)</span></a></li>
+<li id="N1160F"><a href="ch17.html#N1160F">17.2. Video file playback from the playlist<span>(ch17.html#N1160F)</span></a></li>
+<li id="N11617"><a href="ch17.html#N11617">Figure 17.4. Open video file via bitcontrol® Digital TV Link tray icon menu<span>(ch17.html#N11617)</span></a></li>
+<li id="N11622"><a href="ch17.html#N11622">17.3. Delete video file from the playlist<span>(ch17.html#N11622)</span></a></li>
+<li id="NetPublisher"><a href="ch18.html#NetPublisher">Chapter 18. Plug-in NetPublisher<span>(ch18.html#NetPublisher)</span></a></li>
+<li id="b_netpublisher"><a href="ch18.html#b_netpublisher">Figure 18.1. Interaction of NetPublisher and Net Receiver Media Session<span>(ch18.html#b_netpublisher)</span></a></li>
+<li id="recorder"><a href="ch19.html#recorder">Chapter 19. Plug-in Recorder<span>(ch19.html#recorder)</span></a></li>
+<li id="N116A2"><a href="ch19.html#N116A2">19.1. Options<span>(ch19.html#N116A2)</span></a></li>
+<li id="b_dtvlink_recorder_einstellungen"><a href="ch19.html#b_dtvlink_recorder_einstellungen">Figure 19.1. Plug-in Recorder<span>(ch19.html#b_dtvlink_recorder_einstellungen)</span></a></li>
+<li id="s_recorder_scheduler"><a href="ch19.html#s_recorder_scheduler">19.2. Scheduler<span>(ch19.html#s_recorder_scheduler)</span></a></li>
+<li id="s_recorder_scheduler_aufnahme"><a href="ch19.html#s_recorder_scheduler_aufnahme">19.2.1. Video recording via scheduler<span>(ch19.html#s_recorder_scheduler_aufnahme)</span></a></li>
+<li id="b_scheduler_add_entry"><a href="ch19.html#b_scheduler_add_entry">Figure 19.2. Selection of the entry Add entry<span>(ch19.html#b_scheduler_add_entry)</span></a></li>
+<li id="b_scheduler_editieren_der_aufnahmeparameter"><a href="ch19.html#b_scheduler_editieren_der_aufnahmeparameter">Figure 19.3. Edit parameters<span>(ch19.html#b_scheduler_editieren_der_aufnahmeparameter)</span></a></li>
+<li id="c_server"><a href="ch20.html#c_server">Chapter 20. Plug-in Server (Multistream Server)<span>(ch20.html#c_server)</span></a></li>
+<li id="b_server_start"><a href="ch20.html#b_server_start">Figure 20.1. Plug-in Server - Main window<span>(ch20.html#b_server_start)</span></a></li>
+<li id="N11853"><a href="ch20.html#N11853">20.1. About<span>(ch20.html#N11853)</span></a></li>
+<li id="N1185D"><a href="ch20.html#N1185D">20.2. Statistics<span>(ch20.html#N1185D)</span></a></li>
+<li id="a_server_live_channels"><a href="ch20.html#a_server_live_channels">Slider Server<span>(ch20.html#a_server_live_channels)</span></a></li>
+<li id="N1186D"><a href="ch20.html#N1186D">Slider Listeners<span>(ch20.html#N1186D)</span></a></li>
+<li id="N11874"><a href="ch20.html#N11874">Slider Connections<span>(ch20.html#N11874)</span></a></li>
+<li id="N11878"><a href="ch20.html#N11878">Slider Groups and Users<span>(ch20.html#N11878)</span></a></li>
+<li id="N11882"><a href="ch20.html#N11882">Slider Live Channels<span>(ch20.html#N11882)</span></a></li>
+<li id="N1188E"><a href="ch20.html#N1188E">Slider Media Sessions<span>(ch20.html#N1188E)</span></a></li>
+<li id="b_server_statistics"><a href="ch20.html#b_server_statistics">Figure 20.2. Plug-in Server - Example: Statistic for  RTSP Live Media Session<span>(ch20.html#b_server_statistics)</span></a></li>
+<li id="c_RTSP_receiver"><a href="ch21.html#c_RTSP_receiver">Chapter 21. Plug-in RTSP Receiver<span>(ch21.html#c_RTSP_receiver)</span></a></li>
+<li id="rtspreceiver_hauptfenster"><a href="ch21.html#rtspreceiver_hauptfenster">Figure 21.1. Plug-in RTSP Receiver - Main window<span>(ch21.html#rtspreceiver_hauptfenster)</span></a></li>
+<li id="N118ED"><a href="ch21.html#N118ED">21.1. About<span>(ch21.html#N118ED)</span></a></li>
+<li id="rtspreceiver_about"><a href="ch21.html#rtspreceiver_about">Figure 21.2. Plug-in "RTSP Receiver" - About<span>(ch21.html#rtspreceiver_about)</span></a></li>
+<li id="N11904"><a href="ch21.html#N11904">21.2. Preferences<span>(ch21.html#N11904)</span></a></li>
+<li id="N1190F"><a href="ch21.html#N1190F">Figure 21.3. Plug-in RTSP Receiver - Preferences<span>(ch21.html#N1190F)</span></a></li>
+<li id="N119AE"><a href="ch21.html#N119AE">21.3. Links<span>(ch21.html#N119AE)</span></a></li>
+<li id="RTSP_Server_anlegen"><a href="ch21.html#RTSP_Server_anlegen">21.3.1. Create/add RTSP Server<span>(ch21.html#RTSP_Server_anlegen)</span></a></li>
+<li id="rtsp_anlegen_menu"><a href="ch21.html#rtsp_anlegen_menu">Figure 21.4. Create/add RTSP Server - Submenu<span>(ch21.html#rtsp_anlegen_menu)</span></a></li>
+<li id="rtsp_anlegen_farben"><a href="ch21.html#rtsp_anlegen_farben">Figure 21.5. Add RTSP Server<span>(ch21.html#rtsp_anlegen_farben)</span></a></li>
+<li id="N11A01"><a href="ch21.html#N11A01">21.3.2. Remove RTSP Server<span>(ch21.html#N11A01)</span></a></li>
+<li id="N11A17"><a href="ch21.html#N11A17">21.4. Statistics<span>(ch21.html#N11A17)</span></a></li>
+<li id="rtspreceiver_statistik"><a href="ch21.html#rtspreceiver_statistik">Figure 21.6. Plug-in RTSP Receiver - Statistics<span>(ch21.html#rtspreceiver_statistik)</span></a></li>
+<li id="c_Traficon_VIPT"><a href="ch22.html#c_Traficon_VIPT">Chapter 22. Plug-in Traficon VIPT<span>(ch22.html#c_Traficon_VIPT)</span></a></li>
+<li id="TraficonVIPT_hauptfenster"><a href="ch22.html#TraficonVIPT_hauptfenster">Figure 22.1. Plug-in Traficon VIPT - Main window<span>(ch22.html#TraficonVIPT_hauptfenster)</span></a></li>
+</ol>
+</body>
+</html>

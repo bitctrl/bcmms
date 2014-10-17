@@ -1,0 +1,82 @@
+<contexts>bitcontrol® Digital TV LinkSoftware Development Kit (SDK)Version 2.12014BitCtrl Systems GmbH<context id="N10010"><description>...</description><topic href="./pr01.html" label="mehr..."></topic></context><context id="N10013"><description>The software and its documentation are property of BitCtrl Systems GmbH and 
+            are, when ...</description><topic href="./pr01.html#N10013" label="mehr..."></topic></context><context id="N1003D"><description>BitCtrl Systems GmbH (referred to as BitCtrl in the following) will not accept 
+            liabili...</description><topic href="./pr01.html#N1003D" label="mehr..."></topic></context><context id="N10044"><description>...</description><topic href="./pr02.html" label="mehr..."></topic></context><context id="sdk_c_introduction"><description>This
+		documentation of the bitcontrol®
+		Digital TV Link Software Development Kit (SDK) should
+		h...</description><topic href="./ch01.html" label="mehr..."></topic></context><context id="sdk_c_dtvlink"><description>
+		The
+		bitcontrol®
+			Digital TV Link
+		
+		provides a JScript interface, that allows a remote
+		c...</description><topic href="./ch02.html" label="mehr..."></topic></context><context id="N100F6"><description>
+			The constant
+			DTVLink
+			inside the script represents the filter and allows the readout
+			an...</description><topic href="./ch02.html#N100F6" label="mehr..."></topic></context><context id="sdk_s_jscript_plugin"><description>...</description><topic href="./ch02.html#sdk_s_jscript_plugin" label="mehr..."></topic></context><context id="sdk_s_jscript_general_plugin"><description>
+				The access to the plug-ins takes place with help of the name and via
+				the
+				DTVLink
+				a...</description><topic href="./ch02.html#sdk_s_jscript_general_plugin" label="mehr..."></topic></context><context id="sdk_s_jscript_load_unload_plugin"><description>
+					The functions
+					Load
+					and
+					Unload
+					are used to load or to unload a plug-in. Th...</description><topic href="./ch02.html#sdk_s_jscript_load_unload_plugin" label="mehr..."></topic></context><context id="sdk_s_jscript_start_stop_plugin"><description>
+					The functions
+					Start
+					and
+					Stop
+					are used to start or to stop a plug-in. The ...</description><topic href="./ch02.html#sdk_s_jscript_start_stop_plugin" label="mehr..."></topic></context><context id="N1029C"><description>The following chapter lists only the methods that are
+				provided
+				by the plug-in. Furthermore ...</description><topic href="./ch02.html#N1029C" label="mehr..."></topic></context><context id="sdk_s_jscript_recorder_plugin"><description>The following methods or variables are usable:
+				...</description><topic href="./ch02.html#sdk_s_jscript_recorder_plugin" label="mehr..."></topic></context><context id="sdk_s_jscript_dbox2_plugin"><description>The following methods and variables are usable:
+				...</description><topic href="./ch02.html#sdk_s_jscript_dbox2_plugin" label="mehr..."></topic></context><context id="sdk_s_jscript_dreambox_plugin"><description>The following methods or variables are usable:
+				...</description><topic href="./ch02.html#sdk_s_jscript_dreambox_plugin" label="mehr..."></topic></context><context id="sdk_s_jscript_reelbox_plugin"><description>The following methods or variables are usable:
+				...</description><topic href="./ch02.html#sdk_s_jscript_reelbox_plugin" label="mehr..."></topic></context><context id="sdk_s_jscript_rtspreceiver_plugin"><description>The following methods or variables are usable:
+				...</description><topic href="./ch02.html#sdk_s_jscript_rtspreceiver_plugin" label="mehr..."></topic></context><context id="sdk_s_jscript_multistreamserver_plugin"><description>The plug-in combines the formerly HTTP server and RTSP server
+					and contains the Media Sessions ...</description><topic href="./ch02.html#sdk_s_jscript_multistreamserver_plugin" label="mehr..."></topic></context><context id="sdk_s_jscript_bdatuner_plugin"><description>The following methods or variables are usable:
+				...</description><topic href="./ch02.html#sdk_s_jscript_bdatuner_plugin" label="mehr..."></topic></context><context id="skd_c_bc_decoder"><description>...</description><topic href="./ch03.html" label="mehr..."></topic></context><context id="N104BB"><description>The Multistream Server plug-in allows the access to bitcontrol® Decoder....</description><topic href="./ch03.html#N104BB" label="mehr..."></topic></context><context id="sdk_c_jsnippits"><description>...</description><topic href="./apa.html" label="mehr..."></topic></context><context id="sdk_s_snippits_dtvlink_getrequests"><description>
+			Get requests
+			can be used to read out information from
+			bitcontrol®
+				Digital TV Link
+			...</description><topic href="./apa.html#sdk_s_snippits_dtvlink_getrequests" label="mehr..."></topic></context><context id="N105B2"><description>
+			Returns the version of the used
+			bitcontrol®
+				Digital TV Link
+			
+			.
+		...</description><topic href="./apa.html#N105B2" label="mehr..."></topic></context><context id="N105C5"><description>Returns all available Channels of started input plug-ins....</description><topic href="./apa.html#N105C5" label="mehr..."></topic></context><context id="N105D7"><description>Returns all Channels (of a bouquet) of the input plug-in that is
+			active
+		...</description><topic href="./apa.html#N105D7" label="mehr..."></topic></context><context id="N105EC"><description>Set the OnAir flag of the selected Channel true or false....</description><topic href="./apa.html#N105EC" label="mehr..."></topic></context><context id="N10665"><description>Set the Record flag of the selected Channel true or false.
+		...</description><topic href="./apa.html#N10665" label="mehr..."></topic></context><context id="N10696"><description>Set the Publish flag of the selected Channel true or false.
+			...</description><topic href="./apa.html#N10696" label="mehr..."></topic></context><context id="sdk_s_snippits_dtvlink_corefunctions"><description>
+			These JScript Snippets use the POST method to read out core function
+			of
+			bitcontrol®
+				D...</description><topic href="./apa.html#sdk_s_snippits_dtvlink_corefunctions" label="mehr..."></topic></context><context id="N106D5"><description>
+			Returns the version of the used
+			bitcontrol®
+				Digital TV Link
+			
+		...</description><topic href="./apa.html#N106D5" label="mehr..."></topic></context><context id="N106FB"><description>Writes a log message that is displayed in Console output....</description><topic href="./apa.html#N106FB" label="mehr..."></topic></context><context id="N1073A"><description>Writes a log message that is displayed colored in Console
+			output.
+		...</description><topic href="./apa.html#N1073A" label="mehr..."></topic></context><context id="N10774"><description>Returns bitcontrol® Digital TV Link Log Messages...</description><topic href="./apa.html#N10774" label="mehr..."></topic></context><context id="N107F2"><description>Returns the id of the active bitcontrol® Digital TV Link instance.
+		...</description><topic href="./apa.html#N107F2" label="mehr..."></topic></context><context id="N10817"><description>
+		Returns the path of the used
+		bitcontrol® 
+			Digital TV Link
+	...</description><topic href="./apa.html#N10817" label="mehr..."></topic></context><context id="N10849"><description>
+		Returns the license number of the used
+		bitcontrol®
+			Digital TV Link
+	...</description><topic href="./apa.html#N10849" label="mehr..."></topic></context><context id="N1087E"><description>
+		Returns the name of the bitcontrol® 
+		Digital TV Link licensee 
+	...</description><topic href="./apa.html#N1087E" label="mehr..."></topic></context><context id="N108AA"><description>
+		Returns the URL of
+		the bitcontrol®
+		Digital TV Link server
+	...</description><topic href="./apa.html#N108AA" label="mehr..."></topic></context><context id="N108CD"><description>
+	These JScript snippets are used to get information about the plug-in states of a bitcontrol® Digi...</description><topic href="./apa.html#N108CD" label="mehr..."></topic></context><context id="N10923"><description>Each of these JScript snippets return the state of a bitcontrol® Digital TV Link preference option....</description><topic href="./apa.html#N10923" label="mehr..."></topic></context><context id="N10958"><description>Returns the state of the Video Output Pin / Audio Output Pin option...</description><topic href="./apa.html#N10958" label="mehr..."></topic></context><context id="N10996"><description>Returns the Id and the name of the currently used Video Decoder / Audio Decoder...</description><topic href="./apa.html#N10996" label="mehr..."></topic></context><context id="N109D0"><description>Returns some format values of the currently used Video Decoder / Audio Decoder...</description><topic href="./apa.html#N109D0" label="mehr..."></topic></context><context id="N10A0A"><description>Returns the Renderer buffering time...</description><topic href="./apa.html#N10A0A" label="mehr..."></topic></context><context id="N10A46"><description>Returns the contents of the FOURCC mapping table...</description><topic href="./apa.html#N10A46" label="mehr..."></topic></context><context id="N10A7B"><description>Returns the Id of the currently set Preffered media language...</description><topic href="./apa.html#N10A7B" label="mehr..."></topic></context><context id="N10AB5"><description>Returns a list of all available Video Decoder / Audio Decoder...</description><topic href="./apa.html#N10AB5" label="mehr..."></topic></context><context id="N10AFC"><description>If Get Storage is used with default settings, the snippit response will be the same as Get StorageF...</description><topic href="./apa.html#N10AFC" label="mehr..."></topic></context><context id="N10B17"><description>Returns the name of the Storage file....</description><topic href="./apa.html#N10B17" label="mehr..."></topic></context><context id="N10B48"><description>Returns the content of the bitcontrol® Digital TV Link configuration file (DTVLink.xml)...</description><topic href="./apa.html#N10B48" label="mehr..."></topic></context><context id="N10B8C"><description>Returns the path to the scenario file...</description><topic href="./apa.html#N10B8C" label="mehr..."></topic></context><context id="N10BBB"><description>Returns the state of the Save Log option...</description><topic href="./apa.html#N10BBB" label="mehr..."></topic></context><context id="N10BE6"><description>Returns the path to the log file...</description><topic href="./apa.html#N10BE6" label="mehr..."></topic></context><context id="N10C2A"><description>If the bitcontrol® Digital TV Link Options dialogues / console / systray icon are open or visible, ...</description><topic href="./apa.html#N10C2A" label="mehr..."></topic></context><context id="N10C5D"><description>For this the value true (open) or true (close) can be set....</description><topic href="./apa.html#N10C5D" label="mehr..."></topic></context><context id="N10CA3"><description>Returns the channels of all started plug-ins and their properties...</description><topic href="./apa.html#N10CA3" label="mehr..."></topic></context><context id="N10CC6"><description>Returns statistical values of the channel the is currently in use...</description><topic href="./apa.html#N10CC6" label="mehr..."></topic></context><context id="N10CE5"><description>...</description><topic href="./apa.html#N10CE5" label="mehr..."></topic></context><context id="N10CE8"><description>Returns the available transponders...</description><topic href="./apa.html#N10CE8" label="mehr..."></topic></context><context id="N10D1D"><description>Returns the available transponders and their channels...</description><topic href="./apa.html#N10D1D" label="mehr..."></topic></context><context id="N10D5C"><description>...</description><topic href="./apa.html#N10D5C" label="mehr..."></topic></context><context id="sdk_s_enumerate_plugins"><description>Returns the state of the plug-ins...</description><topic href="./apa.html#sdk_s_enumerate_plugins" label="mehr..."></topic></context><context id="N10D94"><description>This JScript Snippit allows the creation of an own plug-in. For this, the default code (see ) can b...</description><topic href="./apa.html#N10D94" label="mehr..."></topic></context><context id="TODO"><description>Leider wurde noch keine Hilfe für dieses Objekt erstellt.</description></context></contexts>
