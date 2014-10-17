@@ -1,0 +1,44 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Chapter&nbsp;3.&nbsp;bitcontrol Decoder</title><link href="bitctrl.css" rel="stylesheet" type="text/css"><meta content="DocBook XSL Stylesheets V1.74.0" name="generator"><link rel="home" href="index.html" title="bitcontrol&reg; Digital TV Link"><link rel="up" href="index.html" title="bitcontrol&reg; Digital TV Link"><link rel="prev" href="ch02.html" title="Chapter&nbsp;2.&nbsp;Usage of JScript interface"><link rel="next" href="apa.html" title="Appendix&nbsp;A.&nbsp; JScript Snippets"></head><body bgcolor="#f5f5f5" text="black" link="black" vlink="#0099cc" alink="#0099cc"><div class="navheader"><table summary="Navigation header" width="100%"><tr><th align="center" colspan="3">Chapter&nbsp;3.&nbsp;bitcontrol Decoder</th></tr><tr><td align="left" width="20%"><a accesskey="p" href="ch02.html"><img src="bilder/prev.png" alt="Prev"></a>&nbsp;</td><th align="center" width="60%">&nbsp;</th><td align="right" width="20%">&nbsp;<a accesskey="n" href="apa.html"><img src="bilder/next.png" alt="Next"></a></td></tr></table><hr></div><a href="http://www.bitctrl.de"><img alt="BitCtrl Logo" border="0" src="bilder/logobc_web.png"></a><hr><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="skd_c_bc_decoder"></a>Chapter&nbsp;3.&nbsp;<span class="emphasis"><em>bitcontrol Decoder</em></span></h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="ch03.html#N104BB">3.1. Access to bitcontrol&reg; Decoder</a></span></dt></dl></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="N104BB"></a>3.1.&nbsp;Access to <span class="emphasis"><em>bitcontrol&reg; Decoder</em></span></h2></div></div></div><p>The Multistream Server plug-in allows the access to <span class="emphasis"><em>bitcontrol&reg; Decoder.</em></span></p><div class="figure"><a name="N104C4"></a><div class="figure-contents"><pre class="programlisting">
+            
+DTVLink.VideoDecoder.AlwaysDeinterlace=true;
+DTVLink.VideoDecoder.AspectRatioX=5;
+DTVLink.VideoDecoder.AspectRatioY=3;
+DTVLink.VideoDecoder.FrameSkipping=true;
+             
+			</pre></div><p class="title"><b>Figure&nbsp;3.1.&nbsp;Different code examples - Access to <span class="emphasis"><em>bitcontrol&reg; Decoder</em></span>
+			</b></p></div><br class="figure-break"><p>The following methods and variables are usable:</p><div class="table"><a name="table_MPEG_Decoder_functions"></a><div class="table-contents"><table summary="bitcontrol&reg; Decoder functions and
+				variables
+			" border="1"><colgroup><col><col><col><col></colgroup><thead><tr><th>Name</th><th>Description</th><th>Read</th><th>Write</th></tr></thead><tbody><tr><td>AlwaysDeinterlace</td><td>Access to the option, if deinterlacing always should
+							be used. This can be set on or off with true or false.</td><td>yes</td><td>yes</td></tr><tr><td>AspectRatioX</td><td>The aspect ration in x direction.
+						This must be use in connection with AspectRatioY.</td><td>yes</td><td>yes</td></tr><tr><td>AspectRatioY</td><td>The aspect ration in y direction.
+						This must be use in connection with AspectRatioX.</td><td>yes</td><td>yes</td></tr><tr><td>ColorCorrection</td><td>Reads out, if color correction is set</td><td>yes</td><td>yes</td></tr><tr><td>Deinterlace</td><td>
+							Reads out deinterlace mode (0 - auto, 1 - progrssive, 2 -
+							weave, 3 - hardware bob, 4 - software bob, 5 - software bob
+							double
+							rate)
+							</td><td>yes</td><td>yes</td></tr><tr><td>DXVA</td><td>Set DXVA and read it out. For example
+						DXVA1MPEG1=true set DXVA at MPEG1 or
+						DXVA1MPEG2=false don't set DXVA at MPEG2.
+						You can use: MPEG1, MPEG2, MPEG4, H263, H264,
+						WMV8, WMV9 and VC1.</td><td>yes</td><td>yes</td></tr><tr><td>FrameSkipping</td><td>Reads out, if pictures can be skipped.
+						This can be set on or off with true or false.</td><td>yes</td><td>yes</td></tr><tr><td>FrameSkippingTolerance</td><td>Reads out how many deficient pictures are allowed
+						</td><td>yes</td><td>yes</td></tr><tr><td>LicenseMode</td><td>
+							Reads out the license mode. (0 - normal, 1 - demo, 2 -
+							trial, 3 - expired)
+							</td><td>yes</td><td>no</td></tr><tr><td>LicenseName</td><td>Reads out the license name</td><td>yes</td><td>no</td></tr><tr><td>LicenseRegnum</td><td>Reads out the license number</td><td>yes</td><td>no</td></tr><tr><td>OutputConnectionAllowList</td><td>Access to the list of filters, which are allowed to
+							use the decoder</td><td class="auto-generated">&nbsp;</td><td class="auto-generated">&nbsp;</td></tr><tr><td>OutputConnectionDenyList</td><td>Access to the list of filters, which are allowed to
+							use the decoder</td><td>yes</td><td>yes</td></tr><tr><td>OutputTypesPriority</td><td>Access to the priorities of output formats</td><td>yes</td><td>yes</td></tr><tr><td>OutputTypesPriorityDXVA</td><td>Access
+							to the priorities of DirectX&reg;
+							output formats.
+							This connection must be used with DXVA values (for example OutputTypesPriorityDXVA1_ MPEG1 or
+							OutputTypesPriorityDXVA2_MPEG2). The different 
+							video types are the same like DXVA.
+						</td><td>yes</td><td>yes</td></tr><tr><td>OutputTypesPriorityHW</td><td>Access to the priorities of the output formats in
+							deinterlace mode.</td><td>yes</td><td>yes</td></tr><tr><td>RendererLateness</td><td>Reads out the render delay</td><td>yes</td><td>no</td></tr><tr><td>UseHadwareAcceleratedDeinterlace
+						</td><td>Access to the option, if hardware accelerated
+							deinterlace should be used.
+							This can be set on or off with true or false.</td><td>yes</td><td>yes</td></tr><tr><td>Version</td><td>Reads the decoder version.</td><td>yes</td><td>no</td></tr></tbody></table></div><p class="title"><b>Table&nbsp;3.1.&nbsp;<span class="emphasis"><em>bitcontrol&reg; Decoder</em></span> functions and
+				variables
+			</b></p></div><br class="table-break"></div></div><div class="navfooter"><hr><table summary="Navigation footer" width="100%"><tr><td align="left" width="40%"><a accesskey="p" href="ch02.html"><img src="bilder/prev.png" alt="Prev"></a>&nbsp;</td><td align="center" width="20%">&nbsp;</td><td align="right" width="40%">&nbsp;<a accesskey="n" href="apa.html"><img src="bilder/next.png" alt="Next"></a></td></tr><tr><td valign="top" align="left" width="40%">Chapter&nbsp;2.&nbsp;Usage of JScript interface&nbsp;</td><td align="center" width="20%"><a accesskey="h" href="index.html"><img src="bilder/home.png" alt="Home"></a></td><td valign="top" align="right" width="40%">&nbsp;Appendix&nbsp;A.&nbsp;
+		JScript Snippets
+	</td></tr></table></div></body></html>

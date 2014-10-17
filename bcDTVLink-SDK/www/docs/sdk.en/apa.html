@@ -1,0 +1,1349 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Appendix&nbsp;A.&nbsp; JScript Snippets</title><link href="bitctrl.css" rel="stylesheet" type="text/css"><meta content="DocBook XSL Stylesheets V1.74.0" name="generator"><link rel="home" href="index.html" title="bitcontrol&reg; Digital TV Link"><link rel="up" href="index.html" title="bitcontrol&reg; Digital TV Link"><link rel="prev" href="ch03.html" title="Chapter&nbsp;3.&nbsp;bitcontrol Decoder"></head><body bgcolor="#f5f5f5" text="black" link="black" vlink="#0099cc" alink="#0099cc"><div class="navheader"><table summary="Navigation header" width="100%"><tr><th align="center" colspan="3">Appendix&nbsp;A.&nbsp;
+		JScript Snippets
+	</th></tr><tr><td align="left" width="20%"><a accesskey="p" href="ch03.html"><img src="bilder/prev.png" alt="Prev"></a>&nbsp;</td><th align="center" width="60%">&nbsp;</th><td align="right" width="20%">&nbsp;</td></tr></table><hr></div><a href="http://www.bitctrl.de"><img alt="BitCtrl Logo" border="0" src="bilder/logobc_web.png"></a><hr><div class="appendix" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="sdk_c_jsnippits"></a>Appendix&nbsp;A.&nbsp;
+		JScript Snippets
+	</h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="apa.html#sdk_s_snippits_dtvlink_getrequests">A.1. 
+			JScript Snippets for
+			bitcontrol&reg;
+				Digital TV Link
+			
+			GET requests
+		</a></span></dt><dd><dl><dt><span class="section"><a href="apa.html#N105B2">A.1.1. Get Version</a></span></dt><dt><span class="section"><a href="apa.html#N105C5">A.1.2. Get All Channels</a></span></dt><dt><span class="section"><a href="apa.html#N105D7">A.1.3. Get Active Channels</a></span></dt><dt><span class="section"><a href="apa.html#N105EC">A.1.4. Set Channel OnAir flag</a></span></dt><dt><span class="section"><a href="apa.html#N10665">A.1.5. Set Channel Record flag</a></span></dt><dt><span class="section"><a href="apa.html#N10696">A.1.6. Set Channel Publish flag</a></span></dt></dl></dd><dt><span class="section"><a href="apa.html#sdk_s_snippits_dtvlink_corefunctions">A.2. 
+			JScript Snippets for
+			bitcontrol&reg;
+				Digital TV Link
+			
+			core functions (POST scripts)
+		</a></span></dt><dd><dl><dt><span class="section"><a href="apa.html#N106D5">A.2.1. Get Version</a></span></dt><dt><span class="section"><a href="apa.html#N106FB">A.2.2. Write Log Message</a></span></dt><dt><span class="section"><a href="apa.html#N1073A">A.2.3. Write Log Message (local context)</a></span></dt><dt><span class="section"><a href="apa.html#N10774">A.2.4. Read Log Messages</a></span></dt><dt><span class="section"><a href="apa.html#N107F2">A.2.5. Get InstanceId</a></span></dt><dt><span class="section"><a href="apa.html#N10817">A.2.6. Get Data Folder</a></span></dt><dt><span class="section"><a href="apa.html#N10849">A.2.7. Get LicenseRegnum</a></span></dt><dt><span class="section"><a href="apa.html#N1087E">A.2.8. Get LicenseName</a></span></dt><dt><span class="section"><a href="apa.html#N108AA">A.2.9. Get URL</a></span></dt><dt><span class="section"><a href="apa.html#N108CD">A.2.10. Get EnablePlugins / Get AutoloadPlugins /Get AutostartPlugins</a></span></dt><dt><span class="section"><a href="apa.html#N10923">A.2.11. Get RestoreLastChannel / Get AutoJitter / Get PreferAC3  / Get SetDefaultOnAir / Get ShowConsole </a></span></dt><dt><span class="section"><a href="apa.html#N10958">A.2.12. Get EnableVideoOutPin / Get EnableAudioOutPin</a></span></dt><dt><span class="section"><a href="apa.html#N10996">A.2.13. Get VideoDecId / Get AudioDecId</a></span></dt><dt><span class="section"><a href="apa.html#N109D0">A.2.14. Get VideoFormatDescription / Get AudioFormatDescription</a></span></dt><dt><span class="section"><a href="apa.html#N10A0A">A.2.15. Get BufferingTime</a></span></dt><dt><span class="section"><a href="apa.html#N10A46">A.2.16. Get FOURCCMap</a></span></dt><dt><span class="section"><a href="apa.html#N10A7B">A.2.17. Get MediaLanguageLANGID</a></span></dt><dt><span class="section"><a href="apa.html#N10AB5">A.2.18. Get VideoDecoderList / Get AudioDecoderList</a></span></dt><dt><span class="section"><a href="apa.html#N10AFC">A.2.19. Get Storage</a></span></dt><dt><span class="section"><a href="apa.html#N10B17">A.2.20. Get StorageFilename</a></span></dt><dt><span class="section"><a href="apa.html#N10B48">A.2.21. Get StorageXMLDocument / Get StorageXMLElement / Get StorageXMLElementProperties</a></span></dt><dt><span class="section"><a href="apa.html#N10B8C">A.2.22. Get Scenario</a></span></dt><dt><span class="section"><a href="apa.html#N10BBB">A.2.23. Get EnableLogFile</a></span></dt><dt><span class="section"><a href="apa.html#N10BE6">A.2.24. Get LogFilename</a></span></dt><dt><span class="section"><a href="apa.html#N10C2A">A.2.25. Get OptionsDialogVisible / Get ShowConsole / Get SystrayVisible</a></span></dt><dt><span class="section"><a href="apa.html#N10C5D">A.2.26. Show OptionsDialog /Show Console / Show SystrayIcon</a></span></dt><dt><span class="section"><a href="apa.html#N10CA3">A.2.27. Get All Channels</a></span></dt><dt><span class="section"><a href="apa.html#N10CC6">A.2.28. Statistics</a></span></dt><dt><span class="section"><a href="apa.html#N10CE5">A.2.29. Digital TV Link collections</a></span></dt><dd><dl><dt><span class="section"><a href="apa.html#N10CE8">A.2.29.1. Enumerate Satelittes / Enumertate Cables / Enumerate Terrestrials</a></span></dt><dt><span class="section"><a href="apa.html#N10D1D">A.2.29.2. Enumerate Satelittes (Extra) / Enumertate Cables (Extra) / Enumerate Terrestrials (Extra)</a></span></dt></dl></dd><dt><span class="section"><a href="apa.html#N10D5C">A.2.30. Plug-ins</a></span></dt><dd><dl><dt><span class="section"><a href="apa.html#sdk_s_enumerate_plugins">A.2.30.1. Enumerate Plugins</a></span></dt><dt><span class="section"><a href="apa.html#N10D94">A.2.30.2. Create Plugin Instance</a></span></dt></dl></dd></dl></dd></dl></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="sdk_s_snippits_dtvlink_getrequests"></a>A.1.&nbsp;
+			JScript Snippets for
+			<span class="emphasis"><em>bitcontrol&reg;
+				Digital TV Link
+			</em></span>
+			GET requests
+		</h2></div></div></div><p>
+			<span class="emphasis"><em>Get requests</em></span>
+			can be used to read out information from
+			<span class="emphasis"><em>bitcontrol&reg;
+				Digital TV Link
+			</em></span>
+			.
+			The source code examples show the output of the selected
+			<span class="emphasis"><em>Get request</em></span>
+			.
+		</p><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N105B2"></a>A.1.1.&nbsp;Get Version</h3></div></div></div><p>
+			Returns the version of the used
+			<span class="emphasis"><em>bitcontrol&reg;
+				Digital TV Link
+			</em></span>
+			.
+		</p><div class="figure"><a name="N105BA"></a><div class="figure-contents"><pre class="programlisting">
+            
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+    &lt;Result Id="RequestNum3"&gt;
+          v3.8.0.0, Release(Unicode)X86, assembled on May 27 2014
+    &lt;/Result&gt;
+			</pre></div><p class="title"><b>Figure&nbsp;A.1.&nbsp;
+				JScript Snippet output of
+				<span class="emphasis"><em>&gt;Get Version</em></span>
+			</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N105C5"></a>A.1.2.&nbsp;Get All Channels</h3></div></div></div><p>Returns all available Channels of started input plug-ins.</p><div class="figure"><a name="N105CA"></a><div class="figure-contents"><pre class="programlisting">
+            
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+	&lt;Sources&gt;
+		&lt;Source&gt;
+			&lt;Name&gt;AXIS&lt;/Name&gt;
+				&lt;Channels&gt;
+					&lt;Fields Count="4"&gt;
+						&lt;Field Id="Id"&gt;Id&lt;/Field&gt;
+						&lt;Field Id="Name"&gt;Name&lt;/Field&gt;
+						&lt;Field Id="Network"&gt;Network&lt;/Field&gt;
+						&lt;Field Id="URL"&gt;URL&lt;/Field&gt;
+					&lt;/Fields&gt;
+					&lt;Channel Enable="true" Active="false"&gt;
+						&lt;Id&gt;0&lt;/Id&gt;
+						&lt;Name&gt;AXIS M3011 - 00408C9492B7&lt;/Name&gt;
+						&lt;Network&gt;unicast&lt;/Network&gt;
+						&lt;URL&gt;rtsp://192.168.1.28/axis-media/media.amp?videocodec=mpeg4&lt;/URL&gt;
+					&lt;/Channel&gt;
+				&lt;/Channels&gt;
+		&lt;/Source&gt;
+		&lt;Source&gt;
+			&lt;Name&gt;File&lt;/Name&gt;
+				&lt;Channels&gt;
+					&lt;Fields Count="4"&gt;
+						&lt;Field Id="Id"&gt;Id&lt;/Field&gt;
+						&lt;Field Id="Name"&gt;Name&lt;/Field&gt;
+						&lt;Field Id="URL"&gt;URL&lt;/Field&gt;
+						&lt;Field Id="Duration"&gt;Duration&lt;/Field&gt;
+					&lt;/Fields&gt;
+					&lt;Channel Enable="true" Active="false"&gt;
+						&lt;Id&gt;2&lt;/Id&gt;
+						&lt;Name&gt;FIFASPOT_LVB_3gmp4_352x288.mp4&lt;/Name&gt;
+						&lt;URL&gt;C:\Video\video_samples\MPEG-4 3GP\
+						FIFASPOT_LVB_3gmp4_352x288.mp4&lt;/URL&gt;
+					&lt;/Channel&gt;
+				&lt;/Channels&gt;
+		&lt;/Source&gt;
+	&lt;/Sources&gt;
+			</pre></div><p class="title"><b>Figure&nbsp;A.2.&nbsp;
+				JScript Snippet output for
+				<span class="emphasis"><em>Get All Channels</em></span>
+			</b></p></div><br class="figure-break"><p>The source code example shows two active input plug-ins (Axis
+			plug-in and File plug-in) as video sources. Both plug-ins have one
+			Channel that isn't active. Inside the Channel tag are further
+			information about the Channel available.
+		</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N105D7"></a>A.1.3.&nbsp;Get Active Channels</h3></div></div></div><p>Returns all Channels (of a bouquet) of the input plug-in that is
+			active
+		</p><div class="figure"><a name="N105DC"></a><div class="figure-contents"><pre class="programlisting">
+            
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+	&lt;Channels&gt;
+		&lt;Channel SourceId="76472624" StreamId="1" UpTimeSec="9.4" OnAir="true" 
+		Record="0" Publish="0" 
+		Substreams="2" VideoSubstreams="1" AudioSubstreams="1"&gt;
+			&lt;SourceName&gt;File&lt;/SourceName&gt;
+			&lt;StreamName&gt;FIFASPOT_LVB_3gmp4_352x288.mp4&lt;/StreamName&gt;
+			&lt;EPGName&gt;FIFASPOT_LVB_3gmp4_352x288&lt;/EPGName&gt;
+			&lt;EPGDescription&gt;C:\Videon\video_samples\MPEG-4 3GP\
+			FIFASPOT_LVB_3gmp4_352x288.mp4&lt;/EPGDescription&gt;
+				&lt;Substream SubstreamId="1" Type="Video" FCC="MP4V" OnAir="true"&gt;
+					&lt;Description&gt;352 x 288&lt;/Description&gt;
+					&lt;Profile&gt;Advanced Simple&lt;/Profile&gt;
+					&lt;Level&gt;4&lt;/Level&gt;
+				&lt;/Substream&gt;
+				&lt;Substream SubstreamId="2" Type="Audio" FCC=" AAC" OnAir="true"&gt;
+					&lt;Description&gt;1 Channels, 32000 Hz, 16-bits&lt;/Description&gt;
+					&lt;Profile&gt;AAC LC&lt;/Profile&gt;
+				&lt;/Substream&gt;
+		&lt;/Channel&gt;
+	&lt;/Channels&gt;
+			</pre></div><p class="title"><b>Figure&nbsp;A.3.&nbsp;
+				JScript Snippet output for
+				<span class="emphasis"><em>Get All Channels</em></span>
+			</b></p></div><br class="figure-break"><p>The example shows the Channel of the plug-in File that is active
+			at the moment. The Channel tag contains additional information for
+			example that the video file consists of two substreams (video and
+			audio).
+		</p><p>The response of an active BDA plug-in would show all available
+			Channels of the selected bouquet and additional information (source
+			name, stream name, provider, EPG data, etc.) of each Channel.
+		</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N105EC"></a>A.1.4.&nbsp;Set Channel OnAir flag</h3></div></div></div><p>Set the OnAir flag of the selected Channel true or false.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+			Before using the JScript Snippet the SourceId and the StreamId must
+			be known.
+			The necessary information can be found with help of the
+			<span class="emphasis"><em>Get Active Channels</em></span>
+			script.
+			After executing the script the SourceId and the StreamId are
+			displayed as
+			attributes in the Channel tag (see
+			<a class="xref" href="apa.html#sdk_code_source_stream_id" title="Figure&nbsp;A.4.&nbsp;SourceId (first attribute) and StreamId (second attribute) in Channel tag">Figure&nbsp;A.4, &ldquo;SourceId (first attribute) and StreamId (second attribute) in
+				Channel tag
+			&rdquo;</a>
+			).
+		</div><div class="figure"><a name="sdk_code_source_stream_id"></a><div class="figure-contents"><pre class="programlisting">
+            	
+&lt;Channel SourceId="151496720" StreamId="2" UpTimeSec="667.7" OnAir="true" 
+Record="0" Publish="0" Substreams="3" VideoSubstreams="1" AudioSubstreams="2"&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.4.&nbsp;SourceId (first attribute) and StreamId (second attribute) in
+				Channel tag
+			</b></p></div><br class="figure-break"><div class="figure"><a name="N10602"></a><div class="figure-contents"><pre class="programlisting">
+            	
+/SetActiveChannelOnAir?SourceId=1234567890123456&amp;StreamId=12345678&amp;value=false
+			</pre></div><p class="title"><b>Figure&nbsp;A.5.&nbsp;
+				JScript Snippet request for
+				<span class="emphasis"><em>Set Channel OnAir flag</em></span>
+				(original source code with place holders)
+			</b></p></div><br class="figure-break"><p>
+			The place holders for SourceId (
+			<span class="emphasis"><em>1234567890123456</em></span>
+			) and StreamId (
+			<span class="emphasis"><em>12345678</em></span>
+			) must be replaced with the SourceId and the StreamId that was
+			determinated with the
+			<span class="emphasis"><em>Get Active Channels</em></span>
+			script.
+		</p><p>
+			The default value for the OnAir flag is
+			<span class="emphasis"><em>true</em></span>
+			. That means the OnAir state of the Channel is
+			<span class="emphasis"><em>on</em></span>
+			. If the state should be changed to
+			<span class="emphasis"><em>off</em></span>
+			by script, the value part of the code must be set
+			<span class="emphasis"><em>false</em></span>
+			(see
+			<a class="xref" href="apa.html#sdk_code_default_ids_replaced" title="Figure&nbsp;A.6.&nbsp; JScript Snippet request for Set Channel OnAir flag (place holders replaced with the SourceId and StreamId of the selected Channel)">Figure&nbsp;A.6, &ldquo;
+				JScript Snippet request for
+				Set Channel OnAir flag
+				(place holders replaced with the SourceId and StreamId of the
+				selected Channel)
+			&rdquo;</a>
+			).
+		</p><div class="figure"><a name="sdk_code_default_ids_replaced"></a><div class="figure-contents"><pre class="programlisting">
+            	
+/SetActiveChannelOnAir?SourceId=151496720&amp;StreamId=2&amp;value=false
+			</pre></div><p class="title"><b>Figure&nbsp;A.6.&nbsp;
+				JScript Snippet request for
+				<span class="emphasis"><em>Set Channel OnAir flag</em></span>
+				(place holders replaced with the SourceId and StreamId of the
+				selected Channel)
+			</b></p></div><br class="figure-break"><p>
+			The server response will be
+			<span class="emphasis"><em>OK</em></span>
+			(line 2).
+		</p><div class="figure"><a name="N1063A"></a><div class="figure-contents"><pre class="programlisting">
+            
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result&gt;Ok&lt;/Result&gt;
+			</pre></div><p class="title"><b>Figure&nbsp;A.7.&nbsp;
+				JScript Snippet response for
+				<span class="emphasis"><em>Set Channel OnAir flag</em></span>
+			</b></p></div><br class="figure-break"><p>
+			After execution the respective OnAir entry in
+			<span class="emphasis"><em>bitcontrol&reg;
+				Digital TV Link
+			</em></span>
+			Channels window (slider Active) will be set
+			<span class="emphasis"><em>off</em></span>
+			(see
+			<a class="xref" href="apa.html#sdk_b_OnAir_false" title="Figure&nbsp;A.8.&nbsp; bitcontrol&reg; Digital TV Link Channels window (slider Active) - OnAir off">Figure&nbsp;A.8, &ldquo;
+				bitcontrol&reg;
+					Digital TV Link
+				
+				Channels window (slider Active) - OnAir off
+			&rdquo;</a>
+			).
+		</p><div class="figure"><a name="sdk_b_OnAir_false"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/OnAir_flag_false.png" align="middle" alt="bitcontrol&reg; Digital TV Link Channels window (slider Active) - OnAir off"></div></div><p class="title"><b>Figure&nbsp;A.8.&nbsp;
+				<span class="emphasis"><em>bitcontrol&reg;
+					Digital TV Link
+				</em></span>
+				Channels window (slider Active) - OnAir off
+			</b></p></div><br class="figure-break"><p>
+			Changing the JScript Snippet code value to
+			<span class="emphasis"><em>true</em></span>
+			set the OnAir table entry
+			<span class="emphasis"><em>on</em></span>
+			.
+		</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10665"></a>A.1.5.&nbsp;Set Channel Record flag</h3></div></div></div><p>Set the Record flag of the selected Channel true or false.
+		</p><p>
+			The JScript Snippet
+			<span class="emphasis"><em>Set Channel Record flag</em></span>
+			works in the same way as the
+			<span class="emphasis"><em>Set Channel OnAir flag</em></span>
+			JScript Snippet. The difference is the default value for the flag. In
+			this case it is
+			<span class="emphasis"><em>false</em></span>
+			.
+		</p><p>
+			The next code shows the input line.
+		</p><div class="figure"><a name="N10677"></a><div class="figure-contents"><pre class="programlisting">
+            	
+/SetActiveChannelRecord?SourceId=151496720&amp;StreamId=2&amp;value=true
+			</pre></div><p class="title"><b>Figure&nbsp;A.9.&nbsp;
+				JScript Snippet request for
+				<span class="emphasis"><em>Set Channel Record flag</em></span>
+			</b></p></div><br class="figure-break"><p>
+				The next picture shows the result
+				in
+				<span class="emphasis"><em>bitcontrol&reg;
+					Digital TV Link
+				</em></span>
+				Channels window (slider Active).
+			</p><p>
+			<div class="figure"><a name="N10689"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/Record_flag_true.png" align="middle" alt="bitcontrol&reg; Digital TV Link Channels window (slider Active) - Recorder Active"></div></div><p class="title"><b>Figure&nbsp;A.10.&nbsp;
+					<span class="emphasis"><em>bitcontrol&reg;
+						Digital TV Link
+					</em></span>
+					Channels window (slider Active) - Recorder Active
+				</b></p></div><br class="figure-break">
+</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10696"></a>A.1.6.&nbsp;Set Channel Publish flag</h3></div></div></div><p>Set the Publish flag of the selected Channel true or false.
+			</p><p>
+				The JScript Snippet
+				<span class="emphasis"><em>Set Channel Plublish flag</em></span>
+				works in the same way as the
+				<span class="emphasis"><em>Set Channel OnAir flag</em></span>
+				JScript Snippet. The difference is the default value for the flag.
+				In this case it is
+				<span class="emphasis"><em>false</em></span>
+				.
+			</p><p>
+				The next code shows the input line.
+			</p><div class="figure"><a name="N106A8"></a><div class="figure-contents"><pre class="programlisting">
+            	
+/SetActiveChannelPublish?SourceId=151496720&amp;StreamId=2&amp;value=true
+				</pre></div><p class="title"><b>Figure&nbsp;A.11.&nbsp;
+					JScript Snippet request for
+					<span class="emphasis"><em>Set Channel Plublish flag</em></span>
+				</b></p></div><br class="figure-break"><p>
+				The next picture shows the
+				result in
+				<span class="emphasis"><em>bitcontrol&reg;
+					Digital TV Link
+				</em></span>
+				Channels window (slider Active).
+			</p><p>
+			
+			<div class="figure"><a name="N106BA"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/Record_flag_true.png" align="middle" alt="bitcontrol&reg; Digital TV Link Channels window (slider Active) - Publisher Active"></div></div><p class="title"><b>Figure&nbsp;A.12.&nbsp;
+					<span class="emphasis"><em>bitcontrol&reg;
+						Digital TV Link
+					</em></span>
+					Channels window (slider Active) - Publisher Active
+				</b></p></div><br class="figure-break">
+</p></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="sdk_s_snippits_dtvlink_corefunctions"></a>A.2.&nbsp;
+			JScript Snippets for
+			<span class="emphasis"><em>bitcontrol&reg;
+				Digital TV Link
+			</em></span>
+			core functions (POST scripts)
+		</h2></div></div></div><p>
+			These JScript Snippets use the POST method to read out core function
+			of
+			<span class="emphasis"><em>bitcontrol&reg;
+				Digital TV Link
+			</em></span>
+			. The example codes show the request and the result of core function
+			(POST script) requests.
+		</p><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N106D5"></a>A.2.1.&nbsp;Get Version</h3></div></div></div><p>
+			Returns the version of the used
+			<span class="emphasis"><em>bitcontrol&reg;
+				Digital TV Link
+			</em></span>
+		</p><div class="figure"><a name="N106DD"></a><div class="figure-contents"><pre class="programlisting">
+            	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum0"&gt;
+	&lt;![CDATA[
+	DTVLink.Version
+ ]]&gt;
+&lt;/Script&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.13.&nbsp;
+				JScript Snippet request for
+				<span class="emphasis"><em>Get version</em></span>
+				(core function)
+			</b></p></div><br class="figure-break"><div class="figure"><a name="N106E8"></a><div class="figure-contents"><pre class="programlisting">
+            	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+	&lt;Result Id="RequestNum0"&gt;v3.8.0.0, Release(Unicode)X86, 
+	assembled on May 27 2014
+	&lt;/Result&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.14.&nbsp;
+				JScript Snippet server response for
+				<span class="emphasis"><em>Get version</em></span>
+				(core function)
+			</b></p></div><br class="figure-break"><p>
+			The result is the same as the output of the
+			<span class="emphasis"><em>Get version</em></span>
+			GET request (see
+			<a class="xref" href="apa.html#sdk_s_snippits_dtvlink_getrequests" title="A.1.&nbsp; JScript Snippets for bitcontrol&reg; Digital TV Link GET requests">Section&nbsp;A.1, &ldquo;
+			JScript Snippets for
+			bitcontrol&reg;
+				Digital TV Link
+			
+			GET requests
+		&rdquo;</a>
+			). So the difference is not the result but the way of server request.
+		</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N106FB"></a>A.2.2.&nbsp;Write Log Message</h3></div></div></div><p>Writes a log message that is displayed in Console output.</p><div class="figure"><a name="N10700"></a><div class="figure-contents"><pre class="programlisting">
+            	
+&lt;Script Language="JScript" GlobalContext="true" Expression="false" 
+Response="XMLResponse" Id="RequestNum1"&gt;
+	&lt;![CDATA[
+	DTVLink.LogMessage(3, "JScript", "Hello World", 0, 0);
+ ]]&gt;
+&lt;/Script&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.15.&nbsp;
+				JScript Snippet request for
+				<span class="emphasis"><em>Write Log Message</em></span>
+				(core function)
+			</b></p></div><br class="figure-break"><p>
+			<span class="emphasis"><em>GlobalContext</em></span>
+			is true (line 1), so the global variable for the
+			<span class="emphasis"><em>LogMessage</em></span>
+			must be addressed explicit.
+		</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+			At the moment there is only one global variable available:
+			<span class="emphasis"><em>DTVLink</em></span>
+			.
+		</div><p>The values inside the brackets (line 4) mean:</p><div class="itemizedlist"><ul type="disc"><li>Verbose level (This verbose level must be set minimum to
+				see the log message in the Console.)
+			</li><li>JScript</li><li>Content of the log message</li><li>Background color</li><li>Text color</li></ul></div><p>
+			The example code contains the string
+			<span class="emphasis"><em>Hello World</em></span>
+			(line 4). This string is displayed as log message in Console (see
+			<a class="xref" href="apa.html#sdk_b_write_log_message" title="Figure&nbsp;A.16.&nbsp; Log message output in bitcontrol&reg; Digital TV Link Console window">Figure&nbsp;A.16, &ldquo;
+				Log message output in
+				bitcontrol&reg;
+					Digital TV Link
+				
+				Console window
+			&rdquo;</a>
+			) from verbose level 3, not colored.
+		</p><div class="figure"><a name="sdk_b_write_log_message"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/write_log_message.png" align="middle" alt="Log message output in bitcontrol&reg; Digital TV Link Console window"></div></div><p class="title"><b>Figure&nbsp;A.16.&nbsp;
+				Log message output in
+				<span class="emphasis"><em>bitcontrol&reg;
+					Digital TV Link
+				</em></span>
+				Console window
+			</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N1073A"></a>A.2.3.&nbsp;Write Log Message (local context)</h3></div></div></div><p>Writes a log message that is displayed colored in Console
+			output.
+		</p><div class="figure"><a name="N1073F"></a><div class="figure-contents"><pre class="programlisting">
+            	
+&lt;Script Language="JScript" GlobalContext="false" Expression="false" 
+Response="XMLResponse" Id="RequestNum2"&gt;
+	&lt;![CDATA[
+	LogMessage(3, "JScript", "Hello World", 0x0000ff, 0xffff00);  
+ ]]&gt;
+&lt;/Script&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.17.&nbsp;
+				JScript Snippet request for
+				<span class="emphasis"><em>Write Log Message (local context)</em></span>
+				(core function)
+			</b></p></div><br class="figure-break"><p>
+			If
+			<span class="emphasis"><em>GlobalContext</em></span>
+			is false (line 1), the
+			<span class="emphasis"><em>LogMessage</em></span>
+			script runs in
+			<span class="emphasis"><em>DTVLink</em></span>
+			context. It is not necessary to define a global variable.
+		</p><p>
+			The
+			<span class="emphasis"><em>LogMessage</em></span>
+			properties in the brackets are the same as the example before.
+		</p><p>
+			This example code contains the string
+			<span class="emphasis"><em>Hello World</em></span>
+			(line 4) but also a background color (first hex value) and a text
+			color (second hex value).
+		</p><p>
+			<span class="emphasis"><em>Hello World</em></span>
+			is displayed as log message in Console in yellow on blue (see
+			<a class="xref" href="apa.html#sdk_b_write_log_messagelocalcontext" title="Figure&nbsp;A.18.&nbsp; Colored log message output in bitcontrol&reg; Digital TV Link Console window">Figure&nbsp;A.18, &ldquo;
+				Colored log message output in
+				bitcontrol&reg;
+					Digital TV Link
+				
+				Console window
+			&rdquo;</a>
+			) from verbose level 3.
+		</p><div class="figure"><a name="sdk_b_write_log_messagelocalcontext"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/write_log_message_localcontext.png" align="middle" alt="Colored log message output in bitcontrol&reg; Digital TV Link Console window"></div></div><p class="title"><b>Figure&nbsp;A.18.&nbsp;
+				Colored log message output in
+				<span class="emphasis"><em>bitcontrol&reg;
+					Digital TV Link
+				</em></span>
+				Console window
+			</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10774"></a>A.2.4.&nbsp;Read Log Messages</h3></div></div></div><p>Returns <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> Log Messages</p><div class="figure"><a name="N1077C"></a><div class="figure-contents"><pre class="programlisting">
+            	
+&lt;Script Language="JScript" GlobalContext="true" Expression="false" 
+Response="XMLResponse" Id="RequestNum2"&gt;
+	&lt;![CDATA[
+		var entry = DTVLink.LogLastEntry;
+		while (entry != null) {
+			var xmlentry = XMLResponse.ownerDocument.createElement('Entry');
+			XMLResponse.appendChild(xmlentry);
+			xmlentry.setAttribute('Number', entry.Number);
+			xmlentry.setAttribute('Level', entry.Level);
+			xmlentry.setAttribute('ProcessId', entry.ProcessId);
+			xmlentry.setAttribute('ThreadId', entry.ThreadId);
+			xmlentry.setAttribute('Date', new Date(entry.Date).toLocaleString());
+			xmlentry.setAttribute('Source', entry.Source);
+			xmlentry.text = entry.Message;
+			entry = DTVLink.FindLogEntryByNumber(entry.Number - 1);
+		} 
+ ]]&gt;
+&lt;/Script&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.19.&nbsp;
+				JScript Snippet request for
+				<span class="emphasis"><em>Read Log Message</em></span>
+				(core function)
+			</b></p></div><br class="figure-break"><p>If the JScript Snippet is used without changing defaults, all <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> log messages will be returned.</p><p>The xmlentry attributes can be used to specify the log message output:</p><div class="itemizedlist"><ul type="disc"><li>Number (index number of the log message, last log message has the highest number)</li><li>Level (<span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> verbose level)</li><li>ProcessId (Windows&reg; process Id)</li><li>ThreadId (Windows&reg; thread Id)</li><li>Date (timestamp)</li><li>Source</li></ul></div><p>For the next example the default code was modified with some JavaScript code (line 6) to find out all log messages with verbose level 3.</p><div class="figure"><a name="N107A0"></a><div class="figure-contents"><pre class="programlisting">
+            	
+&lt;Script Language="JScript" GlobalContext="true" Expression="false" 
+Response="XMLResponse" Id="RequestNum4"&gt;
+	&lt;![CDATA[
+		var entry = DTVLink.LogLastEntry;
+		while (entry != null) {
+		if (entry.Level == 3) {
+			var xmlentry = XMLResponse.ownerDocument.createElement('Entry');
+			XMLResponse.appendChild(xmlentry);
+			xmlentry.setAttribute('Number', entry.Number);
+			xmlentry.setAttribute('Level', entry.Level);
+			xmlentry.setAttribute('ProcessId', entry.ProcessId);
+			xmlentry.setAttribute('ThreadId', entry.ThreadId);
+			xmlentry.setAttribute('Date', new Date(entry.Date).toLocaleString());
+			xmlentry.setAttribute('Source', entry.Source);
+			xmlentry.text = entry.Message;
+		}
+		entry = DTVLink.FindLogEntryByNumber(entry.Number - 1);
+		}
+ ]]&gt;
+&lt;/Script&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.20.&nbsp;
+				Example code: All log messages with verbose level 3
+			</b></p></div><br class="figure-break"><p>The next picture shows the result in the response area (see <a class="xref" href="apa.html#sdk_b_beispiel_verbose_level" title="Figure&nbsp;A.21.&nbsp; Selected verbose level">Figure&nbsp;A.21, &ldquo;
+				Selected verbose level
+			&rdquo;</a>).</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>Use the XML button to format the output!</div><div class="figure"><a name="sdk_b_beispiel_verbose_level"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/beispiel_verbose_level.png" align="middle" alt="Selected verbose level"></div></div><p class="title"><b>Figure&nbsp;A.21.&nbsp;
+				Selected verbose level
+			</b></p></div><br class="figure-break"><p>For the next example all log messages with timstamp greater than 11:40 should be issued. For this the default code was modified with JavaScript in line 5 and line 7.</p><div class="figure"><a name="N107BB"></a><div class="figure-contents"><pre class="programlisting">
+            	
+&lt;Script Language="JScript" GlobalContext="true" Expression="false" 
+Response="XMLResponse" Id="RequestNum4"&gt;
+	&lt;![CDATA[
+		var entry = DTVLink.LogLastEntry;
+		var now = new Date(2014, 5, 20, 11, 40, 00, 000);
+		while (entry != null) {
+		if (entry.Date &gt; now) {
+			var xmlentry = XMLResponse.ownerDocument.createElement('Entry');
+			XMLResponse.appendChild(xmlentry);
+			xmlentry.setAttribute('Number', entry.Number);
+			xmlentry.setAttribute('Level', entry.Level);
+			xmlentry.setAttribute('ProcessId', entry.ProcessId);
+			xmlentry.setAttribute('ThreadId', entry.ThreadId);
+			xmlentry.setAttribute('Date', new Date(entry.Date).toLocaleString());
+			xmlentry.setAttribute('Source', entry.Source);
+			xmlentry.text = entry.Message;
+		}
+		entry = DTVLink.FindLogEntryByNumber(entry.Number - 1);
+		}
+ ]]&gt;
+&lt;/Script&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.22.&nbsp;
+				Example code: All log messages with timestamp greater than 11:40
+			</b></p></div><br class="figure-break"><p><a class="xref" href="apa.html#sdk_b_logmessages_ab1140" title="Figure&nbsp;A.23.&nbsp; All log messages with timestamp greater than 11:40">Figure&nbsp;A.23, &ldquo;
+				All log messages with timestamp greater than 11:40
+			&rdquo;</a> shows the result in the response area.</p><div class="figure"><a name="sdk_b_logmessages_ab1140"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/logmessages_ab1140.png" align="middle" alt="All log messages with timestamp greater than 11:40"></div></div><p class="title"><b>Figure&nbsp;A.23.&nbsp;
+				All log messages with timestamp greater than 11:40
+			</b></p></div><br class="figure-break"><p>The next code is used to find out all log messages for the source <span class="emphasis"><em>JScript</em></span>. The default code was modified with JavaScript in line 6.</p><div class="figure"><a name="N107D6"></a><div class="figure-contents"><pre class="programlisting">
+            	
+&lt;Script Language="JScript" GlobalContext="true" Expression="false" 
+Response="XMLResponse" Id="RequestNum4"&gt;
+	&lt;![CDATA[
+		var entry = DTVLink.LogLastEntry;
+		while (entry != null) {
+		if (entry.Source == "JScript") {
+			var xmlentry = XMLResponse.ownerDocument.createElement('Entry');
+			XMLResponse.appendChild(xmlentry);
+			xmlentry.setAttribute('Number', entry.Number);
+			xmlentry.setAttribute('Level', entry.Level);
+			xmlentry.setAttribute('ProcessId', entry.ProcessId);
+			xmlentry.setAttribute('ThreadId', entry.ThreadId);
+			xmlentry.setAttribute('Date', new Date(entry.Date).toLocaleString());
+			xmlentry.setAttribute('Source', entry.Source);
+			xmlentry.text = entry.Message;
+		}
+		entry = DTVLink.FindLogEntryByNumber(entry.Number - 1);
+		}
+ ]]&gt;
+&lt;/Script&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.24.&nbsp;
+				Example code: Find out all log messages for source <span class="emphasis"><em>JScript</em></span>
+			</b></p></div><br class="figure-break"><p><a class="xref" href="apa.html#sdk_b_logmessages_JScript_heraussuchen" title="Figure&nbsp;A.25.&nbsp; All log messages from the source JScript">Figure&nbsp;A.25, &ldquo;
+				All log messages from the source JScript
+			&rdquo;</a> shows the result in the response area.</p><div class="figure"><a name="sdk_b_logmessages_JScript_heraussuchen"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/logmessages_JScript_heraussuchen.png" align="middle" alt="All log messages from the source JScript"></div></div><p class="title"><b>Figure&nbsp;A.25.&nbsp;
+				All log messages from the source <span class="emphasis"><em>JScript</em></span>
+			</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N107F2"></a>A.2.5.&nbsp;Get InstanceId</h3></div></div></div><p>Returns the id of the active bitcontrol&reg; Digital TV Link instance.
+		</p><div class="figure"><a name="N107F7"></a><div class="figure-contents"><pre class="programlisting">
+		
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum0"&gt;
+	&lt;![CDATA[
+		DTVLink.InstanceId;
+ ]]&gt;
+&lt;/Script&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.26.&nbsp;
+				JScript Snippet request for
+				<span class="emphasis"><em>Get Instance Id</em></span>
+			</b></p></div><br class="figure-break"><p>
+			The result contains the	<span class="emphasis"><em>Instance ID</em></span> that is the Windows&reg; process id (pid) and the Windows&reg; thread id (tid).
+			The id will be built when bitcontrol&reg; Digital TV Link starts. It is unique and identifies the current instance. 
+		</p><div class="figure"><a name="N10807"></a><div class="figure-contents"><pre class="programlisting">
+		
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum0"&gt;
+DTVLink: pid 2300, tid 4216
+&lt;/Result&gt;	
+			</pre></div><p class="title"><b>Figure&nbsp;A.27.&nbsp;
+				JScript Snippet server response for
+				<span class="emphasis"><em>Get Instance Id</em></span>
+				(core function)
+			</b></p></div><br class="figure-break"><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>If there are several bitcontrol&reg; Digital TV Link instances active, the result of the request will be a number of different <span class="emphasis"><em>Instance Id's</em></span>. Then it isn't possible to identify the corresponding id for a bitcontrol&reg; Digital TV Link instance.</div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10817"></a>A.2.6.&nbsp;Get Data Folder</h3></div></div></div><p>
+		Returns the path of the used
+		<span class="emphasis"><em>bitcontrol&reg; 
+			Digital TV Link</em></span>
+	</p><div class="figure"><a name="N1081F"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum1"&gt;
+	&lt;![CDATA[
+	DTVLink.DataFolder
+]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.28.&nbsp;
+			JScript Snippet request for
+			<span class="emphasis"><em>Get DataFolder</em></span>
+		</b></p></div><br class="figure-break"><p>
+		The result is the path url of the folder that contains the bitcontrol&reg; Digital TV Link program data (all plug-in configurations and the website).
+	</p><div class="figure"><a name="N1082C"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum1"&gt;C:\ProgramData\BitCtrl\DTVLink\&lt;/Result&gt;   	
+		</pre></div><p class="title"><b>Figure&nbsp;A.29.&nbsp;
+			JScript Snippet server response for
+			<span class="emphasis"><em>Get DataFolder</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>
+		The path url in <span class="emphasis"><em>Windows Explorer</em></span> opens the bitcontrol&reg; Digital TV Link folder (see <a class="xref" href="apa.html#sdk_b_datafolder_showpath" title="Figure&nbsp;A.30.&nbsp; The disk space of the bitcontrol&reg; Digital TV Link">Figure&nbsp;A.30, &ldquo;
+			The disk space of the bitcontrol&reg; Digital TV Link
+		&rdquo;</a>).
+	</p><div class="figure"><a name="sdk_b_datafolder_showpath"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/datafolder_showPath.PNG" align="middle" alt="The disk space of the bitcontrol&reg; Digital TV Link"></div></div><p class="title"><b>Figure&nbsp;A.30.&nbsp;
+			The disk space of the bitcontrol&reg; Digital TV Link
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10849"></a>A.2.7.&nbsp;Get LicenseRegnum</h3></div></div></div><p>
+		Returns the license number of the used
+		<span class="emphasis"><em>bitcontrol&reg;</em></span>
+			Digital TV Link
+	</p><div class="figure"><a name="N10851"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum2"&gt;
+	&lt;![CDATA[
+	DTVLink.LicenseRegnum
+ ]]&gt;
+&lt;/Script&gt;		
+		</pre></div><p class="title"><b>Figure&nbsp;A.31.&nbsp;
+			JScript Snippet request for
+			<span class="emphasis"><em>Get LicenseRegnum</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>
+		The licence number of <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> is displayed as result in the response area. 
+	</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>To see a license number you must have a license key.</div><div class="figure"><a name="N10863"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum2"&gt;YGBTL-UD9AE-RLRBA-MFHPD-5P7C4&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.32.&nbsp;
+			JScript Snippet server response for
+			<span class="emphasis"><em>Get LicenseRegnum</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><div class="figure"><a name="sdk_b_licenseRegnum_licenseName"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/licenseRegnum_licenseName.png" align="middle" alt="License key in About area via bitcontrol&reg; Digital TV Link Options menu"></div></div><p class="title"><b>Figure&nbsp;A.33.&nbsp;
+			License key in <span class="emphasis"><em>About</em></span> area via <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> menu 
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N1087E"></a>A.2.8.&nbsp;Get LicenseName</h3></div></div></div><p>
+		Returns the name of the <span class="emphasis"><em>bitcontrol&reg; 
+		Digital TV Link</em></span> licensee 
+	</p><div class="figure"><a name="N10886"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum0"&gt;
+	&lt;![CDATA[
+	DTVLink.LicenseName
+ ]]&gt;
+&lt;/Script&gt;		
+		</pre></div><p class="title"><b>Figure&nbsp;A.34.&nbsp;
+			JScript Snippet request for
+			<span class="emphasis"><em>Get LicenseRegnum</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>
+		The result is the name of the 
+		<span class="emphasis"><em>bitcontrol&reg; 
+		Digital TV Link</em></span>  licensee. It's the same name as in the <span class="emphasis"><em>About</em></span> area that can be opened via <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> menu (see <a class="xref" href="apa.html#sdk_b_licenseRegnum_licenseName" title="Figure&nbsp;A.33.&nbsp; License key in About area via bitcontrol&reg; Digital TV Link Options menu">Figure&nbsp;A.33, &ldquo;
+			License key in About area via bitcontrol&reg; Digital TV Link Options menu 
+		&rdquo;</a>).</p><div class="figure"><a name="N1089F"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum3"&gt;Mustermann&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.35.&nbsp;
+			JScript server for
+			<span class="emphasis"><em>Get LicenseName</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N108AA"></a>A.2.9.&nbsp;Get URL</h3></div></div></div><p>
+		Returns the URL of
+		the <span class="emphasis"><em>bitcontrol&reg;
+		Digital TV Link</em></span> server
+	</p><div class="figure"><a name="N108B2"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum0"&gt;
+	&lt;![CDATA[
+	DTVLink.URL
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.36.&nbsp;
+			JScript Snippet request for
+			<span class="emphasis"><em>Get URL</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>
+		The result server URL has no port number. The default port is 80. The port can be changed by editing the <span class="emphasis"><em>Server.xml</em></span> file.
+	</p><div class="figure"><a name="N108C2"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum0"&gt;dtvl://localhost&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.37.&nbsp;
+			JScript server response for
+			<span class="emphasis"><em>Get URL</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N108CD"></a>A.2.10.&nbsp;Get EnablePlugins / Get AutoloadPlugins /Get AutostartPlugins</h3></div></div></div><p>
+	These JScript snippets are used to get information about the plug-in states of a <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> instance that are configured by a third party application (e.g. bitcontrol&reg; Video Streaming Server). </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>The use of the JScript snippets only makes sense when starting <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span>.</div><div class="figure"><a name="N108DA"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum1"&gt;
+	&lt;![CDATA[
+	DTVLink.EnablePlugins
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.38.&nbsp;Example
+			JScript Snippet request for
+			<span class="emphasis"><em>Get Enable Plugins</em></span>
+		</b></p></div><br class="figure-break"><p>The response is a boolean value that is valid for all <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> plug-ins of the instance.</p><div class="figure"><a name="N108EA"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum1"&gt;true&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.39.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get Enable Plugins</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><div class="informaltable"><table border="1"><colgroup><col><col></colgroup><thead><tr><th>JScript Snippet</th><th>Response</th></tr></thead><tbody><tr><td>Get EnablePlugins</td><td>If the response is <span class="emphasis"><em>true</em></span>, all plug-ins that are marked as <span class="emphasis"><em>enabled</em></span> will be immediately available but must be probably started by hand.</td></tr><tr><td>Get AutoloadPlugins</td><td>If the response is <span class="emphasis"><em>true</em></span>, all plug-ins that are marked as <span class="emphasis"><em>Manual</em></span> or <span class="emphasis"><em>Auto</em></span> will loaded.</td></tr><tr><td>Get AutostartPlugins</td><td>If the response is <span class="emphasis"><em>true</em></span>, all plug-ins that are marked as <span class="emphasis"><em>Auto</em></span> will started automatically.</td></tr></tbody></table></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10923"></a>A.2.11.&nbsp;Get RestoreLastChannel / Get AutoJitter / Get PreferAC3  / Get SetDefaultOnAir / Get ShowConsole </h3></div></div></div><p>Each of these JScript snippets return the state of a <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> preference option.</p><div class="figure"><a name="N1092B"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum14"&gt;
+	&lt;![CDATA[
+	DTVLink.RestoreLastChannel
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.40.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get RestoreLastChannel</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is a boolean value that means the option is enabled (true) or disabled (false).</p><div class="figure"><a name="N10938"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum14"&gt;true&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.41.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get RestoreLastChannel</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next picture shows preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues. Red marked area (see <a class="xref" href="apa.html#sdk_b_some_options" title="Figure&nbsp;A.42.&nbsp; Functions in bitcontrol&reg; Digital TV Link Options preferences area that are read out by the JScript Snippits">Figure&nbsp;A.42, &ldquo;
+			Functions in bitcontrol&reg; Digital TV Link Options preferences area that are read out by the JScript Snippits
+		&rdquo;</a>) contains the functions that are read out by the JScript Snippits.</p><div class="figure"><a name="sdk_b_some_options"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/some_options.png" align="middle" alt="Functions in bitcontrol&reg; Digital TV Link Options preferences area that are read out by the JScript Snippits"></div></div><p class="title"><b>Figure&nbsp;A.42.&nbsp;
+			Functions in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> preferences area that are read out by the JScript Snippits
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10958"></a>A.2.12.&nbsp;Get EnableVideoOutPin / Get EnableAudioOutPin</h3></div></div></div><p>Returns the state of the <span class="emphasis"><em>Video Output Pin</em></span> / <span class="emphasis"><em>Audio Output Pin</em></span> option</p><div class="figure"><a name="N10963"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	DTVLink.EnableVideoOutPin
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.43.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get EnableVideoOutPin</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is a boolean value that means the option is enabled (true) or disabled (false).</p><div class="figure"><a name="N10970"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum15"&gt;true&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.44.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get EnableVideoOutPin</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next picture shows preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues. Red marked (see <a class="xref" href="apa.html#sdk_b_enable_Video_Audio_pin" title="Figure&nbsp;A.45.&nbsp; Video Output Pin / Audio Output Pin options in bitcontrol&reg; Digital TV Link Options preferences dialogue">Figure&nbsp;A.45, &ldquo;
+			Video Output Pin / Audio Output Pin options in bitcontrol&reg; Digital TV Link Options preferences dialogue
+		&rdquo;</a>) are the functions that are read out by the JScript Snippits.</p><div class="figure"><a name="sdk_b_enable_Video_Audio_pin"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/enable_Video_Audio_pin.png" align="middle" alt="Video Output Pin / Audio Output Pin options in bitcontrol&reg; Digital TV Link Options preferences dialogue"></div></div><p class="title"><b>Figure&nbsp;A.45.&nbsp;
+			<span class="emphasis"><em>Video Output Pin</em></span> / <span class="emphasis"><em>Audio Output Pin</em></span> options in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> preferences dialogue
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10996"></a>A.2.13.&nbsp;Get VideoDecId / Get AudioDecId</h3></div></div></div><p>Returns the Id and the name of the currently used <span class="emphasis"><em>Video Decoder</em></span> / <span class="emphasis"><em>Audio Decoder</em></span></p><div class="figure"><a name="N109A0"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum1"&gt;
+	&lt;![CDATA[
+	DTVLink.VideoDecoderId
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.46.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get VideoDecoderId</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is the registry number and the name of the currently used video decoder / audio decoder.</p><div class="figure"><a name="N109AD"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum1"&gt;
+{BECD3686-53B3-4C9E-935F-A69E06BFB44A}/bitcontrol Video Decoder
+&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.47.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get VideoDeocederId</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next picture shows preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues. Red marked (see <a class="xref" href="apa.html#sdk_b_videodecoderid" title="Figure&nbsp;A.48.&nbsp; Video Decoder field in bitcontrol&reg; Digital TV Link Options preferences dialogue">Figure&nbsp;A.48, &ldquo;
+			Video Decoder field in bitcontrol&reg; Digital TV Link Options preferences dialogue 
+		&rdquo;</a>) is the field that is read out by the JScript Snippits.</p><div class="figure"><a name="sdk_b_videodecoderid"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/video_decoder_id.png" align="middle" alt="Video Decoder field in bitcontrol&reg; Digital TV Link Options preferences dialogue"></div></div><p class="title"><b>Figure&nbsp;A.48.&nbsp;
+			<span class="emphasis"><em>Video Decoder</em></span> field in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> preferences dialogue 
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N109D0"></a>A.2.14.&nbsp;Get VideoFormatDescription / Get AudioFormatDescription</h3></div></div></div><p>Returns some format values of the currently used <span class="emphasis"><em>Video Decoder</em></span> / <span class="emphasis"><em>Audio Decoder</em></span></p><div class="figure"><a name="N109DA"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum2"&gt;
+	&lt;![CDATA[
+	DTVLink.VideoFormatDescription
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.49.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get VideoFormatDescription</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response contains the format, the resolution and the transmission method of the currently used video decoder / audio decoder.</p><div class="figure"><a name="N109E7"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum2"&gt;MPEG2, 720x576, PAL&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.50.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get VideoFormatDescription</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next picture shows preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues. Red marked (see <a class="xref" href="apa.html#sdk_b_get_video_audio_format" title="Figure&nbsp;A.51.&nbsp; Video Decoder field in bitcontrol&reg; Digital TV Link Options preferences dialogue">Figure&nbsp;A.51, &ldquo;
+			Video Decoder field in bitcontrol&reg; Digital TV Link Options preferences dialogue 
+		&rdquo;</a>) are the fields that are read out by the JScript Snippits.</p><div class="figure"><a name="sdk_b_get_video_audio_format"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/get_video_audio_format.png" align="middle" alt="Video Decoder field in bitcontrol&reg; Digital TV Link Options preferences dialogue"></div></div><p class="title"><b>Figure&nbsp;A.51.&nbsp;
+			<span class="emphasis"><em>Video Decoder</em></span> field in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> preferences dialogue 
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10A0A"></a>A.2.15.&nbsp;Get BufferingTime</h3></div></div></div><p>Returns the <span class="emphasis"><em>Renderer buffering time</em></span></p><div class="figure"><a name="N10A11"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum3"&gt;
+	&lt;![CDATA[
+	DTVLink.BufferingTime
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.52.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get BufferingTime</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is the buffering time value in milliseconds.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>If the response value is negative, the <span class="emphasis"><em>Auto</em></span> option is not active.</div><div class="figure"><a name="N10A23"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum3"&gt;400&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.53.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get BufferingTime</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next picture shows preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues. Red marked (see <a class="xref" href="">???</a>) are the fields that are read out by the JScript Snippit.</p><div class="figure"><a name="sdk_b_get_buffering_time"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/get_buffering_time.png" align="middle" alt="Renderer buffering time option and selection field in bitcontrol&reg; Digital TV Link Options preferences dialogue"></div></div><p class="title"><b>Figure&nbsp;A.54.&nbsp;
+			<span class="emphasis"><em>Renderer buffering time</em></span> option and selection field in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> preferences dialogue 
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10A46"></a>A.2.16.&nbsp;Get FOURCCMap</h3></div></div></div><p>Returns the contents of the FOURCC mapping table</p><div class="figure"><a name="N10A4B"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum4"&gt;
+	&lt;![CDATA[
+	DTVLink.FOURCCMap
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.55.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get FOURCCMap</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response contains all entries of the FOURCC mapping table.</p><div class="figure"><a name="N10A58"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum4"&gt;h263=H263,h264=H264,x264=H264,X264=H264,
+mp4v=MP4V,fmp4=MP4V,FMP4=MP4V,smp4=MP4V,SMP4=MP4V,3iv2=MP4V,3IV2=MP4V&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.56.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get FOURCCMap</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next picture shows preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues. Red marked (see <a class="xref" href="apa.html#sdk_b_get_fourccmap" title="Figure&nbsp;A.57.&nbsp; FOURCC Map Table button in bitcontrol&reg; Digital TV Link Options preferences dialogue and FOURCC map window">Figure&nbsp;A.57, &ldquo;
+			FOURCC Map Table button in bitcontrol&reg; Digital TV Link Options preferences dialogue and FOURCC map window
+		&rdquo;</a>) is the button to open the FOURCC table window that is read out by the JScript Snippit.</p><div class="figure"><a name="sdk_b_get_fourccmap"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/get_fourccmap.png" align="middle" alt="FOURCC Map Table button in bitcontrol&reg; Digital TV Link Options preferences dialogue and FOURCC map window"></div></div><p class="title"><b>Figure&nbsp;A.57.&nbsp;
+			<span class="emphasis"><em>FOURCC Map Table</em></span> button in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> preferences dialogue and FOURCC map window
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10A7B"></a>A.2.17.&nbsp;Get MediaLanguageLANGID</h3></div></div></div><p>Returns the Id of the currently set <span class="emphasis"><em>Preffered media language</em></span></p><div class="figure"><a name="N10A82"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum5"&gt;
+	&lt;![CDATA[
+	DTVLink.MediaLanguageLANGID
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.58.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>MediaLanguageLANGID</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is the Windows system number that represents the id of currently set <span class="emphasis"><em>Preffered media language</em></span>. In the example case it is 1033 for English.</p><div class="figure"><a name="N10A92"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum5"&gt;1033&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.59.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get MediaLanguageLANGID</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next picture shows preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues. Red marked (see <a class="xref" href="apa.html#sdk_b_get_prefferedlanguage" title="Figure&nbsp;A.60.&nbsp; Preffered media language field in bitcontrol&reg; Digital TV Link Options preferences dialogue">Figure&nbsp;A.60, &ldquo;
+			Preffered media language field in bitcontrol&reg; Digital TV Link Options preferences dialogue 
+		&rdquo;</a>) is the fields that are read out by the JScript Snippit.</p><div class="figure"><a name="sdk_b_get_prefferedlanguage"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/get_prefferedlanguage.png" align="middle" alt="Preffered media language field in bitcontrol&reg; Digital TV Link Options preferences dialogue"></div></div><p class="title"><b>Figure&nbsp;A.60.&nbsp;
+			<span class="emphasis"><em>Preffered media language</em></span> field in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> preferences dialogue 
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10AB5"></a>A.2.18.&nbsp;Get VideoDecoderList / Get AudioDecoderList</h3></div></div></div><p>Returns a list of all available <span class="emphasis"><em>Video Decoder</em></span> / <span class="emphasis"><em>Audio Decoder</em></span></p><div class="figure"><a name="N10ABF"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum2"&gt;
+	&lt;![CDATA[
+	DTVLink.VideoDecodersList
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.61.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get VideoDecoderList</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response lists the registry number and the corresponding name of all available video decoder / audio decoder.</p><div class="figure"><a name="N10ACC"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum2"&gt;
+{04FE9017-F873-410E-871E-AB91661A4EF7}/ffdshow Video Decoder
+{FEB50740-7BEF-11CE-9BD9-0000E202599C}/MPEG Video Decoder
+{EE30215D-164F-4A92-A4EB-9D4C13390F9F}/LAV Video Decoder
+{4A69B442-28BE-4991-969C-B500ADF5D8A8}/Mpeg4s Decoder DMO
+{4A69B442-28BE-4991-969C-B500ADF5D8A8}/WMVideo Decoder DMO
+{4A69B442-28BE-4991-969C-B500ADF5D8A8}/Mpeg43 Decoder DMO
+{4A69B442-28BE-4991-969C-B500ADF5D8A8}/Mpeg4 Decoder DMO
+{B1B77C00-C3E4-11CF-AF79-00AA00B67A42}/DV Video Decoder
+{A888DF60-1E90-11CF-AC98-00AA004C0FA9}/AVI Draw
+{301056D0-6DFF-11D2-9EEB-006008039E37}/MJPEG Decompressor
+{BECD3686-53B3-4C9E-935F-A69E06BFB44A}/bitcontrol Video Decoder
+{212690FB-83E5-4526-8FD7-74478B7939CD}/Microsoft DTV-DVD Video Decoder
+&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.62.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get VideoDecoderList</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next pictures show preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues. Red marked (see <a class="xref" href="apa.html#sdk_b_get_videodecoderlist.png" title="Figure&nbsp;A.63.&nbsp; Video decoder list in bitcontrol&reg; Digital TV Link Options preferences dialogue">Figure&nbsp;A.63, &ldquo;
+			Video decoder list in bitcontrol&reg; Digital TV Link Options preferences dialogue 
+		&rdquo;</a> and <a class="xref" href="">???</a>) is the decoder list that are read out by the JScript Snippit.</p><div class="figure"><a name="sdk_b_get_videodecoderlist.png"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/get_videodecoderlist.png" align="middle" alt="Video decoder list in bitcontrol&reg; Digital TV Link Options preferences dialogue"></div></div><p class="title"><b>Figure&nbsp;A.63.&nbsp;
+			Video decoder list in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> preferences dialogue 
+		</b></p></div><br class="figure-break"><div class="figure"><a name="sdk_b_get_videodecoderlist_decoder"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/get_videodecoderlist_decoder.png" align="middle" alt="Video decoder list in bitcontrol&reg; Digital TV Link Options decoder dialogue"></div></div><p class="title"><b>Figure&nbsp;A.64.&nbsp;
+			Video decoder list in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> decoder dialogue 
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10AFC"></a>A.2.19.&nbsp;Get Storage</h3></div></div></div><p>If <span class="emphasis"><em>Get Storage</em></span> is used with default settings, the snippit response will be the same as <span class="emphasis"><em>Get StorageFilename</em></span>.</p><p>If <span class="emphasis"><em>Storage</em></span> is defined as object, the snippit return will be the object content as string.</p><div class="figure"><a name="N10B0C"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum0"&gt;
+	&lt;![CDATA[
+	DTVLink.Storage
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.65.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get Storage</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10B17"></a>A.2.20.&nbsp;Get StorageFilename</h3></div></div></div><p>Returns the name of the <span class="emphasis"><em>Storage</em></span> file.</p><p>If the default settings are used, the name of the <span class="emphasis"><em>Storage</em></span> file will be <span class="emphasis"><em>DTVLink.xml</em></span> (<span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> configuration file).</p><div class="figure"><a name="N10B2A"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum0"&gt;
+	&lt;![CDATA[
+	DTVLink.StorageFilename
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.66.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get StorageFilename</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is a path that ends with the name of the <span class="emphasis"><em>Storage</em></span> file <span class="emphasis"><em>DTVLink.xml</em></span>. </p><div class="figure"><a name="N10B3D"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum0"&gt;C:\ProgramData\BitCtrl\DTVLink\DTVLink.xml&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.67.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get Storage</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10B48"></a>A.2.21.&nbsp;Get StorageXMLDocument / Get StorageXMLElement / Get StorageXMLElementProperties</h3></div></div></div><p>Returns the content of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> configuration file (<span class="emphasis"><em>DTVLink.xml</em></span>)</p><div class="itemizedlist"><ul type="disc"><li><span class="emphasis"><em>Get StorageXMLDocument</em></span>: Returns the whole content of the xml document</li><li><span class="emphasis"><em>Get StorageXMLElement</em></span>: Returns only the content of the <span class="emphasis"><em>DTVLink tag</em></span></li><li><span class="emphasis"><em>Get StorageXMLElementProperties</em></span>: Returns the properties of the <span class="emphasis"><em>DTVLink tag</em></span></li></ul></div><div class="figure"><a name="N10B64"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum0"&gt;
+	&lt;![CDATA[
+	DTVLink.StorageXMLElement.xml
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.68.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get StorageXMLElement</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>The extention <span class="emphasis"><em>.xml</em></span> behind <span class="emphasis"><em>StorageXMLElement</em></span> means that the output will be a xml file. Without that extention, there will be no result.</div><p>The next picture shows a part of the JScript Snippit server response. Red marked (see <a class="xref" href="apa.html#sdk_b_get_storageXMLelement" title="Figure&nbsp;A.69.&nbsp; Server response for the example. Red marked is the DTVLink tag.">Figure&nbsp;A.69, &ldquo;
+			Server response for the example. Red marked is the DTVLink tag.
+		&rdquo;</a>) is the <span class="emphasis"><em>DTVLink tag</em></span>.</p><div class="figure"><a name="sdk_b_get_storageXMLelement"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/get_storageXMLelement.png" align="middle" alt="Server response for the example. Red marked is the DTVLink tag."></div></div><p class="title"><b>Figure&nbsp;A.69.&nbsp;
+			Server response for the example. Red marked is the <span class="emphasis"><em>DTVLink tag</em></span>.
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10B8C"></a>A.2.22.&nbsp;Get Scenario</h3></div></div></div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>This snippit requires a saved <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> scenario. More information about <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> scenarios can be found in <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> user manual.</div><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> must be started with a saved scenario!</div><p>Returns the path to the scenario file</p><div class="figure"><a name="N10BA0"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum0"&gt;
+	&lt;![CDATA[
+	DTVLink.Scenario
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.70.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get Scenario</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is the path to the scenario that was used to start <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span>.</p><div class="figure"><a name="N10BB0"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum0"&gt;C:\scenarios\test_scenario.dtv&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.71.&nbsp;JScript Snippet server response for
+			<span class="emphasis"><em>Get Scenario</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10BBB"></a>A.2.23.&nbsp;Get EnableLogFile</h3></div></div></div><p>Returns the state of the <span class="emphasis"><em>Save Log</em></span> option</p><div class="figure"><a name="N10BC3"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	DTVLink.EnableLogFile
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.72.&nbsp;JScript Snippet request for <span class="emphasis"><em>Get EnableLogFile</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is a boolean value that means the option is enabled (true) or disabled (false).</p><div class="figure"><a name="N10BD0"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum15"&gt;true&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.73.&nbsp;JScript Snippet server response for
+			<span class="emphasis"><em>Get EnableLogFile</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>Picture <a class="xref" href="apa.html#sdk_b_get_DTVLink_log_options" title="Figure&nbsp;A.76.&nbsp; bitcontrol&reg; Digital TV Link log option and log preferences">Figure&nbsp;A.76, &ldquo;
+			bitcontrol&reg; Digital TV Link log option and log preferences
+		&rdquo;</a> shows the <span class="emphasis"><em>Save Log</em></span> option in the preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues (red marked).</p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10BE6"></a>A.2.24.&nbsp;Get LogFilename</h3></div></div></div><p>Returns the path to the log file</p><div class="figure"><a name="N10BEB"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	DTVLink.LogFilename
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.74.&nbsp;JScript Snippet request for <span class="emphasis"><em>Get LogFilename</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is the path to the log file..</p><div class="figure"><a name="N10BF8"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum15"&gt;C:\DTVLink_Logs\20140710_DTVLink_log.txt&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.75.&nbsp;JScript Snippet server response for
+			<span class="emphasis"><em>Get LogFilename</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next picture shows the log file path in the preferences area of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues (red marked).</p><div class="figure"><a name="sdk_b_get_DTVLink_log_options"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/get_DTVLink_log_options.png" align="middle" alt="bitcontrol&reg; Digital TV Link log option and log preferences"></div></div><p class="title"><b>Figure&nbsp;A.76.&nbsp;
+			<span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> log option and log preferences
+		</b></p></div><br class="figure-break"><p>Picture <a class="xref" href="apa.html#sdk_b_DTVLink_log_file" title="Figure&nbsp;A.77.&nbsp; Example of a bitcontrol&reg; Digital TV Link log file">Figure&nbsp;A.77, &ldquo;
+			Example of a bitcontrol&reg; Digital TV Link log file
+		&rdquo;</a> shows an example of a <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> log file.</p><div class="figure"><a name="sdk_b_DTVLink_log_file"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/DTVLink_log_file.png" align="middle" alt="Example of a bitcontrol&reg; Digital TV Link log file"></div></div><p class="title"><b>Figure&nbsp;A.77.&nbsp;
+			Example of a <span class="emphasis"><em>bitcontrol&reg; Digital TV Link</em></span> log file
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10C2A"></a>A.2.25.&nbsp;Get OptionsDialogVisible / Get ShowConsole / Get SystrayVisible</h3></div></div></div><div class="itemizedlist"><ul type="disc"><li><span class="emphasis"><em>Get OptionsDialogVisible</em></span>: Returns the state of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues</li><li><span class="emphasis"><em>Get ShowConsole</em></span>: Returns the state of the console</li><li><span class="emphasis"><em>Get ShowConsole</em></span>: Returns the state of the systray icon in the footline of the desktop</li></ul></div><p>If the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues / console / systray icon are open or visible, the result will be true. Elsewise the result will be false.</p><div class="figure"><a name="N10C42"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	DTVLink.OptionsDialogVisible
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.78.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get OptionsDialogVisible</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The response is a boolean value that means the option is enabled (true) or disabled (false). In this case it is true, that means the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues were open.</p><div class="figure"><a name="N10C52"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum15"&gt;true&lt;/Result&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.79.&nbsp;Example JScript Snippet server response for
+			<span class="emphasis"><em>Get OptionsDialogVisible</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10C5D"></a>A.2.26.&nbsp;Show OptionsDialog /Show Console / Show SystrayIcon</h3></div></div></div><div class="itemizedlist"><ul type="disc"><li><span class="emphasis"><em>Show OptionsDialog</em></span>: Opens or closes the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues.</li><li><span class="emphasis"><em>Show Console</em></span>: Opens or closes the console.</li><li><span class="emphasis"><em>Show SystrayIcon</em></span>: Opens or closes the sysray icon.</li></ul></div><p>For this the value <span class="emphasis"><em>true</em></span> (open) or <span class="emphasis"><em>true</em></span> (close) can be set.</p><div class="figure"><a name="N10C78"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	DTVLink.OptionsDialogVisible = true;
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.80.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Show OptionsDialog</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The example request above opens the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues that were not open before.</p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>The option for setting the systray icon visible / invisible can be found in <span class="emphasis"><em>Systray</em></span> window of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues (see <a class="xref" href="apa.html#sdk_b_systray_icon_visible_invisible" title="Figure&nbsp;A.81.&nbsp; Systray icon visible / invisible option in Systray window of the bitcontrol&reg; Digital TV Link Options dialogues">Figure&nbsp;A.81, &ldquo;
+			Systray icon visible / invisible option in Systray window of the bitcontrol&reg; Digital TV Link Options dialogues
+		&rdquo;</a>).</div><div class="figure"><a name="sdk_b_systray_icon_visible_invisible"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/systray_icon_visible_invisible.png" align="middle" alt="Systray icon visible / invisible option in Systray window of the bitcontrol&reg; Digital TV Link Options dialogues"></div></div><p class="title"><b>Figure&nbsp;A.81.&nbsp;
+			Systray icon visible / invisible option in <span class="emphasis"><em>Systray</em></span> window of the <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10CA3"></a>A.2.27.&nbsp;Get All Channels</h3></div></div></div><p>Returns the channels of all started plug-ins and their properties</p><p>The next code shows the Jscript Snippit for <span class="emphasis"><em>Get All Channels</em></span>. Expressions that are marked with <span class="emphasis"><em>//</em></span> will not be returned.</p><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum0"&gt;
+	&lt;![CDATA[
+	for (var i in DTVLink.Plugins) {
+	var plugin = DTVLink.Plugins[i];
+	if ((plugin.Plugin != null) &amp;&amp; (plugin.Plugin.Channels != undefined)) {
+		var receiver = plugin.Plugin;
+		var channels = receiver.Channels;
+		var xmlreceiver = XMLResponse.ownerDocument.createElement('Receiver');
+		XMLResponse.appendChild(xmlreceiver);
+		xmlreceiver.setAttribute('Name', plugin.Name);
+		xmlreceiver.setAttribute('Channels', channels.Count);
+		for (var i in channels) {
+			var channel = channels[i];
+			var xml = XMLResponse.ownerDocument.createElement('Channel');
+			xmlreceiver.appendChild(xml);
+			xml.setAttribute('Id', channel.Id);
+			xml.setAttribute('Name', channel.Name);
+			xml.setAttribute('Provider', channel.Provider);
+			xml.setAttribute('Type', channel.Type);
+			xml.setAttribute('Network', channel.Network);
+			xml.setAttribute('Bouquets', channel.Bouquets);
+			xml.setAttribute('URL', channel.URL);
+			//xml.setAttribute('SID', channel.SID);
+			//xml.setAttribute('PMT_PID', channel.PMT_PID);
+			//xml.setAttribute('PCR_PID', channel.PCR_PID);
+			//xml.setAttribute('Video_PID', channel.Video_PID);
+			//xml.setAttribute('Audio_PID', channel.Audio_PID);
+			//xml.setAttribute('FreeCA', channel.FreeCA);
+			//xml.setAttribute('LNB', channel.LNB);
+			//xml.setAttribute('Kanal', channel.Kanal);
+			//xml.setAttribute('FrequencyKHz', channel.FrequencyKHz);
+			//xml.setAttribute('SymbolRate', channel.SymbolRate);
+			//xml.setAttribute('Polarity', channel.Polarity);
+			//xml.setAttribute('FEC', channel.FEC);
+			//xml.setAttribute('FECMethod', channel.FECMethod);
+			//xml.setAttribute('Modulation', channel.Modulation);
+			//xml.setAttribute('Bandwidth', channel.Bandwidth);
+			//xml.setAttribute('GuardInterval', channel.GuardInterval);
+			//xml.setAttribute('TransmissionMode', channel.TransmissionMode);
+			//xml.setAttribute('SpectralInversion', channel.SpectralInversion);
+			//xml.setAttribute('ModulationSystem', channel.ModulationSystem);
+			//xml.setAttribute('RollOff', channel.RollOff);
+			//xml.setAttribute('Pilot', channel.Pilot);
+			}
+		}
+	}
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre><p>The result shows that there are two plug-ins started (<span class="emphasis"><em>AXIS</em></span> plug-in line 3 and <span class="emphasis"><em>File</em></span> plug-in line 10). Each plug-in has one active channel (also line 3 and line 10). In addition to these information, the available channel properties are displayed too.</p><div class="figure"><a name="N10CBB"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum0"&gt;
+    &lt;Receiver Name="AXIS" Channels="1"&gt;
+        &lt;Channel Id="0" 
+        Name="AXIS M3011 - 00408C9492B7" 
+        Provider="" Type="1" 
+        Network="unicast" Bouquets="" 
+        URL="rtsp://192.168.1.28/axis-media/media.amp?videocodec=mpeg4"/&gt;
+    &lt;/Receiver&gt;
+    &lt;Receiver Name="File" Channels="1"&gt;
+        &lt;Channel Id="2" 
+        Name="FIFASPOT_LVB_3gmp4_352x288.mp4" 
+        Provider="" 
+        Type="1" Network="" 
+        Bouquets="" 
+        URL="H:\video_samples\MPEG-4 3GP\FIFASPOT_LVB_3gmp4_352x288.mp4"/&gt;
+    &lt;/Receiver&gt;
+&lt;/Result&gt;
+		</pre></div><p class="title"><b>Figure&nbsp;A.82.&nbsp;JScript Snippet server response for <span class="emphasis"><em>Show All Channels</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10CC6"></a>A.2.28.&nbsp;Statistics</h3></div></div></div><p>Returns statistical values of the channel the is currently in use</p><div class="figure"><a name="N10CCB"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum3"&gt;
+	&lt;![CDATA[
+	var stat = DTVLink.Statistics;
+	var xmlstat = XMLResponse.ownerDocument.createElement('Statistics');
+	var xmlstatvideo = XMLResponse.ownerDocument.createElement('Video');
+	var xmlstataudio = XMLResponse.ownerDocument.createElement('Audio');
+	XMLResponse.appendChild(xmlstat);
+	xmlstat.appendChild(xmlstatvideo);
+	xmlstat.appendChild(xmlstataudio);
+	xmlstatvideo.setAttribute('FCC', stat.VideoFCC);
+	xmlstatvideo.setAttribute('ReceivedBytes', stat.VideoReceivedBytes);
+	xmlstatvideo.setAttribute('ReceivedPackets', stat.VideoReceivedPackets);
+	xmlstatvideo.setAttribute('BufferFillBytes', stat.VideoBufferFillBytes);
+	xmlstatvideo.setAttribute('BufferFillTimeSec', stat.VideoBufferFillTimeSec);
+	xmlstatvideo.setAttribute('StreamTimestampSec',stat.VideoStreamTimestampSec);
+	xmlstataudio.setAttribute('FCC', stat.AudioFCC); 
+	xmlstataudio.setAttribute('ReceivedBytes', stat.AudioReceivedBytes);
+	xmlstataudio.setAttribute('ReceivedPackets', stat.AudioReceivedPackets);
+	xmlstataudio.setAttribute('BufferFillBytes', stat.AudioBufferFillBytes);
+	xmlstataudio.setAttribute('BufferFillTimeSec', stat.AudioBufferFillTimeSec);
+	xmlstataudio.setAttribute('StreamTimestampSec', stat.AudioStreamTimestampSec);
+	xmlstat.setAttribute('Substreams', stat.SubstreamsCount);
+	for (i=0; i&lt;stat.SubstreamsCount; i++) {
+		var xmlstatsubstream = XMLResponse.ownerDocument.createElement('Substream');
+		xmlstat.appendChild(xmlstatsubstream);
+		xmlstatsubstream.setAttribute('Type', stat.GetSubstreamType(i));
+		xmlstatsubstream.setAttribute('FCC', stat.GetSubstreamFCC(i));
+		xmlstatsubstream.setAttribute('Id', stat.GetSubstreamId(i));
+		xmlstatsubstream.setAttribute('Description', stat.GetSubstreamDescription(i));
+		xmlstatsubstream.setAttribute('ReceivedBytes', stat.GetSubstreamReceivedBytes(i));
+		xmlstatsubstream.setAttribute('ReceivedSamples', 
+		stat.GetSubstreamReceivedSamples(i));
+		xmlstatsubstream.setAttribute('PacketizedSamples', 
+		stat.GetSubstreamPacketizedSamples(i));
+		xmlstatsubstream.setAttribute('LastOriginalTimestampSec', 
+		tat.GetSubstreamLastOriginalTimestampSec(i));
+		xmlstatsubstream.setAttribute('LastOriginalDTSSec', 
+		stat.GetSubstreamLastOriginalDTSSec(i));
+		xmlstatsubstream.setAttribute('LastOriginalPTSSec', 
+		stat.GetSubstreamLastOriginalPTSSec(i));
+		xmlstatsubstream.setAttribute('TimestampAverageJitterSec', 
+		stat.GetSubstreamTimestampAverageJitterSec(i));
+	}
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.83.&nbsp;JScript Snippet request for <span class="emphasis"><em>Statistics</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The result is a screenshot of available statistical values of the channel the is currently in use.</p><div class="figure"><a name="N10CD8"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum3"&gt;
+    &lt;Statistics Substreams=""&gt;
+        &lt;Video FCC="MP4V" 
+        ReceivedBytes="27963913" 
+        ReceivedPackets="31570" 
+        BufferFillBytes="1.84467440737095E+19" 
+        BufferFillTimeSec="0" 
+        StreamTimestampSec="5.92"/&gt;
+        &lt;Audio FCC=" AAC" 
+        ReceivedBytes="237332" 
+        ReceivedPackets="39374" 
+        BufferFillBytes="0" 
+        BufferFillTimeSec="0" 
+        StreamTimestampSec="15994.1045403"/&gt;
+    &lt;/Statistics&gt;
+&lt;/Result&gt;
+		</pre></div><p class="title"><b>Figure&nbsp;A.84.&nbsp;JScript Snippet server response for <span class="emphasis"><em>Statistics</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10CE5"></a>A.2.29.&nbsp;Digital TV Link collections</h3></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h4 class="title"><a name="N10CE8"></a>A.2.29.1.&nbsp;Enumerate Satelittes / Enumertate Cables / Enumerate Terrestrials</h4></div></div></div><p>Returns the available transponders</p><div class="figure"><a name="N10CED"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	XMLResponse.setAttribute('Terrestrials', DTVLink.Terrestrials.Count);
+	for (var i in DTVLink.Terrestrials) {
+	var terrestrial = DTVLink.Terrestrials[i];
+	var xmlterrestrial = XMLResponse.ownerDocument.createElement('Terrestrial');
+	XMLResponse.appendChild(xmlterrestrial);
+	xmlterrestrial.setAttribute('Transponders', terrestrial.Transponders.Count);
+	xmlterrestrial.setAttribute('Id', terrestrial.Id);
+	xmlterrestrial.setAttribute('Name', terrestrial.Name);
+	}
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.85.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get Enumerate Terrestrials</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The result shows that one transponder was found.</p><div class="figure"><a name="N10CFA"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum1" Terrestrials="1"&gt;
+&lt;Terrestrial Transponders="57" Id="0" Name="Europe"/&gt;
+&lt;/Result&gt;
+		</pre></div><p class="title"><b>Figure&nbsp;A.86.&nbsp;Example JScript Snippet server response for <span class="emphasis"><em>Get Enumerate Terrestrials</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The <span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues contain a corresponding field for the example. It can be found in the <span class="emphasis"><em>BDA</em></span> plug-in preferences window (see red marked aera in <a class="xref" href="apa.html#sdk_b_enumerate_terrestrials" title="Figure&nbsp;A.87.&nbsp; Transponder in BDA plug-in preferences window">Figure&nbsp;A.87, &ldquo;
+			Transponder in BDA plug-in preferences window
+		&rdquo;</a>).</p><div class="figure"><a name="sdk_b_enumerate_terrestrials"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/enumerate_terrestrials.png" align="middle" alt="Transponder in BDA plug-in preferences window"></div></div><p class="title"><b>Figure&nbsp;A.87.&nbsp;
+			Transponder in <span class="emphasis"><em>BDA</em></span> plug-in preferences window
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h4 class="title"><a name="N10D1D"></a>A.2.29.2.&nbsp;Enumerate Satelittes (Extra) / Enumertate Cables (Extra) / Enumerate Terrestrials (Extra)</h4></div></div></div><p>Returns the available transponders and their channels</p><div class="figure"><a name="N10D22"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	XMLResponse.setAttribute('Terrestrials', DTVLink.Terrestrials.Count);
+	for (var i in DTVLink.Terrestrials) {
+	var terrestrial = DTVLink.Terrestrials[i];
+	var xmlterrestrial = XMLResponse.ownerDocument.createElement('Terrestrial');
+	XMLResponse.appendChild(xmlterrestrial);
+	xmlterrestrial.setAttribute('Transponders', terrestrial.Transponders.Count);
+	xmlterrestrial.setAttribute('Id', terrestrial.Id);
+	xmlterrestrial.setAttribute('Name', terrestrial.Name);
+	// Enum Transponders...
+	for (var t in terrestrial.Transponders) {
+		var transponder = terrestrial.Transponders[t];
+		var xmltransponder = XMLResponse.ownerDocument.createElement('Transponder');
+		xmlterrestrial.appendChild(xmltransponder);
+		xmltransponder.setAttribute('Id', transponder.Id);
+		xmltransponder.setAttribute('Name', transponder.Name);
+		xmltransponder.setAttribute('FrequencyKHz', transponder.FrequencyKHz);
+		xmltransponder.setAttribute('FEC', transponder.FEC);
+		xmltransponder.setAttribute('Modulation', transponder.Modulation);
+		xmltransponder.setAttribute('Bandwidth', transponder.Bandwidth);
+		xmltransponder.setAttribute('GuardInterval', transponder.GuardInterval);
+		xmltransponder.setAttribute('TransmissionMode', transponder.TransmissionMode);
+		}
+	}
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.88.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Get Enumerate Terrestrials</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The next picture shows the server response window for JScript Snippit <span class="emphasis"><em>Get Enumerate Terrestrials Extra</em></span>. In this case there is one Transponder named <span class="emphasis"><em>Region</em></span> available. The transponder has 69 channels. So 69 channel entries and their properties are visible too.</p><div class="figure"><a name="sdk_b_enumerate_terrestrials_extra_response"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/enumerate_terrestrials_extra_response.png" align="middle" alt="Part of the server response window for JScript Snippit Get Enumerate Terrestrials Extra"></div></div><p class="title"><b>Figure&nbsp;A.89.&nbsp;
+			Part of the server response window for JScript Snippit <span class="emphasis"><em>Get Enumerate Terrestrials Extra</em></span>
+		</b></p></div><br class="figure-break"><p>Picture <a class="xref" href="apa.html#sdk_b_enumerate_terrestrials_extra" title="Figure&nbsp;A.90.&nbsp; Transponder channels in BDA plug-in preferences window">Figure&nbsp;A.90, &ldquo;
+			Transponder channels in BDA plug-in preferences window
+		&rdquo;</a> shows the corresponding area in in <span class="emphasis"><em>BDA</em></span> plug-in preferences window (<span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues).</p><div class="figure"><a name="sdk_b_enumerate_terrestrials_extra"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/enumerate_terrestrials_extra.png" align="middle" alt="Transponder channels in BDA plug-in preferences window"></div></div><p class="title"><b>Figure&nbsp;A.90.&nbsp;
+			Transponder channels in <span class="emphasis"><em>BDA</em></span> plug-in preferences window
+		</b></p></div><br class="figure-break"></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="N10D5C"></a>A.2.30.&nbsp;Plug-ins</h3></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h4 class="title"><a name="sdk_s_enumerate_plugins"></a>A.2.30.1.&nbsp;Enumerate Plugins</h4></div></div></div><p>Returns the state of the plug-ins</p><div class="figure"><a name="N10D65"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	XMLResponse.setAttribute('Plugins', DTVLink.Plugins.Count);
+	for (var i in DTVLink.Plugins) {
+	var plugin = DTVLink.Plugins[i];
+	var xmlplugin = XMLResponse.ownerDocument.createElement('Plugin');
+	XMLResponse.appendChild(xmlplugin);
+	xmlplugin.setAttribute('Name', plugin.Name);
+	xmlplugin.setAttribute('State', plugin.State);
+	xmlplugin.setAttribute('Class', plugin.Class);
+	xmlplugin.setAttribute('Priority', plugin.Priority);
+	xmlplugin.setAttribute('StartupType', plugin.StartupType);
+	}
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.91.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Enumerate Plugins</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>The following properties and their states will be read ou by the JScript Snippit:</p><div class="itemizedlist"><ul type="disc"><li><span class="emphasis"><em>Name</em></span>: Name of the plug-in (needn't to be the type pf the plug-in)</li><li><span class="emphasis"><em>State</em></span>: State of the plug-in (0 = not loaded; 1 = loaded but not started; 2 = started)</li><li><span class="emphasis"><em>Class</em></span>: Type of the plug-in</li><li><span class="emphasis"><em>Priority</em></span>: Execution priority of the plug-in (high number means high priority and prefered execution; decreasing number means decreasing priority of execution)</li><li><span class="emphasis"><em>StartupType</em></span>: Type of plug-in start (0 = Disabled; 1 = Auto; 2 = Manual)</li></ul></div><p>The result of the request (see next code) shows all available plug-ins, their properties and states.</p><div class="figure"><a name="N10D89"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Result Id="RequestNum0" Plugins="13"&gt;
+    &lt;Plugin Name="AXIS" State="1" Class="AXIS" Priority="110" 
+    StartupType="2"/&gt;
+    &lt;Plugin Name="BDA Tuner" State="1" Class="BDA" Priority="100" 
+    StartupType="2"/&gt;
+    &lt;Plugin Name="BoschVIPX" State="0" Class="BoschVIPX" Priority="110" 
+    StartupType="0"/&gt;
+    &lt;Plugin Name="Capture" State="0" Class="Capture" Priority="100" 
+    StartupType="0"/&gt;
+    &lt;Plugin Name="DBox2" State="0" Class="DBox2" Priority="100" 
+    StartupType="0"/&gt;
+    &lt;Plugin Name="DreamBox" State="0" Class="DreamBox" Priority="100" 
+    StartupType="0"/&gt;
+    &lt;Plugin Name="File" State="1" Class="ReceiverFile" Priority="110"
+     StartupType="2"/&gt;
+    &lt;Plugin Name="NetPublisher" State="0" Class="NetPublisher" Priority="100" 
+    StartupType="0"/&gt;
+    &lt;Plugin Name="Recorder" State="0" Class="Recorder" Priority="50" 
+    StartupType="0"/&gt;
+    &lt;Plugin Name="ReelBox" State="0" Class="ReelBox" Priority="100" 
+    StartupType="0"/&gt;
+    &lt;Plugin Name="RTSP Receiver" State="0" Class="RTSPReceiver" Priority="110" 
+    StartupType="0"/&gt;
+    &lt;Plugin Name="Server" State="2" Class="MultistreamServer" Priority="200" 
+    StartupType="2"/&gt;
+    &lt;Plugin Name="TraficonVIPT" State="0" Class="TraficonVIPT" Priority="110" 
+    StartupType="0"/&gt;
+&lt;/Result&gt;
+		</pre></div><p class="title"><b>Figure&nbsp;A.92.&nbsp;Example JScript Snippet server response for <span class="emphasis"><em>Enumerate Plugins</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"></div><div class="section" lang="en"><div class="titlepage"><div><div><h4 class="title"><a name="N10D94"></a>A.2.30.2.&nbsp;Create Plugin Instance</h4></div></div></div><p>This JScript Snippit allows the creation of an own plug-in. For this, the default code (see <a class="xref" href="apa.html#sdk_b_create_plugin" title="Figure&nbsp;A.95.&nbsp; JScript Snippit Create Plugin Instance code with modifications in request window">Figure&nbsp;A.95, &ldquo;
+			JScript Snippit Create Plugin Instance code with modifications in request window
+		&rdquo;</a>) can be modified. The properties mentioned in <a class="xref" href="apa.html#sdk_s_enumerate_plugins" title="A.2.30.1.&nbsp;Enumerate Plugins">Section&nbsp;A.2.30.1, &ldquo;Enumerate Plugins&rdquo;</a> can be changed for the new plug-in.</p><div class="figure"><a name="N10D9F"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	// Create Plugin Context object
+	var plugin = DTVLink.CreatePlugin();
+
+	// Setup Class
+	plugin.Class = 'ReceiverFile'; // Alternative: 
+	'Bitcontrol.DTVLink.Plugin.ReceiverFile' 
+	or '{AA6CEC10-2408-4E69-845F-28F30755B00C}'
+
+	// Add context to Digital TV Link plugins list
+	DTVLink.Plugins['My Plugin'] = plugin;
+	// Alternative:
+	// plugin.Name = 'My Plugin';
+	// DTVLink.Plugins.Add(plugin);
+
+	// Load Plugin
+	plugin.State = 1;
+
+	// Set plugin params
+	plugin.Plugin.Mode = 2;
+
+	// Start plugin
+	plugin.State = 2;
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.93.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Create Plugin Instance</em></span>
+			(core function)
+		</b></p></div><br class="figure-break"><p>Example modification:</p><div class="itemizedlist"><ul type="disc"><li>Plug-in class: BDA</li><li>Plug-in name: Test Device</li><li>Plug-in state: started (2)</li><li>Rest default</li></ul></div><p>The next lines show the example modifications in the code.</p><div class="figure"><a name="N10DB7"></a><div class="figure-contents"><pre class="programlisting">
+	
+&lt;Script Language="JScript" GlobalContext="true" Expression="true" 
+Response="XMLResponse" Id="RequestNum15"&gt;
+	&lt;![CDATA[
+	// Create Plugin Context object
+	var plugin = DTVLink.CreatePlugin();
+
+	// Setup Class
+	plugin.Class = 'BDA'; // Alternative: 
+	'Bitcontrol.DTVLink.Plugin.ReceiverFile' 
+	or '{AA6CEC10-2408-4E69-845F-28F30755B00C}'
+
+	// Add context to Digital TV Link plugins list
+	DTVLink.Plugins['Test Device'] = plugin;
+	// Alternative:
+	// plugin.Name = 'My Plugin';
+	// DTVLink.Plugins.Add(plugin);
+
+	// Load Plugin
+	plugin.State = 2;
+
+	// Set plugin params
+	plugin.Plugin.Mode = 2;
+
+	// Start plugin
+	plugin.State = 2;
+ ]]&gt;
+&lt;/Script&gt;	
+		</pre></div><p class="title"><b>Figure&nbsp;A.94.&nbsp;Example JScript Snippet request for <span class="emphasis"><em>Create Plugin Instance</em></span> with modifications
+			(core function)
+		</b></p></div><br class="figure-break"><p>Picture <a class="xref" href="apa.html#sdk_b_create_plugin" title="Figure&nbsp;A.95.&nbsp; JScript Snippit Create Plugin Instance code with modifications in request window">Figure&nbsp;A.95, &ldquo;
+			JScript Snippit Create Plugin Instance code with modifications in request window
+		&rdquo;</a> shows the code example again. The modifications are marked red.</p><div class="figure"><a name="sdk_b_create_plugin"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/create_plugin.png" align="middle" alt="JScript Snippit Create Plugin Instance code with modifications in request window"></div></div><p class="title"><b>Figure&nbsp;A.95.&nbsp;
+			JScript Snippit <span class="emphasis"><em>Create Plugin Instance</em></span> code with modifications in request window
+		</b></p></div><br class="figure-break"><p>The result of the request can be found in the plug-in list (<span class="emphasis"><em>bitcontrol&reg; Digital TV Link Options</em></span> dialogues). The added plug-in is visible there (red marked). It has the state <span class="emphasis"><em>started</em></span> by default.</p><div class="figure"><a name="sdk_b_new_plugin"></a><div class="figure-contents"><div class="mediaobject" align="center"><img src="bilder/new_plugin.png" align="middle" alt="Added BDA plug-in in plug-in list"></div></div><p class="title"><b>Figure&nbsp;A.96.&nbsp;
+			Added BDA plug-in in plug-in list
+		</b></p></div><br class="figure-break"></div></div></div></div><div class="navfooter"><hr><table summary="Navigation footer" width="100%"><tr><td align="left" width="40%"><a accesskey="p" href="ch03.html"><img src="bilder/prev.png" alt="Prev"></a>&nbsp;</td><td align="center" width="20%">&nbsp;</td><td align="right" width="40%">&nbsp;</td></tr><tr><td valign="top" align="left" width="40%">Chapter&nbsp;3.&nbsp;bitcontrol Decoder&nbsp;</td><td align="center" width="20%"><a accesskey="h" href="index.html"><img src="bilder/home.png" alt="Home"></a></td><td valign="top" align="right" width="40%">&nbsp;</td></tr></table></div></body></html>

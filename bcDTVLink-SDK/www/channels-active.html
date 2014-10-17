@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="bitcontrol Server">
+		<meta name="author" content="BitCtrl Systems GmbH">
+		<meta name="owner" content="BitCtrl Systems GmbH"/>
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<title>bitcontrol&reg; Server</title>
+
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.css" rel="stylesheet">
+		<link href="css/theme.css" rel="stylesheet">
+
+		<style>
+			.cell-epg {
+				max-width: 200px;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		</style>
+	</head>
+
+	<body role="document">
+
+		<div class="container theme-showcase" role="main">
+
+			<!-- ============ navbar ============ -->
+			<div class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">bitcontrol</a>
+					</div>
+
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="./index.html">Home</a></li>
+
+							<li class="dropdown active">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown">Channels <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="./channels-all.html">All Channels</a></li>
+									<li class="active"><a href="./channels-active.html">Active Channels</a></li>
+									<li><a href="./channels-live.html">Live Channels</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown">Development <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="./develop-xml.html">XML Control API</a></li>
+									<li class="divider"></li>
+									<li><a href="https://github.com/bitctrl" target="_blank">GitHub</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="./docs/manual.en/index.html" target="_blank">User Manual</a></li>
+									<li><a href="./docs/sdk.en/index.html" target="_blank">SDK Manual</a></li>
+								</ul>
+							</li>
+
+						</ul>
+					</div>	<!-- /.navbar-collapse -->
+				</div>	<!-- /.container-fluid -->
+			</div>
+
+
+			<!-- Modals -->
+<!--
+			<div id="modal-epg" class="modal fade">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title">EPG</h4>
+						</div>
+						<div class="modal-body">
+							<pre></pre>
+						</div>
+					</div>
+				</div>
+			</div>
+-->
+
+			<!-- Header -->
+<!--
+			<h4>Active Channels</h4>
+-->
+
+			<!-- Table -->
+			<div class="table-responsive">
+			<table class="table table-striped_ table-bordered table-hover table-condensed" id="table-channels">
+				<thead class="bg-info">
+					<tr>
+						<th>Source</th>
+						<th>Channel</th>
+						<th>OnAir</th>
+						<th>Record</th>
+						<th>Publish</th>
+						<th>Provider</th>
+						<th>EPG</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+<!--
+						<td>
+							<div class="btn btn-xs btn-success center-block">On</div>
+						</td>
+						<td><div class="btn btn-xs btn-danger">Off</div></td>
+						<td><div class="btn btn-xs btn-danger">Off</div></td>
+
+						<td>EPG
+							<div id="button-show-epg" class="btn btn-primary btn-xs btn-epg-info"><span class="glyphicon glyphicon-info-sign"></span></div>
+						</td>
+					</tr>
+-->
+				</tbody>
+			</table>
+			</div>
+
+
+			<!-- Buttons -->
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary" id="btnRefresh"><span class="glyphicon glyphicon-refresh"></span>&nbsp;Refresh</button>
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					<span class="caret"></span>
+					<span class="sr-only">Toggle Dropdown</span>
+				</button>
+				<ul class="dropdown-menu" role="menu" id="menuRefresh">
+					<li><a href="#" data-interval="1000">1 sec interval</a></li>
+					<li><a href="#" data-interval="2000">2 sec interval</a></li>
+					<li><a href="#" data-interval="5000">5 sec interval</a></li>
+					<li><a href="#" data-interval="10000">10 sec interval</a></li>
+					<li><a href="#" data-interval="30000">30 sec interval</a></li>
+					<li><a href="#" data-interval="60000">60 sec interval</a></li>
+					<li class="divider"></li>
+					<li class="active"><a href="#" data-interval="0">Disable auto refresh</a></li>
+				</ul>
+			</div>
+
+<!--
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Link</button>
+-->
+			<br>
+			<br>
+			<br>
+			<br>
+			<hr>
+			<footer>
+				<div class="container">
+					<p>&copy; BitCtrl Systems GmbH 2014</p>
+				</div>
+			</footer>
+    </div><!-- /.container -->
+
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/site-channels-active.js"></script>
+	</body>
+</html>
