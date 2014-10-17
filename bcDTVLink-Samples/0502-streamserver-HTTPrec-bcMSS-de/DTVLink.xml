@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><DTVLink>
+	<Properties>
+		<AutoloadPlugins ReadOnly="true">true</AutoloadPlugins>
+		<AutostartPlugins ReadOnly="true">true</AutostartPlugins>
+	<EnableVideo>true</EnableVideo><EnableAudio>false</EnableAudio><EnablePlugins>true</EnablePlugins><RestoreLastChannel>true</RestoreLastChannel><VideoDecoderId>{BECD3686-53B3-4C9E-935F-A69E06BFB44A}/bitcontrol Video Decoder</VideoDecoderId><AudioDecoderId>&lt;Auto&gt;</AudioDecoderId><VideoFormatDescription>MPEG2, 720x576, PAL</VideoFormatDescription><AudioFormatDescription>48000 Hz, 5.1</AudioFormatDescription><VideoBufferCount>0x40</VideoBufferCount><VideoBufferSize>0x40000</VideoBufferSize><AudioBufferCount>0x100</AudioBufferCount><AudioBufferSize>0x10000</AudioBufferSize><BufferingTime>300</BufferingTime><FOURCCMap>h263=H263,h264=H264,x264=H264,X264=H264,mp4v=MP4V,fmp4=MP4V,FMP4=MP4V,smp4=MP4V,SMP4=MP4V,3iv2=MP4V,3IV2=MP4V</FOURCCMap><AutoJitter>true</AutoJitter><PreferAC3>false</PreferAC3><MediaLanguageLANGID>0x0</MediaLanguageLANGID><SetDefaultOnAir>true</SetDefaultOnAir><SystrayVisible>true</SystrayVisible><SystrayShowMenuFilter>true</SystrayShowMenuFilter><SystrayShowMenuBouquets>true</SystrayShowMenuBouquets><SystrayShowMenuHistory>true</SystrayShowMenuHistory><SystrayShowMenuTV>true</SystrayShowMenuTV><SystrayShowMenuRadio>true</SystrayShowMenuRadio><SystrayShowMenuEncrypted>false</SystrayShowMenuEncrypted><SystrayShowMenuOtherServices>true</SystrayShowMenuOtherServices><SystrayShowMenuPlugins>true</SystrayShowMenuPlugins><SystrayShowMenuReceivers>true</SystrayShowMenuReceivers><SystrayMenuProgramArrange>0</SystrayMenuProgramArrange></Properties>
+
+	<AudioCodecs>
+<Codec><FourCCs>mp2a,MP2A</FourCCs><DecoderName>bitcontrol® MPEG-2 Audio Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{AFD00929-5690-459F-A014-7FCA9C086742}</DecoderId></Codec>
+<Codec><FourCCs>ac3,AC3,ac-3,AC-3</FourCCs><DecoderName>ffdshow Audio Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{0F40E1E5-4F79-4988-B1A9-CC98794E6B55}</DecoderId></Codec>
+<Codec><FourCCs>aac,AAC,mp4a,MP4A</FourCCs><DecoderName>3ivx MPEG-4 Audio Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{68D0B5CF-3EC6-4113-86DF-8A34456B3A0C}</DecoderId></Codec>
+<Codec><FourCCs>wma,WMA,wma2,WMA2,wma3,WMA3</FourCCs><DecoderName>Microsoft DTV-DVD Audio Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{E1F1A0B8-BEEE-490D-BA7C-066C40B5E2B9}</DecoderId></Codec>
+<Codec><FourCCs>mp3,MP3,mp-3,MP-3</FourCCs><DecoderName>ffdshow Audio Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{0F40E1E5-4F79-4988-B1A9-CC98794E6B55}</DecoderId></Codec>
+<Codec><FourCCs>*</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+</AudioCodecs>
+
+	<VideoCodecs>
+<Codec><FourCCs>mp1v,MP1V</FourCCs><DecoderName>bitcontrol Video Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{BECD3686-53B3-4C9E-935F-A69E06BFB44A}</DecoderId></Codec>
+<Codec><FourCCs>mp2v,MP2V</FourCCs><DecoderName>bitcontrol Video Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{BECD3686-53B3-4C9E-935F-A69E06BFB44A}</DecoderId></Codec>
+<Codec><FourCCs>MP4V,mp4v,DIVX,divx,XVID,xvid,DX50,dx50,DIV5,div5,DIV6,div6,FMP4,fmp4,SEDG</FourCCs><DecoderName>bitcontrol Video Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{BECD3686-53B3-4C9E-935F-A69E06BFB44A}</DecoderId></Codec>
+<Codec><FourCCs>H263,h263,S263,s263</FourCCs><DecoderName>bitcontrol Video Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{BECD3686-53B3-4C9E-935F-A69E06BFB44A}</DecoderId></Codec>
+<Codec><FourCCs>H264,h264,AVC1,avc1,X264,x264</FourCCs><DecoderName>bitcontrol Video Decoder</DecoderName><DecoderId>@device:sw:{083863F1-70DE-11D0-BD40-00A0C911CE86}\{BECD3686-53B3-4C9E-935F-A69E06BFB44A}</DecoderId></Codec>
+<Codec><FourCCs>*</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+</VideoCodecs>
+
+	<Decoders>
+</Decoders>
+
+	<Encoders>
+</Encoders>
+
+	<Transcoders>
+</Transcoders>
+
+<Autoruns>
+<Action Action="10" SourceName="Server" StreamName="Screencast"><Parameter>on</Parameter></Action>
+</Autoruns></DTVLink>

@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?><Plugin Name="Server" Class="MultistreamServer" Priority="200" StartType="Auto">
+	<Properties>
+	</Properties>
+
+	<Server>
+		<!-- Server parameters -->
+		<VerboseLevel>3</VerboseLevel>
+		<MaxConnections>20000</MaxConnections>
+		<MaxConnectionsPerClient>100</MaxConnectionsPerClient>
+		<StrictAccess>false</StrictAccess>
+
+		<!-- IP Table -->
+		<IPTableMaxSize>100000</IPTableMaxSize>
+
+		<!-- Server Names -->
+<!--
+		<InstanceId>MultistreamServer</InstanceId>
+		<HostName>MyServerHostName</HostName>
+		<DomainName></DomainName>
+		<HostAddressIPv4>123.4.5.6</HostAddressIPv4>
+		<HostAddressIPv6>[1234::5678]</HostAddressIPv6>
+		<RTSPServerName>My RTSP Server</RTSPServerName>
+		<RTSPServerName>QTSS-Akamai/5.0.2 (Build/452.2.1; Platform/Linux; Release/Panther; )</RTSPServerName>
+		<RTSPServerName>Helix Mobile Server Version 14.2.0.212 (win-x86_64-vc10) (RealServer compatible)</RTSPServerName>
+		<HTTPServerName>My HTTP Server</HTTPServerName>
+		<RTMPServerName>FlashCom/4.0.0</RTMPServerName>
+-->
+		<RTMPServerName>FlashCom/3.5.1</RTMPServerName>
+
+		<!-- Access -->
+<!--
+		// Order: Allow,Deny
+		// Pseudocode:
+		function Accept(Address) {
+			// 1) listener local allow list...
+			if ((ListenerLocalAllowList is not empty) && (Address is not in ListenerLocalAllowList)) {
+				return REJECT;
+			}
+
+			// 2) server global allow list...
+			if ((ServerGlobalAllowList is not empty) && (Address is not in ServerGlobalAllowList)) {
+				return REJECT;
+			}
+
+			// 3) listener local deny list...
+			if (Address is in ListenerLocalDenyIPList) {
+				return REJECT;
+			}
+
+			// 4) server global deny list...
+			if (Address is in ServerGlobalDenyList) {
+				return REJECT;
+			}
+
+			return ACCEPT;
+		}
+-->
+		<AllowConnection>0.0.0.0/0, [::]/0</AllowConnection>
+		<DenyConnection></DenyConnection>
+<!--
+		<AcceptConnection>
+			<Allow>[::]/0</Allow>
+			<Allow>0.0.0.0/0</Allow>
+			<Allow>127.0.0.0/255.0.0.0</Allow>
+			<Allow>192.168.0.0/255.255.0.0</Allow>
+			<Deny>123.1.0.0/255.255.0.0</Deny>
+		</AcceptConnection>
+-->
+
+		<!-- AutoBans -->
+		<AutobanMaxConnectionsPerSec>20</AutobanMaxConnectionsPerSec>
+		<AutobanConnectionRecoveryTime>3</AutobanConnectionRecoveryTime>
+
+		<AutobanMaxProtocolFailuresPerSec>10</AutobanMaxProtocolFailuresPerSec>
+		<AutobanProtocolRecoveryTime>3</AutobanProtocolRecoveryTime>
+
+		<AutobanMaxAuthenticationFailuresPerSec>10</AutobanMaxAuthenticationFailuresPerSec>
+		<AutobanAuthenticationRecoveryTime>5</AutobanAuthenticationRecoveryTime>
+<!--
+		<AuthenticationLockoutLimit>100</AuthenticationLockoutLimit>
+		<AuthenticationLockoutTime>3600</AuthenticationLockoutTime>
+-->
+		<!-- Connection Timeouts -->
+<!--
+		Timeout Types:
+		P	- Protocol timeout (see HTTPConnectionKeepAliveTimeoutSec, RTSPConnectionTimeoutSec, RTMPConnectionTimeoutSec or RTMPTConnectionKeepAliveTimeoutSec)
+		Rx	- Receive timeout (R0 - receive first byte, R1 - receive delta)
+		Sx	- Send timeout (S0 - send first byte, S1 - send delta)
+		Cx	- Connection timeout (C0 - receive/send first byte, C1 - receive/send delta, C2 - connection duration)
+		Mx	- Message timeout. Where 'x' is a server response index in output queue (1-first response, 2-second response, etc.) (see HTTPResponseTimeout, RTSPResponseTimeout, RTMPResponseTimeout)
+
+		|          ===========              ===========
+		|<== R0 ==>| Reqest1 |<==== R1 ====>| Reqest2 |     ...
+		|          ===========              ===========
+		|
+		|                     =============            =============
+		|<======== S0 =======>| Response1 |<=== S1 ===>| Response2 |   ...
+		|                     =============            =============
+		|
+		|<============================== C2 =================================>
+		|
+		+=======================================================================> time
+		C0 = R0 or S0
+		C1 = R1 or S1
+-->
+		<ConnectionTimeoutR0>0</ConnectionTimeoutR0>
+		<ConnectionTimeoutR1>0</ConnectionTimeoutR1>
+		<ConnectionTimeoutS0>0</ConnectionTimeoutS0>
+		<ConnectionTimeoutS1>0</ConnectionTimeoutS1>
+		<ConnectionTimeoutC0>10</ConnectionTimeoutC0>
+		<ConnectionTimeoutC1>20</ConnectionTimeoutC1>
+		<ConnectionTimeoutC2>0</ConnectionTimeoutC2>
+
+		<!-- HTTP Protocol params -->
+		<HTTPHeaderMaxLen>131072</HTTPHeaderMaxLen>
+		<HTTPLineMaxLen>65536</HTTPLineMaxLen>
+		<HTTPHeaderMaxLines>256</HTTPHeaderMaxLines>
+		<HTTPConnectionKeepAliveTimeoutSec>45</HTTPConnectionKeepAliveTimeoutSec>
+		<HTTPConnectionMaxKeepAliveRequests>1000</HTTPConnectionMaxKeepAliveRequests>		<!-- 0 to 'Connection: close', -1 to disable -->
+		<HTTPPipelining>true</HTTPPipelining>
+		<HTTPHeaderAddServerName>true</HTTPHeaderAddServerName>
+		<HTTPHeaderAddDate>true</HTTPHeaderAddDate>
+		<HTTPHeaderAddKeepAlive>true</HTTPHeaderAddKeepAlive>
+		<HTTPResponseTimeout>10</HTTPResponseTimeout>
+
+		<!-- RTSP Protocol params -->
+		<RTSPConnectionTimeoutSec>0</RTSPConnectionTimeoutSec>
+		<RTSPPipelining>false</RTSPPipelining>
+		<RTSPResponseTimeout>5</RTSPResponseTimeout>
+
+		<!-- RTMP Protocol params -->
+		<RTMPConnectionTimeoutSec>30</RTMPConnectionTimeoutSec>
+		<RTMPMaxReceiveMessageLength>262144</RTMPMaxReceiveMessageLength>
+		<RTMPResponseTimeout>5</RTMPResponseTimeout>
+
+		<!-- RTMPT Protocol params -->
+		<RTMPTConnectionKeepAliveTimeoutSec>20</RTMPTConnectionKeepAliveTimeoutSec>
+		<RTMPTConnectionMaxKeepAliveRequests>-1</RTMPTConnectionMaxKeepAliveRequests>
+		<RTMPTIdent2IPv4></RTMPTIdent2IPv4>
+		<RTMPTIdent2IPv6></RTMPTIdent2IPv6>
+		<RTMPTMaxPipelinedRequests>5</RTMPTMaxPipelinedRequests>
+
+		<!-- Socket Params -->
+<!--
+		<SocketRcvBufferSize>8192</SocketRcvBufferSize>
+		<SocketSndBufferSize>8192</SocketSndBufferSize>
+		<SocketTTL>32</SocketTTL>
+-->
+
+		<!-- Threadpools -->
+		<ThreadpoolListenersMaxWorkerThreads>8</ThreadpoolListenersMaxWorkerThreads>
+		<ThreadpoolListenersMaxHandlesProWorkerThread>20</ThreadpoolListenersMaxHandlesProWorkerThread>					<!-- Threadpool capacity: 8*20=160 clients (~=80 listeners) -->
+		<ThreadpoolListenersNewWorkerThreadBarrierMinHandles>2</ThreadpoolListenersNewWorkerThreadBarrierMinHandles>
+		<ThreadpoolListenersNewWorkerThreadBarrierCoeff>1</ThreadpoolListenersNewWorkerThreadBarrierCoeff>
+		<ThreadpoolListenersWorkerThreadStackSize>0</ThreadpoolListenersWorkerThreadStackSize>
+		<ThreadpoolListenersWorkerThreadPriority>1</ThreadpoolListenersWorkerThreadPriority>							<!-- Priority 1 point above the priority class (THREAD_PRIORITY_ABOVE_NORMAL) -->
+		<ThreadpoolListenersWorkerThreadPriorityBoost>true</ThreadpoolListenersWorkerThreadPriorityBoost>				<!-- dynamic boosting is enabled -->
+
+		<ThreadpoolConnectionsMaxWorkerThreads>1000</ThreadpoolConnectionsMaxWorkerThreads>
+		<ThreadpoolConnectionsMaxHandlesProWorkerThread>50</ThreadpoolConnectionsMaxHandlesProWorkerThread>				<!-- Threadpool capacity: 1000*50=50000 clients -->
+		<ThreadpoolConnectionsNewWorkerThreadBarrierMinHandles>10</ThreadpoolConnectionsNewWorkerThreadBarrierMinHandles>
+		<ThreadpoolConnectionsNewWorkerThreadBarrierCoeff>2</ThreadpoolConnectionsNewWorkerThreadBarrierCoeff>
+		<ThreadpoolConnectionsWorkerThreadStackSize>0</ThreadpoolConnectionsWorkerThreadStackSize>
+		<ThreadpoolConnectionsWorkerThreadPriority>-1</ThreadpoolConnectionsWorkerThreadPriority>						<!-- Priority 1 point below the priority class (THREAD_PRIORITY_BELOW_NORMAL) -->
+		<ThreadpoolConnectionsWorkerThreadPriorityBoost>true</ThreadpoolConnectionsWorkerThreadPriorityBoost>			<!-- dynamic boosting is enabled -->
+
+		<ThreadpoolMediaSessionsMaxWorkerThreads>50</ThreadpoolMediaSessionsMaxWorkerThreads>
+		<ThreadpoolMediaSessionsMaxHandlesProWorkerThread>20</ThreadpoolMediaSessionsMaxHandlesProWorkerThread>			<!-- Threadpool capacity: 50*20=1000 clients (~=250 server media sessions) -->
+		<ThreadpoolMediaSessionsNewWorkerThreadBarrierMinHandles>10</ThreadpoolMediaSessionsNewWorkerThreadBarrierMinHandles>
+		<ThreadpoolMediaSessionsNewWorkerThreadBarrierCoeff>1</ThreadpoolMediaSessionsNewWorkerThreadBarrierCoeff>
+		<ThreadpoolMediaSessionsWorkerThreadStackSize>0</ThreadpoolMediaSessionsWorkerThreadStackSize>
+		<ThreadpoolMediaSessionsWorkerThreadPriority>0</ThreadpoolMediaSessionsWorkerThreadPriority>					<!-- Normal priority for the priority class (THREAD_PRIORITY_NORMAL) -->
+		<ThreadpoolMediaSessionsWorkerThreadPriorityBoost>false</ThreadpoolMediaSessionsWorkerThreadPriorityBoost>		<!-- dynamic boosting is disabled -->
+
+		<!-- Live Channels -->
+		<MaxLiveChannels>100</MaxLiveChannels>
+
+		<!-- Logger -->
+		<LoggerEnable>false</LoggerEnable>
+		<LoggerDirectory>C:\Temp\RTSP Server Logs</LoggerDirectory>
+		<LoggerRotationMaxFileSizeMB>20</LoggerRotationMaxFileSizeMB>
+		<LoggerODBC></LoggerODBC>
+
+		<!-- \\\\\\\\\\\\\\\\ Listeners (Connectors) //////////////// -->
+		<SocketListeners>
+			<!-- Params: -->
+			<!--	Name: -->
+			<!--	Enable: "true" or "false", default is "true" -->
+			<!--	VerboseLevel: 0..15 or -1 (Server.VerboseLevel), default is -1 -->
+			<!--	Type: "TCP"("TCP4","TCPv4","TCPIP","TCPIP4","TCPIPv4","IP","IP4","IPv4"), "TCPv6"("TCP6","TCPIPv6","TCPIP6","IP6","IPv6") -->
+			<!--	Persistent: true/false (default is false) -->
+			<!--	Protocols: "RTSP", "RTSPU", "HTTP", "RTMP", "RTMPT" (default is "RTSP,HTTP,RTMP,RTMPT") -->
+			<!--	Port: RTSP=554, HTTP=80, RTMP=1935, RTMPT=80, MMS=1755 (no defaults) -->
+			<!--	BindAddress: "auto" for automatic network adapter select, "any" for all network adapters, or network adapted IP (for example: "192.168.1.123"), default is "any" -->
+			<!--	ListenSocketQueueLength: The maximum length of the queue of pending connections (default is 0 or SOMAXCONN) -->
+
+			<!-- TCP/IPv4 RTSP (554) Socket Listener -->
+			<SocketListener Name="RTSP TCP/IPv4 Listener" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Port="554" BindAddress="any" Persistent="false" AllowConnection="" DenyConnection="" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="rtsp_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="rtsp_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="rtsp_both_$INDEX$_$SOCKET$.log">
+				<!-- Accept/Deny Examples -->
+<!--			<AllowAccept>0.0.0.0/0</AllowAccept>				-->	<!-- Accept all IPv4 connections															-->
+<!--			<AllowAccept>[::]/0</AllowAccept>					-->	<!-- Accept all IPv6 connections															-->
+<!--			<AllowAccept>127.0.0.0/255.0.0.0</AllowAccept>		-->	<!-- Accept connections from Loopback Addresses ("127.0.0.0" ... "127.255.255.255")			-->
+<!--			<AllowAccept>192.168.0.0/255.255.0.0</AllowAccept>	-->	<!-- Accept connections from Local Network Addresses ("192.168.0.0" ... "192.168.255.255")	-->
+<!--			<AllowAccept>0.0.0.0/0</AllowAccept>				-->	<!-- Accept all connections																	-->
+<!--			<AllowAccept>123.1.2.3</AllowAccept>				-->	<!-- Accept connections from specified address "123.1.2.3"									-->
+<!--			<AllowAccept>[::1]</AllowAccept>					-->
+<!--			<AllowAccept>[fe80::]/16</AllowAccept>				-->
+<!--			<DenyAccept>123.1.0.0/255.255.0.0</DenyAccept>		-->	<!-- Deny connections from addresses in range from "123.1.0.0" to "123.1.255.255"			-->
+<!--			<DenyAccept>123.1.2.3</DenyAccept>					-->	<!-- Deny connections from specified address "123.1.2.3"									-->
+			</SocketListener>
+
+			<!-- TCP/IPv6 RTSP (554) Socket Listener -->
+			<SocketListener Name="RTSP TCP/IPv6 Listener" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Type="IPv6" Port="554" BindAddress="[::]" Persistent="false" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="rtsp6_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="rtsp6_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="rtsp6_both_$INDEX$_$SOCKET$.log"/>
+
+			<!-- TCP/IPv4 RTSP Alt (555) Socket Listener -->
+			<SocketListener Name="RTSP TCP/IPv4 Listener Alt" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Port="555" BindAddress="any" Persistent="false" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="rtsp_alt_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="rtsp_alt_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="rtsp_alt_both_$INDEX$_$SOCKET$.log"/>
+
+			<!-- TCP/IPv6 RTSP Alt (555) Socket Listener -->
+			<SocketListener Name="RTSP TCP/IPv6 Listener Alt" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Type="IPv6" Port="555" BindAddress="[::]" Persistent="false" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="rtsp6_alt_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="rtsp6_alt_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="rtsp6_alt_both_$INDEX$_$SOCKET$.log"/>
+
+			<!-- TCP/IPv4 HTTP (80) Socket Listener -->
+			<SocketListener Name="HTTP TCP/IPv4 Listener" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Port="80" BindAddress="any" Persistent="false" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="http_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="http_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="http_both_$INDEX$_$SOCKET$.log"/>
+
+			<!-- TCP/IPv6 HTTP (80) Socket Listener -->
+			<SocketListener Name="HTTP TCP/IPv6 Listener" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Type="IPv6" Port="80" BindAddress="[::]" Persistent="false" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="http6_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="http6_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="http6_both_$INDEX$_$SOCKET$.log"/>
+
+			<!-- TCP/IPv4 HTTP Alt (8080) Socket Listener -->
+			<SocketListener Name="HTTP TCP/IPv4 Listener Alt" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Port="8080" BindAddress="any" Persistent="false" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="http_alt_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="http_alt_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="http_alt_both_$INDEX$_$SOCKET$.log"/>
+
+			<!-- TCP/IPv6 HTTP Alt (8080) Socket Listener -->
+			<SocketListener Name="HTTP TCP/IPv6 Listener Alt" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Type="IPv6" Port="8080" BindAddress="[::]" Persistent="false" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="http6_alt_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="http6_alt_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="http6_alt_both_$INDEX$_$SOCKET$.log"/>
+
+			<!-- TCP/IPv4 RTMP (1935) Socket Listener -->
+			<SocketListener Name="RTMP TCP/IPv4 Listener" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Port="1935" BindAddress="any" Persistent="false" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="rtmp_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="rtmp_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="rtmp_both_$INDEX$_$SOCKET$.log"/>
+
+			<!-- TCP/IPv6 RTMP (1935) Socket Listener -->
+			<SocketListener Name="RTMP TCP/IPv6 Listener" Enable="true" Protocols="RTSP,HTTP,RTMP,RTMPT" Type="IPv6" Port="1935" BindAddress="[::]" Persistent="false" VerboseLevel="-1" TrafficDumpEnable="false" TrafficDumpDirectory="C:\Temp\RTSP Server Logs" TrafficDumpFilemaskRcv="rtmp6_rcv_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskSnd="rtmp6_snd_$INDEX$_$SOCKET$.log" TrafficDumpFilemaskBoth="rtmp6_both_$INDEX$_$SOCKET$.log"/>
+		</SocketListeners>
+
+		<!-- \\\\\\\\\\\\\\\\ Groups /////////////// -->
+		<Groups>
+			<!-- Params: -->
+			<!--	Name: Group Name -->
+			<!--	Priority: Group Priority, 0..MAX_INT (0 is lowest priority). default is -1(undefined) -->
+			<!--	Enable: "true" or "false". default is "true" -->
+			<!--	VerboseLevel: 0..15 or -1(undefined). default is -1 -->
+			<Group Name="admins" Priority="3" VerboseLevel="15">
+<!--
+				<Privilege Name="Limit Download Volume" State="off"/>
+				<Privilege Name="Limit Upload Volume" State="off"/>
+				<Privilege Name="Limit Download Rate" State="off"/>
+				<Privilege Name="Limit Upload Rate" State="off"/>
+-->
+			</Group>
+
+			<Group Name="uploaders" Priority="2" VerboseLevel="10">
+			</Group>
+
+			<Group Name="viewers" Priority="1">
+			</Group>
+
+			<Group Name="guests">
+			</Group>
+		</Groups>
+
+		<!--  \\\\\\\\\\\\\\\\ Users //////////////// -->
+		<Users>
+			<!-- Params: -->
+			<!--	Name: User Name -->
+			<!--	Login:  -->
+			<!--	Password:  -->
+			<!--	Address: -->
+			<!--	Groups: -->
+			<!--	Enable: "true" or "false". default is "true" -->
+			<!--	Priority: User Priority, 0..MAX_INT (0 is lowest priority). default is -1(undefined) -->
+			<!--	VerboseLevel: 0..15 or -1(undefined). default is -1 -->
+
+			<!-- User "admin" (Id = Login = "admin") has password "secretpass", and is in groups "admins", "uploaders" and "viewers" -->
+			<User Name="admin" Login="admin" Password="secretpass" Groups="admins,uploaders,viewers" VerboseLevel="15" Enable="false">
+				<!-- Overwrite/change 'admins' privileges (default is 1st selected group privileges) -->
+<!--
+				<Privilege Name="HTTP GET" State="on"/>
+				<Privilege Name="HTTP POST" State="on"/>
+-->
+			</User>
+
+			<!-- "Localhost user" -->
+			<User Name="localhost">
+				<Address>127.0.0.1</Address>
+				<Address>169.254.0.0/16</Address>
+				<Address>[::1]</Address>
+				<Address>[fe80::]/10</Address>
+				<Group>admins</Group>
+				<Group>uploaders</Group>
+				<Group>viewers</Group>
+			</User>
+
+			<!-- "Localnetwork user" -->
+			<User Name="localnetwork">
+				<Address>192.168.0.0/16</Address>
+				<Address>10.0.0.0/8</Address>
+				<Address>172.16.0.0/12</Address>
+				<Address>[fc00::]/7</Address>
+				<Group>uploaders</Group>
+				<Group>viewers</Group>
+			</User>
+
+			<!-- Set default user/group -->
+			<User Name="Guest" Group="guests"/>
+		</Users>
+
+		<!-- \\\\\\\\\\\\\\\\ Content Types //////////////// -->
+		<ContentTypes>
+			<!-- file types -->
+			<ContentType FileExtension=".html" PerceivedType="text" ContentType="text/html"/>
+			<ContentType FileExtension=".htm" PerceivedType="text" ContentType="text/html"/>
+			<ContentType FileExtension=".css" PerceivedType="text" ContentType="text/css"/>
+			<ContentType FileExtension=".txt" PerceivedType="text" ContentType="text/plain"/>
+			<ContentType FileExtension=".mp3" PerceivedType="audio" ContentType="audio/mpeg"/>
+			<ContentType FileExtension=".mov" PerceivedType="video" ContentType="video/quicktime"/>
+			<ContentType FileExtension=".3gp" PerceivedType="video" ContentType="video/3gpp"/>
+			<ContentType FileExtension=".mp4" PerceivedType="video" ContentType="video/mp4"/>
+			<ContentType FileExtension=".m3u" PerceivedType="text" ContentType="audio/x-mpegurl"/>
+<!--		<ContentType FileExtension=".m3u8" PerceivedType="text" ContentType="application/vnd.apple.mpegurl"/> -->
+			<ContentType FileExtension=".m3u8" PerceivedType="text" ContentType="application/x-mpegURL"/>
+			<ContentType FileExtension=".ts" PerceivedType="video" ContentType="video/MP2T"/>
+
+			<!-- video types -->
+			<ContentType FourCC="mpg1" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP2V" RTPPayloadType="32"/>
+			<ContentType FourCC="mp1v" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP2V" RTPPayloadType="32"/>
+			<ContentType FourCC="mpeg" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP2V" RTPPayloadType="32"/>
+			<ContentType FourCC="mpg2" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP2V" RTPPayloadType="32"/>
+			<ContentType FourCC="mp2v" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP2V" RTPPayloadType="32" RTPTimestampFrequency="90000"/>
+
+			<ContentType FourCC="mp4v" PerceivedType="video" ContentType="video/x-m4v" RTPEncoder="MP4V" RTPPayloadType="96"/>
+			<ContentType FourCC="mp4s" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP4V" RTPPayloadType="96"/>
+			<ContentType FourCC="dx40" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP4V" RTPPayloadType="96"/>
+			<ContentType FourCC="dx50" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP4V" RTPPayloadType="96"/>
+			<ContentType FourCC="divx" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP4V" RTPPayloadType="96"/>
+			<ContentType FourCC="xvid" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="MP4V" RTPPayloadType="96"/>
+
+			<ContentType FourCC="h263" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="H263" RTPPayloadType="34"/>
+
+			<ContentType FourCC="h264" PerceivedType="video" ContentType="video/h264" RTPEncoder="H264" RTPPayloadType="96"/>
+			<ContentType FourCC="l264" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="H264" RTPPayloadType="96"/>
+			<ContentType FourCC="x264" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="H264" RTPPayloadType="96"/>
+			<ContentType FourCC="avc1" PerceivedType="video" ContentType="video/mpeg" RTPEncoder="H264" RTPPayloadType="96"/>
+
+			<!-- audio types -->
+			<ContentType FourCC="mp2a" PerceivedType="audio" ContentType="audio/mpeg" RTPEncoder="MP2A" RTPPayloadType="14"/>
+
+			<ContentType FourCC="ac-3" PerceivedType="audio" ContentType="audio/mpeg" RTPEncoder="AC-3" RTPPayloadType="100"/>
+			<ContentType FourCC=" ac3" PerceivedType="audio" ContentType="audio/mpeg" RTPEncoder="AC-3" RTPPayloadType="100"/>
+
+			<ContentType FourCC=" aac" PerceivedType="audio" ContentType="audio/aac" RTPEncoder="AAC" RTPPayloadType="100"/>
+
+			<!-- MPEG-2 Program Stream -->
+			<ContentType FourCC="mp2p" PerceivedType="video" ContentType="video/MP2P"/>
+
+			<!-- MPEG-2 Transport Stream -->
+			<ContentType FourCC="mp2t" PerceivedType="video" ContentType="video/MP2T"/>
+
+			<!-- Default types -->
+			<!--
+			<ContentType PerceivedType="video" ContentType="video/mpeg"/>
+			<ContentType PerceivedType="audio" ContentType="audio/mpeg"/>
+			-->
+		</ContentTypes>
+
+		<!-- \\\\\\\\\\\\\\\\ Live Channels //////////////// -->
+		<AllowDynamicChannels>true</AllowDynamicChannels>
+		<DynamicChannelDefaultGroup>viewers</DynamicChannelDefaultGroup>
+		<DynamicChannelDefaultVerboseLevel>-1</DynamicChannelDefaultVerboseLevel>
+
+		<LiveChannels>
+<!--
+			<LiveChannel
+				SourceName		= "Test Source"
+				StreamName		= "Test Channel 1"
+				Fixed			= "true"
+				Enable			= "false"
+				VerboseLevel	= "-1"
+				Group			= "viewers"
+			/>
+-->
+		</LiveChannels>
+
+		<!-- \\\\\\\\\\\\\\\\ Activity /////////////// -->
+		<Activity>
+<!--
+			<UpdateActivityFile>C:\Temp\RTSPServerActivity.xml</UpdateActivityFile>
+			<UpdateActivityFileIntervalSec>30</UpdateActivityFileIntervalSec>
+-->
+			<Daily LimitUploadVolumeKB="-1" LimitDownloadVolumeKB="-1">
+				<Hour Id="0" Coeff="3%" FixedCoeff="false"/>
+				<Hour Id="1" Coeff="2%" FixedCoeff="false"/>
+				<Hour Id="2" Coeff="2%" FixedCoeff="false"/>
+				<Hour Id="3" Coeff="2%" FixedCoeff="false"/>
+				<Hour Id="4" Coeff="2%" FixedCoeff="false"/>
+				<Hour Id="5" Coeff="3%" FixedCoeff="false"/>
+				<Hour Id="6" Coeff="3%" FixedCoeff="false"/>
+				<Hour Id="7" Coeff="3%" FixedCoeff="false"/>
+				<Hour Id="8" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="9" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="10" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="11" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="12" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="13" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="14" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="15" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="16" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="17" Coeff="6%" FixedCoeff="false"/>
+				<Hour Id="18" Coeff="5%" FixedCoeff="false"/>
+				<Hour Id="19" Coeff="3%" FixedCoeff="false"/>
+				<Hour Id="20" Coeff="3%" FixedCoeff="false"/>
+				<Hour Id="21" Coeff="3%" FixedCoeff="false"/>
+				<Hour Id="22" Coeff="3%" FixedCoeff="false"/>
+				<Hour Id="23" Coeff="3%" FixedCoeff="false"/>
+			</Daily>
+
+			<Weekly LimitUploadVolumeMB="-1" LimitDownloadVolumeMB="-1">
+				<Day Id="Mon" Coeff="16%" FixedCoeff="false" LimitUploadVolumeMB="-1" LimitDownloadVolumeMB="-1"/>
+				<Day Id="Tue" Coeff="16%" FixedCoeff="false" LimitUploadVolumeMB="-1" LimitDownloadVolumeMB="-1"/>
+				<Day Id="Wed" Coeff="16%" FixedCoeff="false" LimitUploadVolumeMB="-1" LimitDownloadVolumeMB="-1"/>
+				<Day Id="Thu" Coeff="16%" FixedCoeff="false" LimitUploadVolumeMB="-1" LimitDownloadVolumeMB="-1"/>
+				<Day Id="Fri" Coeff="16%" FixedCoeff="false" LimitUploadVolumeMB="-1" LimitDownloadVolumeMB="-1"/>
+				<Day Id="Sat" Coeff="10%" FixedCoeff="false" LimitUploadVolumeMB="-1" LimitDownloadVolumeMB="-1"/>
+				<Day Id="Sun" Coeff="10%" FixedCoeff="false" LimitUploadVolumeMB="-1" LimitDownloadVolumeMB="-1"/>
+			</Weekly>
+
+			<Monthly LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1">
+			</Monthly>
+
+			<Yearly LimitUploadVolumeTB="-1" LimitDownloadVolumeTB="-1">
+				<Month Id="Jan" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Feb" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Mar" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Apr" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="May" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Jun" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Jul" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Aug" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Sep" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Oct" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Nov" Coeff="8.33%" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+				<Month Id="Dec" Coeff="Auto" FixedCoeff="true" LimitUploadVolumeGB="-1" LimitDownloadVolumeGB="-1"/>
+			</Yearly>
+		</Activity>
+
+		<!-- \\\\\\\\\\\\\\\\ Media Sessions (Publishing Points) //////////////// -->
+		<MediaSessions>
+			<!-- MediaSession Types: -->
+			<!-- RTSP: -->
+			<!--	RTSP Live:				<RTSPLive> or <MediaSession Protocol="RTSP" Type="Live"> -->
+			<!--	RTSP Video on Demand:	<RTSPFile> or <RTSPVOD> or <MediaSession Protocol="RTSP" Type="File"> or <MediaSession Protocol="RTSP" Type="VOD">  -->
+			<!--	RTSP Recorder:			<RTSPRec> or <RTSPExt> or <MediaSession Protocol="RTSP" Type="Rec"> or <MediaSession Protocol="RTSP" Type="Ext"> -->
+			<!-- HTTP: -->
+			<!--	HTTP Live:				<HTTPLive> or <MediaSession Protocol="HTTP" Type="Live"> -->
+			<!--	HTTP File Server:		<HTTPFile> or <MediaSession Protocol="HTTP" Type="File"> -->
+			<!--	HTTP Control:			<HTTPCtrl> or <MediaSession Protocol="HTTP" Type="Ctrl"> -->
+			<!-- RTMP: -->
+			<!--	RTMP Live:				<RTMPLive> or <MediaSession Protocol="RTMP" Type="Live"> -->
+			<!--	RTMP Video on Demand:	<RTMPFile> or <RTMPVOD> or <MediaSession Protocol="RTMP" Type="File"> or <MediaSession Protocol="RTMP" Type="VOD">  -->
+			<!--	RTMP Recorder:			<RTMPRec> or <RTMPExt> or <MediaSession Protocol="RTMP" Type="Rec"> or <MediaSession Protocol="RTMP" Type="Ext"> -->
+			<!-- RTP: -->
+			<!--	RTP Live:				<RTPLive> or <MediaSession Protocol="RTP" Type="Live"> -->
+
+			<!--	VerboseLevel: -->
+			<!--		1-2		Errors -->
+			<!--		3-6		MediaSession -->
+			<!--		7-9		ClientSession -->
+			<!--		10-12	ClientSubsession -->
+			<!--		13-15	Sockets -->
+
+			<!-- RTSP Publishing Points -->
+			<!-- Live Media Session and map to "/live" -->
+			<RTSPLive Name="RTSP Live" Enable="true" URL="/live/" VerboseLevel="-1" StrictAccess="false" Groups="viewers" MaxClientSessions="100" MaxClientSubsessions="20" ClientSessionTimeout="20" ClientSubsessionTimeout="10" Authenticate="digest,basic" AuthenticateRealm="RTSP Server" RTSPSessionTimeout="0" SDPSessionName="$MEDIASESSIONNAME$" SDPSessionInformation="$CHANNELNAME$" SDPDescriptionURI="" SDPEmail="" SDPPhone="" RTCPSourceDescriptionCNAME="$HOSTNAME$" RTCPSourceDescriptionNAME="" RTCPSourceDescriptionEMAIL="" RTCPSourceDescriptionPHONE="" RTCPSourceDescriptionLOC="" RTCPSourceDescriptionTOOL="" RTCPSourceDescriptionNOTE="" AcceptChannels="$All$">
+			<!-- Alternative style with tags
+				<Name>RTSP Live</Name>
+				<Enable>true</Enable>
+				<URL>/live/</URL>
+				<VerboseLevel>-1</VerboseLevel>
+				<StrictAccess>false</StrictAccess>
+				<Groups>viewers</Groups>
+				<MaxClientSessions>100</MaxClientSessions>
+				<MaxClientSubsessions>20</MaxClientSubsessions>
+				<ClientSessionTimeout>20</ClientSessionTimeout>
+				<ClientSubsessionTimeout>10</ClientSubsessionTimeout>
+				<Authenticate>digest,basic</Authenticate>
+				<AuthenticateRealm>RTSP Server</AuthenticateRealm>
+				<RTSPSessionTimeout>0</RTSPSessionTimeout>
+				<SDPSessionName>$MEDIASESSIONNAME$</SDPSessionName>
+				<SDPSessionInformation>$CHANNELNAME$</SDPSessionInformation>
+				<SDPDescriptionURI></SDPDescriptionURI>
+				<SDPEmail></SDPEmail>
+				<SDPPhone></SDPPhone>
+				<RTCPSourceDescriptionCNAME>$HOSTNAME$"</RTCPSourceDescriptionCNAME>
+				<RTCPSourceDescriptionNAME></RTCPSourceDescriptionNAME>
+				<RTCPSourceDescriptionEMAIL></RTCPSourceDescriptionEMAIL>
+				<RTCPSourceDescriptionPHONE></RTCPSourceDescriptionPHONE>
+				<RTCPSourceDescriptionLOC></RTCPSourceDescriptionLOC>
+				<RTCPSourceDescriptionTOOL></RTCPSourceDescriptionTOOL>
+				<RTCPSourceDescriptionNOTE></RTCPSourceDescriptionNOTE>
+			-->
+			<!--
+				<AcceptChannels>$All$</AcceptChannels>
+				<AcceptChannels>Euronews,BBC,Arte</AcceptChannels>
+				<AcceptChannels>Euronews,BBC,Arte,$Unknown$</AcceptChannels>
+				<AcceptChannels>$id=14$,$id=0xf$</AcceptChannels>
+				<AcceptChannels>$index=0$,$index=1$</AcceptChannels>
+				<AcceptChannels>$path=/0/1$,$path=/0/1$</AcceptChannels>
+			-->
+			</RTSPLive>
+
+			<!-- Video On-Demand Media Session and map to "/videos" -->
+			<!-- Map Session to url "rtsp://domain/videos/..." -->
+			<!--
+				BurstMode:
+
+				bitrate
+				|
+				|                    f * br
+				|                   _________
+				|                   |       |        br
+				|                   |       |________________________
+				|                   |
+				|_____,_____________|_______,________________________ time
+					  t0            t       t1
+
+				t	= Streaming start time (Now)
+				t0	= Stream start time: t - BurstStreamTimeOffset (BurstStreamTimeOffset >= 0)
+				t1	= BurstMode end time: t + BurstDuration (BurstDuration is greater than zero or equal to zero for auto. if BurstDuration = 0, BurstScaleFactor > 1.0)
+				f	= BurstScaleFactor (BurstScaleFactor is greater than one or equal to zero for auto. if BurstScaleFactor = 0, BurstDuration > 0)
+				br	= bitrate
+			-->
+<!--
+			<RTSPVOD
+				Name						= "RTSP Video-On-Demand"
+				Enable						= "true"
+				URL							= "/videos/"
+				VerboseLevel				= "-1"
+				StrictAccess				= "false"
+				Groups						= "viewers"
+				MaxClientSessions			= "100"
+				MaxClientSubsessions		= "20"
+				ClientSessionTimeout		= "20"
+				ClientSubsessionTimeout		= "10"
+				Authenticate				= "digest,basic"
+				AuthenticateRealm			= "RTSP Server"
+				RTSPSessionTimeout			= "0"
+				BurstModeEnable				= "true"
+				BurstStreamTimeOffset		= "1.5"
+				BurstDuration				= "0.5"
+				BurstScaleFactor			= "0"
+				RTCPSourceDescriptionCNAME	= "$HOSTNAME$"
+				RTCPSourceDescriptionNAME	= ""
+				RTCPSourceDescriptionEMAIL	= ""
+				RTCPSourceDescriptionPHONE	= ""
+				RTCPSourceDescriptionLOC	= ""
+				RTCPSourceDescriptionTOOL	= ""
+				RTCPSourceDescriptionNOTE	= ""
+				ContentFolder				= "C:\Temp\VoD\"
+				FOURCCMap					= "h263=H263,h264=H264,x264=H264,X264=H264,mp4v=MP4V,fmp4=MP4V,FMP4=MP4V,smp4=MP4V,SMP4=MP4V,xvid=MP4V,XVID=MP4V,dx50=MP4V,DX50=MP4V"
+			/>
+-->
+			<!-- External Live Media Session (from external rtsp client) and map to "/camera1" -->
+<!--
+			<RTSPRec
+				Name						= "RTSP Recorder"
+				Enable						= "true"
+				Description					= "Live from external RTSP client"
+				URL							= "/rec/"
+				Groups						= "uploaders"
+				VerboseLevel				= "-1"
+				MaxClientSessions			= "100"
+			/>
+-->
+			<!-- RTP Publishing Points -->
+<!--
+			<RTPLive
+				Name						= "RTP Live"
+				Actives						= "true"
+				Address						= "127.0.0.1:12345"
+				VerboseLevel				= "-1"
+			/>
+-->
+			<!-- RTMP Publishing Points -->
+			<RTMPLive Name="RTMP Live" Enable="true" Description="Adobe Flash Media Live" URL="/live/" Groups="viewers" VerboseLevel="-1" WindowAcknowledgementSize="2500000" BurstModeEnable="true" BurstStreamTimeOffset="0.75"/>
+
+			<RTMPRec Name="RTMP Recorder" Enable="true" Description="Adobe Flash Media Live Encoder" URL="/rec/" Groups="uploaders" VerboseLevel="-1" WindowAcknowledgementSize="2500000" AdjustTimestamps="true"/>
+
+			<!-- HTTP Publishing Points -->
+			<!-- HTTP Live Media Session. Map Session to url "/live/" -->
+			<!-- Privileges: 'HTTP GET', 'HTTP Live ES', 'HTTP Live PS', 'HTTP Live TS') -->
+			<HTTPLive Name="HTTP Live" Enable="true" URL="/live/" VerboseLevel="-1" StrictAccess="false" Groups="viewers" MaxClientSessions="100" ClientSessionTimeout="20" Authenticate="digest,basic" AuthenticateRealm="RTSP Server" BurstModeEnable="true" BurstStreamTimeOffset="2.5" M3UTargetDuration="10" M3UMaxMediaFiles="5"/>
+
+			<!-- HTTP Control (Privileges: 'HTTP POST', 'HTTP Accept-Encoding', 'Scripting') -->
+			<!-- special commands: "/xmlctrl/livestatus" -->
+			<HTTPControl Name="HTTP XML Control" Enable="true" URL="/xmlctrl/" Groups="admins" StrictAccess="false" VerboseLevel="-1" XMLMessageReceiveMaxSize="65536" XMLMessageSendMaxSize="65536"/>
+
+			<!-- HTTP File Upload -->
+<!--
+			<HTTPUpload
+				Name						= "HTTP File Upload"
+				Enable						= "true"
+				URL							= "/upload/"
+				Groups						= "uploaders"
+				StrictAccess				= "false"
+				VerboseLevel				= "-1"
+				ContentFolder				= "C:\Temp\Upload\$USERNAME$\"
+			/>
+-->
+			<!-- HTTP File Upstream -->
+<!--
+			<HTTPUpstream
+				Name						= "HTTP Upstream"
+				Enable						= "true"
+				URL							= "/upstream/"
+				Groups						= "uploaders"
+				StrictAccess				= "false"
+				VerboseLevel				= "-1"
+			/>
+-->
+			<!-- HTTP Rec -->
+			<HTTPRec Name="HTTP Recorder" Enable="true" URL="/rec/" Groups="uploaders" StrictAccess="false" VerboseLevel="-1" BufferingTime="3"/>
+
+			<!-- Special Publishing Points -->
+			<!-- Server Test -->
+			<HTTPTest Name="HTTP Server Test Site" Enable="true" URL="/testpage/" Groups="admins" VerboseLevel="-1"/>
+
+			<!-- HTTP File Server (Privileges: 'HTTP GET', 'HTTP Accept-Encoding', 'HTTP Accept-Ranges', 'HTTP If-Modified-Since', 'HTTP Accept Bad Filenames', 'HTTP Default Page') -->
+			<HTTPFile Name="HTTP File Server" Enable="true" URL="/" DefaultPage="index.html" Groups="admins,viewers,guests" Authenticate="digest,basic" AuthenticateRealm="HTTP Server" ContentFolder="$DTVLDATADIR$\www\" EncodingExtensions=".html;.htm;.txt;.js;.css" EncodingMinFileSize="300" EncodingMaxFileSize="10000000" FileReadBufferSize="32768" VerboseLevel="-1">
+				<Privilege Name="HTTP If-Modified-Since" State="undefined"/>
+				<Privilege Name="HTTP Accept-Encoding" State="undefined"/>
+				<Privilege Name="HTTP Autoindex" State="off"/>
+			</HTTPFile>
+		</MediaSessions>
+	</Server>
+</Plugin>
