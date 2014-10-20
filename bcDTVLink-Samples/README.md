@@ -11,7 +11,7 @@ Principles of the batch samples:
 * The file name of a batch file, e.g. "abc.bat", refers to its corresponding
 directory by its own name without the extension, in this case "abc". 
 * The program "SimplePlayer.exe" is started in the batch file with a configuration
-directory as parameter option  
+directory as the parameter option.  
 	--DataDir="%~dpn0\"
 * Several configuration
 directories may be used by only one batch program.
