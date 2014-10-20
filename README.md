@@ -5,10 +5,9 @@ bitcontrol® Multimedia Suite
 
 Live content everywhere
 
-  - for private &
-  - for commercial applications
-  - for TV broadcast
+  - for private & commercial applications
+  - for TV broadcasts
   - for live surveillance
   - for social networks
 
-Read more on our website https://www.bitcontrol.com or download the free trial at https://www.bitcontrol.com/en/download.html.
+Read more on our website at https://www.bitcontrol.com or download the free trial at https://www.bitcontrol.com/en/download.html.
