@@ -21,6 +21,6 @@ drive letter of the local Windows file system, e.g. H:\
 
 Click here to watch the corresponding video: http://youtu.be/cqcm8gIRRUg
 
-Please feel free, to publish your own batch programs here.
+Please feel free to publish your own batch programs here.
 
 Read more on our website at https://www.bitcontrol.com or download the free trial at https://www.bitcontrol.com/en/download.html.
