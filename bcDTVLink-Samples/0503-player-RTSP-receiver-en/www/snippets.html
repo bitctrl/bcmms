@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title></title>
+<meta name="vs_targetSchema"
+	content="http://schemas.microsoft.com/intellisense/ie5">
+<link rel="stylesheet" href="page.css" type="text/css" />
+<script type="text/javascript" src="snippets.js"></script>
+<script type="text/javascript" src="xmlextras.js"></script>
+<script type="text/javascript" src="functions.js"></script>
+</head>
+<body>
+<form id="form" onsubmit="return false" action="">
+<table border="0" ID="Table1">
+	<tr>
+		<td><label>Server:&nbsp;</label></td>
+		<td><input id="server" name="server" size=50
+			value="http://localhost:80"></td>
+	</tr>
+</table>
+
+<fieldset><legend>Load Style</legend> <label for="async0"><input
+	type="radio" id="async0" name="async" value="sync" />Synchronous</label><br>
+<label for="async1"><input type="radio" id="async1" name="async"
+	value="async" checked />Asynchronous</label></fieldset>
+
+<br>
+<table>
+	<tr>
+		<td>
+		<button onclick="doPost();">Send request</button>
+		<button onclick="logClear();">Clear log</button>
+		<button onclick="test1();">Test1</button>
+		</td>
+		<td>
+		<form action="select.htm">
+		<p>Select one Snippet:</p>
+		<p><select name="Snippets" size="5">
+			<optgroup label="Digital TV Link">
+				<option value=Hallofromscript>Hallo from script!</option>
+				<option value=LicenceInfo>Licence info</option>
+				<option value=LogCount>Log count</option>
+				<option value=SettingVideoAndAudioPin>Setting Video and
+				Audio Pin</option>
+				<option value=ReadingVideoAndAudioPin>Reading Video and
+				Audio Pin</option>
+				<option value=ReadingALogEntry>Reading a log entry</option>
+				<option value=SwitchBDAChannel>Switch BDA Tuner channel</option>
+				<option value=LoadPlugin>Loading a Plugin</option>
+				<option value=StartPlugin>Starting a Plugin</option>
+				<option value=ReadCommonPluginParameter>Reading common
+				Plugin parameters</option>
+				<option value=SettingCommonPluginParameter>Setting Plugin
+				parameters</option>
+			</optgroup>
+			<optgroup label="Console Plugin">
+				<option value="ReadVisibleOfConsole">Reading the Visible
+				flag</option>
+				<option value="SettingVisibleForConsole">Setting the
+				Visible flag</option>
+			</optgroup>
+			<optgroup label="Recorder Plugin">
+				<option value="ReadRecorderParameter">Reading Recorder
+				plugin parameter</option>
+				<option value="SetRecorderParameter">Setting Recorder
+				plugin parameter</option>
+				<option value="SnippetStartRecorder">Start recording with
+				the Recorder plugin</option>
+				<option value="SnippetStopRecorder">Halt recording with the
+				Recorder plugin</option>
+			</optgroup>
+			<optgroup label="Retransmitter Plugin">
+				<option value="ReadRetransmitterParameter">Reading
+				Retransmitter plugin parameter</option>
+				<option value="SetRetransmitterParameter">Setting
+				Retransmitter plugin parameter</option>
+			</optgroup>
+			<optgroup label="DBox 2 Plugin">
+				<option value="ReadDBox2Parameter">Reading DBox2 plugin
+				parameter</option>
+				<option value="SetDBox2Parameter">Setting DBox2 plugin
+				parameter</option>
+				<option value="DBox2RefreshChannelList">Refreshing the
+				DBox2 plugin channel list</option>
+			</optgroup>
+			<optgroup label="Dreambox Plugin">
+				<option value="ReadDreamboxParameter">Reading Dreambox
+				plugin parameter</option>
+				<option value="SetDreamboxParameter">Setting Dreambox
+				plugin parameter</option>
+				<option value="DreamboxRefreshChannelList">Refreshing the
+				Dreambox plugin channel list</option>
+			</optgroup>
+			<optgroup label="ReelBox Plugin">
+				<option value="ReadReelBoxParameter">Reading ReelBox plugin
+				parameter</option>
+				<option value="SetReelBoxParameter">Setting ReelBox plugin
+				parameter</option>
+				<option value="ReelBoxRefreshChannelList">Refreshing the
+				ReelBox plugin channel list</option>
+			</optgroup>
+			<optgroup label="Multicast Receiver Plugin">
+				<option value="ReadMulticastReceiverParameter">Reading
+				MulticastReceiver plugin parameter</option>
+				<option value="SetMulticastReceiverParameter">Setting
+				MulticastReceiver plugin parameter</option>
+			</optgroup>
+			<optgroup label="RTSP  Receiver Plugin">
+				<option value="ReadRTSPReceiverParameter">Reading RTSP
+				Receiver plugin parameter</option>
+				<option value="SetRTSPReceiverParameter">Setting RTSP
+				Receiver plugin parameter</option>
+			</optgroup>
+			<optgroup label="HTTP Server Plugin">
+				<option value="ReadHTTPServerParameter">Reading HTTP Server
+				plugin parameter</option>
+				<option value="SetHTTPServerParameter">Setting HTTP Server
+				plugin parameter</option>
+			</optgroup>
+			<optgroup label="RTSP Server Plugin">
+				<option value="ReadRTSPServerParameter">Reading RTSP Server
+				plugin parameter</option>
+				<option value="SetRTSPServerParameter">Setting RTSP Server
+				plugin parameter</option>
+			</optgroup>
+			<optgroup label="BDA Tuner Plugin">
+				<option value="ReadBDATunerParameter">Reading BDA Tuner
+				plugin parameter</option>
+				<option value="SetBDATunerParameter">Setting BDA Tuner
+				plugin parameter</option>
+			</optgroup>
+			<optgroup label="bitcontrol MPEG Decoder">
+				<option value="ReadMPEGDecoderParameter">Reading MPEG Decoder parameter</option>
+				<option value="SetMPEGDecoderParameter">Setting parameter
+				for the MPEG Decoder</option>
+			</optgroup>
+		</select></p>
+		</form>
+		</td>
+		<td>
+		<button
+			onclick="loadSnippet(this.form.Snippets.options[this.form.Snippets.selectedIndex].value)">Select
+		Snippet</button>
+		</td>
+</table>
+
+<table width="100%" ID="Table2">
+	<tr>
+		<td>Request</td>
+		<td>Response</td>
+	</tr>
+	<tr>
+		<td><textarea id="request" rows="" cols="" NAME="request">
+<DTV version="1.0">
+ <script language="JScript">
+   DTVLink.Log(1,"JScript","Hallo from script!");
+ </script>
+</DTV>
+		</textarea></td>
+		<td><textarea id="response" rows="" cols="" readonly
+			NAME="response"></textarea></td>
+	</tr>
+</table>
+
+Parsed Response:
+<div id="presponse">&nbsp;</div>
+
+Log: <textarea id="log" rows="" cols="" readonly NAME="log"></textarea>
+<br>
+</form>
+
+<!--
+<form method=post action="/upload" enctype="multipart/form-data">
+	<input id="postfile" name="postfilename" type="file"/>
+	<input type="submit"/>
+</form>
+-->
+
+<body>
+</html>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?><Plugin Name="File" Class="ReceiverFile" StartType="Auto"><Properties><Mode>2</Mode></Properties><Channels>
+<Channel Id="1" Name="Example video" Type="1" URL="bitcontrol-trailer.mp4"/></Channels></Plugin>

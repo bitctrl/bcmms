@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Terrestrials>
+	<Terrestrial Id="0" Name="Europe">
+		<Transponder Id="0" Name="C05" Frequency="177500" Bandwidth="7 MHz"/>
+		<Transponder Id="1" Name="C06" Frequency="184500" Bandwidth="7 MHz"/>
+		<Transponder Id="2" Name="C07" Frequency="191500" Bandwidth="7 MHz"/>
+		<Transponder Id="3" Name="C08" Frequency="198500" Bandwidth="7 MHz"/>
+		<Transponder Id="4" Name="C09" Frequency="205500" Bandwidth="7 MHz"/>
+		<Transponder Id="5" Name="C10" Frequency="212500" Bandwidth="7 MHz"/>
+		<Transponder Id="6" Name="C11" Frequency="219500" Bandwidth="7 MHz"/>
+		<Transponder Id="7" Name="C12" Frequency="226500" Bandwidth="7 MHz"/>
+		<Transponder Id="8" Name="C21" Frequency="474000" Bandwidth="8 MHz"/>
+		<Transponder Id="9" Name="C22" Frequency="482000" Bandwidth="8 MHz"/>
+		<Transponder Id="10" Name="C23" Frequency="490000" Bandwidth="8 MHz"/>
+		<Transponder Id="11" Name="C24" Frequency="498000" Bandwidth="8 MHz"/>
+		<Transponder Id="12" Name="C25" Frequency="506000" Bandwidth="8 MHz"/>
+		<Transponder Id="13" Name="C26" Frequency="514000" Bandwidth="8 MHz"/>
+		<Transponder Id="14" Name="C27" Frequency="522000" Bandwidth="8 MHz"/>
+		<Transponder Id="15" Name="C28" Frequency="530000" Bandwidth="8 MHz"/>
+		<Transponder Id="16" Name="C29" Frequency="538000" Bandwidth="8 MHz"/>
+		<Transponder Id="17" Name="C30" Frequency="546000" Bandwidth="8 MHz"/>
+		<Transponder Id="18" Name="C31" Frequency="554000" Bandwidth="8 MHz"/>
+		<Transponder Id="19" Name="C32" Frequency="562000" Bandwidth="8 MHz"/>
+		<Transponder Id="20" Name="C33" Frequency="570000" Bandwidth="8 MHz"/>
+		<Transponder Id="21" Name="C34" Frequency="578000" Bandwidth="8 MHz"/>
+		<Transponder Id="22" Name="C35" Frequency="586000" Bandwidth="8 MHz"/>
+		<Transponder Id="23" Name="C36" Frequency="594000" Bandwidth="8 MHz"/>
+		<Transponder Id="24" Name="C37" Frequency="602000" Bandwidth="8 MHz"/>
+		<Transponder Id="25" Name="C38" Frequency="610000" Bandwidth="8 MHz"/>
+		<Transponder Id="26" Name="C39" Frequency="618000" Bandwidth="8 MHz"/>
+		<Transponder Id="27" Name="C40" Frequency="626000" Bandwidth="8 MHz"/>
+		<Transponder Id="28" Name="C41" Frequency="634000" Bandwidth="8 MHz"/>
+		<Transponder Id="29" Name="C42" Frequency="642000" Bandwidth="8 MHz"/>
+		<Transponder Id="30" Name="C43" Frequency="650000" Bandwidth="8 MHz"/>
+		<Transponder Id="31" Name="C44" Frequency="658000" Bandwidth="8 MHz"/>
+		<Transponder Id="32" Name="C45" Frequency="666000" Bandwidth="8 MHz"/>
+		<Transponder Id="33" Name="C46" Frequency="674000" Bandwidth="8 MHz"/>
+		<Transponder Id="34" Name="C47" Frequency="682000" Bandwidth="8 MHz"/>
+		<Transponder Id="35" Name="C48" Frequency="690000" Bandwidth="8 MHz"/>
+		<Transponder Id="36" Name="C49" Frequency="698000" Bandwidth="8 MHz"/>
+		<Transponder Id="37" Name="C50" Frequency="706000" Bandwidth="8 MHz"/>
+		<Transponder Id="38" Name="C51" Frequency="714000" Bandwidth="8 MHz"/>
+		<Transponder Id="39" Name="C52" Frequency="722000" Bandwidth="8 MHz"/>
+		<Transponder Id="40" Name="C53" Frequency="730000" Bandwidth="8 MHz"/>
+		<Transponder Id="41" Name="C54" Frequency="738000" Bandwidth="8 MHz"/>
+		<Transponder Id="42" Name="C55" Frequency="746000" Bandwidth="8 MHz"/>
+		<Transponder Id="43" Name="C56" Frequency="754000" Bandwidth="8 MHz"/>
+		<Transponder Id="44" Name="C57" Frequency="762000" Bandwidth="8 MHz"/>
+		<Transponder Id="45" Name="C58" Frequency="770000" Bandwidth="8 MHz"/>
+		<Transponder Id="46" Name="C59" Frequency="778000" Bandwidth="8 MHz"/>
+		<Transponder Id="47" Name="C60" Frequency="786000" Bandwidth="8 MHz"/>
+		<Transponder Id="48" Name="C61" Frequency="794000" Bandwidth="8 MHz"/>
+		<Transponder Id="49" Name="C62" Frequency="802000" Bandwidth="8 MHz"/>
+		<Transponder Id="50" Name="C63" Frequency="810000" Bandwidth="8 MHz"/>
+		<Transponder Id="51" Name="C64" Frequency="818000" Bandwidth="8 MHz"/>
+		<Transponder Id="52" Name="C65" Frequency="826000" Bandwidth="8 MHz"/>
+		<Transponder Id="53" Name="C66" Frequency="834000" Bandwidth="8 MHz"/>
+		<Transponder Id="54" Name="C67" Frequency="842000" Bandwidth="8 MHz"/>
+		<Transponder Id="55" Name="C68" Frequency="850000" Bandwidth="8 MHz"/>
+		<Transponder Id="56" Name="C69" Frequency="858000" Bandwidth="8 MHz"/>
+	</Terrestrial>
+</Terrestrials>

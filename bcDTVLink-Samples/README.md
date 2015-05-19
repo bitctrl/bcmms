@@ -1,26 +1,10 @@
-bitcontrol® bcSimplePlayer - batch samples
-==========================================
+bitcontrol® bcSimplePlayer - sample configurations and HTA-Launcher
+===================================================================
 
-This directory contains MS Windows batch samples.
+This directory contains sample configurations for bitcontrol® bcSimplePlayer and an HTA-Launcher to start them.
 
-You have to install the bitcontrol(r) Multimedia Suite v1.2.1 or higher to run
-the examples. This implies that the included bitcontrol(r) Digital TV Link v3.8.0
+You have to install the bitcontrol(r) Multimedia Suite v1.2.2 or higher to run
+the examples. This implies that the included bitcontrol(r) Digital TV Link v3.9.0
 component or a higher version is installed too.
-
-Principles of the batch samples:
-* The file name of a batch file, e.g. "abc.bat", refers to its corresponding
-directory by its own name without the extension, in this case "abc". 
-* The program "SimplePlayer.exe" is started in the batch file with a configuration
-directory as the parameter option.  
-	--DataDir="%~dpn0\"
-* Several configuration
-directories may be used by only one batch program.
-* This principle does not work in UNC filesystems (Uniform Naming Convention). 
-You have to link an UNC network drive \\\\ComputerName\ShareFolder\Resource to a
-drive letter of the local Windows file system, e.g. H:\
-
-Click here to watch the corresponding video: http://youtu.be/cqcm8gIRRUg
-
-Please feel free to publish your own batch programs here.
 
 Read more on our website at https://www.bitcontrol.com or download the free trial at https://www.bitcontrol.com/en/download.html.

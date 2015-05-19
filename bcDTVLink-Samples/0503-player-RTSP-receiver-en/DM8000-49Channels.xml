@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="utf-8"?><Channels>
+<Channel Id="1:0:1:76C5:40E:1:C00000:0:0:0:" Name="40 TV" Provider="+MUS" Type="1"/>
+<Channel Id="1:0:1:332F:45B:1:C00000:0:0:0:" Name="." Provider="-" Type="1"/>
+<Channel Id="1:0:1:33A8:3EB:1:C00000:0:0:0:" Name="." Provider="-" Type="1"/>
+<Channel Id="1:0:1:3339:45B:1:C00000:0:0:0:" Name="L-TV/TVM" Provider="-" Type="1"/>
+<Channel Id="1:0:1:3330:45B:1:C00000:0:0:0:" Name="LT1-OOE" Provider="-" Type="1"/>
+<Channel Id="1:0:C:33C8:45B:1:C00000:0:0:0:" Name="Opentech OTA4" Provider="-" Type="0"/>
+<Channel Id="1:0:1:32DB:45D:1:C00000:0:0:0:" Name="R IC" Provider="-" Type="1"/>
+<Channel Id="1:0:1:33AB:3EB:1:C00000:0:0:0:" Name="RIC" Provider="-" Type="1"/>
+<Channel Id="1:0:1:33A9:3EB:1:C00000:0:0:0:" Name="Schau TV" Provider="-" Type="1"/>
+<Channel Id="1:0:81:33C9:45B:1:C00000:0:0:0:" Name="SSU-Test" Provider="-" Type="81"/>
+<Channel Id="1:0:1:33AA:3EB:1:C00000:0:0:0:" Name="Starparadies AT" Provider="-" Type="1"/>
+<Channel Id="1:0:1:3355:45B:1:C00000:0:0:0:" Name="Tirol TV" Provider="-" Type="1"/>
+<Channel Id="1:0:1:3333:45B:1:C00000:0:0:0:" Name="VISIT-X.tv" Provider="-" Type="1"/>
+<Channel Id="1:0:1:33A6:3EB:1:C00000:0:0:0:" Name="VOLKS TV" Provider="-" Type="1"/>
+<Channel Id="1:0:1:7738:416:1:C00000:0:0:0:" Name="24 HORAS" Provider="24H" Type="1"/>
+<Channel Id="1:0:2:6F08:445:1:C00000:0:0:0:" Name="hr-iNFO" Provider="ARD HR" Type="2"/>
+<Channel Id="1:0:2:6F03:445:1:C00000:0:0:0:" Name="hr1" Provider="ARD HR" Type="2"/>
+<Channel Id="1:0:2:6F04:445:1:C00000:0:0:0:" Name="hr2" Provider="ARD HR" Type="2"/>
+<Channel Id="1:0:2:6F05:445:1:C00000:0:0:0:" Name="hr3" Provider="ARD HR" Type="2"/>
+<Channel Id="1:0:2:6F06:445:1:C00000:0:0:0:" Name="hr4" Provider="ARD HR" Type="2"/>
+<Channel Id="1:0:2:6F07:445:1:C00000:0:0:0:" Name="YOU FM" Provider="ARD HR" Type="2"/>
+<Channel Id="1:0:1:427C:446:1:C00000:0:0:0:" Name="AB MOTEURS" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:427D:446:1:C00000:0:0:0:" Name="AB1" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:4286:446:1:C00000:0:0:0:" Name="ACTION" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:427E:446:1:C00000:0:0:0:" Name="ANIMAUX" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:428C:446:1:C00000:0:0:0:" Name="CHASSE et PECHE" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:428A:446:1:C00000:0:0:0:" Name="CINE FX" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:4289:446:1:C00000:0:0:0:" Name="CINE POLAR" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:C1:42CB:446:1:C00000:0:0:0:" Name="DATA SYSTEM 94" Provider="ABSAT" Type="0"/>
+<Channel Id="1:0:1:4285:446:1:C00000:0:0:0:" Name="DORCEL TV" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:427F:446:1:C00000:0:0:0:" Name="ENCYCLO" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:4281:446:1:C00000:0:0:0:" Name="ESCALES" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:4287:446:1:C00000:0:0:0:" Name="MANGAS" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:4284:446:1:C00000:0:0:0:" Name="NT1" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:4290:446:1:C00000:0:0:0:" Name="NT1" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:428B:446:1:C00000:0:0:0:" Name="RTL9" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:428D:446:1:C00000:0:0:0:" Name="STYLIA" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:4282:446:1:C00000:0:0:0:" Name="toute L'HISTOIRE" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:4280:446:1:C00000:0:0:0:" Name="XXL" Provider="ABSAT" Type="1"/>
+<Channel Id="1:0:1:42A3:446:1:C00000:0:0:0:" Name="DORCEL TV " Provider="AB" Type="1"/>
+<Channel Id="1:0:1:429E:446:1:C00000:0:0:0:" Name="XXL " Provider="AB" Type="1"/>
+<Channel Id="1:0:2:6EF4:445:1:C00000:0:0:0:" Name="B5 aktuell" Provider="ARD BR" Type="2"/>
+<Channel Id="1:0:2:6EF8:445:1:C00000:0:0:0:" Name="B5 plus" Provider="ARD BR" Type="2"/>
+<Channel Id="1:0:2:6EF0:445:1:C00000:0:0:0:" Name="Bayern 1" Provider="ARD BR" Type="2"/>
+<Channel Id="1:0:2:6EF1:445:1:C00000:0:0:0:" Name="Bayern 2" Provider="ARD BR" Type="2"/>
+<Channel Id="1:0:2:6EF2:445:1:C00000:0:0:0:" Name="BAYERN 3" Provider="ARD BR" Type="2"/>
+<Channel Id="1:0:2:6EF5:445:1:C00000:0:0:0:" Name="BAYERN plus" Provider="ARD BR" Type="2"/>
+<Channel Id="1:0:2:6EF3:445:1:C00000:0:0:0:" Name="BR-KLASSIK" Provider="ARD BR" Type="2"/>
+<Channel Id="1:0:2:6EF6:445:1:C00000:0:0:0:" Name="on3-radio" Provider="ARD BR" Type="2"/>
+<Channel Id="1:0:2:6F20:445:1:C00000:0:0:0:" Name="Bremen Eins" Provider="ARD RB" Type="2"/>
+<Channel Id="1:0:2:6F22:445:1:C00000:0:0:0:" Name="Bremen Vier" Provider="ARD RB" Type="2"/>
+<Channel Id="1:0:2:6F21:445:1:C00000:0:0:0:" Name="Nordwestradio" Provider="ARD RB" Type="2"/>
+<Channel Id="1:0:C:6E5A:431:1:C00000:0:0:0:" Name="ARD-Data-1" Provider="ARD" Type="0"/>
+<Channel Id="1:0:1:6E3D:431:1:C00000:0:0:0:" Name="ARD-TEST-1" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:7034:41B:1:C00000:0:0:0:" Name="arte" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:283E:3FB:1:C00000:0:0:0:" Name="arte HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:2B70:3F3:1:C00000:0:0:0:" Name="arte HD alt" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:6DCE:44D:1:C00000:0:0:0:" Name="Bayerisches FS Nord" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6DCB:44D:1:C00000:0:0:0:" Name="Bayerisches FS Süd" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:2856:401:1:C00000:0:0:0:" Name="BR Nord HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:2855:401:1:C00000:0:0:0:" Name="BR Süd HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:6F47:445:1:C00000:0:0:0:" Name="BR-alpha" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6DCA:44D:1:C00000:0:0:0:" Name="Das Erste" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:283D:3FB:1:C00000:0:0:0:" Name="Das Erste HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:2B5C:3F3:1:C00000:0:0:0:" Name="Das Erste HD alt" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:7032:41B:1:C00000:0:0:0:" Name="Einsfestival" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:6EEC:4B1:1:C00000:0:0:0:" Name="Einsfestival HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:7033:41B:1:C00000:0:0:0:" Name="EinsPlus" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6DCC:44D:1:C00000:0:0:0:" Name="hr-fernsehen" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E45:431:1:C00000:0:0:0:" Name="MDR S-Anhalt" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E44:431:1:C00000:0:0:0:" Name="MDR Sachsen" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E46:431:1:C00000:0:0:0:" Name="MDR Thüringen" Provider="ARD" Type="1"/>
+<Channel Id="1:0:2:6EED:4B1:1:C00000:0:0:0:" Name="MEHRKANALTEST" Provider="ARD" Type="2"/>
+<Channel Id="1:0:1:6E41:431:1:C00000:0:0:0:" Name="NDR FS HH" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:2859:401:1:C00000:0:0:0:" Name="NDR FS HH HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:6E40:431:1:C00000:0:0:0:" Name="NDR FS MV" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:2858:401:1:C00000:0:0:0:" Name="NDR FS MV HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:6E42:431:1:C00000:0:0:0:" Name="NDR FS NDS" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:2857:401:1:C00000:0:0:0:" Name="NDR FS NDS HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:6E43:431:1:C00000:0:0:0:" Name="NDR FS SH" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:285A:401:1:C00000:0:0:0:" Name="NDR FS SH HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:7035:41B:1:C00000:0:0:0:" Name="PHOENIX" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:285B:401:1:C00000:0:0:0:" Name="PHOENIX HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:6EE1:4B1:1:C00000:0:0:0:" Name="Radio Bremen TV" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E2E:431:1:C00000:0:0:0:" Name="rbb Berlin" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E2D:431:1:C00000:0:0:0:" Name="rbb Brandenburg" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6F46:445:1:C00000:0:0:0:" Name="SR Fernsehen" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:283F:3FB:1:C00000:0:0:0:" Name="SWR BW HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:6DD1:44D:1:C00000:0:0:0:" Name="SWR Fernsehen BW" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E47:431:1:C00000:0:0:0:" Name="SWR Fernsehen RP" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:2840:3FB:1:C00000:0:0:0:" Name="SWR RP HD" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:7031:41B:1:C00000:0:0:0:" Name="tagesschau24" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:7036:41B:1:C00000:0:0:0:" Name="Test-R" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6F76:457:1:C00000:0:0:0:" Name="WDR Aachen" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E92:4B1:1:C00000:0:0:0:" Name="WDR Bielefeld" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6F78:457:1:C00000:0:0:0:" Name="WDR Bonn" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E93:4B1:1:C00000:0:0:0:" Name="WDR Dortmund" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6F79:457:1:C00000:0:0:0:" Name="WDR Duisburg" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E94:4B1:1:C00000:0:0:0:" Name="WDR Düsseldorf" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E95:4B1:1:C00000:0:0:0:" Name="WDR Essen" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:6F80:457:1:C00000:0:0:0:" Name="WDR HD Aachen" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6EA6:4B1:1:C00000:0:0:0:" Name="WDR HD Bielefeld" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6F82:457:1:C00000:0:0:0:" Name="WDR HD Bonn" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6EA7:4B1:1:C00000:0:0:0:" Name="WDR HD Dortmund" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6F83:457:1:C00000:0:0:0:" Name="WDR HD Duisburg" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6EA8:4B1:1:C00000:0:0:0:" Name="WDR HD Düsseldorf" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6EA9:4B1:1:C00000:0:0:0:" Name="WDR HD Essen" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6EA5:4B1:1:C00000:0:0:0:" Name="WDR HD Köln" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6EAA:4B1:1:C00000:0:0:0:" Name="WDR HD Münster" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6EAB:4B1:1:C00000:0:0:0:" Name="WDR HD Siegen" Provider="ARD" Type="19"/>
+<Channel Id="1:0:19:6F81:457:1:C00000:0:0:0:" Name="WDR HD Wuppertal" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:6DCF:44D:1:C00000:0:0:0:" Name="WDR Köln" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E96:4B1:1:C00000:0:0:0:" Name="WDR Münster" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6E97:4B1:1:C00000:0:0:0:" Name="WDR Siegen" Provider="ARD" Type="1"/>
+<Channel Id="1:0:1:6EEB:4B1:1:C00000:0:0:0:" Name="WDR Test A" Provider="ARD" Type="1"/>
+<Channel Id="1:0:19:6EEA:4B1:1:C00000:0:0:0:" Name="WDR Test B" Provider="ARD" Type="19"/>
+<Channel Id="1:0:1:6F77:457:1:C00000:0:0:0:" Name="WDR Wuppertal" Provider="ARD" Type="1"/>
+<Channel Id="1:0:2:6F18:445:1:C00000:0:0:0:" Name="N-JOY" Provider="ARD NDR" Type="2"/>
+<Channel Id="1:0:2:6F1C:445:1:C00000:0:0:0:" Name="NDR 1 Nieders." Provider="ARD NDR" Type="2"/>
+<Channel Id="1:0:2:6F1B:445:1:C00000:0:0:0:" Name="NDR 1 Radio MV" Provider="ARD NDR" Type="2"/>
+<Channel Id="1:0:2:6F15:445:1:C00000:0:0:0:" Name="NDR 2" Provider="ARD NDR" Type="2"/>
+<Channel Id="1:0:2:6F19:445:1:C00000:0:0:0:" Name="NDR 90,3" Provider="ARD NDR" Type="2"/>
+<Channel Id="1:0:2:6F17:445:1:C00000:0:0:0:" Name="NDR Info" Provider="ARD NDR" Type="2"/>
+<Channel Id="1:0:2:6F1D:445:1:C00000:0:0:0:" Name="NDR Info Spez." Provider="ARD NDR" Type="2"/>
+<Channel Id="1:0:2:6F16:445:1:C00000:0:0:0:" Name="NDR Kultur" Provider="ARD NDR" Type="2"/>
+<Channel Id="1:0:2:6F1A:445:1:C00000:0:0:0:" Name="NDR1WelleNord" Provider="ARD NDR" Type="2"/>
+<Channel Id="1:0:2:6F0F:445:1:C00000:0:0:0:" Name="MDR FIGARO" Provider="ARD MDR" Type="2"/>
+<Channel Id="1:0:2:6F12:445:1:C00000:0:0:0:" Name="MDR INFO" Provider="ARD MDR" Type="2"/>
+<Channel Id="1:0:2:6F10:445:1:C00000:0:0:0:" Name="MDR JUMP" Provider="ARD MDR" Type="2"/>
+<Channel Id="1:0:2:6F13:445:1:C00000:0:0:0:" Name="MDR KLASSIK" Provider="ARD MDR" Type="2"/>
+<Channel Id="1:0:2:6F11:445:1:C00000:0:0:0:" Name="MDR SPUTNIK" Provider="ARD MDR" Type="2"/>
+<Channel Id="1:0:2:6F0D:445:1:C00000:0:0:0:" Name="MDR1 SA-ANHALT" Provider="ARD MDR" Type="2"/>
+<Channel Id="1:0:2:6F0C:445:1:C00000:0:0:0:" Name="MDR1 SACHSEN" Provider="ARD MDR" Type="2"/>
+<Channel Id="1:0:2:6F0E:445:1:C00000:0:0:0:" Name="MDR1 THÜRINGEN" Provider="ARD MDR" Type="2"/>
+<Channel Id="1:0:2:6F26:445:1:C00000:0:0:0:" Name="Antenne Brandenburg" Provider="ARD rbb" Type="2"/>
+<Channel Id="1:0:2:6F29:445:1:C00000:0:0:0:" Name="Fritz" Provider="ARD rbb" Type="2"/>
+<Channel Id="1:0:2:6F24:445:1:C00000:0:0:0:" Name="Inforadio" Provider="ARD rbb" Type="2"/>
+<Channel Id="1:0:2:6F25:445:1:C00000:0:0:0:" Name="Kulturradio" Provider="ARD rbb" Type="2"/>
+<Channel Id="1:0:2:6F27:445:1:C00000:0:0:0:" Name="radioBERLIN 88,8" Provider="ARD rbb" Type="2"/>
+<Channel Id="1:0:2:6F28:445:1:C00000:0:0:0:" Name="radioeins" Provider="ARD rbb" Type="2"/>
+<Channel Id="1:0:2:6F2D:445:1:C00000:0:0:0:" Name="SR1 Europawelle" Provider="ARD SR" Type="2"/>
+<Channel Id="1:0:2:6F2E:445:1:C00000:0:0:0:" Name="SR2 KulturRadio" Provider="ARD SR" Type="2"/>
+<Channel Id="1:0:2:6F2F:445:1:C00000:0:0:0:" Name="SR3 Saarlandwelle" Provider="ARD SR" Type="2"/>
+<Channel Id="1:0:2:6F37:445:1:C00000:0:0:0:" Name="DASDING" Provider="ARD SWR" Type="2"/>
+<Channel Id="1:0:2:6F31:445:1:C00000:0:0:0:" Name="SWR1 BW" Provider="ARD SWR" Type="2"/>
+<Channel Id="1:0:2:6F32:445:1:C00000:0:0:0:" Name="SWR1 RP" Provider="ARD SWR" Type="2"/>
+<Channel Id="1:0:2:6F33:445:1:C00000:0:0:0:" Name="SWR2" Provider="ARD SWR" Type="2"/>
+<Channel Id="1:0:2:6F34:445:1:C00000:0:0:0:" Name="SWR3" Provider="ARD SWR" Type="2"/>
+<Channel Id="1:0:2:6F35:445:1:C00000:0:0:0:" Name="SWR4 BW" Provider="ARD SWR" Type="2"/>
+<Channel Id="1:0:2:6F36:445:1:C00000:0:0:0:" Name="SWR4 RP" Provider="ARD SWR" Type="2"/>
+<Channel Id="1:0:2:6F38:445:1:C00000:0:0:0:" Name="SWRinfo" Provider="ARD SWR" Type="2"/>
+<Channel Id="1:0:1:3335:45B:1:C00000:0:0:0:" Name="ESPN America" Provider="arena" Type="1"/>
+<Channel Id="1:0:1:1130:404:1:C00000:0:0:0:" Name="SES Launches" Provider="ASTRA" Type="1"/>
+<Channel Id="1:0:1:1465:40D:1:C00000:0:0:0:" Name="SES Launches" Provider="ASTRA" Type="1"/>
+<Channel Id="1:0:1:33A7:3EB:1:C00000:0:0:0:" Name="ATV2" Provider="ATV" Type="1"/>
+<Channel Id="1:0:1:33AC:3EB:1:C00000:0:0:0:" Name="TELE 5 Austria" Provider="ATV" Type="1"/>
+<Channel Id="1:0:1:2753:402:1:C00000:0:0:0:" Name="Bloomberg Europe TV" Provider="Arqiva" Type="1"/>
+<Channel Id="1:0:1:6F70:42C:1:C00000:0:0:0:" Name="Boing" Provider="Arqiva" Type="1"/>
+<Channel Id="1:0:1:32D4:45D:1:C00000:0:0:0:" Name="ATV" Provider="ATV+" Type="1"/>
+<Channel Id="1:0:1:7477:3F0:1:C00000:0:0:0:" Name="AXN" Provider="AXN" Type="1"/>
+<Channel Id="1:0:1:74A0:41C:1:C00000:0:0:0:" Name="BARÇA TV" Provider="BARNA" Type="1"/>
+<Channel Id="1:0:1:2742:402:1:C00000:0:0:0:" Name="BBC World" Provider="BBC" Type="1"/>
+<Channel Id="1:0:1:49:5:85:C00000:0:0:0:" Name="." Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:4C:21:85:C00000:0:0:0:" Name="." Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:126A:3F7:1:C00000:0:0:0:" Name="." Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:126B:3F7:1:C00000:0:0:0:" Name="." Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:126C:3F7:1:C00000:0:0:0:" Name="." Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:126D:3F7:1:C00000:0:0:0:" Name="." Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:2:AE:5:85:C00000:0:0:0:" Name="." Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:1:126E:3F7:1:C00000:0:0:0:" Name=".1." Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:126F:3F7:1:C00000:0:0:0:" Name=".2." Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1270:3F7:1:C00000:0:0:0:" Name=".3." Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1292:3F7:1:C00000:0:0:0:" Name=".6live" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:296:5:85:C00000:0:0:0:" Name="1-2-3.tv" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:11F8:3FD:1:C00000:0:0:0:" Name="a.tv" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:12A1:3F7:1:C00000:0:0:0:" Name="Achtung Singles TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1293:3F7:1:C00000:0:0:0:" Name="Amore TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:19:526C:41D:1:C00000:0:0:0:" Name="ANIXE HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:1:1266:3F7:1:C00000:0:0:0:" Name="anixe iTV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:2FC:5:85:C00000:0:0:0:" Name="ANIXE SD" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:2:AA:7:85:C00000:0:0:0:" Name="ANTENNE BAYERN" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:19:1265:3F7:1:C00000:0:0:0:" Name="ASTRA 3D Demo" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:16:5277:41D:1:C00000:0:0:0:" Name="ASTRA Portal" Provider="BetaDigital" Type="16"/>
+<Channel Id="1:0:1:295:21:85:C00000:0:0:0:" Name="AstroTV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:11FE:3FD:1:C00000:0:0:0:" Name="Bay TV 1" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:11FF:3FD:1:C00000:0:0:0:" Name="Bay TV 2" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1200:3FD:1:C00000:0:0:0:" Name="Bay TV 3" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1201:3FD:1:C00000:0:0:0:" Name="Bay TV 4" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:C:F86:1:85:C00000:0:0:0:" Name="BData3" Provider="BetaDigital" Type="0"/>
+<Channel Id="1:0:1:129E:3F7:1:C00000:0:0:0:" Name="Beate Uhse Sexy Sat" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:36:7:85:C00000:0:0:0:" Name="Beauty TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:301:7:85:C00000:0:0:0:" Name="Channel21" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:125F:3F7:1:C00000:0:0:0:" Name="Channel21 Express" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:129D:3F7:1:C00000:0:0:0:" Name="Chat TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1299:3F7:1:C00000:0:0:0:" Name="Club1 TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:293:5:85:C00000:0:0:0:" Name="collection" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:125E:3F7:1:C00000:0:0:0:" Name="DAF-AnlegerTV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:701:5:85:C00000:0:0:0:" Name="DAS VIERTE" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:128E:3F7:1:C00000:0:0:0:" Name="Date1TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:292:5:85:C00000:0:0:0:" Name="Daystar Television Network" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:41:7:85:C00000:0:0:0:" Name="DELUXE MUSIC" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1269:3F7:1:C00000:0:0:0:" Name="Die Neue Zeit TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:3F:21:85:C00000:0:0:0:" Name="DMAX" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:19:151A:455:1:C00000:0:0:0:" Name="DMAX HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:2:AB:5:85:C00000:0:0:0:" Name="domradio" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:16:1523:455:1:C00000:0:0:0:" Name="Dr.DishTV-Welt der Technik" Provider="BetaDigital" Type="16"/>
+<Channel Id="1:0:1:129C:3F7:1:C00000:0:0:0:" Name="Dreamdate TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:381:21:85:C00000:0:0:0:" Name="e8 television" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:2:AC:5:85:C00000:0:0:0:" Name="egoFM" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:1:30:5:85:C00000:0:0:0:" Name="ERF 1" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:2:A1:7:85:C00000:0:0:0:" Name="ERF Plus" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:1:3E:5:85:C00000:0:0:0:" Name="EWTN katholisches TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:129F:3F7:1:C00000:0:0:0:" Name="Flirten TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:11F9:3FD:1:C00000:0:0:0:" Name="Franken Fernsehen" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:11FA:3FD:1:C00000:0:0:0:" Name="Franken SAT" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:128F:3F7:1:C00000:0:0:0:" Name="Friends TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:12A3:3F7:1:C00000:0:0:0:" Name="GayBoys LIVE" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:306:7:85:C00000:0:0:0:" Name="GOD Channel" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:47:7:85:C00000:0:0:0:" Name="HOPE Channel deutsch" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:2:AF:5:85:C00000:0:0:0:" Name="HOPE Channel Radio" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:1:28:21:85:C00000:0:0:0:" Name="HSE24" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:19:5270:41D:1:C00000:0:0:0:" Name="HSE24 HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:1:4D:21:85:C00000:0:0:0:" Name="HSE24 TREND" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:304:5:85:C00000:0:0:0:" Name="iM1" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:2:B1:5:85:C00000:0:0:0:" Name="JAM FM" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:1:202:7:85:C00000:0:0:0:" Name="JML Shop" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:19:151B:455:1:C00000:0:0:0:" Name="Juwelo HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:2:AD:5:85:C00000:0:0:0:" Name="Klassik Radio" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:1:1296:3F7:1:C00000:0:0:0:" Name="Kontaktbörse TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:129A:3F7:1:C00000:0:0:0:" Name="Liebesglück.TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:11FB:3FD:1:C00000:0:0:0:" Name="Lokal SAT" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1252:3FD:1:C00000:0:0:0:" Name="Lokal TV Portal" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1291:3F7:1:C00000:0:0:0:" Name="Love TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:307:7:85:C00000:0:0:0:" Name="MediaShop- Meine Einkaufswelt" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:382:21:85:C00000:0:0:0:" Name="MediaShop- Neuheiten" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:2E:21:85:C00000:0:0:0:" Name="mediasparTV Homeshopping" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:383:21:85:C00000:0:0:0:" Name="meinTVshop" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:12B8:3F7:1:C00000:0:0:0:" Name="Multytext" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:11FC:3FD:1:C00000:0:0:0:" Name="mütv/RFO" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:19:5274:41D:1:C00000:0:0:0:" Name="N24 HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:19:527E:41D:1:C00000:0:0:0:" Name="N24 HD Austria" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:1:702:5:85:C00000:0:0:0:" Name="Ojom TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:11FD:3FD:1:C00000:0:0:0:" Name="ONTV Regional" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1294:3F7:1:C00000:0:0:0:" Name="Partnersuche TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:2FD:7:85:C00000:0:0:0:" Name="pearl.tv Technik-Shop" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:4A:5:85:C00000:0:0:0:" Name="Press TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:40:5:85:C00000:0:0:0:" Name="QVC Beauty" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:19:526F:41D:1:C00000:0:0:0:" Name="QVC HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:1:2F:21:85:C00000:0:0:0:" Name="REGIO TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:300:7:85:C00000:0:0:0:" Name="RNF" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:2:A0:7:85:C00000:0:0:0:" Name="ROCK ANTENNE" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:19:EF15:421:1:C00000:0:0:0:" Name="RTL2 HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:1:12A2:3F7:1:C00000:0:0:0:" Name="SAT Flirt TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:35:7:85:C00000:0:0:0:" Name="SES 01" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:46:7:85:C00000:0:0:0:" Name="SES 02" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:125C:3F7:1:C00000:0:0:0:" Name="SES 03" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:125D:3F7:1:C00000:0:0:0:" Name="SES 04" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1260:3F7:1:C00000:0:0:0:" Name="SES 05" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1261:3F7:1:C00000:0:0:0:" Name="SES 06" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1262:3F7:1:C00000:0:0:0:" Name="SES 07" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1263:3F7:1:C00000:0:0:0:" Name="SES 08" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1264:3F7:1:C00000:0:0:0:" Name="SES 09" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:12A0:3F7:1:C00000:0:0:0:" Name="Singletreff TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:20:21:85:C00000:0:0:0:" Name="Sonnenklar TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:19:1518:455:1:C00000:0:0:0:" Name="sonnenklar.TV HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:1:1268:3F7:1:C00000:0:0:0:" Name="SOPHIA TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:384:21:85:C00000:0:0:0:" Name="SPORT1" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:19:EF14:421:1:C00000:0:0:0:" Name="SPORT1 HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:2:A9:7:85:C00000:0:0:0:" Name="sunshine live" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:2:B0:7:85:C00000:0:0:0:" Name="TEDDY" Provider="BetaDigital" Type="2"/>
+<Channel Id="1:0:1:33:21:85:C00000:0:0:0:" Name="TELE 5" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:19:1519:455:1:C00000:0:0:0:" Name="TELE 5 HD" Provider="BetaDigital" Type="19"/>
+<Channel Id="1:0:1:129B:3F7:1:C00000:0:0:0:" Name="Telefonchat TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1295:3F7:1:C00000:0:0:0:" Name="Teleglück TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1290:3F7:1:C00000:0:0:0:" Name="Turbodating TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1297:3F7:1:C00000:0:0:0:" Name="Verliebt TV" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1267:3F7:1:C00000:0:0:0:" Name="Volksmusik" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:1:1298:3F7:1:C00000:0:0:0:" Name="Zeit für Gefühle" Provider="BetaDigital" Type="1"/>
+<Channel Id="1:0:B2:A82:4:85:C00000:0:0:0:" Name="Videotext" Provider="BetaResearch" Type="0"/>
+<Channel Id="1:0:1:76CE:40E:1:C00000:0:0:0:" Name="CANAL COCINA" Provider="CACOC" Type="1"/>
+<Channel Id="1:0:1:7FD:449:35:C00000:0:0:0:" Name="Dorcel TV" Provider="Canaaldigitaal" Type="1"/>
+<Channel Id="1:0:2:FBE:451:35:C00000:0:0:0:" Name="BNR Nieuwsradio" Provider="Canaldigitaal" Type="2"/>
+<Channel Id="1:0:C:1003:451:35:C00000:0:0:0:" Name="Hyunda SAT801" Provider="Canaldigitaal" Type="0"/>
+<Channel Id="1:0:C:FF2:451:35:C00000:0:0:0:" Name="Hyundai SAT901" Provider="Canaldigitaal" Type="0"/>
+<Channel Id="1:0:C:1002:451:35:C00000:0:0:0:" Name="Nagra DL DSR 8141" Provider="Canaldigitaal" Type="0"/>
+<Channel Id="1:0:C:1000:451:35:C00000:0:0:0:" Name="Nagra DL DSR7141" Provider="Canaldigitaal" Type="0"/>
+<Channel Id="1:0:C:FFF:451:35:C00000:0:0:0:" Name="pace DL DSR7141" Provider="Canaldigitaal" Type="0"/>
+<Channel Id="1:0:C:1001:451:35:C00000:0:0:0:" Name="pace DL DSR8141" Provider="Canaldigitaal" Type="0"/>
+<Channel Id="1:0:1:7FC:449:35:C00000:0:0:0:" Name="Planet" Provider="Canaldigitaal" Type="1"/>
+<Channel Id="1:0:1:7E4:449:35:C00000:0:0:0:" Name="Animal Planet/TLC" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:7FF:449:35:C00000:0:0:0:" Name="Animax" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:2:1498:40D:1:C00000:0:0:0:" Name="Bel RTL" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:1:FB0:451:35:C00000:0:0:0:" Name="BVN" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:2:815:449:35:C00000:0:0:0:" Name="Classic FM" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:14A6:40D:1:C00000:0:0:0:" Name="Classic21" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:1:7F4:449:35:C00000:0:0:0:" Name="Comedy Central/Kindernet" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:7DF:449:35:C00000:0:0:0:" Name="Discovery" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:81:FF1:451:35:C00000:0:0:0:" Name="Downl CAM new" Provider="CANALDIGITAAL" Type="81"/>
+<Channel Id="1:0:C:FF0:451:35:C00000:0:0:0:" Name="DownloadCDS" Provider="CANALDIGITAAL" Type="0"/>
+<Channel Id="1:0:1:1C1F:451:35:C00000:0:0:0:" Name="EPG" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:D4:1C1E:451:35:C00000:0:0:0:" Name="EPG Nagra" Provider="CANALDIGITAAL" Type="0"/>
+<Channel Id="1:0:1:7E9:449:35:C00000:0:0:0:" Name="EUROSPORT" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:7EA:449:35:C00000:0:0:0:" Name="EUROSPORT CZ" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:2:FC3:451:35:C00000:0:0:0:" Name="FunX" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:1:7FA:449:35:C00000:0:0:0:" Name="Hustler TV" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:7FB:449:35:C00000:0:0:0:" Name="Hustler TV CZ" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:2:14A9:40D:1:C00000:0:0:0:" Name="La Premiere" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:14A8:40D:1:C00000:0:0:0:" Name="Musiq 3" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:C:FFE:451:35:C00000:0:0:0:" Name="Nagra DL DSR 8121" Provider="CANALDIGITAAL" Type="0"/>
+<Channel Id="1:0:C:FFC:451:35:C00000:0:0:0:" Name="Nagra DL DSR7121" Provider="CANALDIGITAAL" Type="0"/>
+<Channel Id="1:0:1:FAB:451:35:C00000:0:0:0:" Name="NED1" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:FAC:451:35:C00000:0:0:0:" Name="NED2" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:FAD:451:35:C00000:0:0:0:" Name="NED3" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:FA3:451:35:C00000:0:0:0:" Name="NET5" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:FAF:451:35:C00000:0:0:0:" Name="NGC" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:FAE:451:35:C00000:0:0:0:" Name="Nickelodeon" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:2:809:449:35:C00000:0:0:0:" Name="NL-3FM" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:807:449:35:C00000:0:0:0:" Name="NL-Radio 1" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:808:449:35:C00000:0:0:0:" Name="NL-Radio 2" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:80A:449:35:C00000:0:0:0:" Name="NL-Radio 4" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:80B:449:35:C00000:0:0:0:" Name="NL-Radio 5" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:80C:449:35:C00000:0:0:0:" Name="NL-Radio 6" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:C:FFB:451:35:C00000:0:0:0:" Name="Philips DL DSR 7121" Provider="CANALDIGITAAL" Type="0"/>
+<Channel Id="1:0:C:FFD:451:35:C00000:0:0:0:" Name="Philips DL DSR 8121" Provider="CANALDIGITAAL" Type="0"/>
+<Channel Id="1:0:2:14A5:40D:1:C00000:0:0:0:" Name="Pure FM" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:1499:40D:1:C00000:0:0:0:" Name="Radio Contact" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:814:449:35:C00000:0:0:0:" Name="Radio Veronica" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:813:449:35:C00000:0:0:0:" Name="Radio10Gold" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:812:449:35:C00000:0:0:0:" Name="Radio538" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:804:449:35:C00000:0:0:0:" Name="RTL 1440" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:803:449:35:C00000:0:0:0:" Name="RTL RADIO" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:1:7D4:449:35:C00000:0:0:0:" Name="RTL4" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:7D5:449:35:C00000:0:0:0:" Name="RTL5" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:7D6:449:35:C00000:0:0:0:" Name="RTL7" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:7F3:449:35:C00000:0:0:0:" Name="RTL8" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:1:FA2:451:35:C00000:0:0:0:" Name="SBS6" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:2:810:449:35:C00000:0:0:0:" Name="Sky Radio" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:2:817:449:35:C00000:0:0:0:" Name="Slam FM" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:1:7EF:449:35:C00000:0:0:0:" Name="Veronica/DisneyXD" Provider="CANALDIGITAAL" Type="1"/>
+<Channel Id="1:0:2:14A7:40D:1:C00000:0:0:0:" Name="VivaCite" Provider="CANALDIGITAAL" Type="2"/>
+<Channel Id="1:0:C:F80:2:85:C00000:0:0:0:" Name="(...)" Provider="betaresearch" Type="0"/>
+<Channel Id="1:0:1:772B:416:1:C00000:0:0:0:" Name="CAZA Y PESCA" Provider="CAZPES" Type="1"/>
+<Channel Id="1:0:1:2F3F:441:1:C00000:0:0:0:" Name="Channel 21 ALT" Provider="CBC" Type="1"/>
+<Channel Id="1:0:19:EF10:421:1:C00000:0:0:0:" Name="RTL HD" Provider="CBC" Type="19"/>
+<Channel Id="1:0:1:2E86:405:1:C00000:0:0:0:" Name="RTL HD Austria" Provider="CBC" Type="1"/>
+<Channel Id="1:0:1:2EA4:405:1:C00000:0:0:0:" Name="RTL2 HD Austria" Provider="CBC" Type="1"/>
+<Channel Id="1:0:1:2E9A:405:1:C00000:0:0:0:" Name="SUPER RTL HD" Provider="CBC" Type="1"/>
+<Channel Id="1:0:19:EF11:421:1:C00000:0:0:0:" Name="VOX HD" Provider="CBC" Type="19"/>
+<Channel Id="1:0:1:2E90:405:1:C00000:0:0:0:" Name="VOX HD Austria" Provider="CBC" Type="1"/>
+<Channel Id="1:0:1:7790:424:1:C00000:0:0:0:" Name="CALLE 13" Provider="CL13" Type="1"/>
+<Channel Id="1:0:1:77C9:40A:1:C00000:0:0:0:" Name="TNT" Provider="CMA30" Type="1"/>
+<Channel Id="1:0:1:760C:408:1:C00000:0:0:0:" Name="TCM AUTOR" Provider="CMACLS" Type="1"/>
+<Channel Id="1:0:1:6F6A:42C:1:C00000:0:0:0:" Name="CNN Int." Provider="CNN" Type="1"/>
+<Channel Id="1:0:1:272E:402:1:C00000:0:0:0:" Name="CNBC Europe" Provider="CNBC" Type="1"/>
+<Channel Id="1:0:1:75F3:422:1:C00000:0:0:0:" Name="(...)" Provider="Contactanos" Type="1"/>
+<Channel Id="1:0:1:7730:416:1:C00000:0:0:0:" Name="COSMOPOLITAN" Provider="COSMO" Type="1"/>
+<Channel Id="1:0:1:746C:3F0:1:C00000:0:0:0:" Name="C+ ACCIÓN" Provider="CPC1" Type="1"/>
+<Channel Id="1:0:1:746D:3F0:1:C00000:0:0:0:" Name="C+ COMEDIA" Provider="CPC2" Type="1"/>
+<Channel Id="1:0:1:746E:3F0:1:C00000:0:0:0:" Name="C+ DCINE" Provider="CPC3" Type="1"/>
+<Channel Id="1:0:1:778E:424:1:C00000:0:0:0:" Name="C+ FÚTBOL" Provider="CPD1" Type="1"/>
+<Channel Id="1:0:1:779C:424:1:C00000:0:0:0:" Name="C+ FÚTBOL" Provider="CPD1" Type="1"/>
+<Channel Id="1:0:1:778F:424:1:C00000:0:0:0:" Name="C+ DEPORTES" Provider="CPD2" Type="1"/>
+<Channel Id="1:0:1:779D:424:1:C00000:0:0:0:" Name="C+ DEPORTES" Provider="CPD2" Type="1"/>
+<Channel Id="1:0:1:7696:41E:1:C00000:0:0:0:" Name="CARTOON NET." Provider="CTN" Type="1"/>
+<Channel Id="1:0:1:7736:416:1:C00000:0:0:0:" Name="DCINE ESPAÑOL" Provider="DCESP" Type="1"/>
+<Channel Id="1:0:1:76C3:40E:1:C00000:0:0:0:" Name="DISNEY CH." Provider="DCH" Type="1"/>
+<Channel Id="1:0:1:7797:424:1:C00000:0:0:0:" Name="DISCOVERY" Provider="DCR" Type="1"/>
+<Channel Id="1:0:1:7604:408:1:C00000:0:0:0:" Name="ANTENA 3" Provider="DIGITAL +" Type="1"/>
+<Channel Id="1:0:1:75FD:408:1:C00000:0:0:0:" Name="C+ infoDEPORTE" Provider="DIGITAL +" Type="1"/>
+<Channel Id="1:0:1:7796:424:1:C00000:0:0:0:" Name="SYFY" Provider="DIGITAL +" Type="1"/>
+<Channel Id="1:0:1:7626:408:1:C00000:0:0:0:" Name="TNT HD" Provider="DIGITAL +" Type="1"/>
+<Channel Id="1:0:1:75CE:422:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL +" Type="1"/>
+<Channel Id="1:0:1:75F5:422:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL +" Type="1"/>
+<Channel Id="1:0:1:756D:412:1:C00000:0:0:0:" Name="MULTIDEP.2" Provider="Digital +" Type="1"/>
+<Channel Id="1:0:1:75AA:422:1:C00000:0:0:0:" Name="(...)" Provider="Digital +" Type="1"/>
+<Channel Id="1:0:1:75AE:422:1:C00000:0:0:0:" Name="(...)" Provider="Digital +" Type="1"/>
+<Channel Id="1:0:1:75CF:422:1:C00000:0:0:0:" Name="(...)" Provider="Digital +" Type="1"/>
+<Channel Id="1:0:1:75D9:422:1:C00000:0:0:0:" Name="(...)" Provider="Digital +" Type="1"/>
+<Channel Id="1:0:1:75EE:422:1:C00000:0:0:0:" Name="(...)" Provider="Digital +" Type="1"/>
+<Channel Id="1:0:1:778A:424:1:C00000:0:0:0:" Name="CANAL ODISEA" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:77BE:40A:1:C00000:0:0:0:" Name="CLAN  TVE" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:77C7:40A:1:C00000:0:0:0:" Name="CUATRO" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:77BF:40A:1:C00000:0:0:0:" Name="LA SEXTA" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:756C:412:1:C00000:0:0:0:" Name="MULTIDEP.1" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:7573:412:1:C00000:0:0:0:" Name="MULTIDEP.3" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:769B:41E:1:C00000:0:0:0:" Name="MULTIDEP.4" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:7601:408:1:C00000:0:0:0:" Name="R. MADRID TV" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:75ED:422:1:C00000:0:0:0:" Name="(...)" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:75F1:422:1:C00000:0:0:0:" Name="(...)" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:1:75F2:422:1:C00000:0:0:0:" Name="(...)" Provider="Digital+" Type="1"/>
+<Channel Id="1:0:19:7821:428:1:C00000:0:0:0:" Name="NAT GEO HD" Provider="DIGITAl+" Type="19"/>
+<Channel Id="1:0:19:7829:428:1:C00000:0:0:0:" Name="NAT GEO HD" Provider="DIGITAl+" Type="19"/>
+<Channel Id="1:0:1:769E:41E:1:C00000:0:0:0:" Name="C+LIGA2 E" Provider="DIGITALT+" Type="1"/>
+<Channel Id="1:0:C1:6F71:42C:1:C00000:0:0:0:" Name="DATA_SYS_68" Provider="DT CSAT" Type="0"/>
+<Channel Id="1:0:1:1F46:42E:1:C00000:0:0:0:" Name="13EME RUE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:19C9:444:1:C00000:0:0:0:" Name="13EME RUE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:19DD:444:1:C00000:0:0:0:" Name="13EME RUE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:8A:240C:452:1:C00000:0:0:0:" Name="A LA CARTE" Provider="CSAT" Type="8"/>
+<Channel Id="1:0:8A:240D:452:1:C00000:0:0:0:" Name="A LA CARTE" Provider="CSAT" Type="8"/>
+<Channel Id="1:0:C3:2408:452:1:C00000:0:0:0:" Name="A LA CARTE" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C3:2409:452:1:C00000:0:0:0:" Name="A LA CARTE" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:1:20D2:43E:1:C00000:0:0:0:" Name="A LA CARTE 1" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20DB:43E:1:C00000:0:0:0:" Name="A LA CARTE 10" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20DC:43E:1:C00000:0:0:0:" Name="A LA CARTE 11" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20D3:43E:1:C00000:0:0:0:" Name="A LA CARTE 2" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20D4:43E:1:C00000:0:0:0:" Name="A LA CARTE 3" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20D5:43E:1:C00000:0:0:0:" Name="A LA CARTE 4" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20D6:43E:1:C00000:0:0:0:" Name="A LA CARTE 5" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20D7:43E:1:C00000:0:0:0:" Name="A LA CARTE 6" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20D8:43E:1:C00000:0:0:0:" Name="A LA CARTE 7" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20D9:43E:1:C00000:0:0:0:" Name="A LA CARTE 8" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23F4:452:1:C00000:0:0:0:" Name="A LA CARTE 9" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2520:456:1:C00000:0:0:0:" Name="A LA DEMANDE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20A3:432:1:C00000:0:0:0:" Name="A VOIR CE SOIR" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:2168:400:1:C00000:0:0:0:" Name="ADO" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:1FDF:434:1:C00000:0:0:0:" Name="ARTE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FEC:434:1:C00000:0:0:0:" Name="ARTE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2458:440:1:C00000:0:0:0:" Name="ARTE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:246C:440:1:C00000:0:0:0:" Name="ARTE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:2:216F:400:1:C00000:0:0:0:" Name="BBC ARABIC" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2175:400:1:C00000:0:0:0:" Name="BBCW SERVICE" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:216E:400:1:C00000:0:0:0:" Name="BEUR FM" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2156:400:1:C00000:0:0:0:" Name="BFM BUSINESS" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:19:26B0:45C:1:C00000:0:0:0:" Name="BRAVA HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:26C4:45C:1:C00000:0:0:0:" Name="BRAVA HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:19D0:444:1:C00000:0:0:0:" Name="BRAVA HD TEST1" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:19D1:444:1:C00000:0:0:0:" Name="BRAVA HD TEST2" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:2391:44A:1:C00000:0:0:0:" Name="C+ DEMANDE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2589:458:1:C00000:0:0:0:" Name="CANAL J" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2009:430:1:C00000:0:0:0:" Name="CANAL+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:200C:430:1:C00000:0:0:0:" Name="CANAL+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:201D:430:1:C00000:0:0:0:" Name="CANAL+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:200B:430:1:C00000:0:0:0:" Name="CANAL+ CINEMA" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:200A:430:1:C00000:0:0:0:" Name="CANAL+ DECALE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:200D:430:1:C00000:0:0:0:" Name="CANAL+ FAMILY" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2261:438:1:C00000:0:0:0:" Name="CANAL+ HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2275:438:1:C00000:0:0:0:" Name="CANAL+ HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:227F:438:1:C00000:0:0:0:" Name="CANAL+ HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:2010:430:1:C00000:0:0:0:" Name="CANAL+ SPORT" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2024:430:1:C00000:0:0:0:" Name="CANAL+ SPORT" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2264:438:1:C00000:0:0:0:" Name="CANAL+ SPORT HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2278:438:1:C00000:0:0:0:" Name="CANAL+ SPORT HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:23F5:452:1:C00000:0:0:0:" Name="CANALPLAY" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:C9:23AB:44A:1:C00000:0:0:0:" Name="CANALPLAY" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:2:213B:400:1:C00000:0:0:0:" Name="CANALSAT RADIOS" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:8A:2142:400:1:C00000:0:0:0:" Name="CANALSAT RADIOS" Provider="CSAT" Type="8"/>
+<Channel Id="1:0:C6:213D:400:1:C00000:0:0:0:" Name="CANALSAT RADIOS" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:1:21A8:448:1:C00000:0:0:0:" Name="CDN12" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:87:206A:430:1:C00000:0:0:0:" Name="CDSA" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:2:2164:400:1:C00000:0:0:0:" Name="CHERIE FM" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:2205:44C:1:C00000:0:0:0:" Name="CINE+ CLASSIC" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:209F:432:1:C00000:0:0:0:" Name="CINE+ CLUB" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F42:42E:1:C00000:0:0:0:" Name="CINE+ EMOTION" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2207:44C:1:C00000:0:0:0:" Name="CINE+ FAMIZ" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F43:42E:1:C00000:0:0:0:" Name="CINE+ FRISSON" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:200E:430:1:C00000:0:0:0:" Name="CINE+ PREMIER" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2270:438:1:C00000:0:0:0:" Name="CINE+ PREMIER HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2284:438:1:C00000:0:0:0:" Name="CINE+ PREMIER HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:22C7:45A:1:C00000:0:0:0:" Name="CINE+ STAR" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FDE:434:1:C00000:0:0:0:" Name="COMEDIE+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:2161:400:1:C00000:0:0:0:" Name="CONTACT FM" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:23A3:44A:1:C00000:0:0:0:" Name="CSAT DEMANDE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2587:458:1:C00000:0:0:0:" Name="CUISINE+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:C1:1B58:3FC:1:C00000:0:0:0:" Name="DATA SYSTEM 76" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:225F:44C:1:C00000:0:0:0:" Name="DATA SYSTEM[100]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:19C7:44E:1:C00000:0:0:0:" Name="DATA SYSTEM[102]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:2453:452:1:C00000:0:0:0:" Name="DATA SYSTEM[106]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:24B7:440:1:C00000:0:0:0:" Name="DATA SYSTEM[110]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:25E3:458:1:C00000:0:0:0:" Name="DATA SYSTEM[112]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:2327:45A:1:C00000:0:0:0:" Name="DATA SYSTEM[114]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:270F:45C:1:C00000:0:0:0:" Name="DATA SYSTEM[116]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:2647:45E:1:C00000:0:0:0:" Name="DATA SYSTEM[118]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:26AB:460:1:C00000:0:0:0:" Name="DATA SYSTEM[120]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:1963:3FA:1:C00000:0:0:0:" Name="DATA SYSTEM[18]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:2197:400:1:C00000:0:0:0:" Name="DATA SYSTEM[24]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:1FA3:42E:1:C00000:0:0:0:" Name="DATA SYSTEM[70]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:206B:430:1:C00000:0:0:0:" Name="DATA SYSTEM[72]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:20CF:432:1:C00000:0:0:0:" Name="DATA SYSTEM[74]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:2007:434:1:C00000:0:0:0:" Name="DATA SYSTEM[76]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:1B58:3FE:1:C00000:0:0:0:" Name="DATA SYSTEM[76]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:22C3:438:1:C00000:0:0:0:" Name="DATA SYSTEM[80]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:251B:43C:1:C00000:0:0:0:" Name="DATA SYSTEM[84]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:2133:43E:1:C00000:0:0:0:" Name="DATA SYSTEM[86]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:257F:456:1:C00000:0:0:0:" Name="DATA SYSTEM[88]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:238B:442:1:C00000:0:0:0:" Name="DATA SYSTEM[90]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:21FB:448:1:C00000:0:0:0:" Name="DATA SYSTEM[96]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C1:23EF:44A:1:C00000:0:0:0:" Name="DATA SYSTEM[98]" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:1:2405:452:1:C00000:0:0:0:" Name="DIRECT STAR" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23F1:452:1:C00000:0:0:0:" Name="DIRECT STAR" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:258A:458:1:C00000:0:0:0:" Name="DISCOVERY" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:26B7:45C:1:C00000:0:0:0:" Name="DISCOVERY HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:26CB:45C:1:C00000:0:0:0:" Name="DISCOVERY HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:200F:430:1:C00000:0:0:0:" Name="DISNEY CHANNEL" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:22CA:45A:1:C00000:0:0:0:" Name="DISNEY CHANNEL+1" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:22CC:45A:1:C00000:0:0:0:" Name="DISNEY CINEMAGIC" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2338:442:1:C00000:0:0:0:" Name="DISNEY HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:234C:442:1:C00000:0:0:0:" Name="DISNEY HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:22CB:45A:1:C00000:0:0:0:" Name="DISNEY JUNIOR" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:19CA:444:1:C00000:0:0:0:" Name="DISNEY JUNIOR HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:19DE:444:1:C00000:0:0:0:" Name="DISNEY JUNIOR HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:24E2:43C:1:C00000:0:0:0:" Name="DISNEY MAGIC HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:24F6:43C:1:C00000:0:0:0:" Name="DISNEY MAGIC HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:22CD:45A:1:C00000:0:0:0:" Name="DISNEY MAGIC+1" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2201:44C:1:C00000:0:0:0:" Name="DISNEY XD" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:24E1:43C:1:C00000:0:0:0:" Name="DISNEY XD HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:24F5:43C:1:C00000:0:0:0:" Name="DISNEY XD HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:C0:23B8:44A:1:C00000:0:0:0:" Name="DOWNLOAD DUALS PHILIPS" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C0:23BB:44A:1:C00000:0:0:0:" Name="DOWNLOAD G5 PACE" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C0:23BA:44A:1:C00000:0:0:0:" Name="DOWNLOAD G5 SAMSUNG" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C0:23BE:44A:1:C00000:0:0:0:" Name="DOWNLOAD G5+ PACE" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C0:23BF:44A:1:C00000:0:0:0:" Name="DOWNLOAD G5+ SAGEM" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C0:23B9:44A:1:C00000:0:0:0:" Name="DOWNLOAD REN PACE" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C0:23E7:44A:1:C00000:0:0:0:" Name="DOWNLOAD TNTSAT 9191" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C0:23E8:44A:1:C00000:0:0:0:" Name="DOWNLOAD TNTSAT 9192" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C0:23E9:44A:1:C00000:0:0:0:" Name="DOWNLOAD TNTSAT 9193" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C0:1FCC:42E:1:C00000:0:0:0:" Name="DOWNLOAD TNTSAT TRIAX" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:1:23C8:44A:1:C00000:0:0:0:" Name="DT11" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23CA:44A:1:C00000:0:0:0:" Name="DT13" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:22CF:45A:1:C00000:0:0:0:" Name="E! ENTERTAINMENT" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2390:44A:1:C00000:0:0:0:" Name="ENREGISTREMENTS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:87:239F:44A:1:C00000:0:0:0:" Name="EPG" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:1:2526:456:1:C00000:0:0:0:" Name="EQUIDIA LIFE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:22C9:45A:1:C00000:0:0:0:" Name="EQUIDIA LIVE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2396:44A:1:C00000:0:0:0:" Name="ESPACE CLIENT" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2139:400:1:C00000:0:0:0:" Name="ESPN CLASSIC" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:214E:400:1:C00000:0:0:0:" Name="EUROPE 1" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:1FD7:434:1:C00000:0:0:0:" Name="EUROSPORT" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:251F:456:1:C00000:0:0:0:" Name="EUROSPORT 2" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2335:442:1:C00000:0:0:0:" Name="EUROSPORT HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2349:442:1:C00000:0:0:0:" Name="EUROSPORT HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:2524:456:1:C00000:0:0:0:" Name="EXTREME SPORTS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:2148:400:1:C00000:0:0:0:" Name="FIP" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:25E5:45E:1:C00000:0:0:0:" Name="FR3 AMIENS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25E6:45E:1:C00000:0:0:0:" Name="FR3 BESANCON" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25E7:45E:1:C00000:0:0:0:" Name="FR3 BORDEAUX" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2649:460:1:C00000:0:0:0:" Name="FR3 CAEN" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25E9:45E:1:C00000:0:0:0:" Name="FR3 CLERMONT FD" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:264D:460:1:C00000:0:0:0:" Name="FR3 DIJON" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2650:460:1:C00000:0:0:0:" Name="FR3 GRENOBLE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2651:460:1:C00000:0:0:0:" Name="FR3 LILLE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25ED:45E:1:C00000:0:0:0:" Name="FR3 LIMOGES" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25EE:45E:1:C00000:0:0:0:" Name="FR3 LYON" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25EF:45E:1:C00000:0:0:0:" Name="FR3 MARSEILLE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2653:460:1:C00000:0:0:0:" Name="FR3 MONTPELLIER" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25E8:45E:1:C00000:0:0:0:" Name="FR3 NANCY" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:264A:460:1:C00000:0:0:0:" Name="FR3 NANTES" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:264B:460:1:C00000:0:0:0:" Name="FR3 NICE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:264C:460:1:C00000:0:0:0:" Name="FR3 ORLEANS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25EA:45E:1:C00000:0:0:0:" Name="FR3 PARIS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:264E:460:1:C00000:0:0:0:" Name="FR3 POITIERS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:264F:460:1:C00000:0:0:0:" Name="FR3 REIMS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25EB:45E:1:C00000:0:0:0:" Name="FR3 RENNES" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25EC:45E:1:C00000:0:0:0:" Name="FR3 ROUEN" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2652:460:1:C00000:0:0:0:" Name="FR3 STRASBOURG" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:25F0:45E:1:C00000:0:0:0:" Name="FR3 TOULOUSE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2654:460:1:C00000:0:0:0:" Name="FR3 VIA STELLA" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20A5:432:1:C00000:0:0:0:" Name="FRANCE 2" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20B6:432:1:C00000:0:0:0:" Name="FRANCE 2" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2462:440:1:C00000:0:0:0:" Name="FRANCE 2 HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2476:440:1:C00000:0:0:0:" Name="FRANCE 2 HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:1F48:42E:1:C00000:0:0:0:" Name="FRANCE 3" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F57:42E:1:C00000:0:0:0:" Name="FRANCE 3" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2407:452:1:C00000:0:0:0:" Name="FRANCE 4" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23F3:452:1:C00000:0:0:0:" Name="FRANCE 4" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F41:42E:1:C00000:0:0:0:" Name="FRANCE 5" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F58:42E:1:C00000:0:0:0:" Name="FRANCE 5" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:214B:400:1:C00000:0:0:0:" Name="FRANCE BLEU" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2173:400:1:C00000:0:0:0:" Name="FRANCE CULTURE" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2149:400:1:C00000:0:0:0:" Name="FRANCE INFO" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:214A:400:1:C00000:0:0:0:" Name="FRANCE INTER" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2147:400:1:C00000:0:0:0:" Name="FRANCE MUSIQUE" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:23F7:452:1:C00000:0:0:0:" Name="FRANCE Ô" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1907:3FA:1:C00000:0:0:0:" Name="FRENCH LOVER" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:215C:400:1:C00000:0:0:0:" Name="FUN RADIO" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:2417:452:1:C00000:0:0:0:" Name="GOLF+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23F9:452:1:C00000:0:0:0:" Name="GOLF+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:26B9:45C:1:C00000:0:0:0:" Name="GOLF+ HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:26CD:45C:1:C00000:0:0:0:" Name="GOLF+ HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:26D7:45C:1:C00000:0:0:0:" Name="GOLF+ HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:238D:44A:1:C00000:0:0:0:" Name="GUIDE TV" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:240A:452:1:C00000:0:0:0:" Name="GULLI" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23F6:452:1:C00000:0:0:0:" Name="GULLI" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2581:458:1:C00000:0:0:0:" Name="HISTOIRE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F4A:42E:1:C00000:0:0:0:" Name="I&gt;TELE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F55:42E:1:C00000:0:0:0:" Name="I&gt;TELE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2011:430:1:C00000:0:0:0:" Name="INFOSPORT+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:2157:400:1:C00000:0:0:0:" Name="JAZZ RADIO" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:21FE:44C:1:C00000:0:0:0:" Name="JIMMY" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FE1:434:1:C00000:0:0:0:" Name="JUNE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2202:44C:1:C00000:0:0:0:" Name="L'EQUIPE TV" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:22C6:45A:1:C00000:0:0:0:" Name="LA CHAINE METEO" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FDC:434:1:C00000:0:0:0:" Name="LCI" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2406:452:1:C00000:0:0:0:" Name="LCP" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23F2:452:1:C00000:0:0:0:" Name="LCP" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:215D:400:1:C00000:0:0:0:" Name="LE MOUV'" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:20B4:432:1:C00000:0:0:0:" Name="M6" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:245E:440:1:C00000:0:0:0:" Name="M6 HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2472:440:1:C00000:0:0:0:" Name="M6 HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:2584:458:1:C00000:0:0:0:" Name="M6 MUSIC BLACK" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2585:458:1:C00000:0:0:0:" Name="M6 MUSIC CLUB" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:1967:44E:1:C00000:0:0:0:" Name="M6 MUSIC HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:197B:44E:1:C00000:0:0:0:" Name="M6 MUSIC HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:C9:23AA:44A:1:C00000:0:0:0:" Name="M6 REPLAY" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:1:2583:458:1:C00000:0:0:0:" Name="MA CHAINE SPORT" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:24BB:43C:1:C00000:0:0:0:" Name="MA CHAINE SPORT HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:24CF:43C:1:C00000:0:0:0:" Name="MA CHAINE SPORT HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:21FD:44C:1:C00000:0:0:0:" Name="MAISON+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:2153:400:1:C00000:0:0:0:" Name="MC DOUALIYA" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:20A0:432:1:C00000:0:0:0:" Name="MCM" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20A2:432:1:C00000:0:0:0:" Name="MCM POP" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20AD:432:1:C00000:0:0:0:" Name="MCM TOP" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F47:42E:1:C00000:0:0:0:" Name="MEZZO" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:1966:44E:1:C00000:0:0:0:" Name="MEZZO LIVE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:197A:44E:1:C00000:0:0:0:" Name="MEZZO LIVE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:1F4C:42E:1:C00000:0:0:0:" Name="MEZZO." Provider="CSAT" Type="1"/>
+<Channel Id="1:0:87:21C2:448:1:C00000:0:0:0:" Name="MOSA 2" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:C5:219C:448:1:C00000:0:0:0:" Name="MOSA 2" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:87:21C3:448:1:C00000:0:0:0:" Name="MOSA 3" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:C5:219D:448:1:C00000:0:0:0:" Name="MOSA 3" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:87:21C4:448:1:C00000:0:0:0:" Name="MOSA 4" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:C5:21A6:448:1:C00000:0:0:0:" Name="MOSA 4" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:87:21C5:448:1:C00000:0:0:0:" Name="MOSA 5" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:C5:21A2:448:1:C00000:0:0:0:" Name="MOSA 5" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:1:21B0:448:1:C00000:0:0:0:" Name="MOSAIQUE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:21C1:448:1:C00000:0:0:0:" Name="MOSAIQUE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:21AE:448:1:C00000:0:0:0:" Name="MOSAIQUE" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:C5:219B:448:1:C00000:0:0:0:" Name="MOSAIQUE" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:1:21AF:448:1:C00000:0:0:0:" Name="MOSAIQUE C+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:21C0:448:1:C00000:0:0:0:" Name="MOSAIQUE C+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:21AD:448:1:C00000:0:0:0:" Name="MOSAIQUE C+" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:C5:21AC:448:1:C00000:0:0:0:" Name="MOSAIQUE C+" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:1:2525:456:1:C00000:0:0:0:" Name="MOTORS TV" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:1973:44E:1:C00000:0:0:0:" Name="NAT GEO WILD HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:2204:44C:1:C00000:0:0:0:" Name="NATIONAL GEO" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:232B:442:1:C00000:0:0:0:" Name="NATIONAL GEO HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:233F:442:1:C00000:0:0:0:" Name="NATIONAL GEO HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:219F:448:1:C00000:0:0:0:" Name="NAUTICAL CHANNEL" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F4D:42E:1:C00000:0:0:0:" Name="NCMESS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:2155:400:1:C00000:0:0:0:" Name="NOSTALGIE" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:8A:2140:400:1:C00000:0:0:0:" Name="NOUVEAU DECODEUR" Provider="CSAT" Type="8"/>
+<Channel Id="1:0:8A:218E:400:1:C00000:0:0:0:" Name="NOUVEAU DECODEUR" Provider="CSAT" Type="8"/>
+<Channel Id="1:0:8A:21CA:448:1:C00000:0:0:0:" Name="NOUVEAU DECODEUR" Provider="CSAT" Type="8"/>
+<Channel Id="1:0:8A:21CB:448:1:C00000:0:0:0:" Name="NOUVEAU DECODEUR" Provider="CSAT" Type="8"/>
+<Channel Id="1:0:2:215E:400:1:C00000:0:0:0:" Name="NOVA" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2158:400:1:C00000:0:0:0:" Name="NRJ" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:1F44:42E:1:C00000:0:0:0:" Name="NRJ 12" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1F56:42E:1:C00000:0:0:0:" Name="NRJ 12" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1906:3FA:1:C00000:0:0:0:" Name="NRJ HITS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:196A:44E:1:C00000:0:0:0:" Name="O.CINE MAX HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:197E:44E:1:C00000:0:0:0:" Name="O.CINE MAX HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:1905:3FA:1:C00000:0:0:0:" Name="OFFRES CANAL READY" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2145:400:1:C00000:0:0:0:" Name="OL TV" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2144:400:1:C00000:0:0:0:" Name="OM TV" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:219A:448:1:C00000:0:0:0:" Name="ONZEO" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:2167:400:1:C00000:0:0:0:" Name="OUI FM" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:1F45:42E:1:C00000:0:0:0:" Name="PARIS PREMIERE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2333:442:1:C00000:0:0:0:" Name="PARIS PREMIERE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2347:442:1:C00000:0:0:0:" Name="PARIS PREMIERE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:245A:440:1:C00000:0:0:0:" Name="PENTHOUSE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:246E:440:1:C00000:0:0:0:" Name="PENTHOUSE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2478:440:1:C00000:0:0:0:" Name="PENTHOUSE HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:190A:3FA:1:C00000:0:0:0:" Name="PINK TV/PINK X" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2523:456:1:C00000:0:0:0:" Name="PIWI+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FD9:434:1:C00000:0:0:0:" Name="PLANETE+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2588:458:1:C00000:0:0:0:" Name="PLANETE+ JUSTICE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2203:44C:1:C00000:0:0:0:" Name="PLANETE+ NOLIMIT" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2138:400:1:C00000:0:0:0:" Name="PLANETE+THALASSA" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:21A5:448:1:C00000:0:0:0:" Name="PRIVATE SPICE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:87:2185:400:1:C00000:0:0:0:" Name="RADIO 1" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:87:2186:400:1:C00000:0:0:0:" Name="RADIO 2" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:87:2187:400:1:C00000:0:0:0:" Name="RADIO 3" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:2:216C:400:1:C00000:0:0:0:" Name="RADIO ALFA" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:214D:400:1:C00000:0:0:0:" Name="RADIO CLASSIQUE" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2176:400:1:C00000:0:0:0:" Name="RADIO COURTOISIE" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:215F:400:1:C00000:0:0:0:" Name="RADIO DJ FG" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:87:2188:400:1:C00000:0:0:0:" Name="RADIO FRANCE" Provider="CSAT" Type="87"/>
+<Channel Id="1:0:2:2162:400:1:C00000:0:0:0:" Name="RADIO LATINA" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:216B:400:1:C00000:0:0:0:" Name="RADIO NOTRE DAME" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:C6:213E:400:1:C00000:0:0:0:" Name="RADIOS 2" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:C6:213F:400:1:C00000:0:0:0:" Name="RADIOS 3" Provider="CSAT" Type="0"/>
+<Channel Id="1:0:2:2171:400:1:C00000:0:0:0:" Name="RCI SAT" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:216D:400:1:C00000:0:0:0:" Name="RCJ / SHALOM" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:214C:400:1:C00000:0:0:0:" Name="RFI INTERNAT" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2170:400:1:C00000:0:0:0:" Name="RFI MULTILINGUE" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2163:400:1:C00000:0:0:0:" Name="RFM" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2151:400:1:C00000:0:0:0:" Name="RIRE &amp; CHANSONS" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:214F:400:1:C00000:0:0:0:" Name="RMC INFO" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2150:400:1:C00000:0:0:0:" Name="RTL" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:215A:400:1:C00000:0:0:0:" Name="RTL2" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:2521:456:1:C00000:0:0:0:" Name="SEASONS" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FE0:434:1:C00000:0:0:0:" Name="SERIE CLUB" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:1969:44E:1:C00000:0:0:0:" Name="SERIE CLUB HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:2:215B:400:1:C00000:0:0:0:" Name="SKYROCK" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:1F49:42E:1:C00000:0:0:0:" Name="SPORT+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:2152:400:1:C00000:0:0:0:" Name="SUD RADIO" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:21FF:44C:1:C00000:0:0:0:" Name="SYFY" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:19CB:444:1:C00000:0:0:0:" Name="SYFY HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:19DF:444:1:C00000:0:0:0:" Name="SYFY HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:26B1:45C:1:C00000:0:0:0:" Name="TCM HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:26C5:45C:1:C00000:0:0:0:" Name="TCM HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:2135:400:1:C00000:0:0:0:" Name="TELE MELODY" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FDA:434:1:C00000:0:0:0:" Name="TELETOON+" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1909:3FA:1:C00000:0:0:0:" Name="TELETOON+1" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20A8:432:1:C00000:0:0:0:" Name="TEST CDN 8" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FDD:434:1:C00000:0:0:0:" Name="TEVA" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:26B2:45C:1:C00000:0:0:0:" Name="TEVA HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:26C6:45C:1:C00000:0:0:0:" Name="TEVA HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:20AE:432:1:C00000:0:0:0:" Name="TF1" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20B3:432:1:C00000:0:0:0:" Name="TF1" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2329:442:1:C00000:0:0:0:" Name="TF1 HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:233D:442:1:C00000:0:0:0:" Name="TF1 HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:251D:456:1:C00000:0:0:0:" Name="TF6" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:197C:44E:1:C00000:0:0:0:" Name="TF6 HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:1FE2:434:1:C00000:0:0:0:" Name="TIJI" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FD8:434:1:C00000:0:0:0:" Name="TMC" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1FEB:434:1:C00000:0:0:0:" Name="TMC" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:2206:44C:1:C00000:0:0:0:" Name="TRACE URBAN" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:2:2154:400:1:C00000:0:0:0:" Name="TSF JAZZ" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:20A1:432:1:C00000:0:0:0:" Name="TV BREIZH" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:1901:3FA:1:C00000:0:0:0:" Name="TV5 MONDE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:251E:456:1:C00000:0:0:0:" Name="USHUAIA TV" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2461:440:1:C00000:0:0:0:" Name="USHUAIA TV HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2475:440:1:C00000:0:0:0:" Name="USHUAIA TV HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:2:2160:400:1:C00000:0:0:0:" Name="VIBRATION" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2159:400:1:C00000:0:0:0:" Name="VIRGIN RADIO" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:2:2166:400:1:C00000:0:0:0:" Name="VOLTAGE" Provider="CSAT" Type="2"/>
+<Channel Id="1:0:1:1FDB:434:1:C00000:0:0:0:" Name="VOYAGE" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20A4:432:1:C00000:0:0:0:" Name="W9" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20B5:432:1:C00000:0:0:0:" Name="W9" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:19:2460:440:1:C00000:0:0:0:" Name="W9 HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:19:2474:440:1:C00000:0:0:0:" Name="W9 HD" Provider="CSAT" Type="19"/>
+<Channel Id="1:0:1:2199:448:1:C00000:0:0:0:" Name="(...)" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:239D:44A:1:C00000:0:0:0:" Name="(...)" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23A2:44A:1:C00000:0:0:0:" Name="(...)" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23A4:44A:1:C00000:0:0:0:" Name="(...)" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:23A5:44A:1:C00000:0:0:0:" Name="(...)" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:21A7:448:1:C00000:0:0:0:" Name="(...)" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:20A9:432:1:C00000:0:0:0:" Name="(...)" Provider="CSAT" Type="1"/>
+<Channel Id="1:0:1:74A1:41C:1:C00000:0:0:0:" Name="ANIMAX" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:761D:408:1:C00000:0:0:0:" Name="AXN HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7850:41A:1:C00000:0:0:0:" Name="AXN HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7856:41A:1:C00000:0:0:0:" Name="AXN HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7471:3F0:1:C00000:0:0:0:" Name="AXN WHITE" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:749C:41C:1:C00000:0:0:0:" Name="BABY TV" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:772D:416:1:C00000:0:0:0:" Name="BIO" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:749E:41C:1:C00000:0:0:0:" Name="BOING" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7570:412:1:C00000:0:0:0:" Name="C+  TOROS" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7613:408:1:C00000:0:0:0:" Name="C+ ACCIÓN HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7500:420:1:C00000:0:0:0:" Name="C+ ACCIÓN HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7509:420:1:C00000:0:0:0:" Name="C+ ACCIÓN HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7615:408:1:C00000:0:0:0:" Name="C+ DCINE HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7502:420:1:C00000:0:0:0:" Name="C+ DCINE HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:750B:420:1:C00000:0:0:0:" Name="C+ DCINE HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7605:408:1:C00000:0:0:0:" Name="C+ DEP 2 HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75FA:408:1:C00000:0:0:0:" Name="C+ DEP 2 HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7853:41A:1:C00000:0:0:0:" Name="C+ DEP 2 HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:785A:41A:1:C00000:0:0:0:" Name="C+ DEP 2 HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7619:408:1:C00000:0:0:0:" Name="C+ DEPORT HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7822:428:1:C00000:0:0:0:" Name="C+ DEPORT HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7828:428:1:C00000:0:0:0:" Name="C+ DEPORT HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:782A:428:1:C00000:0:0:0:" Name="C+ DEPORT HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7618:408:1:C00000:0:0:0:" Name="C+ FÚTBOL HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:74CD:3F8:1:C00000:0:0:0:" Name="C+ FÚTBOL HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:74D1:3F8:1:C00000:0:0:0:" Name="C+ FÚTBOL HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:74D2:3F8:1:C00000:0:0:0:" Name="C+ FÚTBOL HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:756B:412:1:C00000:0:0:0:" Name="C+ LIGA 2" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7611:408:1:C00000:0:0:0:" Name="C+ LIGA HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7852:41A:1:C00000:0:0:0:" Name="C+ LIGA HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7858:41A:1:C00000:0:0:0:" Name="C+ LIGA HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7859:41A:1:C00000:0:0:0:" Name="C+ LIGA HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7562:412:1:C00000:0:0:0:" Name="C+ MULTI-X" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7694:41E:1:C00000:0:0:0:" Name="C+ MultiCINE" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:76A2:41E:1:C00000:0:0:0:" Name="C+ MultiCINE" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7692:41E:1:C00000:0:0:0:" Name="C+ MultiDEP" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:76A3:41E:1:C00000:0:0:0:" Name="C+ MultiDEP" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:759C:422:1:C00000:0:0:0:" Name="C+ PORTADA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75C6:422:1:C00000:0:0:0:" Name="C+ PORTADA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75FC:408:1:C00000:0:0:0:" Name="C+ RADIOS" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75B0:422:1:C00000:0:0:0:" Name="C+ TAQUILLA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75B2:422:1:C00000:0:0:0:" Name="C+ TAQUILLA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:74CF:3F8:1:C00000:0:0:0:" Name="C+ XTRA HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:74D4:3F8:1:C00000:0:0:0:" Name="C+ XTRA HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:772E:416:1:C00000:0:0:0:" Name="C+ YOMVI" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7614:408:1:C00000:0:0:0:" Name="C+COMEDIA HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7851:41A:1:C00000:0:0:0:" Name="C+COMEDIA HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7857:41A:1:C00000:0:0:0:" Name="C+COMEDIA HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:756E:412:1:C00000:0:0:0:" Name="C+LIGA2 A" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7577:412:1:C00000:0:0:0:" Name="C+LIGA2 B" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7578:412:1:C00000:0:0:0:" Name="C+LIGA2 C" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7579:412:1:C00000:0:0:0:" Name="C+LIGA2 D" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7616:408:1:C00000:0:0:0:" Name="C+XTRA HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:761B:408:1:C00000:0:0:0:" Name="CALLE 13 HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:781F:428:1:C00000:0:0:0:" Name="CALLE 13 HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7824:428:1:C00000:0:0:0:" Name="CALLE 13 HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:749D:41C:1:C00000:0:0:0:" Name="CANAL CLUB" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:76C0:40E:1:C00000:0:0:0:" Name="CANAL+ 1" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:76CA:40E:1:C00000:0:0:0:" Name="CANAL+ 2" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7621:408:1:C00000:0:0:0:" Name="CANAL+ 3D" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7855:41A:1:C00000:0:0:0:" Name="CANAL+ 3D" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7789:424:1:C00000:0:0:0:" Name="CANAL+ GOLF" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75A9:422:1:C00000:0:0:0:" Name="CANAL+ GUÍA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75B1:422:1:C00000:0:0:0:" Name="CANAL+ GUÍA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7792:424:1:C00000:0:0:0:" Name="CANAL+ LIGA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7793:424:1:C00000:0:0:0:" Name="CANAL+ LIGA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:77C5:40A:1:C00000:0:0:0:" Name="CANAL+ XTRA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7479:3F0:1:C00000:0:0:0:" Name="CANAL+1 ...30" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7612:408:1:C00000:0:0:0:" Name="CANAL+1 HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:74CC:3F8:1:C00000:0:0:0:" Name="CANAL+1 HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:74D5:3F8:1:C00000:0:0:0:" Name="CANAL+1 HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7699:41E:1:C00000:0:0:0:" Name="CARTOONITO" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7729:416:1:C00000:0:0:0:" Name="CINEMAGIC" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7735:416:1:C00000:0:0:0:" Name="CINEMAGIC" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:760A:408:1:C00000:0:0:0:" Name="CINEMAGIC HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7617:408:1:C00000:0:0:0:" Name="CINEMAGIC HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7820:428:1:C00000:0:0:0:" Name="CINEMAGIC HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7825:428:1:C00000:0:0:0:" Name="CINEMAGIC HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7826:428:1:C00000:0:0:0:" Name="CINEMAGIC HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7827:428:1:C00000:0:0:0:" Name="CINEMAGIC HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7624:408:1:C00000:0:0:0:" Name="COSMO HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7508:420:1:C00000:0:0:0:" Name="COSMO HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:74FF:420:1:C00000:0:0:0:" Name="COSMO HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7795:424:1:C00000:0:0:0:" Name="DECASA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7629:408:1:C00000:0:0:0:" Name="DISNEY CH HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7886:414:1:C00000:0:0:0:" Name="DISNEY CH HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:788B:414:1:C00000:0:0:0:" Name="DISNEY CH HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:746B:3F0:1:C00000:0:0:0:" Name="DISNEY JR" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:772A:416:1:C00000:0:0:0:" Name="DISNEY XD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:749A:41C:1:C00000:0:0:0:" Name="DIVINITY" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:746A:3F0:1:C00000:0:0:0:" Name="EL GARAGE TV" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:749F:41C:1:C00000:0:0:0:" Name="ENERGY" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:761A:408:1:C00000:0:0:0:" Name="EUROSPORT HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7501:420:1:C00000:0:0:0:" Name="EUROSPORT HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:750A:420:1:C00000:0:0:0:" Name="EUROSPORT HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:77BC:40A:1:C00000:0:0:0:" Name="FDF" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7468:3F0:1:C00000:0:0:0:" Name="FOX CRIME" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:761C:408:1:C00000:0:0:0:" Name="FOX HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7504:420:1:C00000:0:0:0:" Name="FOX HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:74FE:420:1:C00000:0:0:0:" Name="FOX HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7625:408:1:C00000:0:0:0:" Name="HOLLYWOOD HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7882:414:1:C00000:0:0:0:" Name="HOLLYWOODHD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7887:414:1:C00000:0:0:0:" Name="HOLLYWOODHD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:760E:408:1:C00000:0:0:0:" Name="LA SIETE" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7823:428:1:C00000:0:0:0:" Name="MEZZO LIVE HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7607:408:1:C00000:0:0:0:" Name="MEZZO LIVEHD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7620:408:1:C00000:0:0:0:" Name="MEZZO LIVEHD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:781E:428:1:C00000:0:0:0:" Name="MEZZO LIVEHD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:74A2:41C:1:C00000:0:0:0:" Name="MTV ESPAÑA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7606:408:1:C00000:0:0:0:" Name="MTV LIVE HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:761F:408:1:C00000:0:0:0:" Name="MTV LIVE HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7571:412:1:C00000:0:0:0:" Name="MULTI-X (1)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7563:412:1:C00000:0:0:0:" Name="MULTI-X (2)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7572:412:1:C00000:0:0:0:" Name="MULTI-X (3)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:769C:41E:1:C00000:0:0:0:" Name="MULTIDEP.5" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7574:412:1:C00000:0:0:0:" Name="MULTIDEP.6" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7576:412:1:C00000:0:0:0:" Name="MULTIDEP.7" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:761E:408:1:C00000:0:0:0:" Name="NAT GEO HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:77D8:40A:1:C00000:0:0:0:" Name="NAT GEO WILD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75FE:408:1:C00000:0:0:0:" Name="NEOX" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7627:408:1:C00000:0:0:0:" Name="NG WILD HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7884:414:1:C00000:0:0:0:" Name="NG WILD HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7889:414:1:C00000:0:0:0:" Name="NG WILD HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7602:408:1:C00000:0:0:0:" Name="NICK JR" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75F9:408:1:C00000:0:0:0:" Name="NITRO" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7469:3F0:1:C00000:0:0:0:" Name="NOVA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75FF:408:1:C00000:0:0:0:" Name="PANDA" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:2:7598:422:1:C00000:0:0:0:" Name="RADIOS ESP" Provider="DIGITAL+" Type="2"/>
+<Channel Id="1:0:1:7628:408:1:C00000:0:0:0:" Name="SYFY HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7885:414:1:C00000:0:0:0:" Name="SYFY HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:788A:414:1:C00000:0:0:0:" Name="SYFY HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7622:408:1:C00000:0:0:0:" Name="TAQUILLA HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7854:41A:1:C00000:0:0:0:" Name="TAQUILLA HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7693:41E:1:C00000:0:0:0:" Name="TAQUILLA X" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:7697:41E:1:C00000:0:0:0:" Name="TAQUILLA X" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:77C3:40A:1:C00000:0:0:0:" Name="TELECINCO" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75DD:422:1:C00000:0:0:0:" Name="TEST TÉCNICO" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75DE:422:1:C00000:0:0:0:" Name="TEST_CSD1" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75DF:422:1:C00000:0:0:0:" Name="TEST_CSD2" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75E0:422:1:C00000:0:0:0:" Name="TEST_CSD3" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75E1:422:1:C00000:0:0:0:" Name="TEST_CSD4" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75E2:422:1:C00000:0:0:0:" Name="TEST_CSD5" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:7883:414:1:C00000:0:0:0:" Name="TNT HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:7888:414:1:C00000:0:0:0:" Name="TNT HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:7623:408:1:C00000:0:0:0:" Name="VIAJAR HD" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:19:74CE:3F8:1:C00000:0:0:0:" Name="VIAJAR HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:19:74D3:3F8:1:C00000:0:0:0:" Name="VIAJAR HD" Provider="DIGITAL+" Type="19"/>
+<Channel Id="1:0:1:75AB:422:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75AF:422:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:77C4:40A:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75C7:422:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75CA:422:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75CC:422:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75E3:422:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:1:75EF:422:1:C00000:0:0:0:" Name="(...)" Provider="DIGITAL+" Type="1"/>
+<Channel Id="1:0:2:1C79:457:1:C00000:0:0:0:" Name="Radio Horeb" Provider="Eurociel" Type="2"/>
+<Channel Id="1:0:1:7732:416:1:C00000:0:0:0:" Name="EUROSPORT" Provider="ESP" Type="1"/>
+<Channel Id="1:0:1:746F:3F0:1:C00000:0:0:0:" Name="FOX" Provider="FOXGE" Type="1"/>
+<Channel Id="1:0:1:749B:41C:1:C00000:0:0:0:" Name="FOX NEWS" Provider="FOXNWS" Type="1"/>
+<Channel Id="1:0:1:74A3:41C:1:C00000:0:0:0:" Name="C.ESTRELLAS" Provider="GALAV" Type="1"/>
+<Channel Id="1:0:1:1B61:3FC:1:C00000:0:0:0:" Name="Al Jazeera Channel" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B64:3FC:1:C00000:0:0:0:" Name="Al Jazeera English" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B63:3FC:1:C00000:0:0:0:" Name="Arirang TV" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:19:189D:3F4:1:C00000:0:0:0:" Name="beIN SPORT1 HD" Provider="GlobeCast" Type="19"/>
+<Channel Id="1:0:19:18B1:3F4:1:C00000:0:0:0:" Name="beIN SPORT1 HD" Provider="GlobeCast" Type="19"/>
+<Channel Id="1:0:19:189E:3F4:1:C00000:0:0:0:" Name="beIN SPORT2 HD" Provider="GlobeCast" Type="19"/>
+<Channel Id="1:0:19:18B2:3F4:1:C00000:0:0:0:" Name="beIN SPORT2 HD" Provider="GlobeCast" Type="19"/>
+<Channel Id="1:0:1:1B01:3FE:1:C00000:0:0:0:" Name="CCTV F" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B02:3FE:1:C00000:0:0:0:" Name="CCTV NEWS" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B00:3FE:1:C00000:0:0:0:" Name="CCTV9 Documentary" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B60:3FC:1:C00000:0:0:0:" Name="Cubavision Internacional" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:2:1B6E:3FC:1:C00000:0:0:0:" Name="ETB Radio 1" Provider="GlobeCast" Type="2"/>
+<Channel Id="1:0:2:1B6F:3FC:1:C00000:0:0:0:" Name="ETB Radio 2" Provider="GlobeCast" Type="2"/>
+<Channel Id="1:0:1:1B5A:3FC:1:C00000:0:0:0:" Name="ETB Sat" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B69:3FC:1:C00000:0:0:0:" Name="FASHION ONE" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1AFF:3FE:1:C00000:0:0:0:" Name="FASHION ONE" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1AF9:3FE:1:C00000:0:0:0:" Name="France 24 (en Français)" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1AFE:3FE:1:C00000:0:0:0:" Name="France 24 (in Arabic)" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1AFA:3FE:1:C00000:0:0:0:" Name="France 24 (in English)" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B59:3FC:1:C00000:0:0:0:" Name="Montagne TV" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B66:3FC:1:C00000:0:0:0:" Name="NHK World TV" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B62:3FC:1:C00000:0:0:0:" Name="RedeRecord" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B5E:3FC:1:C00000:0:0:0:" Name="Renault TV" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1AF8:3FE:1:C00000:0:0:0:" Name="Russia Today" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B6A:3FC:1:C00000:0:0:0:" Name="TV GALICIA" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:1B03:3FE:1:C00000:0:0:0:" Name="TV5MONDE EUROPE" Provider="GlobeCast" Type="1"/>
+<Channel Id="1:0:1:332E:45B:1:C00000:0:0:0:" Name="GoTV" Provider="GoTV" Type="1"/>
+<Channel Id="1:0:1:79F4:443:1:C00000:0:0:0:" Name="EuroNews" Provider="Globecast" Type="1"/>
+<Channel Id="1:0:1:2B17:417:1:C00000:0:0:0:" Name="ORANGE CINE MAX HD" Provider="Globecast" Type="1"/>
+<Channel Id="1:0:1:2B16:417:1:C00000:0:0:0:" Name="ORANGE SPORT HD" Provider="Globecast" Type="1"/>
+<Channel Id="1:0:C:2B52:417:1:C00000:0:0:0:" Name="SSU SAMSUNG" Provider="Globecast" Type="0"/>
+<Channel Id="1:0:1:2AFC:417:1:C00000:0:0:0:" Name="ORANGE CINE CHOC" Provider="GlobeCast France" Type="1"/>
+<Channel Id="1:0:1:2AFE:417:1:C00000:0:0:0:" Name="ORANGE CINE GEANTS" Provider="GlobeCast France" Type="1"/>
+<Channel Id="1:0:1:2AFB:417:1:C00000:0:0:0:" Name="ORANGE CINE HAPPY" Provider="GlobeCast France" Type="1"/>
+<Channel Id="1:0:1:2AFD:417:1:C00000:0:0:0:" Name="ORANGE CINE NOVO" Provider="GlobeCast France" Type="1"/>
+<Channel Id="1:0:1:2B00:417:1:C00000:0:0:0:" Name="ORANGE SPORT INFO" Provider="GlobeCast France" Type="1"/>
+<Channel Id="1:0:1:2AFF:417:1:C00000:0:0:0:" Name="Test 1" Provider="GlobeCast France" Type="1"/>
+<Channel Id="1:0:1:7A46:410:1:C00000:0:0:0:" Name="Russia Today" Provider="Harmonic" Type="1"/>
+<Channel Id="1:0:1:7731:416:1:C00000:0:0:0:" Name="HISTORIA" Provider="HIST" Type="1"/>
+<Channel Id="1:0:1:2013:430:1:C00000:0:0:0:" Name="CANAL+" Provider="IMEDIA" Type="1"/>
+<Channel Id="1:0:1:1908:3FA:1:C00000:0:0:0:" Name="GIRONDINS TV" Provider="IMEDIA" Type="1"/>
+<Channel Id="1:0:1:20AF:432:1:C00000:0:0:0:" Name="M6" Provider="IMEDIA" Type="1"/>
+<Channel Id="1:0:1:22C5:45A:1:C00000:0:0:0:" Name="TRACE TROPICAL" Provider="IMEDIA" Type="1"/>
+<Channel Id="1:0:1:77C2:40A:1:C00000:0:0:0:" Name="LA 2" Provider="La2" Type="1"/>
+<Channel Id="1:0:1:77C1:40A:1:C00000:0:0:0:" Name="HOLLYWOOD" Provider="HOLLYW" Type="1"/>
+<Channel Id="1:0:1:314C:459:1:C00000:0:0:0:" Name="123Damenwahl" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:313F:459:1:C00000:0:0:0:" Name="AEGYPTEN.TV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:2:3171:459:1:C00000:0:0:0:" Name="Antenne 50Plus" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:1:3160:459:1:C00000:0:0:0:" Name="BunnyClub24" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:315B:459:1:C00000:0:0:0:" Name="Cambabes24" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3161:459:1:C00000:0:0:0:" Name="Clipmobile" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3156:459:1:C00000:0:0:0:" Name="Das Erotische TV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:314F:459:1:C00000:0:0:0:" Name="Date Line" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3147:459:1:C00000:0:0:0:" Name="Deutsche Girls 2" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:315A:459:1:C00000:0:0:0:" Name="DiaetTV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:314A:459:1:C00000:0:0:0:" Name="Dreamgirls.TV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3144:459:1:C00000:0:0:0:" Name="Erotik 24" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:314B:459:1:C00000:0:0:0:" Name="Erotik Sat" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:315F:459:1:C00000:0:0:0:" Name="EROTIKA TV - NEU!" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:2:316E:459:1:C00000:0:0:0:" Name="ffn digital" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:1:3150:459:1:C00000:0:0:0:" Name="Fotohandy" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3164:459:1:C00000:0:0:0:" Name="FTL Deutschland" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:2:3176:459:1:C00000:0:0:0:" Name="harmony.fm" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:2:3174:459:1:C00000:0:0:0:" Name="HIT RADIO FFH" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:2:316B:459:1:C00000:0:0:0:" Name="Inselradio" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:1:3148:459:1:C00000:0:0:0:" Name="Juwelo TV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3139:459:1:C00000:0:0:0:" Name="K-TV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3153:459:1:C00000:0:0:0:" Name="Kamasutra TV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:314E:459:1:C00000:0:0:0:" Name="Maennersache TV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3138:459:1:C00000:0:0:0:" Name="MagicStar Digitalradio Promo" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3151:459:1:C00000:0:0:0:" Name="Mobile Sex" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:2:3175:459:1:C00000:0:0:0:" Name="planet radio" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:2:3178:459:1:C00000:0:0:0:" Name="Power 104" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:2:3173:459:1:C00000:0:0:0:" Name="Radio Gloria" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:2:316F:459:1:C00000:0:0:0:" Name="Radio Paloma" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:2:3177:459:1:C00000:0:0:0:" Name="Radio Regenbogen" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:2:316D:459:1:C00000:0:0:0:" Name="radio top40" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:C:3145:459:1:C00000:0:0:0:" Name="RAPS" Provider="MEDIA BROADCAST" Type="0"/>
+<Channel Id="1:0:1:3146:459:1:C00000:0:0:0:" Name="rhein main tv" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3152:459:1:C00000:0:0:0:" Name="SEX-Kontakte" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:314D:459:1:C00000:0:0:0:" Name="SexySat" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3162:459:1:C00000:0:0:0:" Name="SmartCast Test" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3163:459:1:C00000:0:0:0:" Name="StarParadies D" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3154:459:1:C00000:0:0:0:" Name="Teledate TV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:1:3155:459:1:C00000:0:0:0:" Name="Traumgirls.TV" Provider="MEDIA BROADCAST" Type="1"/>
+<Channel Id="1:0:2:3170:459:1:C00000:0:0:0:" Name="WRN Deutsch" Provider="MEDIA BROADCAST" Type="2"/>
+<Channel Id="1:0:1:315C:459:1:C00000:0:0:0:" Name="dhd24 plus" Provider="Media Broadcast" Type="1"/>
+<Channel Id="1:0:1:313C:459:1:C00000:0:0:0:" Name="dhd24.tv" Provider="Media Broadcast" Type="1"/>
+<Channel Id="1:0:1:313E:459:1:C00000:0:0:0:" Name="Lustkanal.TV" Provider="Media Broadcast" Type="1"/>
+<Channel Id="1:0:1:3159:459:1:C00000:0:0:0:" Name="Shop24Direct" Provider="Media Broadcast" Type="1"/>
+<Channel Id="1:0:1:274E:402:1:C00000:0:0:0:" Name="Best of shopping" Provider="Groupe M6" Type="1"/>
+<Channel Id="1:0:1:274F:402:1:C00000:0:0:0:" Name="M6 BOUTIQUE LA CHAINE" Provider="Groupe M6" Type="1"/>
+<Channel Id="1:0:1:3D:7:85:C00000:0:0:0:" Name="NICK/CC AUT" Provider="MTV Networks" Type="1"/>
+<Channel Id="1:0:19:5273:41D:1:C00000:0:0:0:" Name="NICK/CC HD" Provider="MTV Networks" Type="19"/>
+<Channel Id="1:0:19:527D:41D:1:C00000:0:0:0:" Name="NICK/CC HD Austria" Provider="MTV Networks" Type="19"/>
+<Channel Id="1:0:1:3C:7:85:C00000:0:0:0:" Name="VIVA AUT" Provider="MTV Networks" Type="1"/>
+<Channel Id="1:0:C1:6FFE:436:1:C00000:0:0:0:" Name="DATA SYSTEM TR 78" Provider="MTV Networks Europe" Type="0"/>
+<Channel Id="1:0:C1:6FEA:42A:1:C00000:0:0:0:" Name="Data_System_TR_66" Provider="MTV Networks Europe" Type="0"/>
+<Channel Id="1:0:1:6FF7:42A:1:C00000:0:0:0:" Name="GAME ONE" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FF5:42A:1:C00000:0:0:0:" Name="MTV BASE FRANCE" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FEF:42A:1:C00000:0:0:0:" Name="MTV Dance" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FEC:42A:1:C00000:0:0:0:" Name="MTV FRANCE" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:7001:436:1:C00000:0:0:0:" Name="MTV Germany" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FEE:42A:1:C00000:0:0:0:" Name="MTV Hits" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FF8:42A:1:C00000:0:0:0:" Name="MTV Hits." Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:7003:436:1:C00000:0:0:0:" Name="MTV IDOL" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:19:6FB8:42C:1:C00000:0:0:0:" Name="MTV Live HD" Provider="MTV Networks Europe" Type="19"/>
+<Channel Id="1:0:19:6FB9:42C:1:C00000:0:0:0:" Name="MTV Live HD" Provider="MTV Networks Europe" Type="19"/>
+<Channel Id="1:0:1:6FFF:436:1:C00000:0:0:0:" Name="MTV Music 24" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:7007:436:1:C00000:0:0:0:" Name="MTV NL" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:7002:436:1:C00000:0:0:0:" Name="MTV PULSE" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FF3:42A:1:C00000:0:0:0:" Name="MTV ROCKS" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FFD:42A:1:C00000:0:0:0:" Name="MTV ROCKS." Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FF4:42A:1:C00000:0:0:0:" Name="Nick" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:7005:436:1:C00000:0:0:0:" Name="Nick Jr France" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:7008:436:1:C00000:0:0:0:" Name="NICK/COMEDY" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FFC:42A:1:C00000:0:0:0:" Name="NICKELODEON France" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FF2:42A:1:C00000:0:0:0:" Name="NICKELODEON France." Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:700A:436:1:C00000:0:0:0:" Name="Nicktoons (S)" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FF0:42A:1:C00000:0:0:0:" Name="VH1" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FF1:42A:1:C00000:0:0:0:" Name="VH1 Classic" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FFB:42A:1:C00000:0:0:0:" Name="VH1 Classic." Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:6FFA:42A:1:C00000:0:0:0:" Name="VH1." Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:7004:436:1:C00000:0:0:0:" Name="VIVA Germany" Provider="MTV Networks Europe" Type="1"/>
+<Channel Id="1:0:1:2B02:417:1:C00000:0:0:0:" Name="E!Entertainement" Provider="OrangeSAT" Type="1"/>
+<Channel Id="1:0:1:2B01:417:1:C00000:0:0:0:" Name="KidsCo" Provider="OrangeSAT" Type="1"/>
+<Channel Id="1:0:1:2B33:417:1:C00000:0:0:0:" Name="KidsCo Bis" Provider="OrangeSAT" Type="1"/>
+<Channel Id="1:0:81:3390:45D:1:C00000:0:0:0:" Name="AlphaCrypt" Provider="ORF" Type="81"/>
+<Channel Id="1:0:2:334E:45B:1:C00000:0:0:0:" Name="FM4" Provider="ORF" Type="2"/>
+<Channel Id="1:0:1:32D5:45D:1:C00000:0:0:0:" Name="HITRADIO OE3" Provider="ORF" Type="1"/>
+<Channel Id="1:0:2:3341:45B:1:C00000:0:0:0:" Name="OE1" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:3342:45B:1:C00000:0:0:0:" Name="OE1 DD" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:3345:45B:1:C00000:0:0:0:" Name="OE2 B" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:334B:45B:1:C00000:0:0:0:" Name="OE2 K" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:3344:45B:1:C00000:0:0:0:" Name="OE2 N" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:3346:45B:1:C00000:0:0:0:" Name="OE2 O" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:3347:45B:1:C00000:0:0:0:" Name="OE2 S" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:334A:45B:1:C00000:0:0:0:" Name="OE2 St" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:3348:45B:1:C00000:0:0:0:" Name="OE2 T" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:3349:45B:1:C00000:0:0:0:" Name="OE2 V" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:3343:45B:1:C00000:0:0:0:" Name="OE2 W" Provider="ORF" Type="2"/>
+<Channel Id="1:0:2:334D:45B:1:C00000:0:0:0:" Name="OE3" Provider="ORF" Type="2"/>
+<Channel Id="1:0:1:332D:45B:1:C00000:0:0:0:" Name="ORF III" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:33A5:3EB:1:C00000:0:0:0:" Name="ORF SPORT+" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32C9:45D:1:C00000:0:0:0:" Name="ORF1" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:132F:3EF:1:C00000:0:0:0:" Name="ORF1 HD" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32CA:45D:1:C00000:0:0:0:" Name="ORF2" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32CD:45D:1:C00000:0:0:0:" Name="ORF2 B" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:1330:3EF:1:C00000:0:0:0:" Name="ORF2 HD" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32D3:45D:1:C00000:0:0:0:" Name="ORF2 K" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32CC:45D:1:C00000:0:0:0:" Name="ORF2 N" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32CE:45D:1:C00000:0:0:0:" Name="ORF2 O" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32CF:45D:1:C00000:0:0:0:" Name="ORF2 S" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32D2:45D:1:C00000:0:0:0:" Name="ORF2 St" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32D0:45D:1:C00000:0:0:0:" Name="ORF2 T" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32D1:45D:1:C00000:0:0:0:" Name="ORF2 V" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32CB:45D:1:C00000:0:0:0:" Name="ORF2 W" Provider="ORF" Type="1"/>
+<Channel Id="1:0:1:32D6:45D:1:C00000:0:0:0:" Name="ORF2E" Provider="ORF" Type="1"/>
+<Channel Id="1:0:81:33AE:45D:1:C00000:0:0:0:" Name="VESTEL DOWNLOAD" Provider="ORF" Type="81"/>
+<Channel Id="1:0:1:33AE:3EB:1:C00000:0:0:0:" Name="." Provider="ORS" Type="1"/>
+<Channel Id="1:0:2:33AF:3EB:1:C00000:0:0:0:" Name="." Provider="ORS" Type="2"/>
+<Channel Id="1:0:2:33B0:3EB:1:C00000:0:0:0:" Name="." Provider="ORS" Type="2"/>
+<Channel Id="1:0:2:33B1:3EB:1:C00000:0:0:0:" Name="." Provider="ORS" Type="2"/>
+<Channel Id="1:0:2:33B2:3EB:1:C00000:0:0:0:" Name="." Provider="ORS" Type="2"/>
+<Channel Id="1:0:2:33B3:3EB:1:C00000:0:0:0:" Name="." Provider="ORS" Type="2"/>
+<Channel Id="1:0:81:33C3:45B:1:C00000:0:0:0:" Name="Arion OTA1" Provider="ORS" Type="81"/>
+<Channel Id="1:0:81:33A5:45D:1:C00000:0:0:0:" Name="Crenova OTA Service" Provider="ORS" Type="81"/>
+<Channel Id="1:0:1:33AD:3EB:1:C00000:0:0:0:" Name="MELODIE Express" Provider="ORS" Type="1"/>
+<Channel Id="1:0:C:33C5:45B:1:C00000:0:0:0:" Name="Opentech OTA1" Provider="ORS" Type="0"/>
+<Channel Id="1:0:C:33C6:45B:1:C00000:0:0:0:" Name="Opentech OTA2" Provider="ORS" Type="0"/>
+<Channel Id="1:0:C:33C7:45B:1:C00000:0:0:0:" Name="Opentech OTA3" Provider="ORS" Type="0"/>
+<Channel Id="1:0:C:1337:3EF:1:C00000:0:0:0:" Name="SGI_1007" Provider="ORS" Type="0"/>
+<Channel Id="1:0:1:778B:424:1:C00000:0:0:0:" Name="PLAYBOY TV" Provider="Playboy TV" Type="1"/>
+<Channel Id="1:0:1:4E2B:43A:1:C00000:0:0:0:" Name="." Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4E24:43A:1:C00000:0:0:0:" Name="Kabel 1 Austria" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4E23:43A:1:C00000:0:0:0:" Name="Kabel 1 Schweiz" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:445E:453:1:C00000:0:0:0:" Name="kabel eins" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4462:453:1:C00000:0:0:0:" Name="kabel eins classics" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:19:EF76:3F9:1:C00000:0:0:0:" Name="kabel eins HD" Provider="ProSiebenSat.1" Type="19"/>
+<Channel Id="1:0:19:14B6:407:1:C00000:0:0:0:" Name="kabel eins HD Austria" Provider="ProSiebenSat.1" Type="19"/>
+<Channel Id="1:0:1:445F:453:1:C00000:0:0:0:" Name="N24" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:445D:453:1:C00000:0:0:0:" Name="ProSieben" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4E22:43A:1:C00000:0:0:0:" Name="ProSieben Austria" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:19:EF75:3F9:1:C00000:0:0:0:" Name="ProSieben HD" Provider="ProSiebenSat.1" Type="19"/>
+<Channel Id="1:0:19:14B5:407:1:C00000:0:0:0:" Name="ProSieben HD Austria" Provider="ProSiebenSat.1" Type="19"/>
+<Channel Id="1:0:1:4E21:43A:1:C00000:0:0:0:" Name="ProSieben Schweiz" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4E27:43A:1:C00000:0:0:0:" Name="PULS 4 Austria" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:19:14B7:407:1:C00000:0:0:0:" Name="PULS 4 HD Austria" Provider="ProSiebenSat.1" Type="19"/>
+<Channel Id="1:0:1:445C:453:1:C00000:0:0:0:" Name="SAT.1" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4E25:43A:1:C00000:0:0:0:" Name="SAT.1 A" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4463:453:1:C00000:0:0:0:" Name="SAT.1 Bayern" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4E26:43A:1:C00000:0:0:0:" Name="SAT.1 CH" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4461:453:1:C00000:0:0:0:" Name="SAT.1 emotions" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:19:EF74:3F9:1:C00000:0:0:0:" Name="SAT.1 HD" Provider="ProSiebenSat.1" Type="19"/>
+<Channel Id="1:0:19:14B4:407:1:C00000:0:0:0:" Name="SAT.1 HD Austria" Provider="ProSiebenSat.1" Type="19"/>
+<Channel Id="1:0:1:4E28:43A:1:C00000:0:0:0:" Name="SAT.1 HH/SH" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4464:453:1:C00000:0:0:0:" Name="SAT.1 NRW" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4E29:43A:1:C00000:0:0:0:" Name="SAT.1 NS/Bremen" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4E2A:43A:1:C00000:0:0:0:" Name="SAT.1 RhlPf/Hessen" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:308:5:85:C00000:0:0:0:" Name="SIXX" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:1:4460:453:1:C00000:0:0:0:" Name="SIXX" Provider="ProSiebenSat.1" Type="1"/>
+<Channel Id="1:0:19:EF77:3F9:1:C00000:0:0:0:" Name="SIXX HD" Provider="ProSiebenSat.1" Type="19"/>
+<Channel Id="1:0:2:1C7C:457:1:C00000:0:0:0:" Name="Radio neue Hoffnung" Provider="RADIO Neue Hoffnung" Type="2"/>
+<Channel Id="1:0:1:10CC:418:1:C00000:0:0:0:" Name="TEST" Provider="Rohde &amp; Schwarz" Type="1"/>
+<Channel Id="1:0:C:1C21:457:1:C00000:0:0:0:" Name="ROVI Guide" Provider="ROVI corporation" Type="0"/>
+<Channel Id="1:0:1:7080:443:1:C00000:0:0:0:" Name="RTL Austria" Provider="RTL" Type="1"/>
+<Channel Id="1:0:1:2EFE:441:1:C00000:0:0:0:" Name="RTL Living" Provider="RTL" Type="1"/>
+<Channel Id="1:0:1:708A:443:1:C00000:0:0:0:" Name="RTL2 Austria" Provider="RTL" Type="1"/>
+<Channel Id="1:0:1:2F1D:441:1:C00000:0:0:0:" Name="RTLNITRO" Provider="RTL" Type="1"/>
+<Channel Id="1:0:1:708F:443:1:C00000:0:0:0:" Name="SUPER RTL A" Provider="RTL" Type="1"/>
+<Channel Id="1:0:1:2F09:441:1:C00000:0:0:0:" Name="SUPER RTL CH" Provider="RTL" Type="1"/>
+<Channel Id="1:0:1:7085:443:1:C00000:0:0:0:" Name="VOX Austria" Provider="RTL" Type="1"/>
+<Channel Id="1:0:1:7094:443:1:C00000:0:0:0:" Name="VOX CH" Provider="RTL" Type="1"/>
+<Channel Id="1:0:1:2F30:441:1:C00000:0:0:0:" Name="Channel 21" Provider="RTL World" Type="1"/>
+<Channel Id="1:0:1:2F3A:441:1:C00000:0:0:0:" Name="n-tv" Provider="RTL World" Type="1"/>
+<Channel Id="1:0:1:2EE6:441:1:C00000:0:0:0:" Name="RTL FS" Provider="RTL World" Type="1"/>
+<Channel Id="1:0:1:2EE5:441:1:C00000:0:0:0:" Name="RTL HB NDS" Provider="RTL World" Type="1"/>
+<Channel Id="1:0:1:2EE4:441:1:C00000:0:0:0:" Name="RTL Regional NRW" Provider="RTL World" Type="1"/>
+<Channel Id="1:0:1:2EE3:441:1:C00000:0:0:0:" Name="RTL Television" Provider="RTL World" Type="1"/>
+<Channel Id="1:0:1:2EF4:441:1:C00000:0:0:0:" Name="RTL2" Provider="RTL World" Type="1"/>
+<Channel Id="1:0:1:2F08:441:1:C00000:0:0:0:" Name="SUPER RTL" Provider="RTL World" Type="1"/>
+<Channel Id="1:0:1:2F1C:441:1:C00000:0:0:0:" Name="VOX" Provider="RTL World" Type="1"/>
+<Channel Id="1:0:1:1333:3EF:1:C00000:0:0:0:" Name="PVoD" Provider="ServusTV" Type="1"/>
+<Channel Id="1:0:1:3336:45B:1:C00000:0:0:0:" Name="ServusTV Deutschland" Provider="ServusTV" Type="1"/>
+<Channel Id="1:0:1:1332:3EF:1:C00000:0:0:0:" Name="ServusTV HD Deutschland" Provider="ServusTV" Type="1"/>
+<Channel Id="1:0:1:1331:3EF:1:C00000:0:0:0:" Name="ServusTV HD Oesterreich" Provider="ServusTV" Type="1"/>
+<Channel Id="1:0:1:3337:45B:1:C00000:0:0:0:" Name="ServusTV Oesterreich" Provider="ServusTV" Type="1"/>
+<Channel Id="1:0:C:1C23:457:1:C00000:0:0:0:" Name="STB Setone" Provider="SES  ASTRA" Type="0"/>
+<Channel Id="1:0:1:778D:424:1:C00000:0:0:0:" Name="NAT GEOGRAPH" Provider="NATGEO" Type="1"/>
+<Channel Id="1:0:1:79E0:443:1:C00000:0:0:0:" Name="Eurosport Deutschland" Provider="SES Astra" Type="1"/>
+<Channel Id="1:0:1:79EA:443:1:C00000:0:0:0:" Name="HSE24 EXTRA" Provider="SES Astra" Type="1"/>
+<Channel Id="1:0:1:13EC:403:1:C00000:0:0:0:" Name="3D Tile Format" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:13ED:403:1:C00000:0:0:0:" Name="ASTRA 3D demo" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:81:C:454:1:C00000:0:0:0:" Name="ASTRA SDT" Provider="SES ASTRA" Type="81"/>
+<Channel Id="1:0:81:D:457:1:C00000:0:0:0:" Name="ASTRA SDT" Provider="SES ASTRA" Type="81"/>
+<Channel Id="1:0:1:2F94:454:1:C00000:0:0:0:" Name="BFM Business" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:2F8A:454:1:C00000:0:0:0:" Name="BFM TV" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:2F8B:454:1:C00000:0:0:0:" Name="BFM TV" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:2F5A:454:1:C00000:0:0:0:" Name="Bibel TV" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:2F99:454:1:C00000:0:0:0:" Name="CashTV" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:16:1484:40D:1:C00000:0:0:0:" Name="Club-RTL" Provider="SES ASTRA" Type="16"/>
+<Channel Id="1:0:C:2773:402:1:C00000:0:0:0:" Name="Data System" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:1:2F8E:454:1:C00000:0:0:0:" Name="Direct 8 TV" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:2F8F:454:1:C00000:0:0:0:" Name="Direct 8 TV" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:2F5B:454:1:C00000:0:0:0:" Name="eUrotic" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:C:1C54:457:1:C00000:0:0:0:" Name="FP URMET" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:AB:1C6C:457:1:C00000:0:0:0:" Name="HDS Europe" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:1:13F8:403:1:C00000:0:0:0:" Name="HOLIDAY" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:82:1C30:457:1:C00000:0:0:0:" Name="HUMAX DOWNLOAD SVC" Provider="SES ASTRA" Type="82"/>
+<Channel Id="1:0:C:1C7E:457:1:C00000:0:0:0:" Name="IDS DOWNLOAD SVC" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:144F:403:1:C00000:0:0:0:" Name="KaCTFL" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:AA:1C83:457:1:C00000:0:0:0:" Name="Kathrein Download" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C81:457:1:C00000:0:0:0:" Name="Kathrein DVB SSU" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:16:147A:40D:1:C00000:0:0:0:" Name="La Deux" Provider="SES ASTRA" Type="16"/>
+<Channel Id="1:0:16:1479:40D:1:C00000:0:0:0:" Name="La Une HD" Provider="SES ASTRA" Type="16"/>
+<Channel Id="1:0:1:2F58:454:1:C00000:0:0:0:" Name="LibertyTV FR" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:80:1C5B:457:1:C00000:0:0:0:" Name="Opentech" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:80:1C71:457:1:C00000:0:0:0:" Name="Panasonic Viera" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:16:1485:40D:1:C00000:0:0:0:" Name="Plug-RTL" Provider="SES ASTRA" Type="16"/>
+<Channel Id="1:0:1:2F44:454:1:C00000:0:0:0:" Name="QVC Deutschland" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:D42:454:1:C00000:0:0:0:" Name="QVC PLUS" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:2:146F:40D:1:C00000:0:0:0:" Name="Radio Beograd" Provider="SES ASTRA" Type="2"/>
+<Channel Id="1:0:2:1C82:457:1:C00000:0:0:0:" Name="Radio Maryja" Provider="SES ASTRA" Type="2"/>
+<Channel Id="1:0:16:1483:40D:1:C00000:0:0:0:" Name="RTL-TVi HD" Provider="SES ASTRA" Type="16"/>
+<Channel Id="1:0:1:146E:40D:1:C00000:0:0:0:" Name="RTS SAT" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:C:1C77:457:1:C00000:0:0:0:" Name="Samsung iDTV EU Upgrade" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:81:1C34:457:1:C00000:0:0:0:" Name="Samsung2" Provider="SES ASTRA" Type="81"/>
+<Channel Id="1:0:C:1EF0:457:1:C00000:0:0:0:" Name="SatRecord" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:80:1EE7:457:1:C00000:0:0:0:" Name="SES-LCN2" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:C:1EE6:457:1:C00000:0:0:0:" Name="SGI_1111" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:1:1C7A:457:1:C00000:0:0:0:" Name="Sky News Intl" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:80:1C5C:457:1:C00000:0:0:0:" Name="SKYMASTER1" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:80:1C5F:457:1:C00000:0:0:0:" Name="SKYMASTER2" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:1:1C62:457:1:C00000:0:0:0:" Name="STB Comag" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:C:1C60:457:1:C00000:0:0:0:" Name="STB Comag1" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:80:1C60:457:1:C00000:0:0:0:" Name="STB Comag1" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:80:1C4B:457:1:C00000:0:0:0:" Name="STB Inverto" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:C:1C7D:457:1:C00000:0:0:0:" Name="STB METZ Werke" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C63:457:1:C00000:0:0:0:" Name="STB Panasonic" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:80:1C6D:457:1:C00000:0:0:0:" Name="STB Sandmartin" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:80:1C38:457:1:C00000:0:0:0:" Name="STB Skardin" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:AB:1C40:457:1:C00000:0:0:0:" Name="STB SMEL" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C7F:457:1:C00000:0:0:0:" Name="STB Sony Spain" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:AB:1C76:457:1:C00000:0:0:0:" Name="STB SRADIX" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:80:1C6E:457:1:C00000:0:0:0:" Name="STB Strong" Provider="SES ASTRA" Type="80"/>
+<Channel Id="1:0:AB:1C6E:457:1:C00000:0:0:0:" Name="STB Strong" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C86:457:1:C00000:0:0:0:" Name="STB Telestar" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C64:457:1:C00000:0:0:0:" Name="STB Ten Haaft" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C78:457:1:C00000:0:0:0:" Name="TDT Data" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C3E:457:1:C00000:0:0:0:" Name="Triax-Hirschmann" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:1:13F9:403:1:C00000:0:0:0:" Name="TRT Turk" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:1C80:457:1:C00000:0:0:0:" Name="TV TRWAM" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:2F67:454:1:C00000:0:0:0:" Name="TV8 Mont Blanc" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:C:1C50:457:1:C00000:0:0:0:" Name="tvtv Digital" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C6F:457:1:C00000:0:0:0:" Name="tvtv DIGITAL" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C2C:457:1:C00000:0:0:0:" Name="tvtv premium" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:C:1C69:457:1:C00000:0:0:0:" Name="tvtv RP" Provider="SES ASTRA" Type="0"/>
+<Channel Id="1:0:1:2F68:454:1:C00000:0:0:0:" Name="Vivolta" Provider="SES ASTRA" Type="1"/>
+<Channel Id="1:0:1:F:4:85:C00000:0:0:0:" Name="." Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:7A:E:85:C00000:0:0:0:" Name="." Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:2A:1:85:C00000:0:0:0:" Name="13th Street" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:25:F:85:C00000:0:0:0:" Name="AXN Action" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:15:11:85:C00000:0:0:0:" Name="Beate-Uhse.TV" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:39:F:85:C00000:0:0:0:" Name="Biography Channel" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:201:4:85:C00000:0:0:0:" Name="Blue Movie" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:79:E:85:C00000:0:0:0:" Name="BLUE MOVIE HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:38:F:85:C00000:0:0:0:" Name="Boomerang" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:27:F:85:C00000:0:0:0:" Name="Cartoon Network (S)" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:18:11:85:C00000:0:0:0:" Name="Classica" Provider="SKY" Type="1"/>
+<Channel Id="1:0:C:DAE:3:85:C00000:0:0:0:" Name="CPT_TP65" Provider="SKY" Type="0"/>
+<Channel Id="1:0:C:DB0:11:85:C00000:0:0:0:" Name="CPT_TP67" Provider="SKY" Type="0"/>
+<Channel Id="1:0:C:DAC:2:85:C00000:0:0:0:" Name="CPT_TP69" Provider="SKY" Type="0"/>
+<Channel Id="1:0:C:DAF:4:85:C00000:0:0:0:" Name="CPT_TP81" Provider="SKY" Type="0"/>
+<Channel Id="1:0:C:DAD:1:85:C00000:0:0:0:" Name="CPT_TP83" Provider="SKY" Type="0"/>
+<Channel Id="1:0:1:E:4:85:C00000:0:0:0:" Name="Discovery Channel" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:82:6:85:C00000:0:0:0:" Name="Discovery HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:22:11:85:C00000:0:0:0:" Name="Disney Channel" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:74:B:85:C00000:0:0:0:" Name="Disney Channel HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:19:3:85:C00000:0:0:0:" Name="Disney Cinemagic" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:6F:D:85:C00000:0:0:0:" Name="Disney Cinemagic HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:1A:11:85:C00000:0:0:0:" Name="Disney Junior" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:1C:11:85:C00000:0:0:0:" Name="Disney XD" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:3331:45B:1:C00000:0:0:0:" Name="ESPN America (S)" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:77:B:85:C00000:0:0:0:" Name="ESPN America HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:37:F:85:C00000:0:0:0:" Name="Eurosport 2 Deutschland" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:84:6:85:C00000:0:0:0:" Name="Eurosport HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:19:7C:E:85:C00000:0:0:0:" Name="Fox HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:10:1:85:C00000:0:0:0:" Name="Fox Serie" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:206:11:85:C00000:0:0:0:" Name="Goldstar TV" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:16:11:85:C00000:0:0:0:" Name="Heimatkanal" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:3A:F:85:C00000:0:0:0:" Name="History" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:71:D:85:C00000:0:0:0:" Name="History HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:13:11:85:C00000:0:0:0:" Name="Junior" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:21:F:85:C00000:0:0:0:" Name="Kinowelt TV" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:203:3:85:C00000:0:0:0:" Name="MGM" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:A8:1:85:C00000:0:0:0:" Name="Motorvision TV" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:76:B:85:C00000:0:0:0:" Name="Nat Geo Wild HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:19:70:D:85:C00000:0:0:0:" Name="NatGeo HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:C:4:85:C00000:0:0:0:" Name="NatGeo Wild" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:D:4:85:C00000:0:0:0:" Name="National Geographic" Provider="SKY" Type="1"/>
+<Channel Id="1:0:C1:A83:4:85:C00000:0:0:0:" Name="NDS Applikation" Provider="SKY" Type="0"/>
+<Channel Id="1:0:1:26:F:85:C00000:0:0:0:" Name="Romance TV" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:1B:1:85:C00000:0:0:0:" Name="RTL Crime" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:1D:1:85:C00000:0:0:0:" Name="RTL Passion" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:75:B:85:C00000:0:0:0:" Name="Sky 3D" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:9:2:85:C00000:0:0:0:" Name="Sky Action" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:6A:C:85:C00000:0:0:0:" Name="Sky Action HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:19:6E:D:85:C00000:0:0:0:" Name="Sky Atlantic HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:DF:4:85:C00000:0:0:0:" Name="Sky Bundesliga" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:A:2:85:C00000:0:0:0:" Name="Sky Cinema" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:B:2:85:C00000:0:0:0:" Name="Sky Cinema +1" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:2B:2:85:C00000:0:0:0:" Name="Sky Cinema +24" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:83:6:85:C00000:0:0:0:" Name="Sky Cinema HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:8:2:85:C00000:0:0:0:" Name="Sky Comedy" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:14:2:85:C00000:0:0:0:" Name="Sky Emotion" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:29:3:85:C00000:0:0:0:" Name="Sky Hits" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:6B:C:85:C00000:0:0:0:" Name="Sky Hits HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:17:1:85:C00000:0:0:0:" Name="Sky Krimi" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:204:3:85:C00000:0:0:0:" Name="Sky Nostalgie" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:12:4:85:C00000:0:0:0:" Name="Sky Select" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:78:E:85:C00000:0:0:0:" Name="Sky Select HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:DD:4:85:C00000:0:0:0:" Name="Sky Sport 1" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:DE:4:85:C00000:0:0:0:" Name="Sky Sport 2" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:1E:1:85:C00000:0:0:0:" Name="Sky Sport Austria" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:81:6:85:C00000:0:0:0:" Name="Sky Sport HD 1" Provider="SKY" Type="19"/>
+<Channel Id="1:0:19:72:D:85:C00000:0:0:0:" Name="Sky Sport HD 2" Provider="SKY" Type="19"/>
+<Channel Id="1:0:19:69:C:85:C00000:0:0:0:" Name="Sky Sport HD Extra" Provider="SKY" Type="19"/>
+<Channel Id="1:0:1:11:3:85:C00000:0:0:0:" Name="Sky Sport News" Provider="SKY" Type="1"/>
+<Channel Id="1:0:D3:F1:3:85:C00000:0:0:0:" Name="Sky Sport News" Provider="SKY" Type="0"/>
+<Channel Id="1:0:19:6C:C:85:C00000:0:0:0:" Name="Sky Sport News HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:D3:F2:C:85:C00000:0:0:0:" Name="Sky Sport News HD" Provider="SKY" Type="0"/>
+<Channel Id="1:0:1:34:4:85:C00000:0:0:0:" Name="Spiegel Geschichte" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:3B:F:85:C00000:0:0:0:" Name="sportdigital" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:24:11:85:C00000:0:0:0:" Name="Syfy" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:23:F:85:C00000:0:0:0:" Name="TNT Film (TCM)" Provider="SKY" Type="1"/>
+<Channel Id="1:0:1:32:1:85:C00000:0:0:0:" Name="TNT Serie" Provider="SKY" Type="1"/>
+<Channel Id="1:0:19:7B:E:85:C00000:0:0:0:" Name="TNT Serie HD" Provider="SKY" Type="19"/>
+<Channel Id="1:0:C6:C8:3:85:C00000:0:0:0:" Name="BDL VoD" Provider="Sky" Type="0"/>
+<Channel Id="1:0:1:76C4:40E:1:C00000:0:0:0:" Name="SPORTMANÍA" Provider="SPM" Type="1"/>
+<Channel Id="1:0:1:6F6F:42C:1:C00000:0:0:0:" Name="Boomerang" Provider="TBS" Type="1"/>
+<Channel Id="1:0:1:6F69:42C:1:C00000:0:0:0:" Name="Cartoon Network" Provider="TBS" Type="1"/>
+<Channel Id="1:0:1:6F6D:42C:1:C00000:0:0:0:" Name="TCM" Provider="TBS" Type="1"/>
+<Channel Id="1:0:1:76C7:40E:1:C00000:0:0:0:" Name="TCM" Provider="TCM" Type="1"/>
+<Channel Id="1:0:1:76CC:40E:1:C00000:0:0:0:" Name="TELEDEPORTE" Provider="TDEP" Type="1"/>
+<Channel Id="1:0:1:7A44:410:1:C00000:0:0:0:" Name="ANDALUCIA TV" Provider="Telefonica Servicios Audiovisuales" Type="1"/>
+<Channel Id="1:0:2:7A45:410:1:C00000:0:0:0:" Name="CANAL SUR RADIO" Provider="Telefonica Servicios Audiovisuales" Type="2"/>
+<Channel Id="1:0:1:7A47:410:1:C00000:0:0:0:" Name="TELEMADRID SAT" Provider="Telefonica Servicios Audiovisuales" Type="1"/>
+<Channel Id="1:0:1:7A48:410:1:C00000:0:0:0:" Name="TELESUR" Provider="Telefonica Servicios Audiovisuales" Type="1"/>
+<Channel Id="1:0:1:275A:402:1:C00000:0:0:0:" Name="CANAL SUR RADIO" Provider="Telefonica Spain" Type="1"/>
+<Channel Id="1:0:1:275B:402:1:C00000:0:0:0:" Name="TELESUR" Provider="Telefonica Spain" Type="1"/>
+<Channel Id="1:0:16:147B:40D:1:C00000:0:0:0:" Name="La Trois" Provider="Telesat" Type="16"/>
+<Channel Id="1:0:2:1497:40D:1:C00000:0:0:0:" Name="Mint" Provider="Telesat" Type="2"/>
+<Channel Id="1:0:1:1BBC:423:1:C00000:0:0:0:" Name="TVP1" Provider="Telewizja Polska SA" Type="1"/>
+<Channel Id="1:0:1:768E:41E:1:C00000:0:0:0:" Name="TAQUILLA 1" Provider="TQ1" Type="1"/>
+<Channel Id="1:0:1:7568:412:1:C00000:0:0:0:" Name="TAQUILLA X" Provider="TQ10" Type="1"/>
+<Channel Id="1:0:1:768F:41E:1:C00000:0:0:0:" Name="TAQUILLA 2" Provider="TQ2" Type="1"/>
+<Channel Id="1:0:1:7690:41E:1:C00000:0:0:0:" Name="TAQUILLA 3" Provider="TQ3" Type="1"/>
+<Channel Id="1:0:1:7691:41E:1:C00000:0:0:0:" Name="TAQUILLA 4" Provider="TQ4" Type="1"/>
+<Channel Id="1:0:1:7565:412:1:C00000:0:0:0:" Name="TAQUILLA 5" Provider="TQ5" Type="1"/>
+<Channel Id="1:0:1:7566:412:1:C00000:0:0:0:" Name="TAQUILLA 6" Provider="TQ6" Type="1"/>
+<Channel Id="1:0:1:7567:412:1:C00000:0:0:0:" Name="TAQUILLA 7" Provider="TQ7" Type="1"/>
+<Channel Id="1:0:1:756F:412:1:C00000:0:0:0:" Name="TAQUILLA 8" Provider="TQ8" Type="1"/>
+<Channel Id="1:0:1:7569:412:1:C00000:0:0:0:" Name="TAQUILLA XX" Provider="TQX" Type="1"/>
+<Channel Id="1:0:1:756A:412:1:C00000:0:0:0:" Name="TAQ XXHARD" Provider="TQXX" Type="1"/>
+<Channel Id="1:0:1:31E4:45F:35:C00000:0:0:0:" Name="2BE" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:1:31F6:45F:35:C00000:0:0:0:" Name="Acht" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:16:3216:45F:35:C00000:0:0:0:" Name="Acht (MPEG4)" Provider="TV Vlaanderen" Type="16"/>
+<Channel Id="1:0:1:31E8:45F:35:C00000:0:0:0:" Name="Canvas" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:1:31E7:45F:35:C00000:0:0:0:" Name="een" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:1:321A:45F:35:C00000:0:0:0:" Name="Informatiekanaal" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:2:31F3:45F:35:C00000:0:0:0:" Name="JOEfm" Provider="TV Vlaanderen" Type="2"/>
+<Channel Id="1:0:16:3208:45F:35:C00000:0:0:0:" Name="KetOp12" Provider="TV Vlaanderen" Type="16"/>
+<Channel Id="1:0:2:31EE:45F:35:C00000:0:0:0:" Name="Klara" Provider="TV Vlaanderen" Type="2"/>
+<Channel Id="1:0:1:31F4:45F:35:C00000:0:0:0:" Name="Man-X" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:16:3218:45F:35:C00000:0:0:0:" Name="Man-X (MPEG4)" Provider="TV Vlaanderen" Type="16"/>
+<Channel Id="1:0:2:31EC:45F:35:C00000:0:0:0:" Name="MNM" Provider="TV Vlaanderen" Type="2"/>
+<Channel Id="1:0:2:31F5:45F:35:C00000:0:0:0:" Name="Nostalgie" Provider="TV Vlaanderen" Type="2"/>
+<Channel Id="1:0:2:31F2:45F:35:C00000:0:0:0:" Name="Q-music" Provider="TV Vlaanderen" Type="2"/>
+<Channel Id="1:0:2:31ED:45F:35:C00000:0:0:0:" Name="Studio Brussel" Provider="TV Vlaanderen" Type="2"/>
+<Channel Id="1:0:1:31F0:45F:35:C00000:0:0:0:" Name="VIJFtv" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:1:31E9:45F:35:C00000:0:0:0:" Name="Vitaya" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:2:31EA:45F:35:C00000:0:0:0:" Name="VRT Radio1" Provider="TV Vlaanderen" Type="2"/>
+<Channel Id="1:0:2:31EB:45F:35:C00000:0:0:0:" Name="VRT Radio2" Provider="TV Vlaanderen" Type="2"/>
+<Channel Id="1:0:1:31E5:45F:35:C00000:0:0:0:" Name="VT4" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:16:320E:45F:35:C00000:0:0:0:" Name="VT4 (MPEG4)" Provider="TV Vlaanderen" Type="16"/>
+<Channel Id="1:0:1:31E3:45F:35:C00000:0:0:0:" Name="VTM" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:1:31F1:45F:35:C00000:0:0:0:" Name="vtmKazoom/Kanaal Z" Provider="TV Vlaanderen" Type="1"/>
+<Channel Id="1:0:16:3210:45F:35:C00000:0:0:0:" Name="vtmKazoom/Kanaal Z (MPEG4)" Provider="TV Vlaanderen" Type="16"/>
+<Channel Id="1:0:1:77C0:40A:1:C00000:0:0:0:" Name="TVE 1" Provider="TVE 1" Type="1"/>
+<Channel Id="1:0:1:1BC0:423:1:C00000:0:0:0:" Name="TV Polonia" Provider="TVP" Type="1"/>
+<Channel Id="1:0:1:1BD0:423:1:C00000:0:0:0:" Name="TVP HD" Provider="TVP" Type="1"/>
+<Channel Id="1:0:1:1BC1:423:1:C00000:0:0:0:" Name="TVP Historia" Provider="TVP" Type="1"/>
+<Channel Id="1:0:1:1BBE:423:1:C00000:0:0:0:" Name="TVP INFO" Provider="TVP" Type="1"/>
+<Channel Id="1:0:1:1BC2:423:1:C00000:0:0:0:" Name="TVP Kultura" Provider="TVP" Type="1"/>
+<Channel Id="1:0:1:1BC4:423:1:C00000:0:0:0:" Name="TVP Seriale" Provider="TVP" Type="1"/>
+<Channel Id="1:0:1:1BBF:423:1:C00000:0:0:0:" Name="TVP Sport" Provider="TVP" Type="1"/>
+<Channel Id="1:0:1:1BBD:423:1:C00000:0:0:0:" Name="TVP2" Provider="TVP" Type="1"/>
+<Channel Id="1:0:1:1BC3:423:1:C00000:0:0:0:" Name="BELSAT TV" Provider="TVP SA" Type="1"/>
+<Channel Id="1:0:1:7695:41E:1:C00000:0:0:0:" Name="TAQUILLA XY" Provider="TXY" Type="1"/>
+<Channel Id="1:0:2:3350:45B:1:C00000:0:0:0:" Name="U1 Tirol" Provider="U1 Tirol" Type="2"/>
+<Channel Id="1:0:1:3332:45B:1:C00000:0:0:0:" Name="sixx Austria" Provider="sevenonemedia" Type="1"/>
+<Channel Id="1:0:1:76C9:40E:1:C00000:0:0:0:" Name="VIAJAR" Provider="VJR" Type="1"/>
+<Channel Id="1:0:1:2756:402:1:C00000:0:0:0:" Name="ANDALUCIA TV" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:1AF6:3FE:1:C00000:0:0:0:" Name="beIN SPORT1" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:1AFC:3FE:1:C00000:0:0:0:" Name="beIN SPORT2" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:D3:159:1:85:C00000:0:0:0:" Name="Blue Movie 1" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:163:1:85:C00000:0:0:0:" Name="Blue Movie 2" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:16D:1:85:C00000:0:0:0:" Name="Blue Movie 3" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:19:2263:438:1:C00000:0:0:0:" Name="CANAL+ CINEMA HD" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:19:2277:438:1:C00000:0:0:0:" Name="CANAL+ CINEMA HD" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:19:2262:438:1:C00000:0:0:0:" Name="CANAL+ DECALE HD" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:19:2276:438:1:C00000:0:0:0:" Name="CANAL+ DECALE HD" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:19:2265:438:1:C00000:0:0:0:" Name="CANAL+ FAMILY HD" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:19:2279:438:1:C00000:0:0:0:" Name="CANAL+ FAMILY HD" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:C3:23BC:44A:1:C00000:0:0:0:" Name="CANALPLAY" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:1:2136:400:1:C00000:0:0:0:" Name="CHAINE CHAMPIONS" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:C:1C66:457:1:C00000:0:0:0:" Name="Datendienst T1M" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:19:13FA:403:1:C00000:0:0:0:" Name="EUROSPORT 3D" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:1:240B:452:1:C00000:0:0:0:" Name="FRANCE Ô" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:C:F8C:11:85:C00000:0:0:0:" Name="HUMAX PR-HD3000C" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:FC3:C:85:C00000:0:0:0:" Name="HUMAX PR-HD3000S" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:1C70:457:1:C00000:0:0:0:" Name="KaCTFL" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:1:1902:3FA:1:C00000:0:0:0:" Name="LIBIDO TV" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:1904:3FA:1:C00000:0:0:0:" Name="M6 MUSIC" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:213C:400:1:C00000:0:0:0:" Name="MCS BIEN ETRE" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:21A9:448:1:C00000:0:0:0:" Name="MCS EXTREME" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:74A4:41C:1:C00000:0:0:0:" Name="MOTORS TV" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:19:1987:44E:1:C00000:0:0:0:" Name="NAT GEO WILD HD" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:1:24C2:43C:1:C00000:0:0:0:" Name="O.CINE CHOC" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:219E:448:1:C00000:0:0:0:" Name="O.CINE GEANTS" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:24C4:43C:1:C00000:0:0:0:" Name="O.CINE HAPPY" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:2522:456:1:C00000:0:0:0:" Name="O.CINE MAX" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:1:24C3:43C:1:C00000:0:0:0:" Name="O.CINE NOVO" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:C:FB8:2:85:C00000:0:0:0:" Name="Pace DS 830 NP" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:F9A:11:85:C00000:0:0:0:" Name="Pace TDC 866 NSDX" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:FBC:C:85:C00000:0:0:0:" Name="Pace TDS 865 NSD" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:FB1:C:85:C00000:0:0:0:" Name="Pace TDS 865 NSDX" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:F9D:C:85:C00000:0:0:0:" Name="Pace TDS 866 NSD" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:F9E:C:85:C00000:0:0:0:" Name="Pace TDS 866 NSDX" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:FA6:11:85:C00000:0:0:0:" Name="Philips dic 2221 IPDL" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:FB6:2:85:C00000:0:0:0:" Name="Philips DIS 2221" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:0:13F6:403:1:C00000:0:0:0:" Name="RTB" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:0:13F7:403:1:C00000:0:0:0:" Name="RTI 1" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:1:275D:402:1:C00000:0:0:0:" Name="Russia Today Español" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:C:FA5:11:85:C00000:0:0:0:" Name="Samsung CAB IPDL" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:19:197D:44E:1:C00000:0:0:0:" Name="SERIE CLUB HD" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:D3:106:2:85:C00000:0:0:0:" Name="Sky Bundesliga 1" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:160:1:85:C00000:0:0:0:" Name="Sky Bundesliga 10" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:FC:2:85:C00000:0:0:0:" Name="Sky Bundesliga 11" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:110:3:85:C00000:0:0:0:" Name="Sky Bundesliga 2" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:11A:3:85:C00000:0:0:0:" Name="Sky Bundesliga 3" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:124:3:85:C00000:0:0:0:" Name="Sky Bundesliga 4" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:12E:3:85:C00000:0:0:0:" Name="Sky Bundesliga 5" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:138:11:85:C00000:0:0:0:" Name="Sky Bundesliga 6" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:142:11:85:C00000:0:0:0:" Name="Sky Bundesliga 7" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:14C:11:85:C00000:0:0:0:" Name="Sky Bundesliga 8" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:156:1:85:C00000:0:0:0:" Name="Sky Bundesliga 9" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:FB:2:85:C00000:0:0:0:" Name="Sky Select 1" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:105:2:85:C00000:0:0:0:" Name="Sky Select 2" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:10F:3:85:C00000:0:0:0:" Name="Sky Select 3" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:119:3:85:C00000:0:0:0:" Name="Sky Select 4" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:123:3:85:C00000:0:0:0:" Name="Sky Select 5" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:12D:3:85:C00000:0:0:0:" Name="Sky Select 6" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:137:11:85:C00000:0:0:0:" Name="Sky Select 7" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:141:11:85:C00000:0:0:0:" Name="Sky Select 8" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:14B:11:85:C00000:0:0:0:" Name="Sky Select 9" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:FE:2:85:C00000:0:0:0:" Name="Sky Select Event A" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:108:2:85:C00000:0:0:0:" Name="Sky Select Event B" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:107:2:85:C00000:0:0:0:" Name="Sky Sport 10" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:111:3:85:C00000:0:0:0:" Name="Sky Sport 11" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:16B:1:85:C00000:0:0:0:" Name="Sky Sport 12" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:175:1:85:C00000:0:0:0:" Name="Sky Sport 13" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:FD:2:85:C00000:0:0:0:" Name="Sky Sport 3" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:14D:11:85:C00000:0:0:0:" Name="Sky Sport 4" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:143:11:85:C00000:0:0:0:" Name="Sky Sport 5" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:139:11:85:C00000:0:0:0:" Name="Sky Sport 6" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:12F:3:85:C00000:0:0:0:" Name="Sky Sport 7" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:125:3:85:C00000:0:0:0:" Name="Sky Sport 8" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:D3:11B:3:85:C00000:0:0:0:" Name="Sky Sport 9" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:1:2755:402:1:C00000:0:0:0:" Name="TELEMADRID SAT" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:19:1968:44E:1:C00000:0:0:0:" Name="TF6 HD" Provider="Unknown" Type="19"/>
+<Channel Id="1:0:C:FB5:2:85:C00000:0:0:0:" Name="Thomson DCI12PRE" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:C:FA7:11:85:C00000:0:0:0:" Name="Thomson SAT IPDL" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:1:190C:3FA:1:C00000:0:0:0:" Name="TS2" Provider="Unknown" Type="1"/>
+<Channel Id="1:0:0:2146:400:1:C00000:0:0:0:" Name="(...)" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:0:75E8:422:1:C00000:0:0:0:" Name="(...)" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:0:75E9:422:1:C00000:0:0:0:" Name="(...)" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:0:75EA:422:1:C00000:0:0:0:" Name="(...)" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:0:75EB:422:1:C00000:0:0:0:" Name="(...)" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:0:75EC:422:1:C00000:0:0:0:" Name="(...)" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:0:75FB:408:1:C00000:0:0:0:" Name="(...)" Provider="Unknown" Type="0"/>
+<Channel Id="1:0:1:6D67:437:1:C00000:0:0:0:" Name="3sat" Provider="ZDFvision" Type="1"/>
+<Channel Id="1:0:19:2B8E:3F2:1:C00000:0:0:0:" Name="3sat HD" Provider="ZDFvision" Type="19"/>
+<Channel Id="1:0:2:6D6C:437:1:C00000:0:0:0:" Name="DKULTUR" Provider="ZDFvision" Type="2"/>
+<Channel Id="1:0:2:6D6D:437:1:C00000:0:0:0:" Name="DLF" Provider="ZDFvision" Type="2"/>
+<Channel Id="1:0:2:6D6F:437:1:C00000:0:0:0:" Name="DRadio DokDeb" Provider="ZDFvision" Type="2"/>
+<Channel Id="1:0:2:6D71:437:1:C00000:0:0:0:" Name="DRadio Wissen" Provider="ZDFvision" Type="2"/>
+<Channel Id="1:0:1:6D68:437:1:C00000:0:0:0:" Name="KiKA" Provider="ZDFvision" Type="1"/>
+<Channel Id="1:0:19:2B98:3F2:1:C00000:0:0:0:" Name="KiKA HD" Provider="ZDFvision" Type="19"/>
+<Channel Id="1:0:1:6D66:437:1:C00000:0:0:0:" Name="ZDF" Provider="ZDFvision" Type="1"/>
+<Channel Id="1:0:19:2B66:3F3:1:C00000:0:0:0:" Name="ZDF HD" Provider="ZDFvision" Type="19"/>
+<Channel Id="1:0:1:6D70:437:1:C00000:0:0:0:" Name="zdf.kultur" Provider="ZDFvision" Type="1"/>
+<Channel Id="1:0:19:2B84:3F3:1:C00000:0:0:0:" Name="zdf.kultur HD" Provider="ZDFvision" Type="19"/>
+<Channel Id="1:0:1:6D6B:437:1:C00000:0:0:0:" Name="ZDFinfo" Provider="ZDFvision" Type="1"/>
+<Channel Id="1:0:19:2BA2:3F2:1:C00000:0:0:0:" Name="ZDFinfo HD" Provider="ZDFvision" Type="19"/>
+<Channel Id="1:0:1:6D6E:437:1:C00000:0:0:0:" Name="zdf_neo" Provider="ZDFvision" Type="1"/>
+<Channel Id="1:0:19:2B7A:3F3:1:C00000:0:0:0:" Name="zdf_neo HD" Provider="ZDFvision" Type="19"/>
+<Channel Id="1:0:1:76C8:40E:1:C00000:0:0:0:" Name="PAR. COMEDY" Provider="NC" Type="1"/></Channels>

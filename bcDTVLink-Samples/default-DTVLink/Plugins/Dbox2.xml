@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Plugin
+	Name			= "DBox2"
+	Class			= "DBox2"
+	Priority		= "100"
+	StartType		= "Manual"
+>
+</Plugin>

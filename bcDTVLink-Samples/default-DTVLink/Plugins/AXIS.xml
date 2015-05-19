@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Plugin
+	Name			= "AXIS"
+	Class			= "AXIS"
+	Priority		= "110"
+	StartType		= "Disabled"
+	InfoURL			= "http://www.axis.com/\tAXIS Communications"
+>
+</Plugin>

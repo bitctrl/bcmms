@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Plugin
+	Name			= "Capture"
+	Class			= "Capture"
+	Priority		= "100"
+	StartType		= "Manual"
+>
+<!--
+	<Overlay>
+		<Text x="32" y="80" cx="320" cy="80" Color="0x7f00cf" FontName="Times New Roman" FontHeight="24">Date: %Y.%m.%d</Text>
+		<Text x="32" y="112" cx="320" cy="80" Color="0xcf007f" FontName="Times New Roman" FontHeight="24">Time: %H:%M:%S.$ms$</Text>
+	</Overlay>
+-->
+</Plugin>

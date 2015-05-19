@@ -1,0 +1,322 @@
+<html>
+<head>
+<hta:application
+	icon="res/DTVLink.ico"
+	border="thick"
+	singleInstance="yes"
+	minimizeButton="no"
+	maximizeButton="no"
+	sysMenu="yes"
+	navigable="no"
+	/>
+<meta http-equiv="Content-Type" content="text/html; encoding=utf-8">
+<title>bitcontrol® Digital TV Link - Samples</title>
+<style>
+html, body { height: 100%; }
+body { margin: 0; border: none; overflow: hidden; }
+
+body { font-family: sans-serif; font-size: 10pt;}
+#appHeader { position: absolute; z-index: 3; top: 0; left: 0; width: 100%; height: 50px; }
+#appLogo { position: absolute; z-index: 4; top: 10px; left: 10px; width: 180px; height: 180px; }
+#appSidebar { position: absolute; z-index: 2; top: 0; left: 0; width: 200px; height: 100%; padding: 200px 0 0 0; }
+#appContent{ position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height: 100%; padding: 50px 0 0 200px; }
+.wrapper { position: relative; width: 100%; height: 100%; overflow-y: auto; }
+#appHeader .wrapper { overflow: visible; }
+#appSidebar .wrapper { overflow: visible; }
+.app-view { display: none; margin-bottom: 1em; }
+
+.i18n-block, .i18n-inline { display: none; }
+html.lang-en .i18n-block.lang-en { display: block; }
+html.lang-en .i18n-inline.lang-en { display: inline; }
+html.lang-de .i18n-block.lang-de { display: block; }
+html.lang-de .i18n-inline.lang-de { display: inline; }
+
+.visible { display: block; }
+
+#appSystemTest span { white-space: nowrap; }
+
+#appHeader { background: #009ACC; }
+#appSidebar { background: #009ACC; }
+#appContent { background: #ffffff; border: solid #009ACC 10px; }
+
+#appContent h1 button, #appContent h2 button { margin-left: 10px; }
+
+#appLanguageSelect { float: right; color: #ffffff; padding-right: 10px; padding-top: 10px;}
+#appLanguageSelect label { white-space: nowrap; }
+#appPageSelect label { display: block; xwidth: 100%; white-space: nowrap; color: #ffffff; padding-left: 15px;}
+#appTitle { color: #ffffff; white-space: nowrap; margin-left: 200px; padding-left: 10px; padding-top: 10px; font-size: 24px; font-weight: bold; }
+#appLogo { background-color: #fffff; text-align: left; }
+#appLogo img { width: 75%; height: auto; background: #ffffff; }
+</style>
+<script>
+( function()
+{
+	var wshSh = new ActiveXObject("WScript.Shell");
+	var fso = new ActiveXObject("Scripting.FileSystemObject");
+
+	var wbemFlagReturnImmediately = 0x10;
+	var wbemFlagForwardOnly = 0x20;
+
+	var wmiSvc = GetObject( 'winmgmts:\\\\.\\root\\CIMV2' );
+	var wmiRes, wmiRec;
+
+	var activePage = { 'style' : {} };
+	window.attachEvent( 'onload', function()
+	{
+		var firstLang, firstPage;
+		// language selector
+		for ( var L = appLanguageSelect.getElementsByTagName( 'input' ), ii = 0, firstLang = L[ 0 ]; ii < L.length; ii++ )
+		{
+			L[ ii ].attachEvent( 'onclick', function( event )
+			{
+				document.documentElement.className = 'lang-' + event.srcElement.value;
+				window.resizeBy( 1, 1 );
+				setTimeout( function(){ window.resizeBy( -1, -1 ); }, 0 );
+			});
+		}
+		// page selector
+		for ( var L = appPageSelect.getElementsByTagName( 'input' ), ii = 0, firstPage = L[ 0 ]; ii < L.length; ii++ )
+		{
+			L[ ii ].attachEvent( 'onclick', function( event )
+			{
+				activePage.style.display = 'none';
+				activePage = document.getElementById( event.srcElement.value );
+				activePage.style.display = 'block';
+				window.resizeBy( 1, 1 );
+				setTimeout( function(){ window.resizeBy( -1, -1 ); }, 0 );
+			});
+		}
+		// command buttons
+		for ( var L = appContent.getElementsByTagName( 'button' ), ii = 0; ii < L.length; ii++ )
+		{
+			L[ ii ].attachEvent( 'onclick', function( event )
+			{
+				switch ( event.srcElement.id )
+				{
+					case 'appExec_0501-broadcaster-screencast-netpublisher-localhost-en':
+					case 'appExec_0502-streamserver-HTTPrec-bcMSS-en':
+					case 'appExec_0503-player-RTSP-receiver-en':
+					case 'appExec_0504-file-en':
+						wshSh.Run( 	'"' + appSystemTest_DTVLinkPath.innerText + '" --DataDir="' + fso.BuildPath( fso.GetParentFolderName( location.pathname ), event.srcElement.id.slice( 8 ) ) + '\\"' );
+						break;
+					case 'appExec_vlc_rtsp_live':
+						wshSh.Run( '"' + appSystemTest_VLCPath.innerText + '" "rtsp://localhost/live"' );
+						break;
+					case 'appExec_webapp':
+						wshSh.Run( 'http://localhost:555' );
+						break;
+					case 'appExec_factory':
+						wshSh.Run( '"%ProgramData%\\BitCtrl\\DTVLink\\setup-bcdtvlink-samples.exe"' );
+						break;
+					case 'appExec_browse_samples':
+						wshSh.Run( '"file:///' + wshSh.SpecialFolders('MyDocuments') + '\\BitCtrl\\DTVLink\\Samples"' );
+						break;
+				}
+			});
+		}
+
+		firstLang.click();
+		firstPage.click();
+
+		wmiRes = new Enumerator( wmiSvc.ExecQuery( 'SELECT * FROM Win32_OperatingSystem', 'WQL', wbemFlagReturnImmediately | wbemFlagForwardOnly ) );
+		if ( !wmiRes.atEnd() && ( wmiRec = wmiRes.item() ) )
+		{
+			appSystemTest_OSName.innerText = wmiRec.Name.split( '|', 1 );
+			appSystemTest_OSVersion.innerText = wmiRec.Version;
+			appSystemTest_OSArchitecture.innerText = wmiRec.OSArchitecture;
+			appSystemTest_Environment.innerText = wshSh.ExpandEnvironmentStrings( '%PROCESSOR_ARCHITECTURE%' );
+			var regKey = [ 'HKLM\\Software' ];
+			if ( parseInt( wmiRec.OSArchitecture ) == 64 )
+			{
+				regKey.push( 'Wow6432Node' );
+			}
+			regKey.push( 'Microsoft\\Windows\\CurrentVersion\\Uninstall' );
+			regKey = regKey.join( '\\' );
+
+			var path;
+
+			try
+			{
+				path = wshSh.RegRead( regKey + '\\bcDTVLink\\InstallLocation' ).match( /^"?(.*)"?$/ )[ 1 ];
+				path = fso.BuildPath( path, 'SimplePlayer.exe' );
+				if ( !fso.FileExists( path ) )
+				{
+					throw '';
+				}
+			}
+			catch (e)
+			{
+				path = '';
+			}
+			appSystemTest_DTVLinkPath.innerText = path;
+
+			try
+			{
+				path = wshSh.RegRead( regKey + '\\VLC media player\\InstallLocation' ).match( /^"?(.*)"?$/ )[ 1 ];
+				path = fso.BuildPath( path, 'vlc.exe' );
+				if ( !fso.FileExists( path ) )
+				{
+					throw '';
+				}
+			}
+			catch (e)
+			{
+				path = '';
+			}
+			appSystemTest_VLCPath.innerText = path;
+		}
+	});
+})();
+</script>
+</head>
+<body>
+	<div id="appHeader"><div class="wrapper">
+		<div id="appLanguageSelect">
+			<span class="i18n-inline lang-en">Language</span><span class="i18n-inline lang-de">Sprache</span>:
+			<label><input type="radio" name="language" value="en"><span class="i18n-inline lang-en">English (Englisch)</span><span class="i18n-inline lang-de">Englisch (English)</span></label>
+			<label><input type="radio" name="language" value="de"><span class="i18n-inline lang-en">German (Deutsch)</span><span class="i18n-inline lang-de">Deutsch (German)</span></label>
+		</div>
+		<div id="appTitle">
+			bitcontrol® Digital TV Link <span class="i18n-inline lang-en">Samples</span><span class="i18n-inline lang-de">Beispiele</span>
+		</div>
+		<div id="appLogo">
+			<img src="res/logo_neu.png">
+		</div>
+	</div></div>
+	<div id="appSidebar"><div class="wrapper">
+
+		<div id="appPageSelect">
+			<label><input type="radio" name="menu" value="page_welcome"><span class="i18n-inline lang-en">Welcome</span><span class="i18n-inline lang-de">Willkommen</span></label>
+			<label><input type="radio" name="menu" value="page_file"><span class="i18n-inline lang-en">File playback</span><span class="i18n-inline lang-de">Dateiwiedergabe</span></label>
+			<label><input type="radio" name="menu" value="page_network"><span class="i18n-inline lang-en">Network streaming</span><span class="i18n-inline lang-de">Netzwerk Streaming</span></label>
+		</div>
+	</div></div>
+	<div id="appContent"><div class="wrapper">
+		<!-- welcome -->
+		<div id="page_welcome" class="app-view">
+			<h1><span class="i18n-inline lang-en">Welcome to bitcontrol® Multimedia</span><span class="i18n-inline lang-de">Willkommen bei bitcontrol® Multimedia</span></h1>
+			<p class="i18n-block lang-en">
+			The bitcontrol® Multimedia Suite provides a powerful software package for various multimedia application fields.<br><br>
+			Some example configurations were set up to demonstrate the capabilities and to understand the bitcontrol® Multimedia Suite software better. The examples contain the program bitcontrol® Simple Player with the integrated bitcontrol® Digital TV Link. There are no examples for the bitcontrol® Video Streaming Server (bcVSS) yet.<br><br>
+			The parameters of bitcontrol® Digital TV Link can be changed online with the <i>Tool</i> - <i>Options</i> button. Some parameters only become active after restarting the example.<br><br>
+			The configuration and parameter files can be found here: <i>C:\Users\user-xyz\Documents\BitCtrl\DTVLink\Samples\...</i>. Please only edit the xml files manually if you have extensive knowledge of the programs. If necessary, the software can be reset to its delivery condition.
+			</p><br>
+			<p class="i18n-block lang-de">
+			Mit der bitcontrol® Multimedia Suite steht Ihnen ein leistungsfähiges Software-Paket für vielfältige Multimedia-Einsatzgebiete zur Verfügung.<br><br>
+			Zur Demonstration des Funktionsumfangs und zum besseren Verständnis der bitcontrol® Multimedia Suite Software wurden hier einige ausgewählte Szenarien als Beispielkonfigurationen zusammengestellt. Die Beispiele umfassen das Programm bitcontrol® Simple Player mit integriertem bitcontrol® Digital TV Link.  Für den bitcontrol® Video Streaming Server (bcVSS) sind keine Beispiele vorhanden.<br><br>
+			Die Parameter von bitcontrol® Digital TV Link lassen sich über den Button <i>Tool</i> - <i>Options</i> online ändern. Einige Parameter werden erst nach Neustart des Beispiels wirksam.<br><br>
+			Die jeweiligen Konfigurations- und Parameterdateien sind zu finden unter: <i>C:\Users\user-xyz\Documents\BitCtrl\DTVLink\Samples\...</i>. Bitte ändern Sie die XML Files nur bei umfassender Kenntnis manuell. Bei Bedarf kann die Software in den Auslieferungszustand zurückgesetzt werden.
+			</p><br>
+
+			<p>
+				<p class="i18n-block lang-en"><b>Your system data</b></p><br>
+				<p class="i18n-block lang-de"><b>Ihre System-Daten</b></p><br>
+
+				<div>
+						<span class="i18n-inline lang-en">Operating system</span><span class="i18n-inline lang-de">Betriebssystem</span>:
+						<span id="appSystemTest_OSName"></span>, <span id="appSystemTest_OSVersion"></span>
+				</div>
+				<div>
+						<span class="i18n-inline lang-en">Architecture</span><span class="i18n-inline lang-de">Architektur</span>:
+						<span id="appSystemTest_OSArchitecture"></span>
+				</div>
+				<div>
+						<span class="i18n-inline lang-en">Execution environment</span><span class="i18n-inline lang-de">Ausführungsumgebung</span>:
+						<span id="appSystemTest_Environment"></span>
+				</div>
+				<div>
+						Digital TV Link:
+						<span id="appSystemTest_DTVLinkPath"></span>
+				</div>
+				<div>
+						VLC media player:
+						<span id="appSystemTest_VLCPath"></span>
+				</div>
+			</p>
+			<p>
+				<button id="appExec_factory"><span class="i18n-inline lang-en">Reinstall samples (factory settings)</span><span class="i18n-inline lang-de">Beispiele neu installieren (Werkseinstellungen)</span></button>
+			</p>
+			<p>
+				<button id="appExec_browse_samples"><span class="i18n-inline lang-en">Browse samples with file manager</span><span class="i18n-inline lang-de">Beispiele im Dateimanager anzeigen</span></button>
+			</p>
+		</div>
+		<!-- file -->
+		<div id="page_file" class="app-view">
+			<h1>
+				<span class="i18n-inline lang-en">File playback</span><span class="i18n-inline lang-de">Dateiwiedergabe</span>
+				<button id="appExec_0504-file-en"><span class="i18n-inline lang-en">Run this example</span><span class="i18n-inline lang-de">Dieses Beispiel ausführen</span></button>
+			</h1>
+			<div class="i18n-block lang-en">
+				<p>This configuration example plays a supplied video in infinite loop in bitcontrol® Simple Player.</p>
+				<p>The example can be modified by adding your own video files. To do this, open the option menu of bitcontrol® Simple Player and add the video file to the playlist in the <i>File</i> plug-in.</p>
+			</div>
+			<div class="i18n-block lang-de">
+				<p>In diesem Konfigurationsbeispiel wird eine mitgelieferte Videodatei in einer Endlosschleife im bitcontrol® Simple Player abgespielt.</p>
+				<p>Das Beispiel kann um die Wiedergabe eigener Videodateien erweitert werden. Dazu wird das Option-Menü des bitcontrol® Simple Players geöffnet und der Playliste im Plugin <i>File</i> die gewünschte Datei hinzugefügt.</p>
+			</div>
+			<p><img src="res/add_file.png"></p>
+		</div>
+		<!-- network -->
+		<div id="page_network" class="app-view">
+			<h1><span class="i18n-inline lang-en">Simulated network streaming</span><span class="i18n-inline lang-de">Netzwerk Streaming simuliert</span></h1>
+			<div class="i18n-block lang-en">
+				<p><b>CAUTION:</b> The example configurations build upon one another. So please execute them one after another, from top to bottom!</p>
+				<p><b>NOTE:</b> Some example configurations need few seconds time to execute. Please be patient.</p>
+			</div>
+			<div class="i18n-block lang-de">
+				<p><b>ACHTUNG:</b> Die Beispielkonfigurationen bauen aufeinander auf. Führen Sie deshalb bitte die Beispiele nacheinander von oben nach unten aus.</p>
+				<p><b>HINWEIS:</b> Das Ausführen einiger Beispielkonfigurationen kann ein paar Sekunden Zeit in Anspruch nehmen. Bitte haben Sie  da ein wenig Geduld.</p>
+			</div>
+
+			<!-- 1st -->
+			<h2>
+				<span class="i18n-block lang-en">Screencast broadcaster as video source</span><span class="i18n-block lang-de">Screencast Broadcaster als Video-Quelle</span>
+				<button id="appExec_0501-broadcaster-screencast-netpublisher-localhost-en"><span class="i18n-inline lang-en">1st step - run</span><span class="i18n-inline lang-de">1. Schritt - Ausführen</span></button>
+			</h2>
+			<p><img src="res/schritt1.png"></p>
+			<p class="i18n-block lang-en">Clicking the button <i>1st step - run</i> opens a bitcontrol® Simple Player instance that returns the local monitor as screencast.</p>
+			<p class="i18n-block lang-de">Nach Betätigen des <i>1. Schritt - Ausführen</i> Buttons öffnet sich eine bitcontrol® Simple Player Instanz, in welcher der lokale Bildschirm als Screencast wiedergegeben wird.</p>
+			<p><small><i>0501-broadcaster-screencast-netpublisher-localhost</i></small></p>
+
+			<!-- 2nd -->
+			<h2>
+				<span class="i18n-block lang-en">Second bitcontrol® Simple Player as video server</span><span class="i18n-block lang-de">Zweiter bitcontrol® Simple Player als Video-Server</span>
+				<button id="appExec_0502-streamserver-HTTPrec-bcMSS-en"><span class="i18n-inline lang-en">2nd step - run</span><span class="i18n-inline lang-de">2. Schritt - Ausführen</span></button>
+			</h2>
+			<p><img src="res/schritt2.png"></p>
+			<p class="i18n-block lang-en">After clicking on the <i>2nd step - run</i> button, another bitcontrol® Simple Player with local monitor playback opens in addition to the screencast instance from the first example. It is the video of the capture plug-in. In this case, the capture plug-in is used as the input source for the video. The video is transmitted in push mode to the multistream server plug-in of the second bitcontrol® Simple Player and the multistream server plug-in streams the video to the clients. The second bitcontrol® Simple Player is used as the multistream server.</p>
+			<p class="i18n-block lang-de">Zusätzlich zur Screencast Instanz aus Beispiel 1 öffnet sich nach Betätigen des <i>2. Schritt - Ausführen</i> Buttons ein weiterer bitcontrol® Simple Player, in dem ebenfalls der lokale Monitor zu sehen ist. Hierbei handelt es sich um die Wiedergabe des Capture-Plugin Videos. Das Capture-Plugin fungiert in Beispiel 2 als Eingangsquelle für das Video, welches im Push-Modus zum Multistream-Server-Plugin des zweiten bitcontrol® Simple Players übertragen und vom Multistream-Server-Plugin weitergestreamt wird. Der zweite bitcontrol® Simple Player fungiert als Multistream-Server.</p>
+			<p><small><i>0502-streamserver-HTTPrec-bcMSS</i></small></p>
+
+			<!-- 3rd -->
+			<h2>
+				<span class="i18n-block lang-en">Third bitcontrol® Simple Player as video client</span><span class="i18n-block lang-de">Dritter bitcontrol® Simple Player als Video-Client</span>
+				<button id="appExec_0503-player-RTSP-receiver-en"><span class="i18n-inline lang-en">3rd step - run</span><span class="i18n-inline lang-de">3. Schritt - Ausführen</span></button>
+			</h2>
+			<p><img src="res/schritt3.png"></p>
+			<p class="i18n-block lang-en">After clicking the <i>3rd step - run</i> button, a third bitcontrol® Simple Player instance opens. It shows the local monitor as an RTSP live video stream. The RTSP live video stream is transmitted in pull mode from the running multistream server plug-in of the second bitcontrol® Simple Player and played back in a client (third bitcontrol® Simple Player instance).</p>
+			<p class="i18n-block lang-de">Nach Betätigen des <i>3. Schritt - Ausführen</i> Buttons öffnet sich eine dritte bitcontrol® Simple Player Instanz. In dieser wird der lokale Monitor als RTSP-Live-Video Stream wiedergegeben. Das RTSP-Live-Video wird im Pull-Modus vom laufenden Multistream-Server-Plugin des zweiten bitcontrol® Simple Players abgeholt und im Client (dritte bitcontrol® Simple Player Instanz) abgespielt.</p>
+			<p><small><i>0503-player-RTSP-receiver</i></small></p>
+
+			<!-- 4th -->
+			<h2>
+				<span class="i18n-block lang-en">VLC as video client receiver</span><span class="i18n-block lang-de">VLC als Video-Client Empfänger</span>
+				<button id="appExec_vlc_rtsp_live"><span class="i18n-inline lang-en">4th step - run</span><span class="i18n-inline lang-de">4. Schritt - Ausführen</span></button>
+			</h2>
+			<p><img src="res/schritt4.png"></p>
+			<p class="i18n-block lang-en"><b>REQUIREMENT:</b> The program <i>Video LAN Client (VLC)</i> must be installed on the system.<br>After clicking the <i>4th step - run</i> button a VLC player instance opens that shows the local monitor. The VLC player receives the video as client from the multistream server plug-in of the second bitcontrol® Simple Player.</p>
+			<p class="i18n-block lang-de"><b>VORAUSSETZUNG:</b> Für das Beispiel muss das Programm <i>Video LAN Client (VLC)</i> installiert sein.<br>Nach Betätigen des <i>4. Schritt - Ausführen</i> Buttons öffnet sich eine VLC Player Instanz, in der der lokale Monitor wiedergegeben wird. Der VLC Player empfängt das Video als Client vom Multistream-Server-Plugin des zweiten bitcontrol® Simple Players.</p>
+
+			<!-- 5th -->
+			<h2>
+				<span class="i18n-block lang-en">Video plug-in in browser</span><span class="i18n-block lang-de">Video-Plugin im Browser</span>
+				<button id="appExec_webapp"><span class="i18n-inline lang-en">5th step - run</span><span class="i18n-inline lang-de">5th Schritt - Ausführen</span></button>
+			</h2>
+			<p><img src="res/schritt5.png"></p>
+			<p class="i18n-block lang-en">After clicking the <i>5th step - run</i> button, a web browser opens that shows the start page of the multistream server plug-in of the second  bitcontrol® Simple Player. The multistream server plug-in also functions as a web server that provides the displayed website. If video plug-ins (e.g. Adobe Flash) are installed for the browser, the live video of the local monitor can be received and played back here under <i>Channels - Live Channels - Screencast - Media Sessions</i>.</p>
+			<p class="i18n-block lang-de">Nach Betätigen des <i>5. Schritt - Ausführen</i> Buttons öffnet sich ein Web-Browser mit der Startseite des Multistream-Server-Plugins des zweiten bitcontrol® Simple Players.<br>Das Multistream-Server-Plugin fungiert auch als WEB-Server und stellt die aufgerufene Web-Seite bereit. Wenn im Browser entsprechende Video-Plugins (z.B. Adobe Flash) installiert sind, dann kann im Browser unter <i>Channels - Live Channels - Screencast - Media Sessions</i> das Live-Video des lokalen Monitors vom Multistream-Server-Plugin empfangen und wiedergegeben werden.</p>
+
+		</div>
+	</div></div>
+</body>
+</html>

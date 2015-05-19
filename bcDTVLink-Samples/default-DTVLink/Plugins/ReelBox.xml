@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Plugin
+	Name			= "ReelBox"
+	Class			= "ReelBox"
+	Priority		= "100"
+	StartType		= "Disabled"
+	InfoURL			= "http://www.reel-multimedia.com\tReel Multimedia"
+>
+</Plugin>

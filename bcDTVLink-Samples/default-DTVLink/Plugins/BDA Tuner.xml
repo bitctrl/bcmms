@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Plugin
+	Name			= "BDA Tuner"
+	Class			= "BDA"
+	Priority		= "100"
+	StartType		= "Manual"
+>
+	<Properties>
+		<LNB1.Satellite>6</LNB1.Satellite>
+	</Properties>
+</Plugin>
