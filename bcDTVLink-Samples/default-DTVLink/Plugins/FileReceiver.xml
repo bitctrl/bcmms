@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?><Plugin Name="File" Class="ReceiverFile" Priority="110" StartType="Auto">
+<Properties><Mode>2</Mode></Properties><Channels>
+<Channel Id="0" Name="bitcontrol-trailer.mp4" Type="1" URL="bitcontrol-trailer.mp4"/></Channels></Plugin>

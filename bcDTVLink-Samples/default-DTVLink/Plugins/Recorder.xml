@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><Plugin Name="Recorder" Class="Recorder" Priority="50" StartType="Manual">
+	<Properties>
+	<Filename>$MYVIDEO$\Digital TV Link\$CHANNEL$ (%d %b %Y, %Hh %Mm %Ss)</Filename><PreferedFileExts>mpg;mp4;avi</PreferedFileExts><SaveElementaryStreams>false</SaveElementaryStreams><FileLimitSizeMB>0</FileLimitSizeMB><FileLimitTimeMin>0</FileLimitTimeMin><AutoDelete>false</AutoDelete><AutoDeleteTimeMinutes>1440</AutoDeleteTimeMinutes><RecordAllPrimaryStreams>false</RecordAllPrimaryStreams><RecordAllOnAirStreams>false</RecordAllOnAirStreams><RecordOnlyPrimarySubstreams>false</RecordOnlyPrimarySubstreams><RecordOnlyOnAirSubstreams>false</RecordOnlyOnAirSubstreams></Properties>
+</Plugin>

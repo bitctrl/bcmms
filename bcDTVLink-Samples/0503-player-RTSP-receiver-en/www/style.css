@@ -1,0 +1,80 @@
+ body {
+    color: black; background-color: #ffffff;
+    font-size: 80.00%;
+    font-family: Helvetica,Arial,sans-serif;
+    margin: 0; padding: 1em;
+    min-width: 41em; /* Mindestbreite verhindert Umbruch und Anzeigefehler in modernen Browsern */
+  }
+
+  h1 {
+    width: 800px;
+    position:relative;
+    font-size: 1.5em;
+    margin: 0 1% 0; padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #585858;
+    border: 0px;
+  }
+ 
+  div#Inhalt {
+    width: 800px;
+    position:relative;
+    margin: 1% 1% 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 0px;
+  }
+  * html div#Inhalt {
+    height: 1em;  /* Workaround gegen den 3-Pixel-Bug des Internet Explorer bis Version 6 */
+  }
+  div#Inhalt h2 {
+    font-size: 1.2em;
+    margin: 0.2em 0;
+  }
+  div#Inhalt p {
+    font-size: 1em;
+    margin: 1em 0;
+  }
+  
+a:link {
+    color: green;
+    font-size: 1em;
+    margin: 1em 0;
+  }
+
+a:link.button {    
+    font-size: 12pt;
+    margin: 10px; 
+    padding: 10px;
+    text-align: center;
+    text-decoration:none;
+    color: #ffffff;
+    background-color: #585858; border: 1px solid silver;
+  }
+
+
+a:hover.button {
+    font-size: 12pt;
+    margin: 10px; 
+    padding: 10px;
+    text-align: center;
+    text-decoration:none;
+    color: #ffffff;
+    background-color: #009acc; 
+    border: 1px solid silver;
+  }
+
+
+
+  p#Fusszeile {
+    width: 800px;
+    position:relative;
+    margin: 1% 1% 0;
+    padding: 10px;
+    font-size: 10pt;
+    text-align: center;
+    color: #ffffff;
+    background-color: #585858; 
+    border: 0px;
+  }

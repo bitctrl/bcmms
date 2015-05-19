@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Plugin
+	Name			= "Recorder"
+	Class			= "Recorder"
+	Priority		= "50"
+	StartType		= "Auto"
+>
+	<Properties>
+	</Properties>
+</Plugin>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><DTVLink>
+	<Properties>
+		<AutoloadPlugins ReadOnly="true">true</AutoloadPlugins>
+		<AutostartPlugins ReadOnly="true">true</AutostartPlugins>
+	<EnableVideo>true</EnableVideo><EnableAudio>true</EnableAudio><EnablePlugins>true</EnablePlugins><RestoreLastChannel>true</RestoreLastChannel><VideoDecoderId>{BECD3686-53B3-4C9E-935F-A69E06BFB44A}/bitcontrol Video Decoder</VideoDecoderId><AudioDecoderId>&lt;Auto&gt;</AudioDecoderId><VideoFormatDescription>MPEG2, 720x576, PAL</VideoFormatDescription><AudioFormatDescription>48000 Hz, 5.1</AudioFormatDescription><VideoBufferCount>0x40</VideoBufferCount><VideoBufferSize>0x40000</VideoBufferSize><AudioBufferCount>0x100</AudioBufferCount><AudioBufferSize>0x10000</AudioBufferSize><BufferingTime>400</BufferingTime><FOURCCMap>h263=H263,h264=H264,x264=H264,X264=H264,mp4v=MP4V,fmp4=MP4V,FMP4=MP4V,smp4=MP4V,SMP4=MP4V,3iv2=MP4V,3IV2=MP4V</FOURCCMap><AutoJitter>true</AutoJitter><PreferAC3>false</PreferAC3><MediaLanguageLANGID>0x0</MediaLanguageLANGID><SetDefaultOnAir>true</SetDefaultOnAir><SystrayVisible>true</SystrayVisible><SystrayShowMenuFilter>true</SystrayShowMenuFilter><SystrayShowMenuBouquets>true</SystrayShowMenuBouquets><SystrayShowMenuHistory>true</SystrayShowMenuHistory><SystrayShowMenuTV>true</SystrayShowMenuTV><SystrayShowMenuRadio>true</SystrayShowMenuRadio><SystrayShowMenuEncrypted>false</SystrayShowMenuEncrypted><SystrayShowMenuOtherServices>false</SystrayShowMenuOtherServices><SystrayShowMenuPlugins>true</SystrayShowMenuPlugins><SystrayShowMenuReceivers>true</SystrayShowMenuReceivers><SystrayMenuProgramArrange>0</SystrayMenuProgramArrange></Properties>
+
+	<AudioCodecs>
+<Codec><FourCCs>mp2a,MP2A</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>ac3,AC3,ac-3,AC-3</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>aac,AAC,mp4a,MP4A</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>wma,WMA,wma2,WMA2,wma3,WMA3</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>mp3,MP3,mp-3,MP-3</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>*</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+</AudioCodecs>
+
+	<VideoCodecs>
+<Codec><FourCCs>mpg1,MPG1,mp1v,MP1V</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>mpg2,MPG2,mp2v,MP2V</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>mp4v,MP4V,mp4s,MP4S,dx30,DX30,dx40,DX40,dx50,DX50,divx,DIVX,div5,DIV5,xvid,XVID,fmp4,FMP4,smp4,SMP4,sedg,SEDG</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>h264,H264,x264,X264,avc,AVC,avc1,AVC1</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>h263,H263</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>dvsl,DVSL,dvsd,DVSD,dvhd,DVHD,dv25,DV25,dv50,DV50,dvh1,DVH1</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>mjpg,MJPG</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+<Codec><FourCCs>*</FourCCs><DecoderName>&lt;Auto&gt;</DecoderName><DecoderId></DecoderId></Codec>
+</VideoCodecs>
+
+	<Decoders>
+</Decoders>
+
+	<Encoders>
+</Encoders>
+
+	<Transcoders>
+</Transcoders>
+
+<Autoruns>
+</Autoruns></DTVLink>

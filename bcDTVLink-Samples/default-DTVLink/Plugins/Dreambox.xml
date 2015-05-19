@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Plugin
+	Name			= "DreamBox"
+	Class			= "DreamBox"
+	Priority		= "100"
+	StartType		= "Manual"
+	InfoURL			= "http://www.dream-multimedia-tv.de\tDream Multimedia GmbH"
+>
+</Plugin>

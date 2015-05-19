@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><Channels>
+<Channel Id="0" SID="514" Name="ZDF" Provider="ZDFmobil" Type="1" FreeCA="0" Network="ZDF" Kanal="C22" FrequencyKHz="482000" Bandwidth="8 MHz"/>
+<Channel Id="1" SID="515" Name="3sat" Provider="ZDFmobil" Type="1" FreeCA="0" Network="ZDF" Kanal="C22" FrequencyKHz="482000" Bandwidth="8 MHz"/>
+<Channel Id="2" SID="516" Name="ZDFinfo" Provider="ZDFmobil" Type="1" FreeCA="0" Network="ZDF" Kanal="C22" FrequencyKHz="482000" Bandwidth="8 MHz"/>
+<Channel Id="3" SID="517" Name="neo/KiKA" Provider="ZDFmobil" Type="1" FreeCA="0" Network="ZDF" Kanal="C22" FrequencyKHz="482000" Bandwidth="8 MHz"/>
+<Channel Id="4" SID="2" Name="arte" Provider="ARD" Type="1" FreeCA="0" Network="ARD-MDR" Kanal="C24" FrequencyKHz="498000" Bandwidth="8 MHz"/>
+<Channel Id="5" SID="3" Name="PHOENIX" Provider="ARD" Type="1" FreeCA="0" Network="ARD-MDR" Kanal="C24" FrequencyKHz="498000" Bandwidth="8 MHz"/>
+<Channel Id="6" SID="5" Name="Einsfestival" Provider="ARD" Type="1" FreeCA="0" Network="ARD-MDR" Kanal="C24" FrequencyKHz="498000" Bandwidth="8 MHz"/>
+<Channel Id="7" SID="96" Name="Das Erste" Provider="ARD" Type="1" FreeCA="0" Network="ARD-MDR" Kanal="C24" FrequencyKHz="498000" Bandwidth="8 MHz"/>
+<Channel Id="8" SID="33" Name="Bayerisches FS Nord" Provider="ARD" Type="1" FreeCA="0" Network="MDR-SN" Kanal="C37" FrequencyKHz="602000" Bandwidth="8 MHz"/>
+<Channel Id="9" SID="97" Name="MDR Sachsen" Provider="ARD" Type="1" FreeCA="0" Network="MDR-SN" Kanal="C37" FrequencyKHz="602000" Bandwidth="8 MHz"/>
+<Channel Id="10" SID="177" Name="rbb Brandenburg" Provider="ARD" Type="1" FreeCA="0" Network="MDR-SN" Kanal="C37" FrequencyKHz="602000" Bandwidth="8 MHz"/>
+<Channel Id="11" SID="262" Name="WDR Köln" Provider="ARD" Type="1" FreeCA="0" Network="MDR-SN" Kanal="C37" FrequencyKHz="602000" Bandwidth="8 MHz"/>
+<Channel Id="12" SID="16387" Name="BBC World" Provider="BBC" Type="1" FreeCA="0" Kanal="C31" FrequencyKHz="554000" Bandwidth="8 MHz"/>
+<Channel Id="13" SID="16426" Name="Bibel TV" Provider="SES ASTRA" Type="1" FreeCA="0" Kanal="C31" FrequencyKHz="554000" Bandwidth="8 MHz"/>
+<Channel Id="14" SID="19970" Name="LEIPZIG FERNSEHEN" Provider="HMS GmbH" Type="1" FreeCA="0" Kanal="C31" FrequencyKHz="554000" Bandwidth="8 MHz"/>
+<Channel Id="15" SID="19973" Name="info TV leipzig" Provider="info tv leipzig" Type="1" FreeCA="0" Kanal="C31" FrequencyKHz="554000" Bandwidth="8 MHz"/>
+<Channel Id="16" SID="24595" Name="Radio Horeb" Provider="Eurociel" Type="2" FreeCA="0" Kanal="C31" FrequencyKHz="554000" Bandwidth="8 MHz"/>
+<Channel Id="17" SID="24614" Name="the wave" Provider="MUGLER AG" Type="1" FreeCA="0" Kanal="C31" FrequencyKHz="554000" Bandwidth="8 MHz"/>
+<Channel Id="18" SID="28161" Name="Radio Leipzig" Provider="BCS Broadcast Sachsen" Type="2" FreeCA="0" Kanal="C31" FrequencyKHz="554000" Bandwidth="8 MHz"/>
+<Channel Id="19" SID="28166" Name="egoFM" Provider="MUGLER AG" Type="1" FreeCA="0" Kanal="C31" FrequencyKHz="554000" Bandwidth="8 MHz"/></Channels>

@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="bitcontrol Server">
+		<meta name="author" content="BitCtrl Systems GmbH">
+		<meta name="owner" content="BitCtrl Systems GmbH"/>
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<title>bitcontrol&reg; Server</title>
+
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.css" rel="stylesheet">
+		<link href="css/theme.css" rel="stylesheet">
+
+		<style>
+			#sidebar .list-group-item {
+				overflow-x: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+
+			#table-substreams > thead {
+				background-image: -webkit-linear-gradient(top, #54b4eb 0%, #3278b3 100%);
+				background-image:         linear-gradient(to bottom, #54b4eb 0%, #3278b3 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54b4eb', endColorstr='#ff3278b3', GradientType=0);
+				background-repeat: repeat-x;
+				color: #fff;
+			}
+			#table-substreams > thead th {
+				font-weight: normal;
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54b4eb', endColorstr='#ff3278b3', GradientType=0);
+			}
+			.text-weight-normal {
+				font-weight: normal;
+			}
+		</style>
+
+	</head>
+
+	<body role="document">
+
+		<div class="container theme-showcase" role="main">
+
+			<!-- ============ navbar ============ -->
+			<div class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">bitcontrol</a>
+					</div>
+
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="./index.html">Home</a></li>
+
+							<li class="dropdown active">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown">Channels <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="./channels-all.html">All Channels</a></li>
+									<li><a href="./channels-active.html">Active Channels</a></li>
+									<li class="active"><a href="./channels-live.html">Live Channels</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown">Development <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="./develop-xml.html">XML Control API</a></li>
+									<li class="divider"></li>
+									<li><a href="https://github.com/bitctrl" target="_blank">GitHub</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="./docs/manual.en/index.html" target="_blank">User Manual</a></li>
+									<li><a href="./docs/sdk.en/index.html" target="_blank">SDK Manual</a></li>
+								</ul>
+							</li>
+
+						</ul>
+					</div>	<!-- /.navbar-collapse -->
+				</div>	<!-- /.container-fluid -->
+			</div>
+
+<!--
+			<video width="720" height="576" autoplay>
+				<source src="http://192.168.1.34/live/0/0/playlist.m3u8" type="application/vnd.apple.mpegURL">
+				<source src="http://192.168.1.34/live/0/0/playlist.m3u8" type="application/x-mpegURL">
+				<source src="http://192.168.1.34/live/0/0/playlist.m3u" type="audio/mpegURL">
+			</video>
+-->
+
+			<div class="row">
+
+				<div class="col-md-2" id="sidebar">
+
+					<div class="list-group" id="sidebar-playlist">
+						<a href="#" class="list-group-item">Playlist</a>
+					</div>
+
+					<div class="list-group" id="sidebar-channels">
+<!--
+						<a href="#sec1" class="list-group-item">List item 1</a>
+-->
+					</div>
+<!--
+					<div class="well">
+						<ul class="nav nav-list" id="sidebar">
+							<li><a href="#sec1">Arte</a></li>
+							<li class="active"><a href="#sec2">Das Erste</a></li>
+							<li><a href="#sec3">Pro Sieben</a></li>
+							<li><a href="#sec4">Long Long Long Channel Name</a></li>
+							<li><a href="#sec1">Section 5</a></li>
+							<li><a href="#sec2">Section 6</a></li>
+							<li><a href="#sec3">Section 7</a></li>
+							<li><a href="#sec4">Section 8</a></li>
+							<li><a href="#sec1">Section 9</a></li>
+							<li><a href="#sec2">Section 10</a></li>
+							<li><a href="#sec3">Section 11</a></li>
+							<li><a href="#sec4">Section 12</a></li>
+							<li><a href="#sec1">Section 13</a></li>
+							<li><a href="#sec2">Section 14</a></li>
+							<li><a href="#sec3">Section 15</a></li>
+							<li><a href="#sec4">Section 16</a></li>
+						</ul>
+					</div>
+-->
+				</div>
+
+				<div class="col-md-10" id="main-frame">
+<!--
+					<h3 id="live-channel-name">Channel Name</h3>
+					<p>Channel Description</p>
+					<hr>
+-->
+				</div>
+
+			</div>
+
+<!--
+			<div class="table-responsive">
+				<h4>Substreams</h4>
+				<table class="table table-bordered table-hover_ table-condensed" id="table-substreams">
+					<thead>
+						<tr>
+							<th>SubstreamId</th>
+							<th>Type</th>
+							<th>FCC</th>
+							<th>Lang</th>
+							<th>Profile</th>
+							<th>Level</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Video</td>
+							<td>H264</td>
+							<td></td>
+							<td>Main</td>
+							<td>Simple</td>
+							<td>1920x1080</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Audio</td>
+							<td>AAC</td>
+							<td>eng</td>
+							<td>Main</td>
+							<td>Simple</td>
+							<td>44KHz</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+-->
+
+<!--
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h4 class="panel-title">HLS Live</h4>
+	</div>
+
+	<div class="panel-body">
+		<p>HLS</p>
+
+	</div>
+</div>
+-->
+
+<!--
+<div class="panel panel-default">
+	<div class="panel-body">
+		<dl class="dl-horizontal">
+      <dt>Description lists</dt>
+				<dd>A description list is perfect for defining terms.</dd>
+      <dt>Euismod</dt>
+				<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+				<dd>Donec id elit non mi porta gravida at eget metus.</dd>
+      <dt>Malesuada porta</dt>
+				<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+      <dt>Felis euismod semper eget lacinia</dt>
+				<dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+    </dl>
+	</div>
+</div>
+-->
+
+
+<!-- Channels Tab template -->
+<div id="templateMediaSessionForm" class="hidden">
+<div>
+
+<div class="row form-group">
+  <div class="col-sm-12">
+		<input type="text" class="form-control ui-input-link" placeholder="link">
+  </div>
+</div>
+
+<div class="row form-group">
+  <div class="col-sm-12">
+
+		<div class="form-inline">
+
+			<div class="form-group hidden" id="groupDropdownProtocol">
+				<label class="text-weight-normal">Protocol:</label>
+				<div class="btn-group" id="dropdownProtocol">
+					<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+						<span class="ui-button-text">Protocol</span>
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+					</ul>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="text-weight-normal">Port:</label>
+				<div class="btn-group" id="dropdownPort">
+					<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+						<span class="ui-button-text">Default</span>
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#" data-port="80">80 (HTTP)</a></li>
+						<li><a href="#" data-port="8080">8080 (HTTP Alt.)</a></li>
+						<li><a href="#" data-port="554">554 (RTSP)</a></li>
+						<li><a href="#" data-port="555">555 (RTSP Alt.)</a></li>
+						<li><a href="#" data-port="1935">1935 (Flash RTMP)</a></li>
+						<li class="divider"></li>
+						<li><a href="#" data-port="0">Default</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="text-weight-normal">Reference:</label>
+				<div class="btn-group" id="dropdownRefType">
+					<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+						<span class="ui-button-text">/Live Channel Id</span>
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu">
+						<li class="active"><a href="#" data-index="1">/Live Channel Id</a></li>
+						<li><a href="#" data-index="2">/Live Channel Index</a></li>
+						<li><a href="#" data-index="3">/Source Index /Stream Index</a></li>
+						<li><a href="#" data-index="4">/Source Index /Stream Id</a></li>
+						<li><a href="#" data-index="5">/Source Index /Stream Name</a></li>
+						<li><a href="#" data-index="6">/Source Id /Stream Index</a></li>
+						<li><a href="#" data-index="7">/Source Id /Stream Id</a></li>
+						<li><a href="#" data-index="8">/Source Id /Stream Name</a></li>
+						<li><a href="#" data-index="9">/Source Name /Stream Index</a></li>
+						<li><a href="#" data-index="10">/Source Name /Stream Id</a></li>
+						<li><a href="#" data-index="11">/Source Name /Stream Name</a></li>
+						<li><a href="#" data-index="12">/Stream Name</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+		</div>
+
+  </div>
+</div>
+
+<!--
+	<div class="form-group">
+		<div class="form-inline">
+
+			<div class="form-group col-md-6">
+				<input type="text" class="form-control" id="inputLink">
+			</div>
+
+			<div class="form-group">
+				<label>Protocol</label>
+				<div class="btn-group">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownProtocol" data-toggle="dropdown">
+						Protocol
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenuPort">
+						<li><a href="#">RTMP</a></li>
+						<li><a href="#">RTMPT</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label>Port</label>
+				<div class="btn-group">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownPort" data-toggle="dropdown">
+						Default
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenuPort">
+						<li><a href="#">80</a></li>
+						<li><a href="#">8080</a></li>
+						<li><a href="#">554</a></li>
+						<li><a href="#">555</a></li>
+						<li class="divider"></li>
+						<li class="active"><a href="#">Default</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+
+	<div class="btn-group">
+		<button type="button" class="btn btn-primary ui-btn-play-flash"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;Flash</button>
+		<button type="button" class="btn btn-primary ui-btn-play-vlc"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;VLC</button>
+		<button type="button" class="btn btn-primary ui-btn-play-html"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;HTML5</button>
+	</div>
+
+<!--
+	<div class="form-group">
+		<label class="control-label" for="inputLink">Link</label>
+		<input type="text" class="form-control" id="inputLink">
+	</div>
+-->
+
+<!--
+		<div class="form-group">
+			<label for="formProtocol">Protocol</label>
+			<select class="form-control" id="formProtocol">
+				<option>rtmp</option>
+				<option>rtmpt</option>
+			</select>
+		</div>
+-->
+
+</div>
+</div>
+
+
+			<!-- Modal VLC -->
+			<div class="modal" id="modalVLC" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							<h4 class="modal-title">VLC</h4>
+						</div>
+						<div class="modal-body">
+
+							<div class="ui-modal-player" style="height: 65vh;">
+								<!-- Embedded VLC player -->    
+							</div>
+
+							<br>
+
+							<div class="btn-group">
+								<button type="button" class="btn btn-default" id="btnVLCPlayerPlayStop"><span class="glyphicon glyphicon-stop"></span>&nbsp;Stop</button>
+								<button type="button" class="btn btn-default" id="btnVLCPlayerFullscreen"><span class="glyphicon glyphicon-fullscreen"></span>&nbsp;Fullscreen</button>
+								<button type="button" class="btn btn-default" id="btnVLCPlayerMute"><span class="glyphicon glyphicon-volume-up"></span>&nbsp;Mute</button>
+							</div>
+
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal HTML5 -->
+			<div class="modal" id="modalHTML5" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							<h4 class="modal-title">HTML5</h4>
+						</div>
+						<div class="modal-body">
+
+							<div class="ui-modal-player" style="height: 65vh;">
+								<!-- player -->    
+							</div>
+
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal Flash -->
+			<div class="modal" id="modalFlash" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							<h4 class="modal-title">Flash</h4>
+						</div>
+						<div class="modal-body">
+
+							<div class="ui-modal-player" style="height: 65vh;">
+								<!-- player -->    
+							</div>
+
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<br>
+			<br>
+			<br>
+			<br>
+			<hr>
+			<footer>
+				<div class="container">
+					<p>&copy; BitCtrl Systems GmbH 2014</p>
+				</div>
+			</footer>
+    </div><!-- /.container -->
+
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/swfobject-2.2.js"></script>
+		<script src="js/site-channels-live.js"></script>
+	</body>
+</html>
